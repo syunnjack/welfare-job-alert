@@ -8,7 +8,7 @@ Recommended repository name: `welfare-job-alert`
 
 ## Domain candidates
 
-First candidate: `welfarejob.jp`
+Confirmed domain: `welfarejob.jp`
 
 Other candidates:
 

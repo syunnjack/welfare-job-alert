@@ -1,0 +1,7 @@
+# Welfare Job Alert
+
+障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。
+
+Notification channels: LINE, X, email, Slack
+Revenue: 人材送客, 事業所掲載, 相談送客, 広告, 資料請求
+Primary categories: 障害者雇用, 福祉求人, 支援員, 事業所, 相談

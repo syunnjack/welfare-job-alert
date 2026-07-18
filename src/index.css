@@ -1,0 +1,31 @@
+:root {
+  font: 16px/1.5 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #18151f;
+  background: #fff8f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100svh;
+}

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://welfarejob.jp/sitemap.xml
+
+Sitemap: https://welfare-job-alert.vercel.app/sitemap.xml

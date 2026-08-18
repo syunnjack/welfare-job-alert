@@ -3,33 +3,32 @@ import './App.css'
 
 const saveKey = 'welfare-job-alert.saved'
 const postKey = 'welfare-job-alert.posts'
+
+// 掲載しているのは表示例。実際の求人情報とは連動していないため、
+// 読者が実在の募集と誤解しないよう、タイトルと画面上の注記で「表示例」と明示する。
 const alerts = [
   {
     "id": "welfare-job-alert-1",
-    "title": "障害者雇用 alert seed 1",
+    "title": "名古屋の障害者雇用の求人（表示例）",
     "area": "名古屋",
     "category": "障害者雇用",
-    "score": 95,
-    "summary": "障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。 障害者雇用の条件一致時に通知し、保存、送客、課金へつなげます。",
+    "summary": "勤務地、勤務時間、通院への配慮など、決めた条件に合う募集が出たときにお知らせします。求人票のどこを見ればよいかも一緒に載せます。",
     "channels": [
       "LINE",
       "X"
     ],
     "tags": [
       "障害者雇用",
-      "通知",
-      "UGC",
-      "収益導線"
-    ],
-    "revenue": "人材送客"
+      "条件を指定",
+      "みんなの投稿"
+    ]
   },
   {
     "id": "welfare-job-alert-2",
-    "title": "福祉求人 alert seed 2",
+    "title": "東京の福祉の仕事の求人（表示例）",
     "area": "東京",
     "category": "福祉求人",
-    "score": 92,
-    "summary": "障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。 福祉求人の条件一致時に通知し、保存、送客、課金へつなげます。",
+    "summary": "介護、保育、生活支援など、福祉の現場の募集をまとめてお知らせします。夜勤の有無や資格の条件で絞り込めます。",
     "channels": [
       "LINE",
       "X",
@@ -37,19 +36,16 @@ const alerts = [
     ],
     "tags": [
       "福祉求人",
-      "通知",
-      "UGC",
-      "収益導線"
-    ],
-    "revenue": "事業所掲載"
+      "資格で絞る",
+      "みんなの投稿"
+    ]
   },
   {
     "id": "welfare-job-alert-3",
-    "title": "支援員 alert seed 3",
+    "title": "大阪の支援員の求人（表示例）",
     "area": "大阪",
     "category": "支援員",
-    "score": 89,
-    "summary": "障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。 支援員の条件一致時に通知し、保存、送客、課金へつなげます。",
+    "summary": "就労支援や生活介護などの支援員の募集をお知らせします。未経験から応募できるか、研修があるかも合わせて確認できます。",
     "channels": [
       "LINE",
       "X",
@@ -58,49 +54,39 @@ const alerts = [
     ],
     "tags": [
       "支援員",
-      "通知",
-      "UGC",
-      "収益導線"
-    ],
-    "revenue": "相談送客"
+      "未経験可",
+      "みんなの投稿"
+    ]
   },
   {
     "id": "welfare-job-alert-4",
-    "title": "事業所 alert seed 4",
+    "title": "静岡の事業所からの募集（表示例）",
     "area": "静岡",
     "category": "事業所",
-    "score": 86,
-    "summary": "障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。 事業所の条件一致時に通知し、保存、送客、課金へつなげます。",
+    "summary": "福祉事業所が出した募集をお知らせします。事業所の方は、募集を載せて求職中の方に届けることができます。",
     "channels": [
       "LINE",
       "X"
     ],
     "tags": [
       "事業所",
-      "通知",
-      "UGC",
-      "収益導線"
-    ],
-    "revenue": "広告"
+      "募集を載せる",
+      "みんなの投稿"
+    ]
   }
 ]
-const revenuePlans = [
-  "人材送客",
-  "事業所掲載",
-  "相談送客",
-  "広告",
-  "資料請求"
-]
+
 const channels = [
   "LINE",
   "X",
   "メール",
   "Slack"
 ]
+
 const faqs = [
-  ['通知からどう収益化しますか？', '無料通知で接点を作り、条件一致時に予約、掲載、クーポン、有料通知、スポンサー枠へ誘導します。'],
-  ['LINE・X・メール・Slackの使い分けは？', 'LINEは個人の即時通知、Xは拡散、メールは週次まとめ、Slackは店舗や法人運用向けです。'],
-  ['SEO/AIO/LLMOの狙いは？', '地域名、カテゴリ、条件、通知、口コミ、FAQを組み合わせたロングテールページを作ります。'],
+  ['障害者雇用枠と一般枠は何が違いますか？', '障害者雇用枠は、障害があることを勤め先に伝えたうえで応募する枠です。通院や勤務時間への配慮を相談しやすい一方、募集している職種が限られることがあります。違いは企業ごとに異なるので、気になる求人それぞれで確認してください。'],
+  ['障害者手帳は必要ですか？', '障害者雇用枠の求人では、手帳を持っていることを条件にしている場合が多くあります。ただし条件は求人ごとに違うため、応募の前に募集要項をご確認ください。'],
+  ['求人を探すほかに相談できる場所はありますか？', 'お住まいの地域のハローワーク（障害のある方の相談窓口）、地域障害者職業センター、就労移行支援事業所などで相談できます。求人探しと並行して使えます。'],
 ]
 
 function readArray(key) {
@@ -108,7 +94,7 @@ function readArray(key) {
 }
 
 function App() {
-  const [query, setQuery] = useState('名古屋')
+  const [query, setQuery] = useState('')
   const [category, setCategory] = useState('すべて')
   const [saved, setSaved] = useState(() => readArray(saveKey))
   const [posts, setPosts] = useState(() => readArray(postKey))
@@ -139,72 +125,71 @@ function App() {
     <main className="app-shell">
       <section className="hero">
         <div>
-          <p className="eyebrow">障害者雇用・福祉系求人通知</p>
-          <h1>Welfare Job Alert</h1>
-          <p className="lead">障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。</p>
+          <p className="eyebrow">障害者雇用と福祉の仕事の求人通知</p>
+          <h1>福祉の求人アラート</h1>
+          <p className="lead">障害者雇用枠の求人と、支援員など福祉の仕事の募集を、条件に合ったときにお知らせします。勤務地、勤務時間、配慮してほしいことから探せます。</p>
         </div>
         <aside className="hero-panel">
-          <span>welfarejob.jp / welfare-job-alert</span>
-          <strong>通知の瞬間に、予約・掲載・クーポン・有料導線へつなげる。</strong>
-          <p>LINE、X、メール、Slackを入口に、UGCで鮮度を作りながら収益導線を太くします。</p>
+          <span>welfarejob.jp</span>
+          <strong>毎日探し続けなくても、条件に合えば届く。</strong>
+          <p>LINE、X、メール、Slackのうち、普段使っているところに通知が届きます。いまは表示例を公開している段階です。</p>
         </aside>
       </section>
       <section className="controls" aria-label="検索条件">
-        <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="地域・カテゴリ・通知条件で検索" />
+        <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="地域や仕事の種類で探す" />
         <select value={category} onChange={(event) => setCategory(event.target.value)}>{categories.map((item) => <option key={item}>{item}</option>)}</select>
       </section>
       <section className="metrics">
-        <article><span>Alert seeds</span><strong>{alerts.length}</strong></article>
-        <article><span>Channels</span><strong>{channels.length}</strong></article>
-        <article><span>Saved</span><strong>{saved.length}</strong></article>
-        <article><span>UGC</span><strong>{posts.length}</strong></article>
+        <article><span>掲載中の例</span><strong>{alerts.length}</strong></article>
+        <article><span>通知の届け先</span><strong>{channels.length}</strong></article>
+        <article><span>保存した数</span><strong>{saved.length}</strong></article>
+        <article><span>投稿した数</span><strong>{posts.length}</strong></article>
       </section>
       <section className="alert-grid">
         {filtered.map((alert) => (
           <article className="alert-card" key={alert.id}>
-            <div className="card-top"><span>{alert.area} / {alert.category}</span><b>{alert.score}</b></div>
+            <div className="card-top"><span>{alert.area} / {alert.category}</span></div>
             <h2>{alert.title}</h2>
             <p>{alert.summary}</p>
             <div className="tag-row">{alert.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
             <div className="channel-row">{alert.channels.map((channel) => <span key={channel}>{channel}</span>)}</div>
-            <p className="revenue">収益導線: {alert.revenue}</p>
-            <button type="button" onClick={() => toggleSave(alert.id)}>{saved.includes(alert.id) ? '保存済み' : '通知導線に保存'}</button>
+            <button type="button" onClick={() => toggleSave(alert.id)}>{saved.includes(alert.id) ? '保存済み' : 'あとで見るために保存'}</button>
           </article>
         ))}
       </section>
       <section className="split">
         <div className="panel">
-          <h2>技術選定</h2>
-          <article><b>Frontend</b><p>Vite + React 19。静的MVPとして軽く、GitHub Pagesへ展開しやすい構成です。</p></article>
-          <article><b>通知連携</b><p>初期はUI設計、次段階でLINE Messaging API、X API、SendGrid/Mailgun、Slack Incoming Webhooksを接続します。</p></article>
-          <article><b>Data</b><p>MVPは静的seed + localStorage。運用時はSupabaseまたはCloudflare D1へ移行します。</p></article>
-          <article><b>収益ルート</b><p>{revenuePlans.join(' / ')}</p></article>
+          <h2>使い方</h2>
+          <article><b>1. 条件を決める</b><p>通える範囲、働ける時間帯、相談したい配慮など、ゆずれない条件を決めます。</p></article>
+          <article><b>2. 通知の届け先を選ぶ</b><p>LINE、X、メール、Slackから、普段見ているものを選びます。</p></article>
+          <article><b>3. 気になった募集を保存する</b><p>あとで見返せるように保存できます。応募の前に、募集要項と配慮の内容を確認してください。</p></article>
+          <article><b>いまの状態</b><p>公開しているのは表示例です。通知の受け付けは準備中で、対応する地域から順に始めます。</p></article>
         </div>
         <div className="panel">
-          <h2>UGC・通知リクエスト</h2>
-          <p>現地確認、在庫、空席、価格、閉店、口コミ、通知希望条件を集めて、鮮度と検索ページを増やします。</p>
+          <h2>探している条件を教えてください</h2>
+          <p>どの地域の、どんな働き方を探しているかを教えてください。要望の多い地域と条件から対応していきます。投稿はこの端末にだけ保存されます。</p>
           <form className="ugc-form" onSubmit={addPost}>
-            <input value={form.title} onChange={(event) => setForm({ ...form, title: event.target.value })} placeholder="通知リクエスト名" />
-            <input value={form.channel} onChange={(event) => setForm({ ...form, channel: event.target.value })} placeholder="LINE / X / メール / Slack" />
-            <input value={form.memo} onChange={(event) => setForm({ ...form, memo: event.target.value })} placeholder="条件・口コミ・現地メモ" />
-            <button>投稿</button>
+            <input value={form.title} onChange={(event) => setForm({ ...form, title: event.target.value })} placeholder="地域や仕事の種類" />
+            <input value={form.channel} onChange={(event) => setForm({ ...form, channel: event.target.value })} placeholder="通知の届け先（LINE / X / メール / Slack）" />
+            <input value={form.memo} onChange={(event) => setForm({ ...form, memo: event.target.value })} placeholder="働ける時間帯、配慮してほしいこと、資格など" />
+            <button>送る</button>
           </form>
           <div className="post-list">
-            {posts.length === 0 && <p className="empty">公開後は通知希望とUGCで鮮度を作ります。</p>}
+            {posts.length === 0 && <p className="empty">まだ投稿はありません。探している条件を教えていただけると、対応する地域を決める手がかりになります。</p>}
             {posts.map((post) => <article key={post.id}><b>{post.title}</b><p>{post.memo}</p><small>{post.channel} / {post.date}</small></article>)}
           </div>
         </div>
       </section>
       <section className="seo-section">
-        <h2>SEO / AIO / LLMO</h2>
+        <h2>これから増やしていくもの</h2>
         <div className="seo-grid">
-          <article><b>地域ページ</b><p>地域名、駅名、施設名ごとに通知ニーズを拾います。</p></article>
-          <article><b>条件ページ</b><p>空き、値下げ、閉店、在庫、混雑、期限など行動直前の検索を狙います。</p></article>
-          <article><b>法人ページ</b><p>掲載、スポンサー、Slack通知、レポート、SaaS契約へつなげます。</p></article>
+          <article><b>地域ごとのページ</b><p>市区町村や沿線ごとに、通える範囲の求人をまとめます。</p></article>
+          <article><b>働き方ごとのページ</b><p>短時間勤務、在宅勤務、通院への配慮、未経験から始められる仕事など、条件から探せるようにします。</p></article>
+          <article><b>事業所の方向けの案内</b><p>募集を掲載したい福祉事業所の方へ、掲載の方法をご案内します。</p></article>
         </div>
       </section>
       <section className="faq-section">
-        <h2>FAQ</h2>
+        <h2>よくある質問</h2>
         <div className="faq-grid">{faqs.map(([q, a]) => <article key={q}><h3>{q}</h3><p>{a}</p></article>)}</div>
       </section>
     </main>

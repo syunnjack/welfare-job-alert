@@ -27,11 +27,26 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import urllib.robotparser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITES = ROOT / 'data' / (os.environ.get('SITES_FILE') or 'municipality-sites.json')
-OUT = ROOT / 'data' / 'welfare-programs.json'
+
+
+def _path(name: str, default: str) -> Path:
+    """data/ の下のファイル名でも、絶対パスでも受ける。
+
+    巡回の最中に抽出の直しを試すとき、本番の出力ファイルを触らずに
+    別の場所へ書けるようにしてある（同じファイルを2つのプロセスで
+    書くと、片方の結果が消える）。
+    """
+    value = os.environ.get(name) or default
+    path = Path(value)
+    return path if path.is_absolute() else ROOT / 'data' / value
+
+
+SITES = _path('SITES_FILE', 'municipality-sites.json')
+OUT = _path('OUT_FILE', 'welfare-programs.json')
 # HTTPヘッダは latin-1 でしか送れない。日本語を入れると送信時に例外になる。
 UA = 'welfarejob.jp/1.0 (+https://welfarejob.jp/)'
 
@@ -49,6 +64,11 @@ GATEWAY_HINTS = ['健康・福祉', '福祉・健康', '健康と福祉', '福�
 BENEFIT_WORDS = [
     '減免', '助成', '割引', '給付', '支給', '手当', '貸付', '補助',
     '交付', '無料', '免除', '派遣', '利用券', '費用', '料金',
+    # 給付を表す動詞を含まない制度名がある。「補装具」「日常生活用具」は
+    # それ自体が制度の名前で、上の語をひとつも含まない。74自治体のとき、
+    # これらを取りこぼしていた。
+    '補装具', '日常生活用具', '手帳', '医療費', '手話', '要約筆記',
+    'タクシー', '住宅改修', '駐車', '乗車', '運賃',
 ]
 
 # 上の語を含んでいても、制度そのものではないもの。
@@ -83,7 +103,56 @@ def normalize(text: str) -> str:
     return text.replace('障がい', '障害').replace('障碍', '障害')
 
 
+# robots.txt をホストごとに1度だけ読んで覚える。
+# False は「取得できなかった」の意味で、その場合は制限なしとして扱う。
+_ROBOTS: dict = {}
+# 間隔の下限。robots.txt に Crawl-delay があればそちらを使う。
+MIN_DELAY = 1.0
+
+
+def robots(url: str):
+    parts = urllib.parse.urlparse(url)
+    origin = '{0}://{1}'.format(parts.scheme, parts.netloc)
+    if origin not in _ROBOTS:
+        parser = urllib.robotparser.RobotFileParser()
+        parser.set_url(origin + '/robots.txt')
+        try:
+            parser.read()
+        except Exception:
+            parser = False
+        _ROBOTS[origin] = parser
+    return _ROBOTS[origin]
+
+
+def allowed(url: str) -> bool:
+    """robots.txt で禁じられていないか確かめる。
+
+    741市を機械的に回すので、拒否の表明は必ず見る。robots.txt が
+    無い・取得できない場合は、制限なしとして扱う（規約上の既定）。
+    """
+    parser = robots(url)
+    if not parser:
+        return True
+    try:
+        return parser.can_fetch(UA, url)
+    except Exception:
+        return True
+
+
+def delay_for(url: str) -> float:
+    parser = robots(url)
+    if not parser:
+        return MIN_DELAY
+    try:
+        declared = parser.crawl_delay(UA)
+    except Exception:
+        declared = None
+    return max(MIN_DELAY, float(declared or 0))
+
+
 def fetch(url: str, timeout: int = 25) -> str | None:
+    if not allowed(url):
+        return None
     request = urllib.request.Request(url, headers={'User-Agent': UA})
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -97,6 +166,8 @@ def fetch(url: str, timeout: int = 25) -> str | None:
             return raw.decode('utf-8', errors='replace')
     except Exception:
         return None
+    finally:
+        time.sleep(delay_for(url))
 
 
 def find_links(base_url: str, html: str, hints: list, limit: int = 3) -> list:
@@ -121,20 +192,33 @@ def find_links(base_url: str, html: str, hints: list, limit: int = 3) -> list:
 
 
 def find_welfare_page(top_url: str, html: str) -> str | None:
-    """トップページから、障害福祉のページへのリンクを探す。"""
+    """トップページから、障害福祉のページへのリンクを探す。
+
+    以前は「文言が短いもの」を選んでいたが、それだと「障害」の2文字が
+    「障害福祉」より優先されてしまい、相談窓口の一覧などに降りていた
+    （堺市がそうなっていた）。PAGE_HINTS は具体的なものから並べてある
+    ので、何番目の手がかりに当たったかで優先する。
+    """
+    hints = [normalize(h) for h in PAGE_HINTS]
     best = None
+    host = urllib.parse.urlparse(top_url).netloc
     for match in re.finditer(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.I | re.S):
         href, label = match.group(1), re.sub(r'<[^>]+>', '', match.group(2))
         label = normalize(label.strip())
         if not label or len(label) > 40:
             continue
-        if any(hint in label for hint in map(normalize, PAGE_HINTS)):
-            url = urllib.parse.urljoin(top_url, href)
-            # 同じドメイン内に限る。外部サイトへ飛ぶリンクは採らない。
-            if urllib.parse.urlparse(url).netloc == urllib.parse.urlparse(top_url).netloc:
-                # 「障害福祉」により近い文言を優先する。
-                if best is None or len(label) < best[0]:
-                    best = (len(label), url)
+        rank = next((i for i, hint in enumerate(hints) if hint in label), None)
+        if rank is None:
+            continue
+        url = urllib.parse.urljoin(top_url, href)
+        # 同じドメイン内に限る。外部サイトへ飛ぶリンクは採らない。
+        if urllib.parse.urlparse(url).netloc != host:
+            continue
+        # URLに障害を表す綴りがあれば、より確からしいとみなす。
+        in_path = 0 if re.search(r'shogai|shougai|syougai|shohai', url, re.I) else 1
+        score = (rank, in_path, len(label))
+        if best is None or score < best[0]:
+            best = (score, url)
     return best[1] if best else None
 
 
@@ -172,7 +256,7 @@ def extract_programs(page_url: str, html: str) -> list:
     return found
 
 
-def sub_pages(page_url: str, html: str, limit: int = 5) -> list:
+def sub_pages(page_url: str, html: str, limit: int = 8) -> list:
     """障害福祉ページから、その下の階層へのリンクを拾う。
 
     障害福祉のトップはハブになっていて、制度の実ページは1段下にある。
@@ -188,6 +272,9 @@ def sub_pages(page_url: str, html: str, limit: int = 5) -> list:
         href = match.group(1)
         label = normalize(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', match.group(2))).strip())
         url = urllib.parse.urljoin(page_url, href)
+        # ページ内リンク（#本文へ など）は同じページなので落とす。
+        # 残しておくと、たどる本数の枠を食いつぶす（津市がそうなっていた）。
+        url, _fragment = urllib.parse.urldefrag(url)
         if urllib.parse.urlparse(url).netloc != host:
             continue
         if url.rstrip('/') == page_url.rstrip('/') or url in seen:
@@ -206,15 +293,23 @@ def sub_pages(page_url: str, html: str, limit: int = 5) -> list:
 
 
 def collect(page_url: str, html: str) -> list:
-    """障害福祉ページと、その下の階層から制度を集める。"""
+    """障害福祉ページと、その下の階層から制度を集める。
+
+    2階層でも足りない自治体がある。障害福祉の入口が「高齢・介護・障害」
+    のような大きな分類で、その下に「障がい福祉の制度・サービス」があり、
+    制度はさらにその下、という作りになっている（北九州市、津市）。
+    2階層で1件も取れなかったときに限り、もう1段だけ降りる。
+    取れているときは降りない。無駄に相手のサーバーを叩かないため。
+    """
     programs = extract_programs(page_url, html)
     seen = {normalize(item['name']) for item in programs}
+    children = []
 
     for url in sub_pages(page_url, html):
         child = fetch(url)
-        time.sleep(1.0)
         if not child:
             continue
+        children.append((url, child))
         for item in extract_programs(url, child):
             key = normalize(item['name'])
             if key in seen:
@@ -223,6 +318,24 @@ def collect(page_url: str, html: str) -> list:
             programs.append(item)
         if len(programs) >= 40:
             break
+
+    if not programs:
+        for url, child in children[:3]:
+            for grandchild_url in sub_pages(url, child, limit=4):
+                page = fetch(grandchild_url)
+                if not page:
+                    continue
+                for item in extract_programs(grandchild_url, page):
+                    key = normalize(item['name'])
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    programs.append(item)
+                if len(programs) >= 40:
+                    break
+            if programs:
+                break
+
     return programs[:40]
 
 
@@ -245,9 +358,10 @@ def main() -> None:
     processed = 0
     for site in todo[:limit]:
         top = fetch(site['url'])
-        time.sleep(1.0)
         if not top:
-            entries[site['code']] = {'pref': site['pref'], 'name': site['name'], 'url': site['url'], 'error': 'トップページを取得できなかった'}
+            why = ('robots.txt で巡回を禁じられている' if not allowed(site['url'])
+                   else 'トップページを取得できなかった')
+            entries[site['code']] = {'pref': site['pref'], 'name': site['name'], 'url': site['url'], 'error': why}
             processed += 1
             continue
 
@@ -257,7 +371,6 @@ def main() -> None:
         if not page:
             for gateway in find_links(site['url'], top, GATEWAY_HINTS, limit=3):
                 middle = fetch(gateway)
-                time.sleep(1.0)
                 if not middle:
                     continue
                 page = find_welfare_page(gateway, middle)
@@ -270,7 +383,6 @@ def main() -> None:
             continue
 
         html = fetch(page)
-        time.sleep(1.0)
         programs = collect(page, html) if html else []
         entries[site['code']] = {
             'pref': site['pref'],

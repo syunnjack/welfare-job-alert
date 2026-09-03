@@ -20,6 +20,7 @@
   python scripts/fetch-welfare-programs.py --limit 30 --retry   失敗したものを再試行
 """
 import json
+import os
 import re
 import sys
 import time
@@ -29,13 +30,19 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITES = ROOT / 'data' / 'municipality-sites.json'
+SITES = ROOT / 'data' / (os.environ.get('SITES_FILE') or 'municipality-sites.json')
 OUT = ROOT / 'data' / 'welfare-programs.json'
 # HTTPヘッダは latin-1 でしか送れない。日本語を入れると送信時に例外になる。
 UA = 'welfarejob.jp/1.0 (+https://welfarejob.jp/)'
 
 # 障害福祉のページへ辿るための手がかり。リンク文字列に含まれるかで判断する。
-PAGE_HINTS = ['障害福祉', '障がい福祉', '障害者福祉', '障がい者福祉', '障害のある方', '障がいのある方', '障害者の方', '障がい者の方']
+PAGE_HINTS = ['障害福祉', '障がい福祉', '障害者福祉', '障がい者福祉', '障害のある方', '障がいのある方', '障害者の方', '障がい者の方',
+              '障害者支援', '障がい者支援', '障害者', '障がい者', '障害', '障がい']
+
+# トップに障害福祉への直リンクが無い自治体が多い。その場合は
+# 「健康・福祉」のような中間カテゴリを1段挟んで探す。
+# 74自治体で試したとき、直リンクだけでは22%にしか届かなかった。
+GATEWAY_HINTS = ['健康・福祉', '福祉・健康', '健康と福祉', '福祉', '健康', 'くらし', '暮らし', '子育て・福祉', '医療・福祉']
 
 # リンク文言がこれらの語を含むときだけ、制度として拾う。
 # 給付・割引・手続きを表す語に限り、お知らせや組織案内は拾わない。
@@ -92,6 +99,27 @@ def fetch(url: str, timeout: int = 25) -> str | None:
         return None
 
 
+def find_links(base_url: str, html: str, hints: list, limit: int = 3) -> list:
+    """指定した手がかり語を含むリンクを、同じドメイン内から拾う。"""
+    found = []
+    seen = set()
+    host = urllib.parse.urlparse(base_url).netloc
+    for match in re.finditer(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.I | re.S):
+        label = normalize(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', match.group(2))).strip())
+        if not label or len(label) > 30:
+            continue
+        if not any(hint in label for hint in map(normalize, hints)):
+            continue
+        url = urllib.parse.urljoin(base_url, match.group(1))
+        if urllib.parse.urlparse(url).netloc != host or url in seen:
+            continue
+        seen.add(url)
+        found.append(url)
+        if len(found) >= limit:
+            break
+    return found
+
+
 def find_welfare_page(top_url: str, html: str) -> str | None:
     """トップページから、障害福祉のページへのリンクを探す。"""
     best = None
@@ -144,6 +172,60 @@ def extract_programs(page_url: str, html: str) -> list:
     return found
 
 
+def sub_pages(page_url: str, html: str, limit: int = 5) -> list:
+    """障害福祉ページから、その下の階層へのリンクを拾う。
+
+    障害福祉のトップはハブになっていて、制度の実ページは1段下にある。
+    1階層しか見ないと「医療助成」「補助・助成」といった目次を拾ってしまう。
+
+    障害に関する範囲から出ないよう、リンク文言かURLに障害を表す語が
+    あるものだけを辿る。自治体のサーバーに負荷をかけないので、数も絞る。
+    """
+    found = []
+    seen = set()
+    host = urllib.parse.urlparse(page_url).netloc
+    for match in re.finditer(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.I | re.S):
+        href = match.group(1)
+        label = normalize(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', match.group(2))).strip())
+        url = urllib.parse.urljoin(page_url, href)
+        if urllib.parse.urlparse(url).netloc != host:
+            continue
+        if url.rstrip('/') == page_url.rstrip('/') or url in seen:
+            continue
+        # 障害に関する範囲にとどめる。ラベルかURLのどちらかに手がかりが要る。
+        in_scope = '障害' in label or 'shogai' in url.lower() or 'shougai' in url.lower() or 'syougai' in url.lower()
+        if not in_scope:
+            continue
+        if any(word in label for word in EXCLUDE_WORDS):
+            continue
+        seen.add(url)
+        found.append(url)
+        if len(found) >= limit:
+            break
+    return found
+
+
+def collect(page_url: str, html: str) -> list:
+    """障害福祉ページと、その下の階層から制度を集める。"""
+    programs = extract_programs(page_url, html)
+    seen = {normalize(item['name']) for item in programs}
+
+    for url in sub_pages(page_url, html):
+        child = fetch(url)
+        time.sleep(1.0)
+        if not child:
+            continue
+        for item in extract_programs(url, child):
+            key = normalize(item['name'])
+            if key in seen:
+                continue
+            seen.add(key)
+            programs.append(item)
+        if len(programs) >= 40:
+            break
+    return programs[:40]
+
+
 def main() -> None:
     sites = json.loads(SITES.read_text(encoding='utf-8'))['sites']
     state = json.loads(OUT.read_text(encoding='utf-8')) if OUT.exists() else {'checkedOn': '', 'entries': {}}
@@ -170,6 +252,18 @@ def main() -> None:
             continue
 
         page = find_welfare_page(site['url'], top)
+
+        # トップに直リンクが無ければ、「健康・福祉」などを1段挟んで探す。
+        if not page:
+            for gateway in find_links(site['url'], top, GATEWAY_HINTS, limit=3):
+                middle = fetch(gateway)
+                time.sleep(1.0)
+                if not middle:
+                    continue
+                page = find_welfare_page(gateway, middle)
+                if page:
+                    break
+
         if not page:
             entries[site['code']] = {'pref': site['pref'], 'name': site['name'], 'url': site['url'], 'error': '障害福祉のページが見つからなかった'}
             processed += 1
@@ -177,7 +271,7 @@ def main() -> None:
 
         html = fetch(page)
         time.sleep(1.0)
-        programs = extract_programs(page, html) if html else []
+        programs = collect(page, html) if html else []
         entries[site['code']] = {
             'pref': site['pref'],
             'name': site['name'],

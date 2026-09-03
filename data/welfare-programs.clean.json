@@ -202,12 +202,7 @@
    "name": "広島市",
    "url": "https://www.city.hiroshima.lg.jp/",
    "welfarePage": "https://www.city.hiroshima.lg.jp/business/shogai/index.html",
-   "programs": [
-    {
-     "name": "障害福祉分野の介護テクノロジー導入支援補助金",
-     "url": "https://www.city.hiroshima.lg.jp/business/shogai/1026871/1048266.html"
-    }
-   ],
+   "programs": [],
    "fetchedOn": "2026-09-03"
   },
   "292010": {
@@ -739,10 +734,6 @@
    "url": "https://www.city.gifu.lg.jp/",
    "welfarePage": "https://www.city.gifu.lg.jp/tetsuzuki/syogaifukushi/index.html",
    "programs": [
-    {
-     "name": "企業支援・産業振興・補助金",
-     "url": "https://www.city.gifu.lg.jp/business/sangyoushinkou/index.html"
-    },
     {
      "name": "助成・手当等（障がい福祉）",
      "url": "https://www.city.gifu.lg.jp/tetsuzuki/syogaifukushi/1011820/index.html"
@@ -1578,10 +1569,6 @@
      "url": "https://www.city.chuo.lg.jp/kenkouiryou/shougaishafukushi/shienservice/koukyouryoukin/index.html"
     },
     {
-     "name": "中央区放課後等デイサービス事業補助金",
-     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/jigyousha/houdeihojo.html"
-    },
-    {
      "name": "心身障害者の医療費助成（マル障）",
      "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/iryou/zyosei.html"
     }
@@ -1727,14 +1714,6 @@
     {
      "name": "台東区特別永住者等重度心身障害者特別給付金",
      "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/service/tokubetueijyuus.html"
-    },
-    {
-     "name": "台東区障害福祉サービス等従事者国家資格取得費用助成事業",
-     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/jigyousya/20240701.html"
-    },
-    {
-     "name": "台東区障害福祉サービス等従事者養成研修受講費用助成事業",
-     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/jigyousya/20240527.html"
     }
    ],
    "fetchedOn": "2026-09-03"

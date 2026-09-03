@@ -21,6 +21,10 @@ SENTENCE = re.compile(r'(ですか。|でしょうか。|ください。|して�
 OFFTOPIC = re.compile(r'(高齢者|介護保険|介護サービス|保育所|幼稚園|子育て|子ども|子供|児童手当|生活保護|保護費|住居確保|ひとり親|国民年金|新型コロナ|ワクチン|マイナンバー|住民票|戸籍|ごみ|防災|選挙)')
 # 障害福祉であることを示す語（OFFTOPIC より優先する）
 ONTOPIC = re.compile(r'(障害|障がい|手帳|難病|マル障|補装具|日常生活用具|自立支援医療|療育|特別児童扶養|手話|点字|補聴器|盲ろう|失語)')
+# 事業者向けの区画に置かれているページ。名前だけでは住民向けと区別が
+# つかないものがあるため、URLでも落とす（広島市の介護テクノロジー導入
+# 支援補助金など、名前に「事業者」と入らない事業者向け補助金がある）
+BUSINESS_PATH = re.compile(r'/(business|jigyou|jigyousya|jigyousha|jigyosha|office|for-business)[/-]', re.I)
 # 見出しだけの短いカテゴリ名
 CATEGORY = re.compile(r'^[^。]{1,7}$')
 CATEGORY_WORDS = re.compile(r'^(手当|助成|給付|割引|軽減|減免|支援|貸付|年金|医療|制度|案内|一覧|その他)')
@@ -63,7 +67,7 @@ def clean(entry):
     for p in entry.get('programs', []):
         name = normalize(p['name'])
         url = p['url']
-        if not is_program(name):
+        if not is_program(name) or BUSINESS_PATH.search(url):
             continue
         if name in seen_name or url in seen_url:
             continue

@@ -5,9 +5,10 @@
 金額や対象等級は自治体ごとに違い、改定もされるため転記しない
 （/discount/ で書いている方針をそのまま引き継ぐ）。
 
-制度リンクが少ない自治体には個別ページを作らない。数件のリンクを
-定型文で挟んだだけのページを並べても、読む人には公式サイトを開く
-以上の意味がないため。索引から公式ページへ直接つなぐ。
+制度リンクが1件でも取れた自治体には個別ページを作る。件数が少ない
+ページでは、取れた件数がそれだけであることと、公式サイトの障害福祉
+ページを先に見てほしいことを本文に書く。少ない一覧を、その自治体の
+制度の全部であるかのように見せないため。
 """
 import json
 import os
@@ -19,8 +20,8 @@ from romaji import kana_to_romaji
 
 SITE = 'https://welfarejob.jp'
 OUT = 'public/seido'
-# 個別ページを作る最低件数
-MIN_PROGRAMS = 5
+# 個別ページを作る最低件数。1件でも取れていれば作る
+MIN_PROGRAMS = 1
 
 PREF_ROMAJI = {
     '北海道': 'hokkaido', '青森県': 'aomori', '岩手県': 'iwate', '宮城県': 'miyagi',
@@ -152,6 +153,16 @@ def write(path, text):
         f.write(text)
 
 
+# この件数を下回るページには、公式ページを先に見るよう促す注記を入れる
+SCARCE_BELOW = 5
+
+SCARCE_NOTE = """
+      <div class="note">
+        <p><strong>{full}の公式サイトから機械で追えたのは、この{n}件だけでした。</strong>{full}の制度がこれだけということではありません。サイトの作りによっては、制度のページまで自動でたどり着けないことがあります。</p>
+        <p>制度の全体は、{full}の障害福祉のページに載っています。→ <a href="{welfare_attr}" target="_blank" rel="noopener">{full}の障害福祉のページを開く</a></p>
+      </div>
+"""
+
 CITY_BODY = """      <header><a href="/">福祉の求人アラート</a></header>
       <nav class="crumbs"><a href="/">ホーム</a> ＞ <a href="/seido/">自治体の障害福祉制度</a> ＞ {full}</nav>
 
@@ -166,7 +177,7 @@ CITY_BODY = """      <header><a href="/">福祉の求人アラート</a></header
       </ul>
 
       <p class="count">リンク先はすべて {host}（{full}の公式サイト）です。</p>
-
+{scarce}
       <h2>この一覧について</h2>
 
       <div class="note">
@@ -226,7 +237,15 @@ def city_page(entry, slug_pref, slug_city, checked_on):
             escape(p['url'], quote=True), escape(p['name'])) for p in progs)
 
     welfare = entry.get('welfarePage') or entry['url']
+    # 件数が少ないときは、それが全部ではないことをその場で書く。
+    # 一覧が短いほど、全部だと読まれやすいため。
+    scarce = ''
+    if len(progs) < SCARCE_BELOW:
+        scarce = SCARCE_NOTE.format(
+            full=escape(full), n=len(progs),
+            welfare_attr=escape(welfare, quote=True))
     body = CITY_BODY.format(
+        scarce=scarce,
         full=escape(full), n=len(progs), items=items, checked=checked_on,
         host=escape(entry['url'].split('/')[2]),
         welfare_attr=escape(welfare, quote=True), welfare_text=escape(welfare),
@@ -252,7 +271,7 @@ INDEX_BODY = """      <header><a href="/">福祉の求人アラート</a></heade
       <div class="note">
         <p>総務省の全国地方公共団体コードから対象の{n}自治体を機械的に選び、各自治体の公式サイトの障害福祉のページをたどって制度のリンクを集めました。自治体名ではなく団体コードで突き合わせています。</p>
         <p><strong>{nomatch}自治体は制度のリンクを取れていません。</strong>サイトの作りが機械で追えない形になっているためで、制度が無いという意味ではありません。無いように見せたくないので、公式ページへのリンクだけ残しています。</p>
-        <p>個別のページを作っているのは、制度のリンクが{minp}件以上あった{withpage}自治体です。数件しか取れなかった自治体は、公式ページへ直接つないでいます。数件のリンクを説明文で挟んだだけのページを並べても、公式サイトを開く以上のことにならないためです。</p>
+        <p>個別のページを作っているのは、制度のリンクが1件でも取れた{withpage}自治体です。取れた件数が少ない自治体のページには、それが全部ではないことと、公式サイトの障害福祉のページを先に見ていただきたいことを書いています。短い一覧を、その自治体の制度の全部であるかのように見せないためです。</p>
       </div>
 
       <h2>制度を調べる前に</h2>
@@ -345,6 +364,27 @@ def main():
                      'slug': slug, 'welfare': e.get('welfarePage') or e['url']})
 
     write(os.path.join(OUT, 'index.html'), index_page(rows, checked_on, total))
+
+    # 前回作ったが今回は対象から外れた自治体のページを消す。
+    # 制度リンクが取れなくなった自治体のページが古いまま残ると、
+    # 索引から辿れないページが公開され続けるため。
+    keep = {os.path.normpath(os.path.join(OUT, 'index.html'))}
+    keep |= {os.path.normpath('public' + r['slug'] + 'index.html')
+             for r in rows if r['slug']}
+    removed = []
+    for root, _dirs, files in os.walk(OUT):
+        for name in files:
+            path = os.path.normpath(os.path.join(root, name))
+            if path not in keep:
+                os.remove(path)
+                removed.append(path)
+    for root, dirs, files in os.walk(OUT, topdown=False):
+        for d in dirs:
+            full = os.path.join(root, d)
+            if not os.listdir(full):
+                os.rmdir(full)
+    if removed:
+        print('対象から外れたページを削除: {0}'.format(', '.join(removed)))
 
     urls = ['/', '/discount/', '/discount/transport/', '/seido/'] + \
            [r['slug'] for r in rows if r['slug']]

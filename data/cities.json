@@ -1,0 +1,6675 @@
+{
+ "note": "全国の市のうち、74自治体の先行分を除いたもの。人口の多い順。人口は Wikidata の P1082 を全国地方公共団体コード（P429）で突き合わせた。",
+ "urlSource": "data/municipality-sites.json",
+ "sites": [
+  {
+   "code": "122041",
+   "pref": "千葉県",
+   "name": "船橋市",
+   "kana": "ﾌﾅﾊﾞｼｼ",
+   "url": "https://www.city.funabashi.lg.jp/",
+   "verified": false,
+   "population": 641499
+  },
+  {
+   "code": "112038",
+   "pref": "埼玉県",
+   "name": "川口市",
+   "kana": "ｶﾜｸﾞﾁｼ",
+   "url": "https://www.city.kawaguchi.lg.jp/",
+   "verified": false,
+   "population": 593900
+  },
+  {
+   "code": "132012",
+   "pref": "東京都",
+   "name": "八王子市",
+   "kana": "ﾊﾁｵｳｼﾞｼ",
+   "url": "https://www.city.hachioji.tokyo.jp/",
+   "verified": false,
+   "population": 575721
+  },
+  {
+   "code": "282014",
+   "pref": "兵庫県",
+   "name": "姫路市",
+   "kana": "ﾋﾒｼﾞｼ",
+   "url": "https://www.city.himeji.lg.jp/",
+   "verified": false,
+   "population": 527596
+  },
+  {
+   "code": "122076",
+   "pref": "千葉県",
+   "name": "松戸市",
+   "kana": "ﾏﾂﾄﾞｼ",
+   "url": "https://www.city.matsudo.chiba.jp/",
+   "verified": false,
+   "population": 497514
+  },
+  {
+   "code": "122033",
+   "pref": "千葉県",
+   "name": "市川市",
+   "kana": "ｲﾁｶﾜｼ",
+   "url": "https://www.city.ichikawa.lg.jp/",
+   "verified": false,
+   "population": 495768
+  },
+  {
+   "code": "272272",
+   "pref": "大阪府",
+   "name": "東大阪市",
+   "kana": "ﾋｶﾞｼｵｵｻｶｼ",
+   "url": "https://www.city.higashiosaka.lg.jp/",
+   "verified": false,
+   "population": 490819
+  },
+  {
+   "code": "282049",
+   "pref": "兵庫県",
+   "name": "西宮市",
+   "kana": "ﾆｼﾉﾐﾔｼ",
+   "url": "https://www.nishi.or.jp/",
+   "verified": false,
+   "population": 487010
+  },
+  {
+   "code": "332020",
+   "pref": "岡山県",
+   "name": "倉敷市",
+   "kana": "ｸﾗｼｷｼ",
+   "url": "https://www.city.kurashiki.okayama.jp/",
+   "verified": false,
+   "population": 474862
+  },
+  {
+   "code": "342076",
+   "pref": "広島県",
+   "name": "福山市",
+   "kana": "ﾌｸﾔﾏｼ",
+   "url": "https://www.city.fukuyama.hiroshima.jp/",
+   "verified": false,
+   "population": 459576
+  },
+  {
+   "code": "282022",
+   "pref": "兵庫県",
+   "name": "尼崎市",
+   "kana": "ｱﾏｶﾞｻｷｼ",
+   "url": "https://www.city.amagasaki.hyogo.jp/",
+   "verified": false,
+   "population": 455555
+  },
+  {
+   "code": "142051",
+   "pref": "神奈川県",
+   "name": "藤沢市",
+   "kana": "ﾌｼﾞｻﾜｼ",
+   "url": "https://www.city.fujisawa.kanagawa.jp/",
+   "verified": false,
+   "population": 436744
+  },
+  {
+   "code": "132098",
+   "pref": "東京都",
+   "name": "町田市",
+   "kana": "ﾏﾁﾀﾞｼ",
+   "url": "https://www.city.machida.tokyo.jp/",
+   "verified": false,
+   "population": 434414
+  },
+  {
+   "code": "122173",
+   "pref": "千葉県",
+   "name": "柏市",
+   "kana": "ｶｼﾜｼ",
+   "url": "https://www.city.kashiwa.lg.jp/",
+   "verified": false,
+   "population": 427603
+  },
+  {
+   "code": "232114",
+   "pref": "愛知県",
+   "name": "豊田市",
+   "kana": "ﾄﾖﾀｼ",
+   "url": "https://www.city.toyota.aichi.jp/",
+   "verified": false,
+   "population": 422106
+  },
+  {
+   "code": "272035",
+   "pref": "大阪府",
+   "name": "豊中市",
+   "kana": "ﾄﾖﾅｶｼ",
+   "url": "https://www.city.toyonaka.osaka.jp/",
+   "verified": false,
+   "population": 399263
+  },
+  {
+   "code": "272108",
+   "pref": "大阪府",
+   "name": "枚方市",
+   "kana": "ﾋﾗｶﾀｼ",
+   "url": "https://www.city.hirakata.osaka.jp/",
+   "verified": false,
+   "population": 396694
+  },
+  {
+   "code": "142018",
+   "pref": "神奈川県",
+   "name": "横須賀市",
+   "kana": "ﾖｺｽｶｼ",
+   "url": "https://www.city.yokosuka.kanagawa.jp/",
+   "verified": false,
+   "population": 390275
+  },
+  {
+   "code": "232025",
+   "pref": "愛知県",
+   "name": "岡崎市",
+   "kana": "ｵｶｻﾞｷｼ",
+   "url": "https://www.city.okazaki.lg.jp/",
+   "verified": false,
+   "population": 385376
+  },
+  {
+   "code": "272051",
+   "pref": "大阪府",
+   "name": "吹田市",
+   "kana": "ｽｲﾀｼ",
+   "url": "https://www.city.suita.osaka.jp/",
+   "verified": false,
+   "population": 384953
+  },
+  {
+   "code": "232033",
+   "pref": "愛知県",
+   "name": "一宮市",
+   "kana": "ｲﾁﾉﾐﾔｼ",
+   "url": "https://www.city.ichinomiya.aichi.jp/",
+   "verified": false,
+   "population": 378108
+  },
+  {
+   "code": "102024",
+   "pref": "群馬県",
+   "name": "高崎市",
+   "kana": "ﾀｶｻｷｼ",
+   "url": "https://www.city.takasaki.gunma.jp/",
+   "verified": false,
+   "population": 372639
+  },
+  {
+   "code": "232017",
+   "pref": "愛知県",
+   "name": "豊橋市",
+   "kana": "ﾄﾖﾊｼｼ",
+   "url": "https://www.city.toyohashi.lg.jp/",
+   "verified": false,
+   "population": 371507
+  },
+  {
+   "code": "112011",
+   "pref": "埼玉県",
+   "name": "川越市",
+   "kana": "ｶﾜｺﾞｴｼ",
+   "url": "https://www.city.kawagoe.saitama.jp/",
+   "verified": false,
+   "population": 354598
+  },
+  {
+   "code": "272078",
+   "pref": "大阪府",
+   "name": "高槻市",
+   "kana": "ﾀｶﾂｷｼ",
+   "url": "https://www.city.takatsuki.osaka.jp/",
+   "verified": false,
+   "population": 347496
+  },
+  {
+   "code": "112224",
+   "pref": "埼玉県",
+   "name": "越谷市",
+   "kana": "ｺｼｶﾞﾔｼ",
+   "url": "https://www.city.koshigaya.saitama.jp/",
+   "verified": false,
+   "population": 341784
+  },
+  {
+   "code": "112089",
+   "pref": "埼玉県",
+   "name": "所沢市",
+   "kana": "ﾄｺﾛｻﾞﾜｼ",
+   "url": "https://www.city.tokorozawa.saitama.jp/",
+   "verified": false,
+   "population": 341289
+  },
+  {
+   "code": "072044",
+   "pref": "福島県",
+   "name": "いわき市",
+   "kana": "ｲﾜｷｼ",
+   "url": "https://www.city.iwaki.lg.jp/",
+   "verified": false,
+   "population": 336111
+  },
+  {
+   "code": "012041",
+   "pref": "北海道",
+   "name": "旭川市",
+   "kana": "ｱｻﾋｶﾜｼ",
+   "url": "https://www.city.asahikawa.hokkaido.jp/",
+   "verified": false,
+   "population": 331392
+  },
+  {
+   "code": "072036",
+   "pref": "福島県",
+   "name": "郡山市",
+   "kana": "ｺｵﾘﾔﾏｼ",
+   "url": "https://www.city.koriyama.lg.jp/",
+   "verified": false,
+   "population": 327040
+  },
+  {
+   "code": "242021",
+   "pref": "三重県",
+   "name": "四日市市",
+   "kana": "ﾖｯｶｲﾁｼ",
+   "url": "https://www.city.yokkaichi.lg.jp/",
+   "verified": false,
+   "population": 310263
+  },
+  {
+   "code": "232068",
+   "pref": "愛知県",
+   "name": "春日井市",
+   "kana": "ｶｽｶﾞｲｼ",
+   "url": "https://www.city.kasugai.lg.jp/",
+   "verified": false,
+   "population": 306449
+  },
+  {
+   "code": "402036",
+   "pref": "福岡県",
+   "name": "久留米市",
+   "kana": "ｸﾙﾒｼ",
+   "url": "https://www.city.kurume.fukuoka.jp/",
+   "verified": false,
+   "population": 302858
+  },
+  {
+   "code": "282031",
+   "pref": "兵庫県",
+   "name": "明石市",
+   "kana": "ｱｶｼｼ",
+   "url": "https://www.city.akashi.lg.jp/",
+   "verified": false,
+   "population": 299699
+  },
+  {
+   "code": "272116",
+   "pref": "大阪府",
+   "name": "茨木市",
+   "kana": "ｲﾊﾞﾗｷｼ",
+   "url": "https://www.city.ibaraki.osaka.jp/",
+   "verified": false,
+   "population": 283835
+  },
+  {
+   "code": "122190",
+   "pref": "千葉県",
+   "name": "市原市",
+   "kana": "ｲﾁﾊﾗｼ",
+   "url": "https://www.city.ichihara.chiba.jp/",
+   "verified": false,
+   "population": 268038
+  },
+  {
+   "code": "152021",
+   "pref": "新潟県",
+   "name": "長岡市",
+   "kana": "ﾅｶﾞｵｶｼ",
+   "url": "https://www.city.nagaoka.niigata.jp/",
+   "verified": false,
+   "population": 265868
+  },
+  {
+   "code": "272124",
+   "pref": "大阪府",
+   "name": "八尾市",
+   "kana": "ﾔｵｼ",
+   "url": "https://www.city.yao.osaka.jp/",
+   "verified": false,
+   "population": 264913
+  },
+  {
+   "code": "132063",
+   "pref": "東京都",
+   "name": "府中市",
+   "kana": "ﾌﾁｭｳｼ",
+   "url": "https://www.city.fuchu.tokyo.jp/",
+   "verified": false,
+   "population": 263093
+  },
+  {
+   "code": "282103",
+   "pref": "兵庫県",
+   "name": "加古川市",
+   "kana": "ｶｺｶﾞﾜｼ",
+   "url": "https://www.city.kakogawa.lg.jp/",
+   "verified": false,
+   "population": 260595
+  },
+  {
+   "code": "142034",
+   "pref": "神奈川県",
+   "name": "平塚市",
+   "kana": "ﾋﾗﾂｶｼ",
+   "url": "https://www.city.hiratsuka.kanagawa.jp/",
+   "verified": false,
+   "population": 257662
+  },
+  {
+   "code": "352012",
+   "pref": "山口県",
+   "name": "下関市",
+   "kana": "ｼﾓﾉｾｷｼ",
+   "url": "https://www.city.shimonoseki.lg.jp/",
+   "verified": false,
+   "population": 252844
+  },
+  {
+   "code": "012025",
+   "pref": "北海道",
+   "name": "函館市",
+   "kana": "ﾊｺﾀﾞﾃｼ",
+   "url": "https://www.city.hakodate.hokkaido.jp/",
+   "verified": false,
+   "population": 251891
+  },
+  {
+   "code": "112216",
+   "pref": "埼玉県",
+   "name": "草加市",
+   "kana": "ｿｳｶｼ",
+   "url": "https://www.city.soka.saitama.jp/",
+   "verified": false,
+   "population": 251390
+  },
+  {
+   "code": "082201",
+   "pref": "茨城県",
+   "name": "つくば市",
+   "kana": "ﾂｸﾊﾞｼ",
+   "url": "https://www.city.tsukuba.lg.jp/",
+   "verified": false,
+   "population": 246647
+  },
+  {
+   "code": "222101",
+   "pref": "静岡県",
+   "name": "富士市",
+   "kana": "ﾌｼﾞｼ",
+   "url": "https://www.city.fuji.shizuoka.jp/",
+   "verified": false,
+   "population": 243739
+  },
+  {
+   "code": "422029",
+   "pref": "長崎県",
+   "name": "佐世保市",
+   "kana": "ｻｾﾎﾞｼ",
+   "url": "https://www.city.sasebo.lg.jp/",
+   "verified": false,
+   "population": 242664
+  },
+  {
+   "code": "142077",
+   "pref": "神奈川県",
+   "name": "茅ヶ崎市",
+   "kana": "ﾁｶﾞｻｷｼ",
+   "url": "https://www.city.chigasaki.kanagawa.jp/",
+   "verified": false,
+   "population": 242347
+  },
+  {
+   "code": "132080",
+   "pref": "東京都",
+   "name": "調布市",
+   "kana": "ﾁｮｳﾌｼ",
+   "url": "https://www.city.chofu.lg.jp/",
+   "verified": false,
+   "population": 240359
+  },
+  {
+   "code": "142131",
+   "pref": "神奈川県",
+   "name": "大和市",
+   "kana": "ﾔﾏﾄｼ",
+   "url": "https://www.city.yamato.lg.jp/",
+   "verified": false,
+   "population": 239146
+  },
+  {
+   "code": "202029",
+   "pref": "長野県",
+   "name": "松本市",
+   "kana": "ﾏﾂﾓﾄｼ",
+   "url": "https://www.city.matsumoto.nagano.jp/",
+   "verified": false,
+   "population": 239115
+  },
+  {
+   "code": "112143",
+   "pref": "埼玉県",
+   "name": "春日部市",
+   "kana": "ｶｽｶﾍﾞｼ",
+   "url": "https://www.city.kasukabe.lg.jp/",
+   "verified": false,
+   "population": 228975
+  },
+  {
+   "code": "272159",
+   "pref": "大阪府",
+   "name": "寝屋川市",
+   "kana": "ﾈﾔｶﾞﾜｼ",
+   "url": "https://www.city.neyagawa.osaka.jp/",
+   "verified": false,
+   "population": 227997
+  },
+  {
+   "code": "112194",
+   "pref": "埼玉県",
+   "name": "上尾市",
+   "kana": "ｱｹﾞｵｼ",
+   "url": "https://www.city.ageo.lg.jp/",
+   "verified": false,
+   "population": 226616
+  },
+  {
+   "code": "282146",
+   "pref": "兵庫県",
+   "name": "宝塚市",
+   "kana": "ﾀｶﾗﾂﾞｶｼ",
+   "url": "https://www.city.takarazuka.hyogo.jp/",
+   "verified": false,
+   "population": 224055
+  },
+  {
+   "code": "142123",
+   "pref": "神奈川県",
+   "name": "厚木市",
+   "kana": "ｱﾂｷﾞｼ",
+   "url": "https://www.city.atsugi.kanagawa.jp/",
+   "verified": false,
+   "population": 223815
+  },
+  {
+   "code": "102059",
+   "pref": "群馬県",
+   "name": "太田市",
+   "kana": "ｵｵﾀｼ",
+   "url": "https://www.city.ota.gunma.jp/",
+   "verified": false,
+   "population": 222806
+  },
+  {
+   "code": "022039",
+   "pref": "青森県",
+   "name": "八戸市",
+   "kana": "ﾊﾁﾉﾍｼ",
+   "url": "https://www.city.hachinohe.aomori.jp/",
+   "verified": false,
+   "population": 222799
+  },
+  {
+   "code": "342025",
+   "pref": "広島県",
+   "name": "呉市",
+   "kana": "ｸﾚｼ",
+   "url": "https://www.city.kure.lg.jp/",
+   "verified": false,
+   "population": 212159
+  },
+  {
+   "code": "102041",
+   "pref": "群馬県",
+   "name": "伊勢崎市",
+   "kana": "ｲｾｻｷｼ",
+   "url": "https://www.city.isesaki.lg.jp/",
+   "verified": false,
+   "population": 210332
+  },
+  {
+   "code": "132292",
+   "pref": "東京都",
+   "name": "西東京市",
+   "kana": "ﾆｼﾄｳｷｮｳｼ",
+   "url": "https://www.city.nishitokyo.lg.jp/",
+   "verified": false,
+   "population": 207436
+  },
+  {
+   "code": "122211",
+   "pref": "千葉県",
+   "name": "八千代市",
+   "kana": "ﾔﾁﾖｼ",
+   "url": "https://www.city.yachiyo.chiba.jp/",
+   "verified": false,
+   "population": 200538
+  },
+  {
+   "code": "122203",
+   "pref": "千葉県",
+   "name": "流山市",
+   "kana": "ﾅｶﾞﾚﾔﾏｼ",
+   "url": "https://www.city.nagareyama.chiba.jp/",
+   "verified": false,
+   "population": 200298
+  },
+  {
+   "code": "282073",
+   "pref": "兵庫県",
+   "name": "伊丹市",
+   "kana": "ｲﾀﾐｼ",
+   "url": "https://www.city.itami.lg.jp/",
+   "verified": false,
+   "population": 198522
+  },
+  {
+   "code": "342122",
+   "pref": "広島県",
+   "name": "東広島市",
+   "kana": "ﾋｶﾞｼﾋﾛｼﾏｼ",
+   "url": "https://www.city.higashihiroshima.lg.jp/",
+   "verified": false,
+   "population": 197347
+  },
+  {
+   "code": "132110",
+   "pref": "東京都",
+   "name": "小平市",
+   "kana": "ｺﾀﾞｲﾗｼ",
+   "url": "https://www.city.kodaira.tokyo.jp/",
+   "verified": false,
+   "population": 196959
+  },
+  {
+   "code": "242071",
+   "pref": "三重県",
+   "name": "鈴鹿市",
+   "kana": "ｽｽﾞｶｼ",
+   "url": "https://www.city.suzuka.lg.jp/",
+   "verified": false,
+   "population": 195250
+  },
+  {
+   "code": "132047",
+   "pref": "東京都",
+   "name": "三鷹市",
+   "kana": "ﾐﾀｶｼ",
+   "url": "https://www.city.mitaka.lg.jp/",
+   "verified": false,
+   "population": 194460
+  },
+  {
+   "code": "112020",
+   "pref": "埼玉県",
+   "name": "熊谷市",
+   "kana": "ｸﾏｶﾞﾔｼ",
+   "url": "https://www.city.kumagaya.lg.jp/",
+   "verified": false,
+   "population": 193190
+  },
+  {
+   "code": "132128",
+   "pref": "東京都",
+   "name": "日野市",
+   "kana": "ﾋﾉｼ",
+   "url": "https://www.city.hino.lg.jp/",
+   "verified": false,
+   "population": 190598
+  },
+  {
+   "code": "142069",
+   "pref": "神奈川県",
+   "name": "小田原市",
+   "kana": "ｵﾀﾞﾜﾗｼ",
+   "url": "https://www.city.odawara.kanagawa.jp/",
+   "verified": false,
+   "population": 189038
+  },
+  {
+   "code": "232122",
+   "pref": "愛知県",
+   "name": "安城市",
+   "kana": "ｱﾝｼﾞｮｳｼ",
+   "url": "https://www.city.anjo.aichi.jp/",
+   "verified": false,
+   "population": 188801
+  },
+  {
+   "code": "272027",
+   "pref": "大阪府",
+   "name": "岸和田市",
+   "kana": "ｷｼﾜﾀﾞｼ",
+   "url": "https://www.city.kishiwada.lg.jp/",
+   "verified": false,
+   "population": 188015
+  },
+  {
+   "code": "222038",
+   "pref": "静岡県",
+   "name": "沼津市",
+   "kana": "ﾇﾏﾂﾞｼ",
+   "url": "https://www.city.numazu.shizuoka.jp/",
+   "verified": false,
+   "population": 187653
+  },
+  {
+   "code": "152226",
+   "pref": "新潟県",
+   "name": "上越市",
+   "kana": "ｼﾞｮｳｴﾂｼ",
+   "url": "https://www.city.joetsu.niigata.jp/",
+   "verified": false,
+   "population": 187291
+  },
+  {
+   "code": "272191",
+   "pref": "大阪府",
+   "name": "和泉市",
+   "kana": "ｲｽﾞﾐｼ",
+   "url": "https://www.city.osaka-izumi.lg.jp/",
+   "verified": false,
+   "population": 184299
+  },
+  {
+   "code": "232076",
+   "pref": "愛知県",
+   "name": "豊川市",
+   "kana": "ﾄﾖｶﾜｼ",
+   "url": "https://www.city.toyokawa.lg.jp/",
+   "verified": false,
+   "population": 183965
+  },
+  {
+   "code": "132021",
+   "pref": "東京都",
+   "name": "立川市",
+   "kana": "ﾀﾁｶﾜｼ",
+   "url": "https://www.city.tachikawa.lg.jp/",
+   "verified": false,
+   "population": 181115
+  },
+  {
+   "code": "262048",
+   "pref": "京都府",
+   "name": "宇治市",
+   "kana": "ｳｼﾞｼ",
+   "url": "https://www.city.uji.kyoto.jp/",
+   "verified": false,
+   "population": 179626
+  },
+  {
+   "code": "122165",
+   "pref": "千葉県",
+   "name": "習志野市",
+   "kana": "ﾅﾗｼﾉｼ",
+   "url": "https://www.city.narashino.lg.jp/",
+   "verified": false,
+   "population": 174990
+  },
+  {
+   "code": "142042",
+   "pref": "神奈川県",
+   "name": "鎌倉市",
+   "kana": "ｶﾏｸﾗｼ",
+   "url": "https://www.city.kamakura.kanagawa.jp/",
+   "verified": false,
+   "population": 172929
+  },
+  {
+   "code": "082023",
+   "pref": "茨城県",
+   "name": "日立市",
+   "kana": "ﾋﾀﾁｼ",
+   "url": "https://www.city.hitachi.lg.jp/",
+   "verified": false,
+   "population": 172709
+  },
+  {
+   "code": "322032",
+   "pref": "島根県",
+   "name": "出雲市",
+   "kana": "ｲｽﾞﾓｼ",
+   "url": "https://www.city.izumo.shimane.jp/",
+   "verified": false,
+   "population": 171995
+  },
+  {
+   "code": "012131",
+   "pref": "北海道",
+   "name": "苫小牧市",
+   "kana": "ﾄﾏｺﾏｲｼ",
+   "url": "https://www.city.tomakomai.hokkaido.jp",
+   "verified": false,
+   "population": 170223
+  },
+  {
+   "code": "122271",
+   "pref": "千葉県",
+   "name": "浦安市",
+   "kana": "ｳﾗﾔｽｼ",
+   "url": "https://www.city.urayasu.lg.jp/",
+   "verified": false,
+   "population": 169749
+  },
+  {
+   "code": "122122",
+   "pref": "千葉県",
+   "name": "佐倉市",
+   "kana": "ｻｸﾗｼ",
+   "url": "https://www.city.sakura.lg.jp/",
+   "verified": false,
+   "population": 169059
+  },
+  {
+   "code": "232131",
+   "pref": "愛知県",
+   "name": "西尾市",
+   "kana": "ﾆｼｵｼ",
+   "url": "https://www.city.nishio.aichi.jp/",
+   "verified": false,
+   "population": 168992
+  },
+  {
+   "code": "092088",
+   "pref": "栃木県",
+   "name": "小山市",
+   "kana": "ｵﾔﾏｼ",
+   "url": "https://www.city.oyama.tochigi.jp/",
+   "verified": false,
+   "population": 167874
+  },
+  {
+   "code": "022021",
+   "pref": "青森県",
+   "name": "弘前市",
+   "kana": "ﾋﾛｻｷｼ",
+   "url": "https://www.city.hirosaki.aomori.jp/",
+   "verified": false,
+   "population": 167803
+  },
+  {
+   "code": "112305",
+   "pref": "埼玉県",
+   "name": "新座市",
+   "kana": "ﾆｲｻﾞｼ",
+   "url": "https://www.city.niiza.lg.jp/",
+   "verified": false,
+   "population": 165997
+  },
+  {
+   "code": "162027",
+   "pref": "富山県",
+   "name": "高岡市",
+   "kana": "ﾀｶｵｶｼ",
+   "url": "https://www.city.takaoka.toyama.jp/",
+   "verified": false,
+   "population": 165880
+  },
+  {
+   "code": "012068",
+   "pref": "北海道",
+   "name": "釧路市",
+   "kana": "ｸｼﾛｼ",
+   "url": "https://www.city.kushiro.lg.jp/",
+   "verified": false,
+   "population": 165699
+  },
+  {
+   "code": "222119",
+   "pref": "静岡県",
+   "name": "磐田市",
+   "kana": "ｲﾜﾀｼ",
+   "url": "https://www.city.iwata.shizuoka.jp/",
+   "verified": false,
+   "population": 165688
+  },
+  {
+   "code": "012076",
+   "pref": "北海道",
+   "name": "帯広市",
+   "kana": "ｵﾋﾞﾋﾛｼ",
+   "url": "https://www.city.obihiro.hokkaido.jp/",
+   "verified": false,
+   "population": 165684
+  },
+  {
+   "code": "142115",
+   "pref": "神奈川県",
+   "name": "秦野市",
+   "kana": "ﾊﾀﾞﾉｼ",
+   "url": "https://www.city.hadano.kanagawa.jp/",
+   "verified": false,
+   "population": 164292
+  },
+  {
+   "code": "352021",
+   "pref": "山口県",
+   "name": "宇部市",
+   "kana": "ｳﾍﾞｼ",
+   "url": "https://www.city.ube.yamaguchi.jp/",
+   "verified": false,
+   "population": 162873
+  },
+  {
+   "code": "452025",
+   "pref": "宮崎県",
+   "name": "都城市",
+   "kana": "ﾐﾔｺﾉｼﾞｮｳｼ",
+   "url": "https://www.city.miyakonojo.miyazaki.jp/",
+   "verified": false,
+   "population": 160392
+  },
+  {
+   "code": "242047",
+   "pref": "三重県",
+   "name": "松阪市",
+   "kana": "ﾏﾂｻｶｼ",
+   "url": "https://www.city.matsusaka.mie.jp/",
+   "verified": false,
+   "population": 158472
+  },
+  {
+   "code": "212024",
+   "pref": "岐阜県",
+   "name": "大垣市",
+   "kana": "ｵｵｶﾞｷｼ",
+   "url": "https://www.city.ogaki.lg.jp/",
+   "verified": false,
+   "population": 158386
+  },
+  {
+   "code": "082210",
+   "pref": "茨城県",
+   "name": "ひたちなか市",
+   "kana": "ﾋﾀﾁﾅｶｼ",
+   "url": "https://www.city.hitachinaka.lg.jp/",
+   "verified": false,
+   "population": 155680
+  },
+  {
+   "code": "092037",
+   "pref": "栃木県",
+   "name": "栃木市",
+   "kana": "ﾄﾁｷﾞｼ",
+   "url": "https://www.city.tochigi.lg.jp/",
+   "verified": false,
+   "population": 153508
+  },
+  {
+   "code": "232106",
+   "pref": "愛知県",
+   "name": "刈谷市",
+   "kana": "ｶﾘﾔｼ",
+   "url": "https://www.city.kariya.lg.jp/",
+   "verified": false,
+   "population": 153178
+  },
+  {
+   "code": "202037",
+   "pref": "長野県",
+   "name": "上田市",
+   "kana": "ｳｴﾀﾞｼ",
+   "url": "https://www.city.ueda.nagano.jp/",
+   "verified": false,
+   "population": 152948
+  },
+  {
+   "code": "122084",
+   "pref": "千葉県",
+   "name": "野田市",
+   "kana": "ﾉﾀﾞｼ",
+   "url": "https://www.city.noda.chiba.jp/",
+   "verified": false,
+   "population": 152227
+  },
+  {
+   "code": "282171",
+   "pref": "兵庫県",
+   "name": "川西市",
+   "kana": "ｶﾜﾆｼｼ",
+   "url": "https://www.city.kawanishi.hyogo.jp/",
+   "verified": false,
+   "population": 152076
+  },
+  {
+   "code": "132136",
+   "pref": "東京都",
+   "name": "東村山市",
+   "kana": "ﾋｶﾞｼﾑﾗﾔﾏｼ",
+   "url": "https://www.city.higashimurayama.tokyo.jp/",
+   "verified": false,
+   "population": 150458
+  },
+  {
+   "code": "112321",
+   "pref": "埼玉県",
+   "name": "久喜市",
+   "kana": "ｸｷｼ",
+   "url": "https://www.city.kuki.lg.jp/",
+   "verified": false,
+   "population": 150197
+  },
+  {
+   "code": "382027",
+   "pref": "愛媛県",
+   "name": "今治市",
+   "kana": "ｲﾏﾊﾞﾘｼ",
+   "url": "https://www.city.imabari.ehime.jp/",
+   "verified": false,
+   "population": 149209
+  },
+  {
+   "code": "132039",
+   "pref": "東京都",
+   "name": "武蔵野市",
+   "kana": "ﾑｻｼﾉｼ",
+   "url": "https://www.city.musashino.lg.jp/",
+   "verified": false,
+   "population": 148971
+  },
+  {
+   "code": "112151",
+   "pref": "埼玉県",
+   "name": "狭山市",
+   "kana": "ｻﾔﾏｼ",
+   "url": "https://www.city.sayama.saitama.jp/",
+   "verified": false,
+   "population": 148474
+  },
+  {
+   "code": "232190",
+   "pref": "愛知県",
+   "name": "小牧市",
+   "kana": "ｺﾏｷｼ",
+   "url": "https://www.city.komaki.aichi.jp/",
+   "verified": false,
+   "population": 147897
+  },
+  {
+   "code": "132241",
+   "pref": "東京都",
+   "name": "多摩市",
+   "kana": "ﾀﾏｼ",
+   "url": "https://www.city.tama.lg.jp/",
+   "verified": false,
+   "population": 147252
+  },
+  {
+   "code": "312029",
+   "pref": "鳥取県",
+   "name": "米子市",
+   "kana": "ﾖﾅｺﾞｼ",
+   "url": "https://www.city.yonago.lg.jp/",
+   "verified": false,
+   "population": 147210
+  },
+  {
+   "code": "112259",
+   "pref": "埼玉県",
+   "name": "入間市",
+   "kana": "ｲﾙﾏｼ",
+   "url": "https://www.city.iruma.saitama.jp/",
+   "verified": false,
+   "population": 145303
+  },
+  {
+   "code": "112275",
+   "pref": "埼玉県",
+   "name": "朝霞市",
+   "kana": "ｱｻｶｼ",
+   "url": "https://www.city.asaka.lg.jp/",
+   "verified": false,
+   "population": 143915
+  },
+  {
+   "code": "212130",
+   "pref": "岐阜県",
+   "name": "各務原市",
+   "kana": "ｶｶﾐｶﾞﾊﾗｼ",
+   "url": "https://www.city.kakamigahara.lg.jp/",
+   "verified": false,
+   "population": 143641
+  },
+  {
+   "code": "252069",
+   "pref": "滋賀県",
+   "name": "草津市",
+   "kana": "ｸｻﾂｼ",
+   "url": "https://www.city.kusatsu.shiga.jp/",
+   "verified": false,
+   "population": 143230
+  },
+  {
+   "code": "092029",
+   "pref": "栃木県",
+   "name": "足利市",
+   "kana": "ｱｼｶｶﾞｼ",
+   "url": "https://www.city.ashikaga.tochigi.jp/",
+   "verified": false,
+   "population": 142882
+  },
+  {
+   "code": "112241",
+   "pref": "埼玉県",
+   "name": "戸田市",
+   "kana": "ﾄﾀﾞｼ",
+   "url": "https://www.city.toda.saitama.jp/",
+   "verified": false,
+   "population": 142352
+  },
+  {
+   "code": "472115",
+   "pref": "沖縄県",
+   "name": "沖縄市",
+   "kana": "ｵｷﾅﾜｼ",
+   "url": "https://www.city.okinawa.okinawa.jp/",
+   "verified": false,
+   "population": 142094
+  },
+  {
+   "code": "112372",
+   "pref": "埼玉県",
+   "name": "三郷市",
+   "kana": "ﾐｻﾄｼ",
+   "url": "https://www.city.misato.lg.jp/",
+   "verified": false,
+   "population": 141913
+  },
+  {
+   "code": "272094",
+   "pref": "大阪府",
+   "name": "守口市",
+   "kana": "ﾓﾘｸﾞﾁｼ",
+   "url": "https://www.city.moriguchi.osaka.jp/",
+   "verified": false,
+   "population": 141849
+  },
+  {
+   "code": "222143",
+   "pref": "静岡県",
+   "name": "藤枝市",
+   "kana": "ﾌｼﾞｴﾀﾞｼ",
+   "url": "https://www.city.fujieda.shizuoka.jp/",
+   "verified": false,
+   "population": 140947
+  },
+  {
+   "code": "112186",
+   "pref": "埼玉県",
+   "name": "深谷市",
+   "kana": "ﾌｶﾔｼ",
+   "url": "https://www.city.fukaya.saitama.jp/",
+   "verified": false,
+   "population": 140930
+  },
+  {
+   "code": "042021",
+   "pref": "宮城県",
+   "name": "石巻市",
+   "kana": "ｲｼﾉﾏｷｼ",
+   "url": "https://www.city.ishinomaki.lg.jp/",
+   "verified": false,
+   "population": 138856
+  },
+  {
+   "code": "242055",
+   "pref": "三重県",
+   "name": "桑名市",
+   "kana": "ｸﾜﾅｼ",
+   "url": "https://www.city.kuwana.lg.jp/",
+   "verified": false,
+   "population": 138798
+  },
+  {
+   "code": "082040",
+   "pref": "茨城県",
+   "name": "古河市",
+   "kana": "ｺｶﾞｼ",
+   "url": "https://www.city.ibaraki-koga.lg.jp/",
+   "verified": false,
+   "population": 138237
+  },
+  {
+   "code": "352152",
+   "pref": "山口県",
+   "name": "周南市",
+   "kana": "ｼｭｳﾅﾝｼ",
+   "url": "https://www.city.shunan.lg.jp/",
+   "verified": false,
+   "population": 137899
+  },
+  {
+   "code": "082031",
+   "pref": "茨城県",
+   "name": "土浦市",
+   "kana": "ﾂﾁｳﾗｼ",
+   "url": "https://www.city.tsuchiura.lg.jp/",
+   "verified": false,
+   "population": 137825
+  },
+  {
+   "code": "272205",
+   "pref": "大阪府",
+   "name": "箕面市",
+   "kana": "ﾐﾉｵｼ",
+   "url": "https://www.city.minoh.lg.jp/",
+   "verified": false,
+   "population": 136976
+  },
+  {
+   "code": "122068",
+   "pref": "千葉県",
+   "name": "木更津市",
+   "kana": "ｷｻﾗﾂﾞｼ",
+   "url": "https://www.city.kisarazu.lg.jp/",
+   "verified": false,
+   "population": 136118
+  },
+  {
+   "code": "222127",
+   "pref": "静岡県",
+   "name": "焼津市",
+   "kana": "ﾔｲﾂﾞｼ",
+   "url": "https://www.city.yaizu.lg.jp/",
+   "verified": false,
+   "population": 136028
+  },
+  {
+   "code": "142158",
+   "pref": "神奈川県",
+   "name": "海老名市",
+   "kana": "ｴﾋﾞﾅｼ",
+   "url": "https://www.city.ebina.kanagawa.jp/",
+   "verified": false,
+   "population": 135557
+  },
+  {
+   "code": "232203",
+   "pref": "愛知県",
+   "name": "稲沢市",
+   "kana": "ｲﾅｻﾞﾜｼ",
+   "url": "https://www.city.inazawa.aichi.jp/",
+   "verified": false,
+   "population": 134938
+  },
+  {
+   "code": "422045",
+   "pref": "長崎県",
+   "name": "諫早市",
+   "kana": "ｲｻﾊﾔｼ",
+   "url": "https://www.city.isahaya.nagasaki.jp/",
+   "verified": false,
+   "population": 133512
+  },
+  {
+   "code": "132055",
+   "pref": "東京都",
+   "name": "青梅市",
+   "kana": "ｵｳﾒｼ",
+   "url": "https://www.city.ome.tokyo.jp/",
+   "verified": false,
+   "population": 132436
+  },
+  {
+   "code": "142166",
+   "pref": "神奈川県",
+   "name": "座間市",
+   "kana": "ｻﾞﾏｼ",
+   "url": "https://www.city.zama.kanagawa.jp/",
+   "verified": false,
+   "population": 130753
+  },
+  {
+   "code": "122114",
+   "pref": "千葉県",
+   "name": "成田市",
+   "kana": "ﾅﾘﾀｼ",
+   "url": "https://www.city.narita.chiba.jp/",
+   "verified": false,
+   "population": 130689
+  },
+  {
+   "code": "122220",
+   "pref": "千葉県",
+   "name": "我孫子市",
+   "kana": "ｱﾋﾞｺｼ",
+   "url": "https://www.city.abiko.chiba.jp/",
+   "verified": false,
+   "population": 130290
+  },
+  {
+   "code": "342050",
+   "pref": "広島県",
+   "name": "尾道市",
+   "kana": "ｵﾉﾐﾁｼ",
+   "url": "https://www.city.onomichi.hiroshima.jp/",
+   "verified": false,
+   "population": 130143
+  },
+  {
+   "code": "132144",
+   "pref": "東京都",
+   "name": "国分寺市",
+   "kana": "ｺｸﾌﾞﾝｼﾞｼ",
+   "url": "https://www.city.kokubunji.tokyo.jp/",
+   "verified": false,
+   "population": 129619
+  },
+  {
+   "code": "352080",
+   "pref": "山口県",
+   "name": "岩国市",
+   "kana": "ｲﾜｸﾆｼ",
+   "url": "https://www.city.iwakuni.lg.jp/",
+   "verified": false,
+   "population": 128401
+  },
+  {
+   "code": "232041",
+   "pref": "愛知県",
+   "name": "瀬戸市",
+   "kana": "ｾﾄｼ",
+   "url": "https://www.city.seto.aichi.jp/",
+   "verified": false,
+   "population": 127327
+  },
+  {
+   "code": "222071",
+   "pref": "静岡県",
+   "name": "富士宮市",
+   "kana": "ﾌｼﾞﾉﾐﾔｼ",
+   "url": "https://www.city.fujinomiya.lg.jp/",
+   "verified": false,
+   "population": 127252
+  },
+  {
+   "code": "132101",
+   "pref": "東京都",
+   "name": "小金井市",
+   "kana": "ｺｶﾞﾈｲｼ",
+   "url": "https://www.city.koganei.lg.jp/",
+   "verified": false,
+   "population": 127226
+  },
+  {
+   "code": "042153",
+   "pref": "宮城県",
+   "name": "大崎市",
+   "kana": "ｵｵｻｷｼ",
+   "url": "https://www.city.osaki.miyagi.jp/",
+   "verified": false,
+   "population": 127135
+  },
+  {
+   "code": "402052",
+   "pref": "福岡県",
+   "name": "飯塚市",
+   "kana": "ｲｲﾂﾞｶｼ",
+   "url": "https://www.city.iizuka.lg.jp/",
+   "verified": false,
+   "population": 126136
+  },
+  {
+   "code": "462187",
+   "pref": "鹿児島県",
+   "name": "霧島市",
+   "kana": "ｷﾘｼﾏｼ",
+   "url": "https://www.city-kirishima.jp/",
+   "verified": false,
+   "population": 123812
+  },
+  {
+   "code": "242039",
+   "pref": "三重県",
+   "name": "伊勢市",
+   "kana": "ｲｾｼ",
+   "url": "https://www.city.ise.mie.jp/",
+   "verified": false,
+   "population": 122432
+  },
+  {
+   "code": "472131",
+   "pref": "沖縄県",
+   "name": "うるま市",
+   "kana": "ｳﾙﾏｼ",
+   "url": "https://www.city.uruma.lg.jp/",
+   "verified": false,
+   "population": 122371
+  },
+  {
+   "code": "432024",
+   "pref": "熊本県",
+   "name": "八代市",
+   "kana": "ﾔﾂｼﾛｼ",
+   "url": "https://www.city.yatsushiro.lg.jp/",
+   "verified": false,
+   "population": 122134
+  },
+  {
+   "code": "292052",
+   "pref": "奈良県",
+   "name": "橿原市",
+   "kana": "ｶｼﾊﾗｼ",
+   "url": "https://www.city.kashihara.nara.jp/",
+   "verified": false,
+   "population": 121604
+  },
+  {
+   "code": "062031",
+   "pref": "山形県",
+   "name": "鶴岡市",
+   "kana": "ﾂﾙｵｶｼ",
+   "url": "https://www.tsuruokacity.com",
+   "verified": false,
+   "population": 121371
+  },
+  {
+   "code": "012173",
+   "pref": "北海道",
+   "name": "江別市",
+   "kana": "ｴﾍﾞﾂｼ",
+   "url": "https://www.city.ebetsu.hokkaido.jp/",
+   "verified": false,
+   "population": 119819
+  },
+  {
+   "code": "272183",
+   "pref": "大阪府",
+   "name": "大東市",
+   "kana": "ﾀﾞｲﾄｳｼ",
+   "url": "https://www.city.daito.lg.jp/",
+   "verified": false,
+   "population": 118812
+  },
+  {
+   "code": "272230",
+   "pref": "大阪府",
+   "name": "門真市",
+   "kana": "ｶﾄﾞﾏｼ",
+   "url": "https://www.city.kadoma.osaka.jp/",
+   "verified": false,
+   "population": 118319
+  },
+  {
+   "code": "072028",
+   "pref": "福島県",
+   "name": "会津若松市",
+   "kana": "ｱｲﾂﾞﾜｶﾏﾂｼ",
+   "url": "https://www.city.aizuwakamatsu.fukushima.jp/",
+   "verified": false,
+   "population": 117924
+  },
+  {
+   "code": "452033",
+   "pref": "宮崎県",
+   "name": "延岡市",
+   "kana": "ﾉﾍﾞｵｶｼ",
+   "url": "https://www.city.nobeoka.miyazaki.jp/",
+   "verified": false,
+   "population": 117711
+  },
+  {
+   "code": "232050",
+   "pref": "愛知県",
+   "name": "半田市",
+   "kana": "ﾊﾝﾀﾞｼ",
+   "url": "https://www.city.handa.lg.jp/",
+   "verified": false,
+   "population": 117544
+  },
+  {
+   "code": "272175",
+   "pref": "大阪府",
+   "name": "松原市",
+   "kana": "ﾏﾂﾊﾞﾗｼ",
+   "url": "https://www.city.matsubara.lg.jp/",
+   "verified": false,
+   "population": 117186
+  },
+  {
+   "code": "112178",
+   "pref": "埼玉県",
+   "name": "鴻巣市",
+   "kana": "ｺｳﾉｽｼ",
+   "url": "https://www.city.kounosu.saitama.jp/",
+   "verified": false,
+   "population": 116777
+  },
+  {
+   "code": "292095",
+   "pref": "奈良県",
+   "name": "生駒市",
+   "kana": "ｲｺﾏｼ",
+   "url": "https://www.city.ikoma.lg.jp/",
+   "verified": false,
+   "population": 116518
+  },
+  {
+   "code": "132225",
+   "pref": "東京都",
+   "name": "東久留米市",
+   "kana": "ﾋｶﾞｼｸﾙﾒｼ",
+   "url": "https://www.city.higashikurume.lg.jp/",
+   "verified": false,
+   "population": 116477
+  },
+  {
+   "code": "412023",
+   "pref": "佐賀県",
+   "name": "唐津市",
+   "kana": "ｶﾗﾂｼ",
+   "url": "https://www.city.karatsu.lg.jp/",
+   "verified": false,
+   "population": 116052
+  },
+  {
+   "code": "442020",
+   "pref": "大分県",
+   "name": "別府市",
+   "kana": "ﾍﾞｯﾌﾟｼ",
+   "url": "https://www.city.beppu.oita.jp/",
+   "verified": false,
+   "population": 115992
+  },
+  {
+   "code": "472085",
+   "pref": "沖縄県",
+   "name": "浦添市",
+   "kana": "ｳﾗｿｴｼ",
+   "url": "https://www.city.urasoe.lg.jp/",
+   "verified": false,
+   "population": 115855
+  },
+  {
+   "code": "092134",
+   "pref": "栃木県",
+   "name": "那須塩原市",
+   "kana": "ﾅｽｼｵﾊﾞﾗｼ",
+   "url": "https://www.city.nasushiobara.lg.jp/",
+   "verified": false,
+   "population": 115602
+  },
+  {
+   "code": "012084",
+   "pref": "北海道",
+   "name": "北見市",
+   "kana": "ｷﾀﾐｼ",
+   "url": "https://www.city.kitami.lg.jp/",
+   "verified": false,
+   "population": 115441
+  },
+  {
+   "code": "382051",
+   "pref": "愛媛県",
+   "name": "新居浜市",
+   "kana": "ﾆｲﾊﾏｼ",
+   "url": "https://www.city.niihama.lg.jp/",
+   "verified": false,
+   "population": 114971
+  },
+  {
+   "code": "092045",
+   "pref": "栃木県",
+   "name": "佐野市",
+   "kana": "ｻﾉｼ",
+   "url": "https://www.city.sano.lg.jp/",
+   "verified": false,
+   "population": 114842
+  },
+  {
+   "code": "342131",
+   "pref": "広島県",
+   "name": "廿日市市",
+   "kana": "ﾊﾂｶｲﾁｼ",
+   "url": "https://www.city.hatsukaichi.hiroshima.jp/",
+   "verified": false,
+   "population": 114699
+  },
+  {
+   "code": "222135",
+   "pref": "静岡県",
+   "name": "掛川市",
+   "kana": "ｶｹｶﾞﾜｼ",
+   "url": "https://www.city.kakegawa.shizuoka.jp/",
+   "verified": false,
+   "population": 113954
+  },
+  {
+   "code": "252034",
+   "pref": "滋賀県",
+   "name": "長浜市",
+   "kana": "ﾅｶﾞﾊﾏｼ",
+   "url": "https://www.city.nagahama.lg.jp/",
+   "verified": false,
+   "population": 113740
+  },
+  {
+   "code": "112453",
+   "pref": "埼玉県",
+   "name": "ふじみ野市",
+   "kana": "ﾌｼﾞﾐﾉｼ",
+   "url": "https://www.city.fujimino.saitama.jp/",
+   "verified": false,
+   "population": 113490
+  },
+  {
+   "code": "252026",
+   "pref": "滋賀県",
+   "name": "彦根市",
+   "kana": "ﾋｺﾈｼ",
+   "url": "https://www.city.hikone.lg.jp/",
+   "verified": false,
+   "population": 113191
+  },
+  {
+   "code": "352063",
+   "pref": "山口県",
+   "name": "防府市",
+   "kana": "ﾎｳﾌｼ",
+   "url": "https://www.city.hofu.yamaguchi.jp/",
+   "verified": false,
+   "population": 113170
+  },
+  {
+   "code": "232220",
+   "pref": "愛知県",
+   "name": "東海市",
+   "kana": "ﾄｳｶｲｼ",
+   "url": "https://www.city.tokai.aichi.jp/",
+   "verified": false,
+   "population": 113144
+  },
+  {
+   "code": "032158",
+   "pref": "岩手県",
+   "name": "奥州市",
+   "kana": "ｵｳｼｭｳｼ",
+   "url": "https://www.city.oshu.iwate.jp/",
+   "verified": false,
+   "population": 112531
+  },
+  {
+   "code": "252131",
+   "pref": "滋賀県",
+   "name": "東近江市",
+   "kana": "ﾋｶﾞｼｵｳﾐｼ",
+   "url": "https://www.city.higashiomi.shiga.jp/",
+   "verified": false,
+   "population": 112459
+  },
+  {
+   "code": "132071",
+   "pref": "東京都",
+   "name": "昭島市",
+   "kana": "ｱｷｼﾏｼ",
+   "url": "https://www.city.akishima.lg.jp/",
+   "verified": false,
+   "population": 112110
+  },
+  {
+   "code": "112356",
+   "pref": "埼玉県",
+   "name": "富士見市",
+   "kana": "ﾌｼﾞﾐｼ",
+   "url": "https://www.city.fujimi.saitama.jp/",
+   "verified": false,
+   "population": 111858
+  },
+  {
+   "code": "032093",
+   "pref": "岩手県",
+   "name": "一関市",
+   "kana": "ｲﾁﾉｾｷｼ",
+   "url": "https://www.city.ichinoseki.iwate.jp/",
+   "verified": false,
+   "population": 111824
+  },
+  {
+   "code": "402184",
+   "pref": "福岡県",
+   "name": "春日市",
+   "kana": "ｶｽｶﾞｼ",
+   "url": "https://www.city.kasuga.fukuoka.jp/",
+   "verified": false,
+   "population": 111144
+  },
+  {
+   "code": "112101",
+   "pref": "埼玉県",
+   "name": "加須市",
+   "kana": "ｶｿﾞｼ",
+   "url": "https://www.city.kazo.lg.jp/",
+   "verified": false,
+   "population": 110622
+  },
+  {
+   "code": "172103",
+   "pref": "石川県",
+   "name": "白山市",
+   "kana": "ﾊｸｻﾝｼ",
+   "url": "https://www.city.hakusan.lg.jp/",
+   "verified": false,
+   "population": 110135
+  },
+  {
+   "code": "402028",
+   "pref": "福岡県",
+   "name": "大牟田市",
+   "kana": "ｵｵﾑﾀｼ",
+   "url": "https://www.city.omuta.lg.jp/",
+   "verified": false,
+   "population": 110054
+  },
+  {
+   "code": "122246",
+   "pref": "千葉県",
+   "name": "鎌ケ谷市",
+   "kana": "ｶﾏｶﾞﾔｼ",
+   "url": "https://www.city.kamagaya.chiba.jp/",
+   "verified": false,
+   "population": 109370
+  },
+  {
+   "code": "282197",
+   "pref": "兵庫県",
+   "name": "三田市",
+   "kana": "ｻﾝﾀﾞｼ",
+   "url": "https://www.city.sanda.lg.jp/",
+   "verified": false,
+   "population": 109243
+  },
+  {
+   "code": "372021",
+   "pref": "香川県",
+   "name": "丸亀市",
+   "kana": "ﾏﾙｶﾞﾒｼ",
+   "url": "https://www.city.marugame.lg.jp/",
+   "verified": false,
+   "population": 109165
+  },
+  {
+   "code": "272141",
+   "pref": "大阪府",
+   "name": "富田林市",
+   "kana": "ﾄﾝﾀﾞﾊﾞﾔｼｼ",
+   "url": "https://www.city.tondabayashi.lg.jp/",
+   "verified": false,
+   "population": 108735
+  },
+  {
+   "code": "272221",
+   "pref": "大阪府",
+   "name": "羽曳野市",
+   "kana": "ﾊﾋﾞｷﾉｼ",
+   "url": "https://www.city.habikino.lg.jp/",
+   "verified": false,
+   "population": 108370
+  },
+  {
+   "code": "222062",
+   "pref": "静岡県",
+   "name": "三島市",
+   "kana": "ﾐｼﾏｼ",
+   "url": "https://www.city.mishima.shizuoka.jp/",
+   "verified": false,
+   "population": 107416
+  },
+  {
+   "code": "212041",
+   "pref": "岐阜県",
+   "name": "多治見市",
+   "kana": "ﾀｼﾞﾐｼ",
+   "url": "https://www.city.tajimi.lg.jp/",
+   "verified": false,
+   "population": 106746
+  },
+  {
+   "code": "172031",
+   "pref": "石川県",
+   "name": "小松市",
+   "kana": "ｺﾏﾂｼ",
+   "url": "https://www.city.komatsu.lg.jp/",
+   "verified": false,
+   "population": 106023
+  },
+  {
+   "code": "102032",
+   "pref": "群馬県",
+   "name": "桐生市",
+   "kana": "ｷﾘｭｳｼ",
+   "url": "https://www.city.kiryu.lg.jp/",
+   "verified": false,
+   "population": 105751
+  },
+  {
+   "code": "272043",
+   "pref": "大阪府",
+   "name": "池田市",
+   "kana": "ｲｹﾀﾞｼ",
+   "url": "https://www.city.ikeda.osaka.jp/",
+   "verified": false,
+   "population": 104148
+  },
+  {
+   "code": "082171",
+   "pref": "茨城県",
+   "name": "取手市",
+   "kana": "ﾄﾘﾃﾞｼ",
+   "url": "https://www.city.toride.ibaraki.jp/",
+   "verified": false,
+   "population": 103908
+  },
+  {
+   "code": "382060",
+   "pref": "愛媛県",
+   "name": "西条市",
+   "kana": "ｻｲｼﾞｮｳｼ",
+   "url": "https://www.city.saijo.ehime.jp/",
+   "verified": false,
+   "population": 103760
+  },
+  {
+   "code": "402176",
+   "pref": "福岡県",
+   "name": "筑紫野市",
+   "kana": "ﾁｸｼﾉｼ",
+   "url": "https://www.city.chikushino.fukuoka.jp/",
+   "verified": false,
+   "population": 103185
+  },
+  {
+   "code": "122319",
+   "pref": "千葉県",
+   "name": "印西市",
+   "kana": "ｲﾝｻﾞｲｼ",
+   "url": "https://www.city.inzai.lg.jp/",
+   "verified": false,
+   "population": 103084
+  },
+  {
+   "code": "012033",
+   "pref": "北海道",
+   "name": "小樽市",
+   "kana": "ｵﾀﾙｼ",
+   "url": "https://www.city.otaru.lg.jp/",
+   "verified": false,
+   "population": 102652
+  },
+  {
+   "code": "142140",
+   "pref": "神奈川県",
+   "name": "伊勢原市",
+   "kana": "ｲｾﾊﾗｼ",
+   "url": "https://www.city.isehara.kanagawa.jp/",
+   "verified": false,
+   "population": 102088
+  },
+  {
+   "code": "402192",
+   "pref": "福岡県",
+   "name": "大野城市",
+   "kana": "ｵｵﾉｼﾞｮｳｼ",
+   "url": "https://www.city.onojo.fukuoka.jp/",
+   "verified": false,
+   "population": 101603
+  },
+  {
+   "code": "462039",
+   "pref": "鹿児島県",
+   "name": "鹿屋市",
+   "kana": "ｶﾉﾔｼ",
+   "url": "https://www.city.kanoya.lg.jp/",
+   "verified": false,
+   "population": 100880
+  },
+  {
+   "code": "112399",
+   "pref": "埼玉県",
+   "name": "坂戸市",
+   "kana": "ｻｶﾄﾞｼ",
+   "url": "https://www.city.sakado.lg.jp/",
+   "verified": false,
+   "population": 100829
+  },
+  {
+   "code": "272167",
+   "pref": "大阪府",
+   "name": "河内長野市",
+   "kana": "ｶﾜﾁﾅｶﾞﾉｼ",
+   "url": "https://www.city.kawachinagano.lg.jp/",
+   "verified": false,
+   "population": 100415
+  },
+  {
+   "code": "212148",
+   "pref": "岐阜県",
+   "name": "可児市",
+   "kana": "ｶﾆｼ",
+   "url": "https://www.city.kani.lg.jp/",
+   "verified": false,
+   "population": 99545
+  },
+  {
+   "code": "332038",
+   "pref": "岡山県",
+   "name": "津山市",
+   "kana": "ﾂﾔﾏｼ",
+   "url": "https://www.city.tsuyama.lg.jp/",
+   "verified": false,
+   "population": 99410
+  },
+  {
+   "code": "272132",
+   "pref": "大阪府",
+   "name": "泉佐野市",
+   "kana": "ｲｽﾞﾐｻﾉｼ",
+   "url": "https://www.city.izumisano.lg.jp",
+   "verified": false,
+   "population": 99328
+  },
+  {
+   "code": "472051",
+   "pref": "沖縄県",
+   "name": "宜野湾市",
+   "kana": "ｷﾞﾉﾜﾝｼ",
+   "url": "https://www.city.ginowan.lg.jp/",
+   "verified": false,
+   "population": 99256
+  },
+  {
+   "code": "062049",
+   "pref": "山形県",
+   "name": "酒田市",
+   "kana": "ｻｶﾀｼ",
+   "url": "https://www.city.sakata.lg.jp/",
+   "verified": false,
+   "population": 99235
+  },
+  {
+   "code": "402303",
+   "pref": "福岡県",
+   "name": "糸島市",
+   "kana": "ｲﾄｼﾏｼ",
+   "url": "https://www.city.itoshima.lg.jp/",
+   "verified": false,
+   "population": 98527
+  },
+  {
+   "code": "082279",
+   "pref": "茨城県",
+   "name": "筑西市",
+   "kana": "ﾁｸｾｲｼ",
+   "url": "https://www.city.chikusei.lg.jp/",
+   "verified": false,
+   "population": 98384
+  },
+  {
+   "code": "202177",
+   "pref": "長野県",
+   "name": "佐久市",
+   "kana": "ｻｸｼ",
+   "url": "https://www.city.saku.nagano.jp/",
+   "verified": false,
+   "population": 98292
+  },
+  {
+   "code": "012246",
+   "pref": "北海道",
+   "name": "千歳市",
+   "kana": "ﾁﾄｾｼ",
+   "url": "https://www.city.chitose.lg.jp/",
+   "verified": false,
+   "population": 97945
+  },
+  {
+   "code": "232173",
+   "pref": "愛知県",
+   "name": "江南市",
+   "kana": "ｺｳﾅﾝｼ",
+   "url": "https://www.city.konan.lg.jp/",
+   "verified": false,
+   "population": 97435
+  },
+  {
+   "code": "402206",
+   "pref": "福岡県",
+   "name": "宗像市",
+   "kana": "ﾑﾅｶﾀｼ",
+   "url": "https://www.city.munakata.lg.jp/",
+   "verified": false,
+   "population": 97041
+  },
+  {
+   "code": "202053",
+   "pref": "長野県",
+   "name": "飯田市",
+   "kana": "ｲｲﾀﾞｼ",
+   "url": "https://www.city.iida.lg.jp/",
+   "verified": false,
+   "population": 96642
+  },
+  {
+   "code": "422053",
+   "pref": "長崎県",
+   "name": "大村市",
+   "kana": "ｵｵﾑﾗｼ",
+   "url": "https://www.city.omura.nagasaki.jp/",
+   "verified": false,
+   "population": 95590
+  },
+  {
+   "code": "082325",
+   "pref": "茨城県",
+   "name": "神栖市",
+   "kana": "ｶﾐｽｼ",
+   "url": "https://www.city.kamisu.ibaraki.jp/",
+   "verified": false,
+   "population": 95471
+  },
+  {
+   "code": "222097",
+   "pref": "静岡県",
+   "name": "島田市",
+   "kana": "ｼﾏﾀﾞｼ",
+   "url": "https://www.city.shimada.shizuoka.jp/",
+   "verified": false,
+   "population": 95198
+  },
+  {
+   "code": "092053",
+   "pref": "栃木県",
+   "name": "鹿沼市",
+   "kana": "ｶﾇﾏｼ",
+   "url": "https://www.city.kanuma.tochigi.jp/",
+   "verified": false,
+   "population": 94591
+  },
+  {
+   "code": "152064",
+   "pref": "新潟県",
+   "name": "新発田市",
+   "kana": "ｼﾊﾞﾀｼ",
+   "url": "https://www.city.shibata.lg.jp/",
+   "verified": false,
+   "population": 94258
+  },
+  {
+   "code": "282065",
+   "pref": "兵庫県",
+   "name": "芦屋市",
+   "kana": "ｱｼﾔｼ",
+   "url": "https://www.city.ashiya.lg.jp/",
+   "verified": false,
+   "population": 94116
+  },
+  {
+   "code": "202207",
+   "pref": "長野県",
+   "name": "安曇野市",
+   "kana": "ｱﾂﾞﾐﾉｼ",
+   "url": "https://www.city.azumino.nagano.jp/",
+   "verified": false,
+   "population": 93927
+  },
+  {
+   "code": "152048",
+   "pref": "新潟県",
+   "name": "三条市",
+   "kana": "ｻﾝｼﾞｮｳｼ",
+   "url": "https://www.city.sanjo.niigata.jp/",
+   "verified": false,
+   "population": 93671
+  },
+  {
+   "code": "132250",
+   "pref": "東京都",
+   "name": "稲城市",
+   "kana": "ｲﾅｷﾞｼ",
+   "url": "https://www.city.inagi.tokyo.jp/",
+   "verified": false,
+   "population": 93394
+  },
+  {
+   "code": "112348",
+   "pref": "埼玉県",
+   "name": "八潮市",
+   "kana": "ﾔｼｵｼ",
+   "url": "https://www.city.yashio.lg.jp/",
+   "verified": false,
+   "population": 93283
+  },
+  {
+   "code": "122289",
+   "pref": "千葉県",
+   "name": "四街道市",
+   "kana": "ﾖﾂｶｲﾄﾞｳｼ",
+   "url": "https://www.city.yotsukaido.chiba.jp/",
+   "verified": false,
+   "population": 93233
+  },
+  {
+   "code": "232301",
+   "pref": "愛知県",
+   "name": "日進市",
+   "kana": "ﾆｯｼﾝｼ",
+   "url": "https://www.city.nisshin.lg.jp/",
+   "verified": false,
+   "population": 92823
+  },
+  {
+   "code": "032051",
+   "pref": "岩手県",
+   "name": "花巻市",
+   "kana": "ﾊﾅﾏｷｼ",
+   "url": "https://www.city.hanamaki.iwate.jp/",
+   "verified": false,
+   "population": 92815
+  },
+  {
+   "code": "232238",
+   "pref": "愛知県",
+   "name": "大府市",
+   "kana": "ｵｵﾌﾞｼ",
+   "url": "https://www.city.obu.aichi.jp/",
+   "verified": false,
+   "population": 92562
+  },
+  {
+   "code": "032069",
+   "pref": "岩手県",
+   "name": "北上市",
+   "kana": "ｷﾀｶﾐｼ",
+   "url": "https://www.city.kitakami.iwate.jp/",
+   "verified": false,
+   "population": 92348
+  },
+  {
+   "code": "462152",
+   "pref": "鹿児島県",
+   "name": "薩摩川内市",
+   "kana": "ｻﾂﾏｾﾝﾀﾞｲｼ",
+   "url": "https://www.city.satsumasendai.lg.jp/",
+   "verified": false,
+   "population": 91875
+  },
+  {
+   "code": "112127",
+   "pref": "埼玉県",
+   "name": "東松山市",
+   "kana": "ﾋｶﾞｼﾏﾂﾔﾏｼ",
+   "url": "https://www.city.higashimatsuyama.lg.jp/",
+   "verified": false,
+   "population": 91818
+  },
+  {
+   "code": "162116",
+   "pref": "富山県",
+   "name": "射水市",
+   "kana": "ｲﾐｽﾞｼ",
+   "url": "https://www.city.imizu.toyama.jp/",
+   "verified": false,
+   "population": 90201
+  },
+  {
+   "code": "342041",
+   "pref": "広島県",
+   "name": "三原市",
+   "kana": "ﾐﾊﾗｼ",
+   "url": "https://www.city.mihara.hiroshima.jp/",
+   "verified": false,
+   "population": 89972
+  },
+  {
+   "code": "252093",
+   "pref": "滋賀県",
+   "name": "甲賀市",
+   "kana": "ｺｳｶｼ",
+   "url": "https://www.city.koka.lg.jp/",
+   "verified": false,
+   "population": 88538
+  },
+  {
+   "code": "182109",
+   "pref": "福井県",
+   "name": "坂井市",
+   "kana": "ｻｶｲｼ",
+   "url": "https://www.city.fukui-sakai.lg.jp/",
+   "verified": false,
+   "population": 87945
+  },
+  {
+   "code": "232378",
+   "pref": "愛知県",
+   "name": "あま市",
+   "kana": "ｱﾏｼ",
+   "url": "https://www.city.ama.aichi.jp/",
+   "verified": false,
+   "population": 87668
+  },
+  {
+   "code": "282162",
+   "pref": "兵庫県",
+   "name": "高砂市",
+   "kana": "ﾀｶｻｺﾞｼ",
+   "url": "https://www.city.takasago.lg.jp/",
+   "verified": false,
+   "population": 87220
+  },
+  {
+   "code": "222160",
+   "pref": "静岡県",
+   "name": "袋井市",
+   "kana": "ﾌｸﾛｲｼ",
+   "url": "https://www.city.fukuroi.shizuoka.jp/",
+   "verified": false,
+   "population": 86851
+  },
+  {
+   "code": "122106",
+   "pref": "千葉県",
+   "name": "茂原市",
+   "kana": "ﾓﾊﾞﾗｼ",
+   "url": "https://www.city.mobara.chiba.jp/",
+   "verified": false,
+   "population": 86446
+  },
+  {
+   "code": "222151",
+   "pref": "静岡県",
+   "name": "御殿場市",
+   "kana": "ｺﾞﾃﾝﾊﾞｼ",
+   "url": "https://www.city.gotemba.lg.jp/",
+   "verified": false,
+   "population": 86334
+  },
+  {
+   "code": "272248",
+   "pref": "大阪府",
+   "name": "摂津市",
+   "kana": "ｾｯﾂｼ",
+   "url": "https://www.city.settsu.osaka.jp/",
+   "verified": false,
+   "population": 86168
+  },
+  {
+   "code": "232343",
+   "pref": "愛知県",
+   "name": "北名古屋市",
+   "kana": "ｷﾀﾅｺﾞﾔｼ",
+   "url": "https://www.city.kitanagoya.lg.jp/",
+   "verified": false,
+   "population": 86060
+  },
+  {
+   "code": "262064",
+   "pref": "京都府",
+   "name": "亀岡市",
+   "kana": "ｶﾒｵｶｼ",
+   "url": "https://www.city.kameoka.kyoto.jp/",
+   "verified": false,
+   "population": 85962
+  },
+  {
+   "code": "242161",
+   "pref": "三重県",
+   "name": "伊賀市",
+   "kana": "ｲｶﾞｼ",
+   "url": "https://www.city.iga.lg.jp/",
+   "verified": false,
+   "population": 85883
+  },
+  {
+   "code": "212059",
+   "pref": "岐阜県",
+   "name": "関市",
+   "kana": "ｾｷｼ",
+   "url": "https://www.city.seki.lg.jp/",
+   "verified": false,
+   "population": 85636
+  },
+  {
+   "code": "212032",
+   "pref": "岐阜県",
+   "name": "高山市",
+   "kana": "ﾀｶﾔﾏｼ",
+   "url": "https://www.city.takayama.lg.jp/",
+   "verified": false,
+   "population": 85199
+  },
+  {
+   "code": "052035",
+   "pref": "秋田県",
+   "name": "横手市",
+   "kana": "ﾖｺﾃｼ",
+   "url": "https://www.city.yokote.lg.jp/",
+   "verified": false,
+   "population": 84556
+  },
+  {
+   "code": "082198",
+   "pref": "茨城県",
+   "name": "牛久市",
+   "kana": "ｳｼｸｼ",
+   "url": "https://www.city.ushiku.lg.jp/",
+   "verified": false,
+   "population": 84505
+  },
+  {
+   "code": "132195",
+   "pref": "東京都",
+   "name": "狛江市",
+   "kana": "ｺﾏｴｼ",
+   "url": "https://www.city.komae.tokyo.jp/",
+   "verified": false,
+   "population": 84437
+  },
+  {
+   "code": "272086",
+   "pref": "大阪府",
+   "name": "貝塚市",
+   "kana": "ｶｲﾂﾞｶｼ",
+   "url": "https://www.city.kaizuka.lg.jp/",
+   "verified": false,
+   "population": 84356
+  },
+  {
+   "code": "132209",
+   "pref": "東京都",
+   "name": "東大和市",
+   "kana": "ﾋｶﾞｼﾔﾏﾄｼ",
+   "url": "https://www.city.higashiyamato.lg.jp/",
+   "verified": false,
+   "population": 84260
+  },
+  {
+   "code": "142182",
+   "pref": "神奈川県",
+   "name": "綾瀬市",
+   "kana": "ｱﾔｾｼ",
+   "url": "https://www.city.ayase.kanagawa.jp/",
+   "verified": false,
+   "population": 84257
+  },
+  {
+   "code": "112291",
+   "pref": "埼玉県",
+   "name": "和光市",
+   "kana": "ﾜｺｳｼ",
+   "url": "https://www.city.wako.lg.jp/",
+   "verified": false,
+   "population": 84120
+  },
+  {
+   "code": "292036",
+   "pref": "奈良県",
+   "name": "大和郡山市",
+   "kana": "ﾔﾏﾄｺｵﾘﾔﾏｼ",
+   "url": "https://www.city.yamatokoriyama.lg.jp/",
+   "verified": false,
+   "population": 84007
+  },
+  {
+   "code": "232246",
+   "pref": "愛知県",
+   "name": "知多市",
+   "kana": "ﾁﾀｼ",
+   "url": "https://www.city.chita.lg.jp/",
+   "verified": false,
+   "population": 83881
+  },
+  {
+   "code": "252077",
+   "pref": "滋賀県",
+   "name": "守山市",
+   "kana": "ﾓﾘﾔﾏｼ",
+   "url": "https://www.city.moriyama.lg.jp/",
+   "verified": false,
+   "population": 83567
+  },
+  {
+   "code": "442038",
+   "pref": "大分県",
+   "name": "中津市",
+   "kana": "ﾅｶﾂｼ",
+   "url": "https://www.city-nakatsu.jp/",
+   "verified": false,
+   "population": 82714
+  },
+  {
+   "code": "232262",
+   "pref": "愛知県",
+   "name": "尾張旭市",
+   "kana": "ｵﾜﾘｱｻﾋｼ",
+   "url": "https://www.city.owariasahi.lg.jp/",
+   "verified": false,
+   "population": 82336
+  },
+  {
+   "code": "382132",
+   "pref": "愛媛県",
+   "name": "四国中央市",
+   "kana": "ｼｺｸﾁｭｳｵｳｼ",
+   "url": "https://www.city.shikokuchuo.ehime.jp/",
+   "verified": false,
+   "population": 82320
+  },
+  {
+   "code": "012050",
+   "pref": "北海道",
+   "name": "室蘭市",
+   "kana": "ﾑﾛﾗﾝｼ",
+   "url": "https://www.city.muroran.lg.jp/",
+   "verified": false,
+   "population": 81580
+  },
+  {
+   "code": "252042",
+   "pref": "滋賀県",
+   "name": "近江八幡市",
+   "kana": "ｵｳﾐﾊﾁﾏﾝｼ",
+   "url": "https://www.city.omihachiman.lg.jp/",
+   "verified": false,
+   "population": 81545
+  },
+  {
+   "code": "122254",
+   "pref": "千葉県",
+   "name": "君津市",
+   "kana": "ｷﾐﾂｼ",
+   "url": "https://www.city.kimitsu.lg.jp/",
+   "verified": false,
+   "population": 81355
+  },
+  {
+   "code": "152056",
+   "pref": "新潟県",
+   "name": "柏崎市",
+   "kana": "ｶｼﾜｻﾞｷｼ",
+   "url": "https://www.city.kashiwazaki.lg.jp/",
+   "verified": false,
+   "population": 81027
+  },
+  {
+   "code": "062022",
+   "pref": "山形県",
+   "name": "米沢市",
+   "kana": "ﾖﾈｻﾞﾜｼ",
+   "url": "https://www.city.yonezawa.yamagata.jp/",
+   "verified": false,
+   "population": 80795
+  },
+  {
+   "code": "262099",
+   "pref": "京都府",
+   "name": "長岡京市",
+   "kana": "ﾅｶﾞｵｶｷｮｳｼ",
+   "url": "https://www.city.nagaokakyo.lg.jp/",
+   "verified": false,
+   "population": 80423
+  },
+  {
+   "code": "182095",
+   "pref": "福井県",
+   "name": "越前市",
+   "kana": "ｴﾁｾﾞﾝｼ",
+   "url": "https://www.city.echizen.lg.jp/",
+   "verified": false,
+   "population": 80264
+  },
+  {
+   "code": "112097",
+   "pref": "埼玉県",
+   "name": "飯能市",
+   "kana": "ﾊﾝﾉｳｼ",
+   "url": "https://www.city.hanno.lg.jp/",
+   "verified": false,
+   "population": 80099
+  },
+  {
+   "code": "132284",
+   "pref": "東京都",
+   "name": "あきる野市",
+   "kana": "ｱｷﾙﾉｼ",
+   "url": "https://www.city.akiruno.tokyo.jp/",
+   "verified": false,
+   "population": 79600
+  },
+  {
+   "code": "012106",
+   "pref": "北海道",
+   "name": "岩見沢市",
+   "kana": "ｲﾜﾐｻﾞﾜｼ",
+   "url": "https://www.city.iwamizawa.hokkaido.jp/",
+   "verified": false,
+   "population": 79361
+  },
+  {
+   "code": "232149",
+   "pref": "愛知県",
+   "name": "蒲郡市",
+   "kana": "ｶﾞﾏｺﾞｵﾘｼ",
+   "url": "https://www.city.gamagori.lg.jp/",
+   "verified": false,
+   "population": 79292
+  },
+  {
+   "code": "042072",
+   "pref": "宮城県",
+   "name": "名取市",
+   "kana": "ﾅﾄﾘｼ",
+   "url": "https://www.city.natori.miyagi.jp/",
+   "verified": false,
+   "population": 79250
+  },
+  {
+   "code": "262021",
+   "pref": "京都府",
+   "name": "舞鶴市",
+   "kana": "ﾏｲﾂﾞﾙｼ",
+   "url": "https://www.city.maizuru.kyoto.jp/",
+   "verified": false,
+   "population": 78730
+  },
+  {
+   "code": "092096",
+   "pref": "栃木県",
+   "name": "真岡市",
+   "kana": "ﾓｵｶｼ",
+   "url": "https://www.city.moka.lg.jp/",
+   "verified": false,
+   "population": 78665
+  },
+  {
+   "code": "112062",
+   "pref": "埼玉県",
+   "name": "行田市",
+   "kana": "ｷﾞﾖｳﾀﾞｼ",
+   "url": "https://www.city.gyoda.lg.jp/",
+   "verified": false,
+   "population": 78488
+  },
+  {
+   "code": "292109",
+   "pref": "奈良県",
+   "name": "香芝市",
+   "kana": "ｶｼﾊﾞｼ",
+   "url": "https://www.city.kashiba.lg.jp/",
+   "verified": false,
+   "population": 78346
+  },
+  {
+   "code": "262145",
+   "pref": "京都府",
+   "name": "木津川市",
+   "kana": "ｷﾂﾞｶﾞﾜｼ",
+   "url": "https://www.city.kizugawa.lg.jp/",
+   "verified": false,
+   "population": 78035
+  },
+  {
+   "code": "462250",
+   "pref": "鹿児島県",
+   "name": "姶良市",
+   "kana": "ｱｲﾗｼ",
+   "url": "https://www.city.aira.lg.jp/",
+   "verified": false,
+   "population": 77948
+  },
+  {
+   "code": "262013",
+   "pref": "京都府",
+   "name": "福知山市",
+   "kana": "ﾌｸﾁﾔﾏｼ",
+   "url": "https://www.city.fukuchiyama.lg.jp/",
+   "verified": false,
+   "population": 77150
+  },
+  {
+   "code": "092061",
+   "pref": "栃木県",
+   "name": "日光市",
+   "kana": "ﾆｯｺｳｼ",
+   "url": "https://www.city.nikko.lg.jp/",
+   "verified": false,
+   "population": 77027
+  },
+  {
+   "code": "282090",
+   "pref": "兵庫県",
+   "name": "豊岡市",
+   "kana": "ﾄﾖｵｶｼ",
+   "url": "https://www.city.toyooka.lg.jp/",
+   "verified": false,
+   "population": 77005
+  },
+  {
+   "code": "112119",
+   "pref": "埼玉県",
+   "name": "本庄市",
+   "kana": "ﾎﾝｼﾞﾖｳｼ",
+   "url": "https://www.city.honjo.lg.jp/",
+   "verified": false,
+   "population": 76757
+  },
+  {
+   "code": "152137",
+   "pref": "新潟県",
+   "name": "燕市",
+   "kana": "ﾂﾊﾞﾒｼ",
+   "url": "https://www.city.tsubame.niigata.jp/",
+   "verified": false,
+   "population": 76590
+  },
+  {
+   "code": "042129",
+   "pref": "宮城県",
+   "name": "登米市",
+   "kana": "ﾄﾒｼ",
+   "url": "https://www.city.tome.miyagi.jp/",
+   "verified": false,
+   "population": 76164
+  },
+  {
+   "code": "052124",
+   "pref": "秋田県",
+   "name": "大仙市",
+   "kana": "ﾀﾞｲｾﾝｼ",
+   "url": "https://www.city.daisen.lg.jp/",
+   "verified": false,
+   "population": 76164
+  },
+  {
+   "code": "082082",
+   "pref": "茨城県",
+   "name": "龍ケ崎市",
+   "kana": "ﾘｭｳｶﾞｻｷｼ",
+   "url": "https://www.city.ryugasaki.ibaraki.jp/",
+   "verified": false,
+   "population": 76055
+  },
+  {
+   "code": "272302",
+   "pref": "大阪府",
+   "name": "交野市",
+   "kana": "ｶﾀﾉｼ",
+   "url": "https://www.city.katano.osaka.jp/",
+   "verified": false,
+   "population": 76002
+  },
+  {
+   "code": "242080",
+   "pref": "三重県",
+   "name": "名張市",
+   "kana": "ﾅﾊﾞﾘｼ",
+   "url": "https://www.city.nabari.lg.jp/",
+   "verified": false,
+   "population": 75942
+  },
+  {
+   "code": "212067",
+   "pref": "岐阜県",
+   "name": "中津川市",
+   "kana": "ﾅｶﾂｶﾞﾜｼ",
+   "url": "https://www.city.nakatsugawa.lg.jp/",
+   "verified": false,
+   "population": 75500
+  },
+  {
+   "code": "132217",
+   "pref": "東京都",
+   "name": "清瀬市",
+   "kana": "ｷﾖｾｼ",
+   "url": "https://www.city.kiyose.lg.jp/",
+   "verified": false,
+   "population": 75389
+  },
+  {
+   "code": "192104",
+   "pref": "山梨県",
+   "name": "甲斐市",
+   "kana": "ｶｲｼ",
+   "url": "https://www.city.kai.yamanashi.jp/",
+   "verified": false,
+   "population": 75337
+  },
+  {
+   "code": "112283",
+   "pref": "埼玉県",
+   "name": "志木市",
+   "kana": "ｼｷｼ",
+   "url": "https://www.city.shiki.lg.jp/",
+   "verified": false,
+   "population": 75247
+  },
+  {
+   "code": "132152",
+   "pref": "東京都",
+   "name": "国立市",
+   "kana": "ｸﾆﾀﾁｼ",
+   "url": "https://www.city.kunitachi.tokyo.jp/",
+   "verified": false,
+   "population": 75133
+  },
+  {
+   "code": "112232",
+   "pref": "埼玉県",
+   "name": "蕨市",
+   "kana": "ﾜﾗﾋﾞｼ",
+   "url": "https://www.city.warabi.saitama.jp/",
+   "verified": false,
+   "population": 74996
+  },
+  {
+   "code": "432156",
+   "pref": "熊本県",
+   "name": "天草市",
+   "kana": "ｱﾏｸｻｼ",
+   "url": "https://www.city.amakusa.kumamoto.jp/",
+   "verified": false,
+   "population": 74861
+  },
+  {
+   "code": "072079",
+   "pref": "福島県",
+   "name": "須賀川市",
+   "kana": "ｽｶｶﾞﾜｼ",
+   "url": "https://www.city.sukagawa.fukushima.jp/",
+   "verified": false,
+   "population": 74778
+  },
+  {
+   "code": "412031",
+   "pref": "佐賀県",
+   "name": "鳥栖市",
+   "kana": "ﾄｽｼ",
+   "url": "https://www.city.tosu.lg.jp/",
+   "verified": false,
+   "population": 74673
+  },
+  {
+   "code": "262072",
+   "pref": "京都府",
+   "name": "城陽市",
+   "kana": "ｼﾞｮｳﾖｳｼ",
+   "url": "https://www.city.joyo.kyoto.jp/",
+   "verified": false,
+   "population": 74356
+  },
+  {
+   "code": "282154",
+   "pref": "兵庫県",
+   "name": "三木市",
+   "kana": "ﾐｷｼ",
+   "url": "https://www.city.miki.lg.jp/",
+   "verified": false,
+   "population": 74255
+  },
+  {
+   "code": "272060",
+   "pref": "大阪府",
+   "name": "泉大津市",
+   "kana": "ｲｽﾞﾐｵｵﾂｼ",
+   "url": "https://www.city.izumiotsu.lg.jp/",
+   "verified": false,
+   "population": 74175
+  },
+  {
+   "code": "112313",
+   "pref": "埼玉県",
+   "name": "桶川市",
+   "kana": "ｵｹｶﾞﾜｼ",
+   "url": "https://www.city.okegawa.lg.jp/",
+   "verified": false,
+   "population": 74115
+  },
+  {
+   "code": "102075",
+   "pref": "群馬県",
+   "name": "館林市",
+   "kana": "ﾀﾃﾊﾞﾔｼｼ",
+   "url": "https://www.city.tatebayashi.gunma.jp/",
+   "verified": false,
+   "population": 73991
+  },
+  {
+   "code": "262111",
+   "pref": "京都府",
+   "name": "京田辺市",
+   "kana": "ｷｮｳﾀﾅﾍﾞｼ",
+   "url": "https://www.city.kyotanabe.lg.jp/",
+   "verified": false,
+   "population": 73985
+  },
+  {
+   "code": "282294",
+   "pref": "兵庫県",
+   "name": "たつの市",
+   "kana": "ﾀﾂﾉｼ",
+   "url": "https://www.city.tatsuno.lg.jp/",
+   "verified": false,
+   "population": 73952
+  },
+  {
+   "code": "052108",
+   "pref": "秋田県",
+   "name": "由利本荘市",
+   "kana": "ﾕﾘﾎﾝｼﾞｮｳｼ",
+   "url": "https://www.city.yurihonjo.lg.jp/",
+   "verified": false,
+   "population": 73840
+  },
+  {
+   "code": "082163",
+   "pref": "茨城県",
+   "name": "笠間市",
+   "kana": "ｶｻﾏｼ",
+   "url": "https://www.city.kasama.lg.jp/",
+   "verified": false,
+   "population": 73521
+  },
+  {
+   "code": "102083",
+   "pref": "群馬県",
+   "name": "渋川市",
+   "kana": "ｼﾌﾞｶﾜｼ",
+   "url": "https://www.city.shibukawa.lg.jp/",
+   "verified": false,
+   "population": 73064
+  },
+  {
+   "code": "232157",
+   "pref": "愛知県",
+   "name": "犬山市",
+   "kana": "ｲﾇﾔﾏｼ",
+   "url": "https://www.city.inuyama.aichi.jp/",
+   "verified": false,
+   "population": 72926
+  },
+  {
+   "code": "092100",
+   "pref": "栃木県",
+   "name": "大田原市",
+   "kana": "ｵｵﾀﾜﾗｼ",
+   "url": "https://www.city.ohtawara.tochigi.jp/",
+   "verified": false,
+   "population": 72923
+  },
+  {
+   "code": "232092",
+   "pref": "愛知県",
+   "name": "碧南市",
+   "kana": "ﾍｷﾅﾝｼ",
+   "url": "https://www.city.hekinan.lg.jp/",
+   "verified": false,
+   "population": 72480
+  },
+  {
+   "code": "402214",
+   "pref": "福岡県",
+   "name": "太宰府市",
+   "kana": "ﾀﾞｻﾞｲﾌｼ",
+   "url": "https://www.city.dazaifu.lg.jp/",
+   "verified": false,
+   "population": 72430
+  },
+  {
+   "code": "112437",
+   "pref": "埼玉県",
+   "name": "吉川市",
+   "kana": "ﾖｼｶﾜｼ",
+   "url": "https://www.city.yoshikawa.saitama.jp/",
+   "verified": false,
+   "population": 72139
+  },
+  {
+   "code": "232254",
+   "pref": "愛知県",
+   "name": "知立市",
+   "kana": "ﾁﾘｭｳｼ",
+   "url": "https://www.city.chiryu.aichi.jp",
+   "verified": false,
+   "population": 71907
+  },
+  {
+   "code": "082058",
+   "pref": "茨城県",
+   "name": "石岡市",
+   "kana": "ｲｼｵｶｼ",
+   "url": "https://www.city.ishioka.lg.jp",
+   "verified": false,
+   "population": 71851
+  },
+  {
+   "code": "122360",
+   "pref": "千葉県",
+   "name": "香取市",
+   "kana": "ｶﾄﾘｼ",
+   "url": "https://www.city.katori.lg.jp/",
+   "verified": false,
+   "population": 71391
+  },
+  {
+   "code": "132233",
+   "pref": "東京都",
+   "name": "武蔵村山市",
+   "kana": "ﾑｻｼﾑﾗﾔﾏｼ",
+   "url": "https://www.city.musashimurayama.lg.jp/",
+   "verified": false,
+   "population": 71183
+  },
+  {
+   "code": "402133",
+   "pref": "福岡県",
+   "name": "行橋市",
+   "kana": "ﾕｸﾊｼｼ",
+   "url": "https://www.city.yukuhashi.fukuoka.jp/",
+   "verified": false,
+   "population": 70922
+  },
+  {
+   "code": "262102",
+   "pref": "京都府",
+   "name": "八幡市",
+   "kana": "ﾔﾜﾀｼ",
+   "url": "https://www.city.yawata.kyoto.jp/",
+   "verified": false,
+   "population": 70373
+  },
+  {
+   "code": "012319",
+   "pref": "北海道",
+   "name": "恵庭市",
+   "kana": "ｴﾆﾜｼ",
+   "url": "https://www.city.eniwa.hokkaido.jp/",
+   "verified": false,
+   "population": 70102
+  },
+  {
+   "code": "112411",
+   "pref": "埼玉県",
+   "name": "鶴ヶ島市",
+   "kana": "ﾂﾙｶﾞｼﾏｼ",
+   "url": "https://www.city.tsurugashima.lg.jp/",
+   "verified": false,
+   "population": 70067
+  },
+  {
+   "code": "232335",
+   "pref": "愛知県",
+   "name": "清須市",
+   "kana": "ｷﾖｽｼ",
+   "url": "https://www.city.kiyosu.aichi.jp/",
+   "verified": false,
+   "population": 69809
+  },
+  {
+   "code": "192082",
+   "pref": "山梨県",
+   "name": "南アルプス市",
+   "kana": "ﾐﾅﾐｱﾙﾌﾟｽｼ",
+   "url": "https://www.city.minami-alps.yamanashi.jp/",
+   "verified": false,
+   "population": 69642
+  },
+  {
+   "code": "382035",
+   "pref": "愛媛県",
+   "name": "宇和島市",
+   "kana": "ｳﾜｼﾞﾏｼ",
+   "url": "https://www.city.uwajima.ehime.jp/",
+   "verified": false,
+   "population": 69639
+  },
+  {
+   "code": "252085",
+   "pref": "滋賀県",
+   "name": "栗東市",
+   "kana": "ﾘｯﾄｳｼ",
+   "url": "https://www.city.ritto.lg.jp/",
+   "verified": false,
+   "population": 69598
+  },
+  {
+   "code": "232297",
+   "pref": "愛知県",
+   "name": "豊明市",
+   "kana": "ﾄﾖｱｹｼ",
+   "url": "https://www.city.toyoake.lg.jp/",
+   "verified": false,
+   "population": 69389
+  },
+  {
+   "code": "362042",
+   "pref": "徳島県",
+   "name": "阿南市",
+   "kana": "ｱﾅﾝｼ",
+   "url": "https://www.city.anan.tokushima.jp/",
+   "verified": false,
+   "population": 69259
+  },
+  {
+   "code": "082244",
+   "pref": "茨城県",
+   "name": "守谷市",
+   "kana": "ﾓﾘﾔｼ",
+   "url": "https://www.city.moriya.ibaraki.jp/",
+   "verified": false,
+   "population": 68992
+  },
+  {
+   "code": "302066",
+   "pref": "和歌山県",
+   "name": "田辺市",
+   "kana": "ﾀﾅﾍﾞｼ",
+   "url": "https://www.city.tanabe.lg.jp/",
+   "verified": false,
+   "population": 68986
+  },
+  {
+   "code": "182079",
+   "pref": "福井県",
+   "name": "鯖江市",
+   "kana": "ｻﾊﾞｴｼ",
+   "url": "https://www.city.sabae.fukui.jp/",
+   "verified": false,
+   "population": 68666
+  },
+  {
+   "code": "052043",
+   "pref": "秋田県",
+   "name": "大館市",
+   "kana": "ｵｵﾀﾞﾃｼ",
+   "url": "https://www.city.odate.lg.jp/",
+   "verified": false,
+   "population": 68593
+  },
+  {
+   "code": "332089",
+   "pref": "岡山県",
+   "name": "総社市",
+   "kana": "ｿｳｼﾞﾔｼ",
+   "url": "https://www.city.soja.okayama.jp/",
+   "verified": false,
+   "population": 68551
+  },
+  {
+   "code": "272213",
+   "pref": "大阪府",
+   "name": "柏原市",
+   "kana": "ｶｼﾜﾗｼ",
+   "url": "http://www.city.kashiwara.osaka.jp/",
+   "verified": false,
+   "population": 67757
+  },
+  {
+   "code": "192112",
+   "pref": "山梨県",
+   "name": "笛吹市",
+   "kana": "ﾌｴﾌｷｼ",
+   "url": "https://www.city.fuefuki.yamanashi.jp/",
+   "verified": false,
+   "population": 67396
+  },
+  {
+   "code": "082228",
+   "pref": "茨城県",
+   "name": "鹿嶋市",
+   "kana": "ｶｼﾏｼ",
+   "url": "https://www.city.kashima.ibaraki.jp/",
+   "verified": false,
+   "population": 67001
+  },
+  {
+   "code": "112071",
+   "pref": "埼玉県",
+   "name": "秩父市",
+   "kana": "ﾁﾁﾌﾞｼ",
+   "url": "https://www.city.chichibu.lg.jp/",
+   "verified": false,
+   "population": 66955
+  },
+  {
+   "code": "442054",
+   "pref": "大分県",
+   "name": "佐伯市",
+   "kana": "ｻｲｷｼ",
+   "url": "https://www.city.saiki.oita.jp/",
+   "verified": false,
+   "population": 66497
+  },
+  {
+   "code": "122301",
+   "pref": "千葉県",
+   "name": "八街市",
+   "kana": "ﾔﾁﾏﾀｼ",
+   "url": "https://www.city.yachimata.lg.jp/",
+   "verified": false,
+   "population": 66430
+  },
+  {
+   "code": "212091",
+   "pref": "岐阜県",
+   "name": "羽島市",
+   "kana": "ﾊｼﾏｼ",
+   "url": "https://www.city.hashima.lg.jp/",
+   "verified": false,
+   "population": 66312
+  },
+  {
+   "code": "202151",
+   "pref": "長野県",
+   "name": "塩尻市",
+   "kana": "ｼｵｼﾞﾘｼ",
+   "url": "https://www.city.shiojiri.lg.jp/",
+   "verified": false,
+   "population": 66181
+  },
+  {
+   "code": "402249",
+   "pref": "福岡県",
+   "name": "福津市",
+   "kana": "ﾌｸﾂｼ",
+   "url": "https://www.city.fukutsu.lg.jp/",
+   "verified": false,
+   "population": 65770
+  },
+  {
+   "code": "202096",
+   "pref": "長野県",
+   "name": "伊那市",
+   "kana": "ｲﾅｼ",
+   "url": "https://www.inacity.jp/",
+   "verified": false,
+   "population": 65670
+  },
+  {
+   "code": "112330",
+   "pref": "埼玉県",
+   "name": "北本市",
+   "kana": "ｷﾀﾓﾄｼ",
+   "url": "http://www.city.kitamoto.saitama.jp/",
+   "verified": false,
+   "population": 65191
+  },
+  {
+   "code": "472123",
+   "pref": "沖縄県",
+   "name": "豊見城市",
+   "kana": "ﾄﾐｸﾞｽｸｼ",
+   "url": "https://www.city.tomigusuku.lg.jp/",
+   "verified": false,
+   "population": 64850
+  },
+  {
+   "code": "222089",
+   "pref": "静岡県",
+   "name": "伊東市",
+   "kana": "ｲﾄｳｼ",
+   "url": "https://www.city.ito.shizuoka.jp/",
+   "verified": false,
+   "population": 64473
+  },
+  {
+   "code": "432067",
+   "pref": "熊本県",
+   "name": "玉名市",
+   "kana": "ﾀﾏﾅｼ",
+   "url": "https://www.city.tamana.lg.jp/",
+   "verified": false,
+   "population": 64206
+  },
+  {
+   "code": "402079",
+   "pref": "福岡県",
+   "name": "柳川市",
+   "kana": "ﾔﾅｶﾞﾜｼ",
+   "url": "https://www.city.yanagawa.fukuoka.jp/",
+   "verified": false,
+   "population": 64120
+  },
+  {
+   "code": "122297",
+   "pref": "千葉県",
+   "name": "袖ケ浦市",
+   "kana": "ｿﾃﾞｶﾞｳﾗｼ",
+   "url": "https://www.city.sodegaura.lg.jp/",
+   "verified": false,
+   "population": 63975
+  },
+  {
+   "code": "292044",
+   "pref": "奈良県",
+   "name": "天理市",
+   "kana": "ﾃﾝﾘｼ",
+   "url": "https://www.city.tenri.nara.jp/",
+   "verified": false,
+   "population": 63760
+  },
+  {
+   "code": "182028",
+   "pref": "福井県",
+   "name": "敦賀市",
+   "kana": "ﾂﾙｶﾞｼ",
+   "url": "https://www.city.tsuruga.lg.jp/",
+   "verified": false,
+   "population": 63724
+  },
+  {
+   "code": "042137",
+   "pref": "宮城県",
+   "name": "栗原市",
+   "kana": "ｸﾘﾊﾗｼ",
+   "url": "https://www.kuriharacity.jp/",
+   "verified": false,
+   "population": 63689
+  },
+  {
+   "code": "122157",
+   "pref": "千葉県",
+   "name": "旭市",
+   "kana": "ｱｻﾋｼ",
+   "url": "https://www.city.asahi.lg.jp/",
+   "verified": false,
+   "population": 63507
+  },
+  {
+   "code": "272264",
+   "pref": "大阪府",
+   "name": "藤井寺市",
+   "kana": "ﾌｼﾞｲﾃﾞﾗｼ",
+   "url": "https://www.city.fujiidera.lg.jp/",
+   "verified": false,
+   "population": 63338
+  },
+  {
+   "code": "472093",
+   "pref": "沖縄県",
+   "name": "名護市",
+   "kana": "ﾅｺﾞｼ",
+   "url": "https://www.city.nago.okinawa.jp/",
+   "verified": false,
+   "population": 63060
+  },
+  {
+   "code": "172065",
+   "pref": "石川県",
+   "name": "加賀市",
+   "kana": "ｶｶﾞｼ",
+   "url": "https://www.city.kaga.ishikawa.jp/",
+   "verified": false,
+   "population": 62997
+  },
+  {
+   "code": "232360",
+   "pref": "愛知県",
+   "name": "みよし市",
+   "kana": "ﾐﾖｼｼ",
+   "url": "https://www.city.aichi-miyoshi.lg.jp/",
+   "verified": false,
+   "population": 62963
+  },
+  {
+   "code": "102091",
+   "pref": "群馬県",
+   "name": "藤岡市",
+   "kana": "ﾌｼﾞｵｶｼ",
+   "url": "https://www.city.fujioka.gunma.jp/",
+   "verified": false,
+   "population": 62608
+  },
+  {
+   "code": "232386",
+   "pref": "愛知県",
+   "name": "長久手市",
+   "kana": "ﾅｶﾞｸﾃｼ",
+   "url": "https://www.city.nagakute.lg.jp/",
+   "verified": false,
+   "population": 62473
+  },
+  {
+   "code": "432164",
+   "pref": "熊本県",
+   "name": "合志市",
+   "kana": "ｺｳｼｼ",
+   "url": "https://www.city.koshi.lg.jp/",
+   "verified": false,
+   "population": 61997
+  },
+  {
+   "code": "062103",
+   "pref": "山形県",
+   "name": "天童市",
+   "kana": "ﾃﾝﾄﾞｳｼ",
+   "url": "https://www.city.tendo.yamagata.jp/",
+   "verified": false,
+   "population": 61981
+  },
+  {
+   "code": "042099",
+   "pref": "宮城県",
+   "name": "多賀城市",
+   "kana": "ﾀｶﾞｼﾞｮｳｼ",
+   "url": "https://www.city.tagajo.miyagi.jp/",
+   "verified": false,
+   "population": 61937
+  },
+  {
+   "code": "372081",
+   "pref": "香川県",
+   "name": "三豊市",
+   "kana": "ﾐﾄﾖｼ",
+   "url": "https://www.city.mitoyo.lg.jp/",
+   "verified": false,
+   "population": 61838
+  },
+  {
+   "code": "442046",
+   "pref": "大分県",
+   "name": "日田市",
+   "kana": "ﾋﾀｼ",
+   "url": "https://www.city.hita.oita.jp/",
+   "verified": false,
+   "population": 61755
+  },
+  {
+   "code": "122327",
+   "pref": "千葉県",
+   "name": "白井市",
+   "kana": "ｼﾛｲｼ",
+   "url": "https://www.city.shiroi.chiba.jp/",
+   "verified": false,
+   "population": 61673
+  },
+  {
+   "code": "112381",
+   "pref": "埼玉県",
+   "name": "蓮田市",
+   "kana": "ﾊｽﾀﾞｼ",
+   "url": "https://www.city.hasuda.saitama.jp/",
+   "verified": false,
+   "population": 61473
+  },
+  {
+   "code": "232327",
+   "pref": "愛知県",
+   "name": "愛西市",
+   "kana": "ｱｲｻｲｼ",
+   "url": "https://www.city.aisai.lg.jp/",
+   "verified": false,
+   "population": 60914
+  },
+  {
+   "code": "232084",
+   "pref": "愛知県",
+   "name": "津島市",
+   "kana": "ﾂｼﾏｼ",
+   "url": "https://www.city.tsushima.lg.jp",
+   "verified": false,
+   "population": 60908
+  },
+  {
+   "code": "472107",
+   "pref": "沖縄県",
+   "name": "糸満市",
+   "kana": "ｲﾄﾏﾝｼ",
+   "url": "https://www.city.itoman.lg.jp/",
+   "verified": false,
+   "population": 60903
+  },
+  {
+   "code": "282235",
+   "pref": "兵庫県",
+   "name": "丹波市",
+   "kana": "ﾀﾝﾊﾞｼ",
+   "url": "https://www.city.tamba.lg.jp/",
+   "verified": false,
+   "population": 60824
+  },
+  {
+   "code": "292028",
+   "pref": "奈良県",
+   "name": "大和高田市",
+   "kana": "ﾔﾏﾄﾀｶﾀﾞｼ",
+   "url": "https://www.city.yamatotakada.nara.jp/",
+   "verified": false,
+   "population": 60791
+  },
+  {
+   "code": "402109",
+   "pref": "福岡県",
+   "name": "八女市",
+   "kana": "ﾔﾒｼ",
+   "url": "https://www.city.yame.fukuoka.jp/",
+   "verified": false,
+   "population": 60196
+  },
+  {
+   "code": "022063",
+   "pref": "青森県",
+   "name": "十和田市",
+   "kana": "ﾄﾜﾀﾞｼ",
+   "url": "https://www.city.towada.lg.jp/",
+   "verified": false,
+   "population": 60063
+  },
+  {
+   "code": "302031",
+   "pref": "和歌山県",
+   "name": "橋本市",
+   "kana": "ﾊｼﾓﾄｼ",
+   "url": "https://www.city.hashimoto.lg.jp/",
+   "verified": false,
+   "population": 60058
+  },
+  {
+   "code": "352161",
+   "pref": "山口県",
+   "name": "山陽小野田市",
+   "kana": "ｻﾝﾖｳｵﾉﾀﾞｼ",
+   "url": "https://www.city.sanyo-onoda.lg.jp/",
+   "verified": false,
+   "population": 59648
+  },
+  {
+   "code": "272281",
+   "pref": "大阪府",
+   "name": "泉南市",
+   "kana": "ｾﾝﾅﾝｼ",
+   "url": "https://www.city.sennan.lg.jp/",
+   "verified": false,
+   "population": 59634
+  },
+  {
+   "code": "092169",
+   "pref": "栃木県",
+   "name": "下野市",
+   "kana": "ｼﾓﾂｹｼ",
+   "url": "https://www.city.shimotsuke.lg.jp/",
+   "verified": false,
+   "population": 59404
+  },
+  {
+   "code": "402231",
+   "pref": "福岡県",
+   "name": "古賀市",
+   "kana": "ｺｶﾞｼ",
+   "url": "https://www.city.koga.fukuoka.jp/",
+   "verified": false,
+   "population": 59349
+  },
+  {
+   "code": "042056",
+   "pref": "宮城県",
+   "name": "気仙沼市",
+   "kana": "ｹｾﾝﾇﾏｼ",
+   "url": "https://www.kesennuma.miyagi.jp/",
+   "verified": false,
+   "population": 59341
+  },
+  {
+   "code": "452068",
+   "pref": "宮崎県",
+   "name": "日向市",
+   "kana": "ﾋｭｳｶﾞｼ",
+   "url": "https://www.hyugacity.jp/",
+   "verified": false,
+   "population": 59276
+  },
+  {
+   "code": "082112",
+   "pref": "茨城県",
+   "name": "常総市",
+   "kana": "ｼﾞｮｳｿｳｼ",
+   "url": "https://www.city.joso.lg.jp/",
+   "verified": false,
+   "population": 59223
+  },
+  {
+   "code": "072052",
+   "pref": "福島県",
+   "name": "白河市",
+   "kana": "ｼﾗｶﾜｼ",
+   "url": "https://www.city.shirakawa.fukushima.jp/",
+   "verified": false,
+   "population": 59044
+  },
+  {
+   "code": "232319",
+   "pref": "愛知県",
+   "name": "田原市",
+   "kana": "ﾀﾊﾗｼ",
+   "url": "https://www.city.tahara.aichi.jp/",
+   "verified": false,
+   "population": 59015
+  },
+  {
+   "code": "202185",
+   "pref": "長野県",
+   "name": "千曲市",
+   "kana": "ﾁｸﾏｼ",
+   "url": "https://www.city.chikuma.lg.jp/",
+   "verified": false,
+   "population": 58755
+  },
+  {
+   "code": "272311",
+   "pref": "大阪府",
+   "name": "大阪狭山市",
+   "kana": "ｵｵｻｶｻﾔﾏｼ",
+   "url": "https://www.city.osakasayama.osaka.jp/",
+   "verified": false,
+   "population": 58593
+  },
+  {
+   "code": "402168",
+   "pref": "福岡県",
+   "name": "小郡市",
+   "kana": "ｵｺﾞｵﾘｼ",
+   "url": "https://www.city.ogori.fukuoka.jp/",
+   "verified": false,
+   "population": 58322
+  },
+  {
+   "code": "012351",
+   "pref": "北海道",
+   "name": "石狩市",
+   "kana": "ｲｼｶﾘｼ",
+   "url": "https://www.city.ishikari.hokkaido.jp/",
+   "verified": false,
+   "population": 58284
+  },
+  {
+   "code": "072133",
+   "pref": "福島県",
+   "name": "伊達市",
+   "kana": "ﾀﾞﾃｼ",
+   "url": "https://www.city.fukushima-date.lg.jp/",
+   "verified": false,
+   "population": 58232
+  },
+  {
+   "code": "302082",
+   "pref": "和歌山県",
+   "name": "紀の川市",
+   "kana": "ｷﾉｶﾜｼ",
+   "url": "https://www.city.kinokawa.lg.jp/",
+   "verified": false,
+   "population": 58130
+  },
+  {
+   "code": "012343",
+   "pref": "北海道",
+   "name": "北広島市",
+   "kana": "ｷﾀﾋﾛｼﾏｼ",
+   "url": "https://www.city.kitahiroshima.hokkaido.jp/",
+   "verified": false,
+   "population": 58125
+  },
+  {
+   "code": "222216",
+   "pref": "静岡県",
+   "name": "湖西市",
+   "kana": "ｺｻｲｼ",
+   "url": "https://www.city.kosai.shizuoka.jp/",
+   "verified": false,
+   "population": 57682
+  },
+  {
+   "code": "122131",
+   "pref": "千葉県",
+   "name": "東金市",
+   "kana": "ﾄｳｶﾞﾈｼ",
+   "url": "https://www.city.togane.chiba.jp/",
+   "verified": false,
+   "population": 57560
+  },
+  {
+   "code": "232165",
+   "pref": "愛知県",
+   "name": "常滑市",
+   "kana": "ﾄｺﾅﾒｼ",
+   "url": "https://www.city.tokoname.aichi.jp/",
+   "verified": false,
+   "population": 57507
+  },
+  {
+   "code": "432130",
+   "pref": "熊本県",
+   "name": "宇城市",
+   "kana": "ｳｷｼ",
+   "url": "https://www.city.uki.kumamoto.jp/",
+   "verified": false,
+   "population": 57096
+  },
+  {
+   "code": "172120",
+   "pref": "石川県",
+   "name": "野々市市",
+   "kana": "ﾉﾉｲﾁｼ",
+   "url": "https://www.city.nonoichi.lg.jp/",
+   "verified": false,
+   "population": 57090
+  },
+  {
+   "code": "212113",
+   "pref": "岐阜県",
+   "name": "美濃加茂市",
+   "kana": "ﾐﾉｶﾓｼ",
+   "url": "https://www.city.minokamo.lg.jp/",
+   "verified": false,
+   "population": 57007
+  },
+  {
+   "code": "142085",
+   "pref": "神奈川県",
+   "name": "逗子市",
+   "kana": "ｽﾞｼｼ",
+   "url": "https://www.city.zushi.kanagawa.jp/",
+   "verified": false,
+   "population": 56996
+  },
+  {
+   "code": "132187",
+   "pref": "東京都",
+   "name": "福生市",
+   "kana": "ﾌｯｻｼ",
+   "url": "https://www.city.fussa.tokyo.jp/",
+   "verified": false,
+   "population": 56713
+  },
+  {
+   "code": "152129",
+   "pref": "新潟県",
+   "name": "村上市",
+   "kana": "ﾑﾗｶﾐｼ",
+   "url": "https://www.city.murakami.lg.jp/",
+   "verified": false,
+   "population": 56713
+  },
+  {
+   "code": "352071",
+   "pref": "山口県",
+   "name": "下松市",
+   "kana": "ｸﾀﾞﾏﾂｼ",
+   "url": "https://www.city.kudamatsu.lg.jp/",
+   "verified": false,
+   "population": 56661
+  },
+  {
+   "code": "372056",
+   "pref": "香川県",
+   "name": "観音寺市",
+   "kana": "ｶﾝｵﾝｼﾞｼ",
+   "url": "https://www.city.kanonji.kagawa.jp/",
+   "verified": false,
+   "population": 56639
+  },
+  {
+   "code": "332046",
+   "pref": "岡山県",
+   "name": "玉野市",
+   "kana": "ﾀﾏﾉｼ",
+   "url": "https://www.city.tamano.lg.jp/",
+   "verified": false,
+   "population": 56431
+  },
+  {
+   "code": "262081",
+   "pref": "京都府",
+   "name": "向日市",
+   "kana": "ﾑｺｳｼ",
+   "url": "https://www.city.muko.kyoto.jp/",
+   "verified": false,
+   "population": 56152
+  },
+  {
+   "code": "212164",
+   "pref": "岐阜県",
+   "name": "瑞穂市",
+   "kana": "ﾐｽﾞﾎｼ",
+   "url": "https://www.city.mizuho.lg.jp/",
+   "verified": false,
+   "population": 56106
+  },
+  {
+   "code": "032166",
+   "pref": "岩手県",
+   "name": "滝沢市",
+   "kana": "ﾀｷｻﾞﾜｼ",
+   "url": "https://www.city.takizawa.iwate.jp/",
+   "verified": false,
+   "population": 56050
+  },
+  {
+   "code": "272256",
+   "pref": "大阪府",
+   "name": "高石市",
+   "kana": "ﾀｶｲｼｼ",
+   "url": "https://www.city.takaishi.lg.jp/",
+   "verified": false,
+   "population": 55910
+  },
+  {
+   "code": "402044",
+   "pref": "福岡県",
+   "name": "直方市",
+   "kana": "ﾉｵｶﾞﾀｼ",
+   "url": "https://www.city.nogata.fukuoka.jp/",
+   "verified": false,
+   "population": 55705
+  },
+  {
+   "code": "212121",
+   "pref": "岐阜県",
+   "name": "土岐市",
+   "kana": "ﾄｷｼ",
+   "url": "https://www.city.toki.lg.jp/",
+   "verified": false,
+   "population": 55388
+  },
+  {
+   "code": "362026",
+   "pref": "徳島県",
+   "name": "鳴門市",
+   "kana": "ﾅﾙﾄｼ",
+   "url": "https://www.city.naruto.tokushima.jp/",
+   "verified": false,
+   "population": 55264
+  },
+  {
+   "code": "272299",
+   "pref": "大阪府",
+   "name": "四條畷市",
+   "kana": "ｼｼﾞﾖｳﾅﾜﾃｼ",
+   "url": "https://www.city.shijonawate.lg.jp/",
+   "verified": false,
+   "population": 55094
+  },
+  {
+   "code": "202142",
+   "pref": "長野県",
+   "name": "茅野市",
+   "kana": "ﾁﾉｼ",
+   "url": "https://www.city.chino.lg.jp/",
+   "verified": false,
+   "population": 55018
+  },
+  {
+   "code": "152269",
+   "pref": "新潟県",
+   "name": "南魚沼市",
+   "kana": "ﾐﾅﾐｳｵﾇﾏｼ",
+   "url": "https://www.city.minamiuonuma.niigata.jp/",
+   "verified": false,
+   "population": 54820
+  },
+  {
+   "code": "112429",
+   "pref": "埼玉県",
+   "name": "日高市",
+   "kana": "ﾋﾀﾞｶｼ",
+   "url": "https://www.city.hidaka.lg.jp/",
+   "verified": false,
+   "population": 54728
+  },
+  {
+   "code": "102113",
+   "pref": "群馬県",
+   "name": "安中市",
+   "kana": "ｱﾝﾅｶｼ",
+   "url": "https://www.city.annaka.lg.jp/",
+   "verified": false,
+   "population": 54607
+  },
+  {
+   "code": "122025",
+   "pref": "千葉県",
+   "name": "銚子市",
+   "kana": "ﾁｮｳｼｼ",
+   "url": "https://www.city.choshi.chiba.jp/",
+   "verified": false,
+   "population": 54570
+  },
+  {
+   "code": "072109",
+   "pref": "福島県",
+   "name": "二本松市",
+   "kana": "ﾆﾎﾝﾏﾂｼ",
+   "url": "https://www.city.nihonmatsu.lg.jp/",
+   "verified": false,
+   "population": 54447
+  },
+  {
+   "code": "252115",
+   "pref": "滋賀県",
+   "name": "湖南市",
+   "kana": "ｺﾅﾝｼ",
+   "url": "https://www.city.shiga-konan.lg.jp/",
+   "verified": false,
+   "population": 54392
+  },
+  {
+   "code": "292061",
+   "pref": "奈良県",
+   "name": "桜井市",
+   "kana": "ｻｸﾗｲｼ",
+   "url": "https://www.city.sakurai.lg.jp/",
+   "verified": false,
+   "population": 54346
+  },
+  {
+   "code": "152242",
+   "pref": "新潟県",
+   "name": "佐渡市",
+   "kana": "ｻﾄﾞｼ",
+   "url": "https://www.city.sado.niigata.jp/",
+   "verified": false,
+   "population": 54304
+  },
+  {
+   "code": "132276",
+   "pref": "東京都",
+   "name": "羽村市",
+   "kana": "ﾊﾑﾗｼ",
+   "url": "https://www.city.hamura.tokyo.jp/",
+   "verified": false,
+   "population": 53970
+  },
+  {
+   "code": "022080",
+   "pref": "青森県",
+   "name": "むつ市",
+   "kana": "ﾑﾂｼ",
+   "url": "https://www.city.mutsu.lg.jp/",
+   "verified": false,
+   "population": 53767
+  },
+  {
+   "code": "322024",
+   "pref": "島根県",
+   "name": "浜田市",
+   "kana": "ﾊﾏﾀﾞｼ",
+   "url": "https://www.city.hamada.shimane.jp/",
+   "verified": false,
+   "population": 53753
+  },
+  {
+   "code": "302091",
+   "pref": "和歌山県",
+   "name": "岩出市",
+   "kana": "ｲﾜﾃﾞｼ",
+   "url": "https://www.city.iwade.lg.jp/",
+   "verified": false,
+   "population": 53714
+  },
+  {
+   "code": "082261",
+   "pref": "茨城県",
+   "name": "那珂市",
+   "kana": "ﾅｶｼ",
+   "url": "https://www.city.naka.lg.jp/",
+   "verified": false,
+   "population": 53035
+  },
+  {
+   "code": "442119",
+   "pref": "大分県",
+   "name": "宇佐市",
+   "kana": "ｳｻｼ",
+   "url": "https://www.city.usa.oita.jp/",
+   "verified": false,
+   "population": 52767
+  },
+  {
+   "code": "112160",
+   "pref": "埼玉県",
+   "name": "羽生市",
+   "kana": "ﾊﾆﾕｳｼ",
+   "url": "https://www.city.hanyu.lg.jp/",
+   "verified": false,
+   "population": 52740
+  },
+  {
+   "code": "412058",
+   "pref": "佐賀県",
+   "name": "伊万里市",
+   "kana": "ｲﾏﾘｼ",
+   "url": "https://www.city.imari.saga.jp/",
+   "verified": false,
+   "population": 52694
+  },
+  {
+   "code": "072125",
+   "pref": "福島県",
+   "name": "南相馬市",
+   "kana": "ﾐﾅﾐｿｳﾏｼ",
+   "url": "https://www.city.minamisoma.lg.jp/",
+   "verified": false,
+   "population": 52619
+  },
+  {
+   "code": "472140",
+   "pref": "沖縄県",
+   "name": "宮古島市",
+   "kana": "ﾐﾔｺｼﾞﾏｼ",
+   "url": "https://www.city.miyakojima.lg.jp/",
+   "verified": false,
+   "population": 52390
+  },
+  {
+   "code": "112461",
+   "pref": "埼玉県",
+   "name": "白岡市",
+   "kana": "ｼﾗｵｶｼ",
+   "url": "https://www.city.shiraoka.lg.jp/",
+   "verified": false,
+   "population": 52103
+  },
+  {
+   "code": "042030",
+   "pref": "宮城県",
+   "name": "塩竈市",
+   "kana": "ｼｵｶﾞﾏｼ",
+   "url": "https://www.city.shiogama.miyagi.jp/",
+   "verified": false,
+   "population": 51999
+  },
+  {
+   "code": "462080",
+   "pref": "鹿児島県",
+   "name": "出水市",
+   "kana": "ｲｽﾞﾐｼ",
+   "url": "https://www.city.kagoshima-izumi.lg.jp/",
+   "verified": false,
+   "population": 51893
+  },
+  {
+   "code": "042161",
+   "pref": "宮城県",
+   "name": "富谷市",
+   "kana": "ﾄﾐﾔｼ",
+   "url": "https://www.tomiya-city.miyagi.jp/",
+   "verified": false,
+   "population": 51859
+  },
+  {
+   "code": "082287",
+   "pref": "茨城県",
+   "name": "坂東市",
+   "kana": "ﾊﾞﾝﾄﾞｳｼ",
+   "url": "https://www.city.bando.lg.jp/",
+   "verified": false,
+   "population": 51511
+  },
+  {
+   "code": "082350",
+   "pref": "茨城県",
+   "name": "つくばみらい市",
+   "kana": "ﾂｸﾊﾞﾐﾗｲｼ",
+   "url": "https://www.city.tsukubamirai.lg.jp/",
+   "verified": false,
+   "population": 51134
+  },
+  {
+   "code": "262129",
+   "pref": "京都府",
+   "name": "京丹後市",
+   "kana": "ｷｮｳﾀﾝｺﾞｼ",
+   "url": "https://www.city.kyotango.lg.jp/",
+   "verified": false,
+   "population": 50857
+  },
+  {
+   "code": "032026",
+   "pref": "岩手県",
+   "name": "宮古市",
+   "kana": "ﾐﾔｺｼ",
+   "url": "https://www.city.miyako.iwate.jp/",
+   "verified": false,
+   "population": 50855
+  },
+  {
+   "code": "022055",
+   "pref": "青森県",
+   "name": "五所川原市",
+   "kana": "ｺﾞｼｮｶﾞﾜﾗｼ",
+   "url": "https://www.city.goshogawara.lg.jp/",
+   "verified": false,
+   "population": 50757
+  },
+  {
+   "code": "372030",
+   "pref": "香川県",
+   "name": "坂出市",
+   "kana": "ｻｶｲﾃﾞｼ",
+   "url": "https://www.city.sakaide.lg.jp/",
+   "verified": false,
+   "population": 50577
+  },
+  {
+   "code": "432041",
+   "pref": "熊本県",
+   "name": "荒尾市",
+   "kana": "ｱﾗｵｼ",
+   "url": "https://www.city.arao.lg.jp/",
+   "verified": false,
+   "population": 50570
+  },
+  {
+   "code": "452041",
+   "pref": "宮崎県",
+   "name": "日南市",
+   "kana": "ﾆﾁﾅﾝｼ",
+   "url": "https://www.city.nichinan.lg.jp/",
+   "verified": false,
+   "population": 50518
+  },
+  {
+   "code": "222208",
+   "pref": "静岡県",
+   "name": "裾野市",
+   "kana": "ｽｿﾉｼ",
+   "url": "https://www.city.susono.shizuoka.jp/",
+   "verified": false,
+   "population": 50510
+  },
+  {
+   "code": "082074",
+   "pref": "茨城県",
+   "name": "結城市",
+   "kana": "ﾕｳｷｼ",
+   "url": "https://www.city.yuki.lg.jp/",
+   "verified": false,
+   "population": 50218
+  },
+  {
+   "code": "172022",
+   "pref": "石川県",
+   "name": "七尾市",
+   "kana": "ﾅﾅｵｼ",
+   "url": "https://www.city.nanao.lg.jp/",
+   "verified": false,
+   "population": 50207
+  },
+  {
+   "code": "402311",
+   "pref": "福岡県",
+   "name": "那珂川市",
+   "kana": "ﾅｶｶﾞﾜｼ",
+   "url": "https://www.city.nakagawa.lg.jp/",
+   "verified": false,
+   "population": 50201
+  },
+  {
+   "code": "252107",
+   "pref": "滋賀県",
+   "name": "野洲市",
+   "kana": "ﾔｽｼ",
+   "url": "https://www.city.yasu.lg.jp/",
+   "verified": false,
+   "population": 50049
+  },
+  {
+   "code": "342092",
+   "pref": "広島県",
+   "name": "三次市",
+   "kana": "ﾐﾖｼｼ",
+   "url": "https://www.city.miyoshi.hiroshima.jp/",
+   "verified": false,
+   "population": 50046
+  },
+  {
+   "code": "242101",
+   "pref": "三重県",
+   "name": "亀山市",
+   "kana": "ｶﾒﾔﾏｼ",
+   "url": "https://www.city.kameyama.mie.jp/",
+   "verified": false,
+   "population": 49971
+  },
+  {
+   "code": "112402",
+   "pref": "埼玉県",
+   "name": "幸手市",
+   "kana": "ｻｯﾃｼ",
+   "url": "https://www.city.satte.lg.jp/",
+   "verified": false,
+   "population": 49961
+  },
+  {
+   "code": "272329",
+   "pref": "大阪府",
+   "name": "阪南市",
+   "kana": "ﾊﾝﾅﾝｼ",
+   "url": "https://www.city.hannan.lg.jp/",
+   "verified": false,
+   "population": 49794
+  },
+  {
+   "code": "052027",
+   "pref": "秋田県",
+   "name": "能代市",
+   "kana": "ﾉｼﾛｼ",
+   "url": "https://www.city.noshiro.lg.jp/",
+   "verified": false,
+   "population": 49625
+  },
+  {
+   "code": "152102",
+   "pref": "新潟県",
+   "name": "十日町市",
+   "kana": "ﾄｵｶﾏﾁｼ",
+   "url": "https://www.city.tokamachi.lg.jp/",
+   "verified": false,
+   "population": 49472
+  },
+  {
+   "code": "122335",
+   "pref": "千葉県",
+   "name": "富里市",
+   "kana": "ﾄﾐｻﾄｼ",
+   "url": "https://www.city.tomisato.lg.jp/",
+   "verified": false,
+   "population": 49470
+  },
+  {
+   "code": "202070",
+   "pref": "長野県",
+   "name": "須坂市",
+   "kana": "ｽｻﾞｶｼ",
+   "url": "https://www.city.suzaka.nagano.jp/",
+   "verified": false,
+   "population": 49393
+  },
+  {
+   "code": "402281",
+   "pref": "福岡県",
+   "name": "朝倉市",
+   "kana": "ｱｻｸﾗｼ",
+   "url": "https://www.city.asakura.lg.jp/",
+   "verified": false,
+   "population": 49254
+  },
+  {
+   "code": "102121",
+   "pref": "群馬県",
+   "name": "みどり市",
+   "kana": "ﾐﾄﾞﾘｼ",
+   "url": "https://www.city.midori.gunma.jp/",
+   "verified": false,
+   "population": 49190
+  },
+  {
+   "code": "352101",
+   "pref": "山口県",
+   "name": "光市",
+   "kana": "ﾋｶﾘｼ",
+   "url": "https://www.city.hikari.lg.jp/",
+   "verified": false,
+   "population": 49013
+  },
+  {
+   "code": "172111",
+   "pref": "石川県",
+   "name": "能美市",
+   "kana": "ﾉﾐｼ",
+   "url": "https://www.city.nomi.ishikawa.jp/",
+   "verified": false,
+   "population": 48860
+  },
+  {
+   "code": "402117",
+   "pref": "福岡県",
+   "name": "筑後市",
+   "kana": "ﾁｸｺﾞｼ",
+   "url": "https://www.city.chikugo.lg.jp/",
+   "verified": false,
+   "population": 48794
+  },
+  {
+   "code": "432083",
+   "pref": "熊本県",
+   "name": "山鹿市",
+   "kana": "ﾔﾏｶﾞｼ",
+   "url": "https://www.city.yamaga.kumamoto.jp/",
+   "verified": false,
+   "population": 48753
+  },
+  {
+   "code": "232271",
+   "pref": "愛知県",
+   "name": "高浜市",
+   "kana": "ﾀｶﾊﾏｼ",
+   "url": "https://www.city.takahama.lg.jp/",
+   "verified": false,
+   "population": 48685
+  },
+  {
+   "code": "082368",
+   "pref": "茨城県",
+   "name": "小美玉市",
+   "kana": "ｵﾐﾀﾏｼ",
+   "url": "https://www.city.omitama.lg.jp/",
+   "verified": false,
+   "population": 48555
+  },
+  {
+   "code": "202061",
+   "pref": "長野県",
+   "name": "諏訪市",
+   "kana": "ｽﾜｼ",
+   "url": "https://www.city.suwa.lg.jp/",
+   "verified": false,
+   "population": 48309
+  },
+  {
+   "code": "472077",
+   "pref": "沖縄県",
+   "name": "石垣市",
+   "kana": "ｲｼｶﾞｷｼ",
+   "url": "https://www.city.ishigaki.okinawa.jp/",
+   "verified": false,
+   "population": 48258
+  },
+  {
+   "code": "122378",
+   "pref": "千葉県",
+   "name": "山武市",
+   "kana": "ｻﾝﾑｼ",
+   "url": "https://www.city.sammu.lg.jp/",
+   "verified": false,
+   "population": 48196
+  },
+  {
+   "code": "212105",
+   "pref": "岐阜県",
+   "name": "恵那市",
+   "kana": "ｴﾅｼ",
+   "url": "https://www.city.ena.lg.jp/",
+   "verified": false,
+   "population": 47999
+  },
+  {
+   "code": "232289",
+   "pref": "愛知県",
+   "name": "岩倉市",
+   "kana": "ｲﾜｸﾗｼ",
+   "url": "https://www.city.iwakura.aichi.jp/",
+   "verified": false,
+   "population": 47975
+  },
+  {
+   "code": "062111",
+   "pref": "山形県",
+   "name": "東根市",
+   "kana": "ﾋｶﾞｼﾈｼ",
+   "url": "https://www.city.higashine.yamagata.jp/",
+   "verified": false,
+   "population": 47747
+  },
+  {
+   "code": "122394",
+   "pref": "千葉県",
+   "name": "大網白里市",
+   "kana": "ｵｵｱﾐｼﾗｻﾄｼ",
+   "url": "https://www.city.oamishirasato.lg.jp/",
+   "verified": false,
+   "population": 47722
+  },
+  {
+   "code": "302023",
+   "pref": "和歌山県",
+   "name": "海南市",
+   "kana": "ｶｲﾅﾝｼ",
+   "url": "https://www.city.kainan.lg.jp/",
+   "verified": false,
+   "population": 47697
+  },
+  {
+   "code": "412066",
+   "pref": "佐賀県",
+   "name": "武雄市",
+   "kana": "ﾀｹｵｼ",
+   "url": "https://www.city.takeo.lg.jp/",
+   "verified": false,
+   "population": 47681
+  },
+  {
+   "code": "162086",
+   "pref": "富山県",
+   "name": "砺波市",
+   "kana": "ﾄﾅﾐｼ",
+   "url": "https://www.city.tonami.toyama.jp/",
+   "verified": false,
+   "population": 47638
+  },
+  {
+   "code": "082121",
+   "pref": "茨城県",
+   "name": "常陸太田市",
+   "kana": "ﾋﾀﾁｵｵﾀｼ",
+   "url": "https://www.city.hitachiota.ibaraki.jp/",
+   "verified": false,
+   "population": 47586
+  },
+  {
+   "code": "202045",
+   "pref": "長野県",
+   "name": "岡谷市",
+   "kana": "ｵｶﾔｼ",
+   "url": "https://www.city.okaya.lg.jp/",
+   "verified": false,
+   "population": 47499
+  },
+  {
+   "code": "162108",
+   "pref": "富山県",
+   "name": "南砺市",
+   "kana": "ﾅﾝﾄｼ",
+   "url": "https://www.city.nanto.toyama.jp/",
+   "verified": false,
+   "population": 47390
+  },
+  {
+   "code": "282189",
+   "pref": "兵庫県",
+   "name": "小野市",
+   "kana": "ｵﾉｼ",
+   "url": "https://www.city.ono.hyogo.jp/",
+   "verified": false,
+   "population": 47316
+  },
+  {
+   "code": "152188",
+   "pref": "新潟県",
+   "name": "五泉市",
+   "kana": "ｺﾞｾﾝｼ",
+   "url": "https://www.city.gosen.lg.jp/",
+   "verified": false,
+   "population": 47262
+  },
+  {
+   "code": "222241",
+   "pref": "静岡県",
+   "name": "菊川市",
+   "kana": "ｷｸｶﾞﾜｼ",
+   "url": "https://www.city.kikugawa.shizuoka.jp/",
+   "verified": false,
+   "population": 47194
+  },
+  {
+   "code": "102105",
+   "pref": "群馬県",
+   "name": "富岡市",
+   "kana": "ﾄﾐｵｶｼ",
+   "url": "https://www.city.tomioka.lg.jp/",
+   "verified": false,
+   "population": 46928
+  },
+  {
+   "code": "012301",
+   "pref": "北海道",
+   "name": "登別市",
+   "kana": "ﾉﾎﾞﾘﾍﾞﾂｼ",
+   "url": "https://www.city.noboribetsu.lg.jp/",
+   "verified": false,
+   "population": 46838
+  },
+  {
+   "code": "372064",
+   "pref": "香川県",
+   "name": "さぬき市",
+   "kana": "ｻﾇｷｼ",
+   "url": "https://www.city.sanuki.kagawa.jp/",
+   "verified": false,
+   "population": 46723
+  },
+  {
+   "code": "462161",
+   "pref": "鹿児島県",
+   "name": "日置市",
+   "kana": "ﾋｵｷｼ",
+   "url": "https://www.city.hioki.kagoshima.jp/",
+   "verified": false,
+   "population": 46671
+  },
+  {
+   "code": "192023",
+   "pref": "山梨県",
+   "name": "富士吉田市",
+   "kana": "ﾌｼﾞﾖｼﾀﾞｼ",
+   "url": "https://en.city.fujiyoshida.yamanashi.jp/",
+   "verified": false,
+   "population": 46659
+  },
+  {
+   "code": "392049",
+   "pref": "高知県",
+   "name": "南国市",
+   "kana": "ﾅﾝｺｸｼ",
+   "url": "https://www.city.nankoku.lg.jp/",
+   "verified": false,
+   "population": 46567
+  },
+  {
+   "code": "312037",
+   "pref": "鳥取県",
+   "name": "倉吉市",
+   "kana": "ｸﾗﾖｼｼ",
+   "url": "https://www.city.kurayoshi.lg.jp/",
+   "verified": false,
+   "population": 46269
+  },
+  {
+   "code": "252123",
+   "pref": "滋賀県",
+   "name": "高島市",
+   "kana": "ﾀｶｼﾏｼ",
+   "url": "https://www.city.takashima.lg.jp/",
+   "verified": false,
+   "population": 46246
+  },
+  {
+   "code": "222259",
+   "pref": "静岡県",
+   "name": "伊豆の国市",
+   "kana": "ｲｽﾞﾉｸﾆｼ",
+   "url": "https://www.city.izunokuni.shizuoka.jp/",
+   "verified": false,
+   "population": 46212
+  },
+  {
+   "code": "332054",
+   "pref": "岡山県",
+   "name": "笠岡市",
+   "kana": "ｶｻｵｶｼ",
+   "url": "https://www.city.kasaoka.okayama.jp/",
+   "verified": false,
+   "population": 46080
+  },
+  {
+   "code": "432105",
+   "pref": "熊本県",
+   "name": "菊池市",
+   "kana": "ｷｸﾁｼ",
+   "url": "https://www.city.kikuchi.lg.jp/",
+   "verified": false,
+   "population": 45971
+  },
+  {
+   "code": "402061",
+   "pref": "福岡県",
+   "name": "田川市",
+   "kana": "ﾀｶﾞﾜｼ",
+   "url": "https://www.joho.tagawa.fukuoka.jp/",
+   "verified": false,
+   "population": 45946
+  },
+  {
+   "code": "082341",
+   "pref": "茨城県",
+   "name": "鉾田市",
+   "kana": "ﾎｺﾀｼ",
+   "url": "https://www.city.hokota.lg.jp/",
+   "verified": false,
+   "population": 45910
+  },
+  {
+   "code": "242152",
+   "pref": "三重県",
+   "name": "志摩市",
+   "kana": "ｼﾏｼ",
+   "url": "https://www.city.shima.mie.jp/",
+   "verified": false,
+   "population": 45834
+  },
+  {
+   "code": "012360",
+   "pref": "北海道",
+   "name": "北斗市",
+   "kana": "ﾎｸﾄｼ",
+   "url": "https://www.city.hokuto.hokkaido.jp/",
+   "verified": false,
+   "population": 45661
+  },
+  {
+   "code": "072087",
+   "pref": "福島県",
+   "name": "喜多方市",
+   "kana": "ｷﾀｶﾀｼ",
+   "url": "https://www.city.kitakata.fukushima.jp/",
+   "verified": false,
+   "population": 45590
+  },
+  {
+   "code": "282120",
+   "pref": "兵庫県",
+   "name": "赤穂市",
+   "kana": "ｱｺｳｼ",
+   "url": "https://www.city.ako.lg.jp/",
+   "verified": false,
+   "population": 45473
+  },
+  {
+   "code": "102067",
+   "pref": "群馬県",
+   "name": "沼田市",
+   "kana": "ﾇﾏﾀｼ",
+   "url": "https://www.city.numata.gunma.jp/",
+   "verified": false,
+   "population": 45132
+  },
+  {
+   "code": "092142",
+   "pref": "栃木県",
+   "name": "さくら市",
+   "kana": "ｻｸﾗｼ",
+   "url": "https://www.city.tochigi-sakura.lg.jp/",
+   "verified": false,
+   "population": 44777
+  },
+  {
+   "code": "122050",
+   "pref": "千葉県",
+   "name": "館山市",
+   "kana": "ﾀﾃﾔﾏｼ",
+   "url": "https://www.city.tateyama.chiba.jp/",
+   "verified": false,
+   "population": 44692
+  },
+  {
+   "code": "322041",
+   "pref": "島根県",
+   "name": "益田市",
+   "kana": "ﾏｽﾀﾞｼ",
+   "url": "https://www.city.masuda.lg.jp/",
+   "verified": false,
+   "population": 44474
+  },
+  {
+   "code": "042111",
+   "pref": "宮城県",
+   "name": "岩沼市",
+   "kana": "ｲﾜﾇﾏｼ",
+   "url": "https://www.city.iwanuma.miyagi.jp/",
+   "verified": false,
+   "population": 44340
+  },
+  {
+   "code": "472158",
+   "pref": "沖縄県",
+   "name": "南城市",
+   "kana": "ﾅﾝｼﾞｮｳｼ",
+   "url": "https://www.city.nanjo.okinawa.jp/",
+   "verified": false,
+   "population": 44318
+  },
+  {
+   "code": "352047",
+   "pref": "山口県",
+   "name": "萩市",
+   "kana": "ﾊｷﾞｼ",
+   "url": "https://www.city.hagi.lg.jp/",
+   "verified": false,
+   "population": 44118
+  },
+  {
+   "code": "282243",
+   "pref": "兵庫県",
+   "name": "南あわじ市",
+   "kana": "ﾐﾅﾐｱﾜｼﾞｼ",
+   "url": "https://www.city.minamiawaji.hyogo.jp/",
+   "verified": false,
+   "population": 43914
+  },
+  {
+   "code": "412082",
+   "pref": "佐賀県",
+   "name": "小城市",
+   "kana": "ｵｷﾞｼ",
+   "url": "https://www.city.ogi.lg.jp/",
+   "verified": false,
+   "population": 43787
+  },
+  {
+   "code": "162051",
+   "pref": "富山県",
+   "name": "氷見市",
+   "kana": "ﾋﾐｼ",
+   "url": "https://www.city.himi.toyama.jp/",
+   "verified": false,
+   "population": 43747
+  },
+  {
+   "code": "232211",
+   "pref": "愛知県",
+   "name": "新城市",
+   "kana": "ｼﾝｼﾛｼ",
+   "url": "https://www.city.shinshiro.lg.jp/",
+   "verified": false,
+   "population": 43620
+  },
+  {
+   "code": "192091",
+   "pref": "山梨県",
+   "name": "北杜市",
+   "kana": "ﾎｸﾄｼ",
+   "url": "https://www.city.hokuto.yamanashi.jp/",
+   "verified": false,
+   "population": 43452
+  },
+  {
+   "code": "452050",
+   "pref": "宮崎県",
+   "name": "小林市",
+   "kana": "ｺﾊﾞﾔｼｼ",
+   "url": "https://www.city.kobayashi.lg.jp/",
+   "verified": false,
+   "population": 43114
+  },
+  {
+   "code": "222267",
+   "pref": "静岡県",
+   "name": "牧之原市",
+   "kana": "ﾏｷﾉﾊﾗｼ",
+   "url": "https://www.city.makinohara.shizuoka.jp/",
+   "verified": false,
+   "population": 43061
+  },
+  {
+   "code": "232351",
+   "pref": "愛知県",
+   "name": "弥富市",
+   "kana": "ﾔﾄﾐｼ",
+   "url": "https://www.city.yatomi.lg.jp/",
+   "verified": false,
+   "population": 43038
+  },
+  {
+   "code": "422037",
+   "pref": "長崎県",
+   "name": "島原市",
+   "kana": "ｼﾏﾊﾞﾗｼ",
+   "url": "https://www.city.shimabara.lg.jp/",
+   "verified": false,
+   "population": 42858
+  },
+  {
+   "code": "332135",
+   "pref": "岡山県",
+   "name": "赤磐市",
+   "kana": "ｱｶｲﾜｼ",
+   "url": "https://www.city.akaiwa.lg.jp/",
+   "verified": false,
+   "population": 42341
+  },
+  {
+   "code": "282201",
+   "pref": "兵庫県",
+   "name": "加西市",
+   "kana": "ｶｻｲｼ",
+   "url": "https://www.city.kasai.hyogo.jp/",
+   "verified": false,
+   "population": 42290
+  },
+  {
+   "code": "122262",
+   "pref": "千葉県",
+   "name": "富津市",
+   "kana": "ﾌｯﾂｼ",
+   "url": "https://www.city.futtsu.lg.jp/",
+   "verified": false,
+   "population": 42280
+  },
+  {
+   "code": "332143",
+   "pref": "岡山県",
+   "name": "真庭市",
+   "kana": "ﾏﾆﾜｼ",
+   "url": "https://www.city.maniwa.lg.jp/",
+   "verified": false,
+   "population": 42259
+  },
+  {
+   "code": "202118",
+   "pref": "長野県",
+   "name": "中野市",
+   "kana": "ﾅｶﾉｼ",
+   "url": "https://www.city.nakano.nagano.jp/",
+   "verified": false,
+   "population": 41972
+  },
+  {
+   "code": "422142",
+   "pref": "長崎県",
+   "name": "南島原市",
+   "kana": "ﾐﾅﾐｼﾏﾊﾞﾗｼ",
+   "url": "https://www.city.minamishimabara.lg.jp/",
+   "verified": false,
+   "population": 41903
+  },
+  {
+   "code": "142107",
+   "pref": "神奈川県",
+   "name": "三浦市",
+   "kana": "ﾐｳﾗｼ",
+   "url": "https://www.city.miura.kanagawa.jp/",
+   "verified": false,
+   "population": 41807
+  },
+  {
+   "code": "052078",
+   "pref": "秋田県",
+   "name": "湯沢市",
+   "kana": "ﾕｻﾞﾜｼ",
+   "url": "https://www.city-yuzawa.jp/",
+   "verified": false,
+   "population": 41601
+  },
+  {
+   "code": "082104",
+   "pref": "茨城県",
+   "name": "下妻市",
+   "kana": "ｼﾓﾂﾏｼ",
+   "url": "https://www.city.shimotsuma.lg.jp/",
+   "verified": false,
+   "population": 41499
+  },
+  {
+   "code": "082155",
+   "pref": "茨城県",
+   "name": "北茨城市",
+   "kana": "ｷﾀｲﾊﾞﾗｷｼ",
+   "url": "https://www.city.kitaibaraki.lg.jp/",
+   "verified": false,
+   "population": 41352
+  },
+  {
+   "code": "142174",
+   "pref": "神奈川県",
+   "name": "南足柄市",
+   "kana": "ﾐﾅﾐｱｼｶﾞﾗｼ",
+   "url": "https://www.city.minamiashigara.kanagawa.jp/",
+   "verified": false,
+   "population": 41259
+  },
+  {
+   "code": "282260",
+   "pref": "兵庫県",
+   "name": "淡路市",
+   "kana": "ｱﾜｼﾞｼ",
+   "url": "https://www.city.awaji.lg.jp/",
+   "verified": false,
+   "population": 41127
+  },
+  {
+   "code": "202088",
+   "pref": "長野県",
+   "name": "小諸市",
+   "kana": "ｺﾓﾛｼ",
+   "url": "https://www.city.komoro.lg.jp/",
+   "verified": false,
+   "population": 41066
+  },
+  {
+   "code": "282057",
+   "pref": "兵庫県",
+   "name": "洲本市",
+   "kana": "ｽﾓﾄｼ",
+   "url": "https://www.city.sumoto.lg.jp/",
+   "verified": false,
+   "population": 41056
+  },
+  {
+   "code": "462225",
+   "pref": "鹿児島県",
+   "name": "奄美市",
+   "kana": "ｱﾏﾐｼ",
+   "url": "https://www.city.amami.lg.jp/",
+   "verified": false,
+   "population": 41049
+  },
+  {
+   "code": "422134",
+   "pref": "長崎県",
+   "name": "雲仙市",
+   "kana": "ｳﾝｾﾞﾝｼ",
+   "url": "https://www.city.unzen.nagasaki.jp/",
+   "verified": false,
+   "population": 41018
+  },
+  {
+   "code": "162043",
+   "pref": "富山県",
+   "name": "魚津市",
+   "kana": "ｳｵﾂﾞｼ",
+   "url": "https://www.city.uozu.toyama.jp/",
+   "verified": false,
+   "population": 40828
+  },
+  {
+   "code": "282286",
+   "pref": "兵庫県",
+   "name": "加東市",
+   "kana": "ｶﾄｳｼ",
+   "url": "https://www.city.kato.lg.jp/",
+   "verified": false,
+   "population": 40728
+  },
+  {
+   "code": "282219",
+   "pref": "兵庫県",
+   "name": "丹波篠山市",
+   "kana": "ﾀﾝﾊﾞｻｻﾔﾏｼ",
+   "url": "https://www.city.tambasasayama.lg.jp/",
+   "verified": false,
+   "population": 40708
+  },
+  {
+   "code": "152234",
+   "pref": "新潟県",
+   "name": "阿賀野市",
+   "kana": "ｱｶﾞﾉｼ",
+   "url": "https://www.city.agano.niigata.jp/",
+   "verified": false,
+   "population": 40382
+  },
+  {
+   "code": "382078",
+   "pref": "愛媛県",
+   "name": "大洲市",
+   "kana": "ｵｵｽﾞｼ",
+   "url": "https://www.city.ozu.ehime.jp/",
+   "verified": false,
+   "population": 40289
+  },
+  {
+   "code": "152161",
+   "pref": "新潟県",
+   "name": "糸魚川市",
+   "kana": "ｲﾄｲｶﾞﾜｼ",
+   "url": "https://www.city.itoigawa.lg.jp/",
+   "verified": false,
+   "population": 40200
+  },
+  {
+   "code": "082309",
+   "pref": "茨城県",
+   "name": "かすみがうら市",
+   "kana": "ｶｽﾐｶﾞｳﾗｼ",
+   "url": "https://www.city.kasumigaura.lg.jp/",
+   "verified": false,
+   "population": 39993
+  },
+  {
+   "code": "062065",
+   "pref": "山形県",
+   "name": "寒河江市",
+   "kana": "ｻｶﾞｴｼ",
+   "url": "https://www.city.sagae.yamagata.jp/",
+   "verified": false,
+   "population": 39854
+  },
+  {
+   "code": "162078",
+   "pref": "富山県",
+   "name": "黒部市",
+   "kana": "ｸﾛﾍﾞｼ",
+   "url": "https://www.city.kurobe.toyama.jp/",
+   "verified": false,
+   "population": 39718
+  },
+  {
+   "code": "402150",
+   "pref": "福岡県",
+   "name": "中間市",
+   "kana": "ﾅｶﾏｼ",
+   "url": "https://www.city.nakama.lg.jp/",
+   "verified": false,
+   "population": 39634
+  },
+  {
+   "code": "012254",
+   "pref": "北海道",
+   "name": "滝川市",
+   "kana": "ﾀｷｶﾜｼ",
+   "url": "https://www.city.takikawa.lg.jp/",
+   "verified": false,
+   "population": 39266
+  },
+  {
+   "code": "152111",
+   "pref": "新潟県",
+   "name": "見附市",
+   "kana": "ﾐﾂｹｼ",
+   "url": "https://www.city.mitsuke.niigata.jp/",
+   "verified": false,
+   "population": 39024
+  },
+  {
+   "code": "042145",
+   "pref": "宮城県",
+   "name": "東松島市",
+   "kana": "ﾋｶﾞｼﾏﾂｼﾏｼ",
+   "url": "https://www.city.higashimatsushima.miyagi.jp/",
+   "verified": false,
+   "population": 38880
+  },
+  {
+   "code": "082295",
+   "pref": "茨城県",
+   "name": "稲敷市",
+   "kana": "ｲﾅｼｷｼ",
+   "url": "https://www.city.inashiki.lg.jp/index.html",
+   "verified": false,
+   "population": 38853
+  },
+  {
+   "code": "082252",
+   "pref": "茨城県",
+   "name": "常陸大宮市",
+   "kana": "ﾋﾀﾁｵｵﾐﾔｼ",
+   "url": "https://www.city.hitachiomiya.lg.jp/",
+   "verified": false,
+   "population": 38836
+  },
+  {
+   "code": "212199",
+   "pref": "岐阜県",
+   "name": "郡上市",
+   "kana": "ｸﾞｼﾞｮｳｼ",
+   "url": "https://www.city.gujo.gifu.jp/",
+   "verified": false,
+   "population": 38747
+  },
+  {
+   "code": "362051",
+   "pref": "徳島県",
+   "name": "吉野川市",
+   "kana": "ﾖｼﾉｶﾞﾜｼ",
+   "url": "https://www.city.yoshinogawa.lg.jp/",
+   "verified": false,
+   "population": 38726
+  },
+  {
+   "code": "082317",
+   "pref": "茨城県",
+   "name": "桜川市",
+   "kana": "ｻｸﾗｶﾞﾜｼ",
+   "url": "https://www.city.sakuragawa.lg.jp/",
+   "verified": false,
+   "population": 38677
+  },
+  {
+   "code": "462101",
+   "pref": "鹿児島県",
+   "name": "指宿市",
+   "kana": "ｲﾌﾞｽｷｼ",
+   "url": "https://www.city.ibusuki.lg.jp/",
+   "verified": false,
+   "population": 38571
+  },
+  {
+   "code": "282138",
+   "pref": "兵庫県",
+   "name": "西脇市",
+   "kana": "ﾆｼﾜｷｼ",
+   "url": "https://www.city.nishiwaki.lg.jp/",
+   "verified": false,
+   "population": 38453
+  },
+  {
+   "code": "022071",
+   "pref": "青森県",
+   "name": "三沢市",
+   "kana": "ﾐｻﾜｼ",
+   "url": "https://www.city.misawa.lg.jp/",
+   "verified": false,
+   "population": 38351
+  },
+  {
+   "code": "332071",
+   "pref": "岡山県",
+   "name": "井原市",
+   "kana": "ｲﾊﾞﾗｼ",
+   "url": "https://www.city.ibara.okayama.jp/",
+   "verified": false,
+   "population": 38236
+  },
+  {
+   "code": "252140",
+   "pref": "滋賀県",
+   "name": "米原市",
+   "kana": "ﾏｲﾊﾞﾗｼ",
+   "url": "https://www.city.maibara.lg.jp/",
+   "verified": false,
+   "population": 37374
+  },
+  {
+   "code": "292117",
+   "pref": "奈良県",
+   "name": "葛城市",
+   "kana": "ｶﾂﾗｷﾞｼ",
+   "url": "https://www.city.katsuragi.nara.jp/",
+   "verified": false,
+   "population": 37225
+  },
+  {
+   "code": "342084",
+   "pref": "広島県",
+   "name": "府中市",
+   "kana": "ﾌﾁｭｳｼ",
+   "url": "https://www.city.fuchu.hiroshima.jp/",
+   "verified": false,
+   "population": 36754
+  },
+  {
+   "code": "212083",
+   "pref": "岐阜県",
+   "name": "瑞浪市",
+   "kana": "ﾐｽﾞﾅﾐｼ",
+   "url": "https://www.city.mizunami.lg.jp/",
+   "verified": false,
+   "population": 36721
+  },
+  {
+   "code": "322067",
+   "pref": "島根県",
+   "name": "安来市",
+   "kana": "ﾔｽｷﾞｼ",
+   "url": "https://www.city.yasugi.shimane.jp/",
+   "verified": false,
+   "population": 36713
+  },
+  {
+   "code": "362034",
+   "pref": "徳島県",
+   "name": "小松島市",
+   "kana": "ｺﾏﾂｼﾏｼ",
+   "url": "https://www.city.komatsushima.lg.jp/",
+   "verified": false,
+   "population": 36123
+  },
+  {
+   "code": "432113",
+   "pref": "熊本県",
+   "name": "宇土市",
+   "kana": "ｳﾄｼ",
+   "url": "https://www.city.uto.lg.jp/",
+   "verified": false,
+   "population": 35947
+  },
+  {
+   "code": "442062",
+   "pref": "大分県",
+   "name": "臼杵市",
+   "kana": "ｳｽｷｼ",
+   "url": "https://www.city.usuki.oita.jp/",
+   "verified": false,
+   "population": 35681
+  },
+  {
+   "code": "402290",
+   "pref": "福岡県",
+   "name": "みやま市",
+   "kana": "ﾐﾔﾏｼ",
+   "url": "https://www.city.miyama.lg.jp/",
+   "verified": false,
+   "population": 35665
+  },
+  {
+   "code": "332127",
+   "pref": "岡山県",
+   "name": "瀬戸内市",
+   "kana": "ｾﾄｳﾁｼ",
+   "url": "https://www.city.setouchi.lg.jp/",
+   "verified": false,
+   "population": 35624
+  },
+  {
+   "code": "122386",
+   "pref": "千葉県",
+   "name": "いすみ市",
+   "kana": "ｲｽﾐｼ",
+   "url": "https://www.city.isumi.lg.jp/",
+   "verified": false,
+   "population": 35570
+  },
+  {
+   "code": "122343",
+   "pref": "千葉県",
+   "name": "南房総市",
+   "kana": "ﾐﾅﾐﾎﾞｳｿｳｼ",
+   "url": "https://www.city.minamiboso.chiba.jp/",
+   "verified": false,
+   "population": 35454
+  },
+  {
+   "code": "322091",
+   "pref": "島根県",
+   "name": "雲南市",
+   "kana": "ｳﾝﾅﾝｼ",
+   "url": "https://www.city.unnan.shimane.jp/",
+   "verified": false,
+   "population": 35366
+  },
+  {
+   "code": "222054",
+   "pref": "静岡県",
+   "name": "熱海市",
+   "kana": "ｱﾀﾐｼ",
+   "url": "https://www.city.atami.lg.jp/",
+   "verified": false,
+   "population": 35276
+  },
+  {
+   "code": "402273",
+   "pref": "福岡県",
+   "name": "嘉麻市",
+   "kana": "ｶﾏｼ",
+   "url": "https://www.city.kama.lg.jp/",
+   "verified": false,
+   "population": 35208
+  },
+  {
+   "code": "172090",
+   "pref": "石川県",
+   "name": "かほく市",
+   "kana": "ｶﾎｸｼ",
+   "url": "https://www.city.kahoku.lg.jp/",
+   "verified": false,
+   "population": 34936
+  },
+  {
+   "code": "382108",
+   "pref": "愛媛県",
+   "name": "伊予市",
+   "kana": "ｲﾖｼ",
+   "url": "https://www.city.iyo.lg.jp/",
+   "verified": false,
+   "population": 34927
+  },
+  {
+   "code": "072117",
+   "pref": "福島県",
+   "name": "田村市",
+   "kana": "ﾀﾑﾗｼ",
+   "url": "https://www.city.tamura.lg.jp/",
+   "verified": false,
+   "population": 34921
+  },
+  {
+   "code": "382141",
+   "pref": "愛媛県",
+   "name": "西予市",
+   "kana": "ｾｲﾖｼ",
+   "url": "https://www.city.seiyo.ehime.jp/",
+   "verified": false,
+   "population": 34898
+  },
+  {
+   "code": "072095",
+   "pref": "福島県",
+   "name": "相馬市",
+   "kana": "ｿｳﾏｼ",
+   "url": "https://www.city.soma.fukushima.jp/",
+   "verified": false,
+   "population": 34645
+  },
+  {
+   "code": "012114",
+   "pref": "北海道",
+   "name": "網走市",
+   "kana": "ｱﾊﾞｼﾘｼ",
+   "url": "https://www.city.abashiri.hokkaido.jp/",
+   "verified": false,
+   "population": 34640
+  },
+  {
+   "code": "362069",
+   "pref": "徳島県",
+   "name": "阿波市",
+   "kana": "ｱﾜｼ",
+   "url": "https://www.city.awa.lg.jp/",
+   "verified": false,
+   "population": 34569
+  },
+  {
+   "code": "032034",
+   "pref": "岩手県",
+   "name": "大船渡市",
+   "kana": "ｵｵﾌﾅﾄｼ",
+   "url": "https://www.city.ofunato.iwate.jp/",
+   "verified": false,
+   "population": 34558
+  },
+  {
+   "code": "122351",
+   "pref": "千葉県",
+   "name": "匝瑳市",
+   "kana": "ｿｳｻｼ",
+   "url": "https://www.city.sosa.lg.jp/",
+   "verified": false,
+   "population": 34427
+  },
+  {
+   "code": "422118",
+   "pref": "長崎県",
+   "name": "五島市",
+   "kana": "ｺﾞﾄｳｼ",
+   "url": "https://www.city.goto.nagasaki.jp/",
+   "verified": false,
+   "population": 34425
+  },
+  {
+   "code": "242144",
+   "pref": "三重県",
+   "name": "いなべ市",
+   "kana": "ｲﾅﾍﾞｼ",
+   "url": "https://www.city.inabe.mie.jp/",
+   "verified": false,
+   "population": 34323
+  },
+  {
+   "code": "062057",
+   "pref": "山形県",
+   "name": "新庄市",
+   "kana": "ｼﾝｼﾞｮｳｼ",
+   "url": "https://www.city.shinjo.yamagata.jp/",
+   "verified": false,
+   "population": 34284
+  },
+  {
+   "code": "382159",
+   "pref": "愛媛県",
+   "name": "東温市",
+   "kana": "ﾄｳｵﾝｼ",
+   "url": "https://www.city.toon.ehime.jp/",
+   "verified": false,
+   "population": 34195
+  },
+  {
+   "code": "282278",
+   "pref": "兵庫県",
+   "name": "宍粟市",
+   "kana": "ｼｿｳｼ",
+   "url": "https://www.city.shiso.lg.jp/",
+   "verified": false,
+   "population": 34116
+  },
+  {
+   "code": "152251",
+   "pref": "新潟県",
+   "name": "魚沼市",
+   "kana": "ｳｵﾇﾏｼ",
+   "url": "https://www.city.uonuma.lg.jp/",
+   "verified": false,
+   "population": 34112
+  },
+  {
+   "code": "152081",
+   "pref": "新潟県",
+   "name": "小千谷市",
+   "kana": "ｵﾁﾞﾔｼ",
+   "url": "https://www.city.ojiya.niigata.jp/",
+   "verified": false,
+   "population": 33729
+  },
+  {
+   "code": "342106",
+   "pref": "広島県",
+   "name": "庄原市",
+   "kana": "ｼｮｳﾊﾞﾗｼ",
+   "url": "https://www.city.shobara.hiroshima.jp/",
+   "verified": false,
+   "population": 33409
+  },
+  {
+   "code": "012335",
+   "pref": "北海道",
+   "name": "伊達市",
+   "kana": "ﾀﾞﾃｼ",
+   "url": "https://www.city.date.hokkaido.jp/",
+   "verified": false,
+   "population": 33404
+  },
+  {
+   "code": "332160",
+   "pref": "岡山県",
+   "name": "浅口市",
+   "kana": "ｱｻｸﾁｼ",
+   "url": "https://www.city.asakuchi.lg.jp/",
+   "verified": false,
+   "population": 33382
+  },
+  {
+   "code": "462233",
+   "pref": "鹿児島県",
+   "name": "南九州市",
+   "kana": "ﾐﾅﾐｷｭｳｼｭｳｼ",
+   "url": "https://www.city.minamikyushu.lg.jp/",
+   "verified": false,
+   "population": 33115
+  },
+  {
+   "code": "442127",
+   "pref": "大分県",
+   "name": "豊後大野市",
+   "kana": "ﾌﾞﾝｺﾞｵｵﾉｼ",
+   "url": "https://www.bungo-ohno.jp/",
+   "verified": false,
+   "population": 33066
+  },
+  {
+   "code": "032115",
+   "pref": "岩手県",
+   "name": "釜石市",
+   "kana": "ｶﾏｲｼｼ",
+   "url": "https://www.city.kamaishi.iwate.jp/",
+   "verified": false,
+   "population": 33061
+  },
+  {
+   "code": "012149",
+   "pref": "北海道",
+   "name": "稚内市",
+   "kana": "ﾜｯｶﾅｲｼ",
+   "url": "https://www.city.wakkanai.hokkaido.jp/",
+   "verified": false,
+   "population": 33036
+  },
+  {
+   "code": "192058",
+   "pref": "山梨県",
+   "name": "山梨市",
+   "kana": "ﾔﾏﾅｼｼ",
+   "url": "https://www.city.yamanashi.yamanashi.jp/",
+   "verified": false,
+   "population": 32925
+  },
+  {
+   "code": "462179",
+   "pref": "鹿児島県",
+   "name": "曽於市",
+   "kana": "ｿｵｼ",
+   "url": "https://www.city.soo.kagoshima.jp/",
+   "verified": false,
+   "population": 32849
+  },
+  {
+   "code": "032077",
+   "pref": "岩手県",
+   "name": "久慈市",
+   "kana": "ｸｼﾞｼ",
+   "url": "https://www.city.kuji.iwate.jp/",
+   "verified": false,
+   "population": 32813
+  },
+  {
+   "code": "442135",
+   "pref": "大分県",
+   "name": "由布市",
+   "kana": "ﾕﾌｼ",
+   "url": "https://www.city.yufu.oita.jp/",
+   "verified": false,
+   "population": 32698
+  },
+  {
+   "code": "212181",
+   "pref": "岐阜県",
+   "name": "本巣市",
+   "kana": "ﾓﾄｽｼ",
+   "url": "https://www.city.motosu.lg.jp/",
+   "verified": false,
+   "population": 32664
+  },
+  {
+   "code": "402125",
+   "pref": "福岡県",
+   "name": "大川市",
+   "kana": "ｵｵｶﾜｼ",
+   "url": "https://www.city.okawa.lg.jp/",
+   "verified": false,
+   "population": 32609
+  },
+  {
+   "code": "042064",
+   "pref": "宮城県",
+   "name": "白石市",
+   "kana": "ｼﾛｲｼｼ",
+   "url": "https://www.city.shiroishi.miyagi.jp/",
+   "verified": false,
+   "population": 32570
+  },
+  {
+   "code": "392103",
+   "pref": "高知県",
+   "name": "四万十市",
+   "kana": "ｼﾏﾝﾄｼ",
+   "url": "https://www.city.shimanto.lg.jp/",
+   "verified": false,
+   "population": 32551
+  },
+  {
+   "code": "312045",
+   "pref": "鳥取県",
+   "name": "境港市",
+   "kana": "ｻｶｲﾐﾅﾄｼ",
+   "url": "https://www.city.sakaiminato.lg.jp/",
+   "verified": false,
+   "population": 32503
+  },
+  {
+   "code": "462209",
+   "pref": "鹿児島県",
+   "name": "南さつま市",
+   "kana": "ﾐﾅﾐｻﾂﾏｼ",
+   "url": "https://www.city.minamisatsuma.lg.jp/",
+   "verified": false,
+   "population": 32503
+  },
+  {
+   "code": "212211",
+   "pref": "岐阜県",
+   "name": "海津市",
+   "kana": "ｶｲﾂﾞｼ",
+   "url": "https://www.city.kaizu.lg.jp/",
+   "verified": false,
+   "population": 32493
+  },
+  {
+   "code": "162060",
+   "pref": "富山県",
+   "name": "滑川市",
+   "kana": "ﾅﾒﾘｶﾜｼ",
+   "url": "https://www.city.namerikawa.toyama.jp/",
+   "verified": false,
+   "population": 32317
+  },
+  {
+   "code": "352110",
+   "pref": "山口県",
+   "name": "長門市",
+   "kana": "ﾅｶﾞﾄｼ",
+   "url": "https://www.city.nagato.yamaguchi.jp/",
+   "verified": false,
+   "population": 32183
+  },
+  {
+   "code": "392111",
+   "pref": "高知県",
+   "name": "香南市",
+   "kana": "ｺｳﾅﾝｼ",
+   "url": "https://www.city.kochi-konan.lg.jp/",
+   "verified": false,
+   "population": 32123
+  },
+  {
+   "code": "322059",
+   "pref": "島根県",
+   "name": "大田市",
+   "kana": "ｵｵﾀﾞｼ",
+   "url": "https://www.city.oda.lg.jp/",
+   "verified": false,
+   "population": 32102
+  },
+  {
+   "code": "332119",
+   "pref": "岡山県",
+   "name": "備前市",
+   "kana": "ﾋﾞｾﾞﾝｼ",
+   "url": "https://www.city.bizen.okayama.jp/",
+   "verified": false,
+   "population": 32077
+  },
+  {
+   "code": "082333",
+   "pref": "茨城県",
+   "name": "行方市",
+   "kana": "ﾅﾒｶﾞﾀｼ",
+   "url": "https://www.city.namegata.ibaraki.jp/",
+   "verified": false,
+   "population": 31828
+  },
+  {
+   "code": "202100",
+   "pref": "長野県",
+   "name": "駒ヶ根市",
+   "kana": "ｺﾏｶﾞﾈｼ",
+   "url": "https://www.city.komagane.nagano.jp/",
+   "verified": false,
+   "population": 31763
+  },
+  {
+   "code": "372048",
+   "pref": "香川県",
+   "name": "善通寺市",
+   "kana": "ｾﾞﾝﾂｳｼﾞｼ",
+   "url": "https://www.city.zentsuji.kagawa.jp/",
+   "verified": false,
+   "population": 31620
+  },
+  {
+   "code": "022047",
+   "pref": "青森県",
+   "name": "黒石市",
+   "kana": "ｸﾛｲｼｼ",
+   "url": "http://www.city.kuroishi.aomori.jp/",
+   "verified": false,
+   "population": 31604
+  },
+  {
+   "code": "052116",
+   "pref": "秋田県",
+   "name": "潟上市",
+   "kana": "ｶﾀｶﾞﾐｼ",
+   "url": "https://www.city.katagami.lg.jp/",
+   "verified": false,
+   "population": 31558
+  },
+  {
+   "code": "122238",
+   "pref": "千葉県",
+   "name": "鴨川市",
+   "kana": "ｶﾓｶﾞﾜｼ",
+   "url": "https://www.city.kamogawa.lg.jp/",
+   "verified": false,
+   "population": 31554
+  },
+  {
+   "code": "262030",
+   "pref": "京都府",
+   "name": "綾部市",
+   "kana": "ｱﾔﾍﾞｼ",
+   "url": "https://www.city.ayabe.lg.jp/",
+   "verified": false,
+   "population": 31537
+  },
+  {
+   "code": "412104",
+   "pref": "佐賀県",
+   "name": "神埼市",
+   "kana": "ｶﾝｻﾞｷｼ",
+   "url": "https://www.city.kanzaki.saga.jp/",
+   "verified": false,
+   "population": 31365
+  },
+  {
+   "code": "382043",
+   "pref": "愛媛県",
+   "name": "八幡浜市",
+   "kana": "ﾔﾜﾀﾊﾏｼ",
+   "url": "https://www.city.yawatahama.ehime.jp/",
+   "verified": false,
+   "population": 31363
+  },
+  {
+   "code": "432032",
+   "pref": "熊本県",
+   "name": "人吉市",
+   "kana": "ﾋﾄﾖｼｼ",
+   "url": "https://www.city.hitoyoshi.lg.jp/",
+   "verified": false,
+   "population": 31332
+  },
+  {
+   "code": "092118",
+   "pref": "栃木県",
+   "name": "矢板市",
+   "kana": "ﾔｲﾀｼ",
+   "url": "https://www.city.yaita.tochigi.jp/",
+   "verified": false,
+   "population": 31145
+  },
+  {
+   "code": "262137",
+   "pref": "京都府",
+   "name": "南丹市",
+   "kana": "ﾅﾝﾀﾝｼ",
+   "url": "https://www.city.nantan.kyoto.jp/www/",
+   "verified": false,
+   "population": 31075
+  },
+  {
+   "code": "192147",
+   "pref": "山梨県",
+   "name": "中央市",
+   "kana": "ﾁｭｳｵｳｼ",
+   "url": "https://www.city.chuo.yamanashi.jp/",
+   "verified": false,
+   "population": 31053
+  },
+  {
+   "code": "022098",
+   "pref": "青森県",
+   "name": "つがる市",
+   "kana": "ﾂｶﾞﾙｼ",
+   "url": "https://www.city.tsugaru.aomori.jp/",
+   "verified": false,
+   "population": 30760
+  },
+  {
+   "code": "212202",
+   "pref": "岐阜県",
+   "name": "下呂市",
+   "kana": "ｹﾞﾛｼ",
+   "url": "https://www.city.gero.lg.jp/",
+   "verified": false,
+   "population": 30641
+  },
+  {
+   "code": "222232",
+   "pref": "静岡県",
+   "name": "御前崎市",
+   "kana": "ｵﾏｴｻﾞｷｼ",
+   "url": "https://www.city.omaezaki.shizuoka.jp/",
+   "verified": false,
+   "population": 30562
+  },
+  {
+   "code": "352128",
+   "pref": "山口県",
+   "name": "柳井市",
+   "kana": "ﾔﾅｲｼ",
+   "url": "https://www.city-yanai.jp/",
+   "verified": false,
+   "population": 30461
+  },
+  {
+   "code": "182052",
+   "pref": "福井県",
+   "name": "大野市",
+   "kana": "ｵｵﾉｼ",
+   "url": "https://www.city.ono.fukui.jp/",
+   "verified": false,
+   "population": 30449
+  },
+  {
+   "code": "022101",
+   "pref": "青森県",
+   "name": "平川市",
+   "kana": "ﾋﾗｶﾜｼ",
+   "url": "https://www.city.hirakawa.lg.jp/",
+   "verified": false,
+   "population": 30326
+  },
+  {
+   "code": "152170",
+   "pref": "新潟県",
+   "name": "妙高市",
+   "kana": "ﾐｮｳｺｳｼ",
+   "url": "https://www.city.myoko.niigata.jp/",
+   "verified": false,
+   "population": 30300
+  },
+  {
+   "code": "072141",
+   "pref": "福島県",
+   "name": "本宮市",
+   "kana": "ﾓﾄﾐﾔｼ",
+   "url": "https://www.city.motomiya.lg.jp/",
+   "verified": false,
+   "population": 30253
+  },
+  {
+   "code": "062138",
+   "pref": "山形県",
+   "name": "南陽市",
+   "kana": "ﾅﾝﾖｳｼ",
+   "url": "http://www.city.nanyo.yamagata.jp/",
+   "verified": false,
+   "population": 30235
+  },
+  {
+   "code": "192040",
+   "pref": "山梨県",
+   "name": "都留市",
+   "kana": "ﾂﾙｼ",
+   "url": "https://www.city.tsuru.yamanashi.jp/",
+   "verified": false,
+   "population": 30193
+  },
+  {
+   "code": "052132",
+   "pref": "秋田県",
+   "name": "北秋田市",
+   "kana": "ｷﾀｱｷﾀｼ",
+   "url": "https://www.city.kitaakita.akita.jp/",
+   "verified": false,
+   "population": 29696
+  },
+  {
+   "code": "462217",
+   "pref": "鹿児島県",
+   "name": "志布志市",
+   "kana": "ｼﾌﾞｼｼ",
+   "url": "https://www.city.shibushi.lg.jp/",
+   "verified": false,
+   "population": 29267
+  },
+  {
+   "code": "202193",
+   "pref": "長野県",
+   "name": "東御市",
+   "kana": "ﾄｳﾐｼ",
+   "url": "https://www.city.tomi.nagano.jp/",
+   "verified": false,
+   "population": 29213
+  },
+  {
+   "code": "062073",
+   "pref": "山形県",
+   "name": "上山市",
+   "kana": "ｶﾐﾉﾔﾏｼ",
+   "url": "https://www.city.kaminoyama.yamagata.jp/",
+   "verified": false,
+   "population": 29141
+  },
+  {
+   "code": "192139",
+   "pref": "山梨県",
+   "name": "甲州市",
+   "kana": "ｺｳｼｭｳｼ",
+   "url": "https://www.city.koshu.yamanashi.jp/",
+   "verified": false,
+   "population": 29017
+  },
+  {
+   "code": "052094",
+   "pref": "秋田県",
+   "name": "鹿角市",
+   "kana": "ｶﾂﾞﾉｼ",
+   "url": "https://www.city.kazuno.akita.jp/",
+   "verified": false,
+   "population": 28929
+  },
+  {
+   "code": "192074",
+   "pref": "山梨県",
+   "name": "韮崎市",
+   "kana": "ﾆﾗｻｷｼ",
+   "url": "https://www.city.nirasaki.lg.jp/",
+   "verified": false,
+   "population": 28896
+  },
+  {
+   "code": "332097",
+   "pref": "岡山県",
+   "name": "高梁市",
+   "kana": "ﾀｶﾊｼｼ",
+   "url": "https://www.city.takahashi.lg.jp/",
+   "verified": false,
+   "population": 28825
+  },
+  {
+   "code": "422070",
+   "pref": "長崎県",
+   "name": "平戸市",
+   "kana": "ﾋﾗﾄﾞｼ",
+   "url": "https://en.city.hirado.nagasaki.jp/",
+   "verified": false,
+   "population": 28822
+  },
+  {
+   "code": "282251",
+   "pref": "兵庫県",
+   "name": "朝来市",
+   "kana": "ｱｻｺﾞｼ",
+   "url": "https://www.city.asago.hyogo.jp/",
+   "verified": false,
+   "population": 28802
+  },
+  {
+   "code": "162094",
+   "pref": "富山県",
+   "name": "小矢部市",
+   "kana": "ｵﾔﾍﾞｼ",
+   "url": "https://www.city.oyabe.toyama.jp/",
+   "verified": false,
+   "population": 28634
+  },
+  {
+   "code": "452084",
+   "pref": "宮崎県",
+   "name": "西都市",
+   "kana": "ｻｲﾄｼ",
+   "url": "https://www.city.saito.lg.jp/",
+   "verified": false,
+   "population": 28618
+  },
+  {
+   "code": "222224",
+   "pref": "静岡県",
+   "name": "伊豆市",
+   "kana": "ｲｽﾞｼ",
+   "url": "https://www.city.izu.shizuoka.jp/",
+   "verified": false,
+   "population": 28493
+  },
+  {
+   "code": "422096",
+   "pref": "長崎県",
+   "name": "対馬市",
+   "kana": "ﾂｼﾏｼ",
+   "url": "https://www.city.tsushima.nagasaki.jp/",
+   "verified": false,
+   "population": 28456
+  },
+  {
+   "code": "282081",
+   "pref": "兵庫県",
+   "name": "相生市",
+   "kana": "ｱｲｵｲｼ",
+   "url": "https://www.city.aioi.lg.jp/",
+   "verified": false,
+   "population": 28350
+  },
+  {
+   "code": "372072",
+   "pref": "香川県",
+   "name": "東かがわ市",
+   "kana": "ﾋｶﾞｼｶｶﾞﾜｼ",
+   "url": "https://www.higashikagawa.jp/",
+   "verified": false,
+   "population": 28305
+  },
+  {
+   "code": "182044",
+   "pref": "福井県",
+   "name": "小浜市",
+   "kana": "ｵﾊﾞﾏｼ",
+   "url": "https://www1.city.obama.fukui.jp/",
+   "verified": false,
+   "population": 28142
+  },
+  {
+   "code": "362077",
+   "pref": "徳島県",
+   "name": "美馬市",
+   "kana": "ﾐﾏｼ",
+   "url": "https://www.city.mima.lg.jp/",
+   "verified": false,
+   "population": 28087
+  },
+  {
+   "code": "152277",
+   "pref": "新潟県",
+   "name": "胎内市",
+   "kana": "ﾀｲﾅｲｼ",
+   "url": "https://www.city.tainai.niigata.jp/",
+   "verified": false,
+   "population": 28004
+  },
+  {
+   "code": "042081",
+   "pref": "宮城県",
+   "name": "角田市",
+   "kana": "ｶｸﾀﾞｼ",
+   "url": "https://www.city.kakuda.lg.jp/",
+   "verified": false,
+   "population": 27848
+  },
+  {
+   "code": "292125",
+   "pref": "奈良県",
+   "name": "宇陀市",
+   "kana": "ｳﾀﾞｼ",
+   "url": "https://www.city.uda.nara.jp/",
+   "verified": false,
+   "population": 27747
+  },
+  {
+   "code": "412074",
+   "pref": "佐賀県",
+   "name": "鹿島市",
+   "kana": "ｶｼﾏｼ",
+   "url": "https://www.city.saga-kashima.lg.jp/",
+   "verified": false,
+   "population": 27710
+  },
+  {
+   "code": "442101",
+   "pref": "大分県",
+   "name": "杵築市",
+   "kana": "ｷﾂｷｼ",
+   "url": "https://www.city.kitsuki.lg.jp/",
+   "verified": false,
+   "population": 27668
+  },
+  {
+   "code": "292079",
+   "pref": "奈良県",
+   "name": "五條市",
+   "kana": "ｺﾞｼﾞｮｳｼ",
+   "url": "https://www.city.gojo.lg.jp/",
+   "verified": false,
+   "population": 27578
+  },
+  {
+   "code": "332101",
+   "pref": "岡山県",
+   "name": "新見市",
+   "kana": "ﾆｲﾐｼ",
+   "url": "https://www.city.niimi.okayama.jp/",
+   "verified": false,
+   "population": 27526
+  },
+  {
+   "code": "402257",
+   "pref": "福岡県",
+   "name": "うきは市",
+   "kana": "ｳｷﾊｼ",
+   "url": "https://www.city.ukiha.fukuoka.jp/",
+   "verified": false,
+   "population": 27474
+  },
+  {
+   "code": "082236",
+   "pref": "茨城県",
+   "name": "潮来市",
+   "kana": "ｲﾀｺｼ",
+   "url": "https://www.city.itako.lg.jp/",
+   "verified": false,
+   "population": 27373
+  },
+  {
+   "code": "082147",
+   "pref": "茨城県",
+   "name": "高萩市",
+   "kana": "ﾀｶﾊｷﾞｼ",
+   "url": "https://www.city.takahagi.ibaraki.jp/",
+   "verified": false,
+   "population": 27251
+  },
+  {
+   "code": "342149",
+   "pref": "広島県",
+   "name": "安芸高田市",
+   "kana": "ｱｷﾀｶﾀｼ",
+   "url": "https://www.akitakata.jp/",
+   "verified": false,
+   "population": 27249
+  },
+  {
+   "code": "182087",
+   "pref": "福井県",
+   "name": "あわら市",
+   "kana": "ｱﾜﾗｼ",
+   "url": "https://www.city.awara.lg.jp/",
+   "verified": false,
+   "population": 27107
+  },
+  {
+   "code": "462195",
+   "pref": "鹿児島県",
+   "name": "いちき串木野市",
+   "kana": "ｲﾁｷｸｼｷﾉｼ",
+   "url": "https://www.city.ichikikushikino.lg.jp/",
+   "verified": false,
+   "population": 27080
+  },
+  {
+   "code": "012211",
+   "pref": "北海道",
+   "name": "名寄市",
+   "kana": "ﾅﾖﾛｼ",
+   "url": "http://www.city.nayoro.lg.jp/",
+   "verified": false,
+   "population": 27062
+  },
+  {
+   "code": "402265",
+   "pref": "福岡県",
+   "name": "宮若市",
+   "kana": "ﾐﾔﾜｶｼ",
+   "url": "https://www.city.miyawaka.lg.jp/",
+   "verified": false,
+   "population": 26690
+  },
+  {
+   "code": "302074",
+   "pref": "和歌山県",
+   "name": "新宮市",
+   "kana": "ｼﾝｸﾞｳｼ",
+   "url": "https://www.city.shingu.lg.jp/",
+   "verified": false,
+   "population": 26628
+  },
+  {
+   "code": "342114",
+   "pref": "広島県",
+   "name": "大竹市",
+   "kana": "ｵｵﾀｹｼ",
+   "url": "https://www.city.otake.hiroshima.jp/",
+   "verified": false,
+   "population": 26458
+  },
+  {
+   "code": "392120",
+   "pref": "高知県",
+   "name": "香美市",
+   "kana": "ｶﾐｼ",
+   "url": "https://www.city.kami.lg.jp/",
+   "verified": false,
+   "population": 26376
+  },
+  {
+   "code": "422126",
+   "pref": "長崎県",
+   "name": "西海市",
+   "kana": "ｻｲｶｲｼ",
+   "url": "https://www.city.saikai.nagasaki.jp/",
+   "verified": false,
+   "population": 26188
+  },
+  {
+   "code": "202126",
+   "pref": "長野県",
+   "name": "大町市",
+   "kana": "ｵｵﾏﾁｼ",
+   "url": "https://www.city.omachi.nagano.jp/",
+   "verified": false,
+   "population": 25883
+  },
+  {
+   "code": "062090",
+   "pref": "山形県",
+   "name": "長井市",
+   "kana": "ﾅｶﾞｲｼ",
+   "url": "https://www.city.nagai.yamagata.jp/",
+   "verified": false,
+   "population": 25836
+  },
+  {
+   "code": "442143",
+   "pref": "大分県",
+   "name": "国東市",
+   "kana": "ｸﾆｻｷｼ",
+   "url": "https://www.city.kunisaki.oita.jp/",
+   "verified": false,
+   "population": 25790
+  },
+  {
+   "code": "302040",
+   "pref": "和歌山県",
+   "name": "有田市",
+   "kana": "ｱﾘﾀﾞｼ",
+   "url": "https://www.city.arida.lg.jp/",
+   "verified": false,
+   "population": 25737
+  },
+  {
+   "code": "392057",
+   "pref": "高知県",
+   "name": "土佐市",
+   "kana": "ﾄｻｼ",
+   "url": "https://www.city.tosa.lg.jp/",
+   "verified": false,
+   "population": 25665
+  },
+  {
+   "code": "412091",
+   "pref": "佐賀県",
+   "name": "嬉野市",
+   "kana": "ｳﾚｼﾉｼ",
+   "url": "https://www.city.ureshino.lg.jp/",
+   "verified": false,
+   "population": 25593
+  },
+  {
+   "code": "332151",
+   "pref": "岡山県",
+   "name": "美作市",
+   "kana": "ﾐﾏｻｶｼ",
+   "url": "https://www.city.mimasaka.lg.jp/",
+   "verified": false,
+   "population": 25497
+  },
+  {
+   "code": "212156",
+   "pref": "岐阜県",
+   "name": "山県市",
+   "kana": "ﾔﾏｶﾞﾀｼ",
+   "url": "https://www.city.yamagata.gifu.jp/",
+   "verified": false,
+   "population": 25325
+  },
+  {
+   "code": "032085",
+   "pref": "岩手県",
+   "name": "遠野市",
+   "kana": "ﾄｵﾉｼ",
+   "url": "https://www.city.tono.iwate.jp/",
+   "verified": false,
+   "population": 25181
+  },
+  {
+   "code": "152099",
+   "pref": "新潟県",
+   "name": "加茂市",
+   "kana": "ｶﾓｼ",
+   "url": "https://www.city.kamo.niigata.jp/",
+   "verified": false,
+   "population": 25086
+  },
+  {
+   "code": "032131",
+   "pref": "岩手県",
+   "name": "二戸市",
+   "kana": "ﾆﾉﾍｼ",
+   "url": "https://www.city.ninohe.lg.jp/",
+   "verified": false,
+   "population": 25083
+  },
+  {
+   "code": "422100",
+   "pref": "長崎県",
+   "name": "壱岐市",
+   "kana": "ｲｷｼ",
+   "url": "https://www.city.iki.nagasaki.jp/",
+   "verified": false,
+   "population": 24873
+  },
+  {
+   "code": "012238",
+   "pref": "北海道",
+   "name": "根室市",
+   "kana": "ﾈﾑﾛｼ",
+   "url": "https://www.city.nemuro.hokkaido.jp/",
+   "verified": false,
+   "population": 24858
+  },
+  {
+   "code": "432148",
+   "pref": "熊本県",
+   "name": "阿蘇市",
+   "kana": "ｱｿｼ",
+   "url": "https://www.city.aso.kumamoto.jp/",
+   "verified": false,
+   "population": 24820
+  },
+  {
+   "code": "052060",
+   "pref": "秋田県",
+   "name": "男鹿市",
+   "kana": "ｵｶﾞｼ",
+   "url": "https://www.city.oga.akita.jp/",
+   "verified": false,
+   "population": 24690
+  },
+  {
+   "code": "052159",
+   "pref": "秋田県",
+   "name": "仙北市",
+   "kana": "ｾﾝﾎﾞｸｼ",
+   "url": "https://www.city.semboku.akita.jp/",
+   "verified": false,
+   "population": 24515
+  },
+  {
+   "code": "172049",
+   "pref": "石川県",
+   "name": "輪島市",
+   "kana": "ﾜｼﾞﾏｼ",
+   "url": "https://www.city.wajima.ishikawa.jp/",
+   "verified": false,
+   "population": 24507
+  },
+  {
+   "code": "092151",
+   "pref": "栃木県",
+   "name": "那須烏山市",
+   "kana": "ﾅｽｶﾗｽﾔﾏｼ",
+   "url": "https://www.city.nasukarasuyama.lg.jp/",
+   "verified": false,
+   "population": 24456
+  },
+  {
+   "code": "402141",
+   "pref": "福岡県",
+   "name": "豊前市",
+   "kana": "ﾌﾞｾﾞﾝｼ",
+   "url": "https://www.city.buzen.lg.jp/",
+   "verified": false,
+   "population": 24369
+  },
+  {
+   "code": "292087",
+   "pref": "奈良県",
+   "name": "御所市",
+   "kana": "ｺﾞｾｼ",
+   "url": "https://www.city.gose.nara.jp/",
+   "verified": false,
+   "population": 24317
+  },
+  {
+   "code": "462241",
+   "pref": "鹿児島県",
+   "name": "伊佐市",
+   "kana": "ｲｻｼ",
+   "url": "https://www.city.isa.kagoshima.jp/",
+   "verified": false,
+   "population": 24131
+  },
+  {
+   "code": "432121",
+   "pref": "熊本県",
+   "name": "上天草市",
+   "kana": "ｶﾐｱﾏｸｻｼ",
+   "url": "https://www.city.kamiamakusa.kumamoto.jp/",
+   "verified": false,
+   "population": 23973
+  },
+  {
+   "code": "032140",
+   "pref": "岩手県",
+   "name": "八幡平市",
+   "kana": "ﾊﾁﾏﾝﾀｲｼ",
+   "url": "https://www.city.hachimantai.lg.jp/",
+   "verified": false,
+   "population": 23742
+  },
+  {
+   "code": "342033",
+   "pref": "広島県",
+   "name": "竹原市",
+   "kana": "ﾀｹﾊﾗｼ",
+   "url": "https://www.city.takehara.lg.jp/",
+   "verified": false,
+   "population": 23631
+  },
+  {
+   "code": "362085",
+   "pref": "徳島県",
+   "name": "三好市",
+   "kana": "ﾐﾖｼｼ",
+   "url": "https://www.miyoshi.i-tokushima.jp/",
+   "verified": false,
+   "population": 23500
+  },
+  {
+   "code": "352136",
+   "pref": "山口県",
+   "name": "美祢市",
+   "kana": "ﾐﾈｼ",
+   "url": "https://www2.city.mine.lg.jp/",
+   "verified": false,
+   "population": 23236
+  },
+  {
+   "code": "432059",
+   "pref": "熊本県",
+   "name": "水俣市",
+   "kana": "ﾐﾅﾏﾀｼ",
+   "url": "https://www.city.minamata.lg.jp/",
+   "verified": false,
+   "population": 23155
+  },
+  {
+   "code": "052141",
+   "pref": "秋田県",
+   "name": "にかほ市",
+   "kana": "ﾆｶﾎｼ",
+   "url": "https://www.city.nikaho.akita.jp/",
+   "verified": false,
+   "population": 22981
+  },
+  {
+   "code": "322075",
+   "pref": "島根県",
+   "name": "江津市",
+   "kana": "ｺﾞｳﾂｼ",
+   "url": "https://www.city.gotsu.lg.jp/",
+   "verified": false,
+   "population": 22838
+  },
+  {
+   "code": "302058",
+   "pref": "和歌山県",
+   "name": "御坊市",
+   "kana": "ｺﾞﾎﾞｳｼ",
+   "url": "https://www.city.gobo.lg.jp/",
+   "verified": false,
+   "population": 22744
+  },
+  {
+   "code": "212172",
+   "pref": "岐阜県",
+   "name": "飛騨市",
+   "kana": "ﾋﾀﾞｼ",
+   "url": "https://www.city.hida.gifu.jp/",
+   "verified": false,
+   "population": 22585
+  },
+  {
+   "code": "192121",
+   "pref": "山梨県",
+   "name": "上野原市",
+   "kana": "ｳｴﾉﾊﾗｼ",
+   "url": "https://www.city.uenohara.yamanashi.jp/",
+   "verified": false,
+   "population": 22557
+  },
+  {
+   "code": "192066",
+   "pref": "山梨県",
+   "name": "大月市",
+   "kana": "ｵｵﾂｷｼ",
+   "url": "https://www.city.otsuki.yamanashi.jp/",
+   "verified": false,
+   "population": 22356
+  },
+  {
+   "code": "062081",
+   "pref": "山形県",
+   "name": "村山市",
+   "kana": "ﾑﾗﾔﾏｼ",
+   "url": "https://www.city.murayama.lg.jp/",
+   "verified": false,
+   "population": 22222
+  },
+  {
+   "code": "182061",
+   "pref": "福井県",
+   "name": "勝山市",
+   "kana": "ｶﾂﾔﾏｼ",
+   "url": "https://www.city.katsuyama.fukui.jp/",
+   "verified": false,
+   "population": 22047
+  },
+  {
+   "code": "442097",
+   "pref": "大分県",
+   "name": "豊後高田市",
+   "kana": "ﾌﾞﾝｺﾞﾀｶﾀﾞｼ",
+   "url": "https://www.city.bungotakada.oita.jp/",
+   "verified": false,
+   "population": 21901
+  },
+  {
+   "code": "282227",
+   "pref": "兵庫県",
+   "name": "養父市",
+   "kana": "ﾔﾌﾞｼ",
+   "url": "https://www.city.yabu.hyogo.jp/",
+   "verified": false,
+   "population": 21813
+  },
+  {
+   "code": "342157",
+   "pref": "広島県",
+   "name": "江田島市",
+   "kana": "ｴﾀｼﾞﾏｼ",
+   "url": "https://www.city.etajima.hiroshima.jp/",
+   "verified": false,
+   "population": 21557
+  },
+  {
+   "code": "012190",
+   "pref": "北海道",
+   "name": "紋別市",
+   "kana": "ﾓﾝﾍﾞﾂｼ",
+   "url": "https://mombetsu.jp/",
+   "verified": false,
+   "population": 21317
+  },
+  {
+   "code": "422088",
+   "pref": "長崎県",
+   "name": "松浦市",
+   "kana": "ﾏﾂｳﾗｼ",
+   "url": "https://www.city-matsuura.jp/",
+   "verified": false,
+   "population": 21203
+  },
+  {
+   "code": "012297",
+   "pref": "北海道",
+   "name": "富良野市",
+   "kana": "ﾌﾗﾉｼ",
+   "url": "https://www.city.furano.hokkaido.jp/",
+   "verified": false,
+   "population": 21071
+  },
+  {
+   "code": "012157",
+   "pref": "北海道",
+   "name": "美唄市",
+   "kana": "ﾋﾞﾊﾞｲｼ",
+   "url": "https://www.city.bibai.hokkaido.jp/",
+   "verified": false,
+   "population": 20507
+  },
+  {
+   "code": "222194",
+   "pref": "静岡県",
+   "name": "下田市",
+   "kana": "ｼﾓﾀﾞｼ",
+   "url": "https://www.city.shimoda.shizuoka.jp/",
+   "verified": false,
+   "population": 20499
+  },
+  {
+   "code": "392065",
+   "pref": "高知県",
+   "name": "須崎市",
+   "kana": "ｽｻｷｼ",
+   "url": "https://www.city.susaki.lg.jp/",
+   "verified": false,
+   "population": 20424
+  },
+  {
+   "code": "012122",
+   "pref": "北海道",
+   "name": "留萌市",
+   "kana": "ﾙﾓｲｼ",
+   "url": "https://www.e-rumoi.jp/",
+   "verified": false,
+   "population": 20260
+  },
+  {
+   "code": "012289",
+   "pref": "北海道",
+   "name": "深川市",
+   "kana": "ﾌｶｶﾞﾜｼ",
+   "url": "https://www.city.fukagawa.lg.jp/",
+   "verified": false,
+   "population": 20086
+  },
+  {
+   "code": "172073",
+   "pref": "石川県",
+   "name": "羽咋市",
+   "kana": "ﾊｸｲｼ",
+   "url": "https://www.city.hakui.lg.jp/",
+   "verified": false,
+   "population": 20031
+  },
+  {
+   "code": "462047",
+   "pref": "鹿児島県",
+   "name": "枕崎市",
+   "kana": "ﾏｸﾗｻﾞｷｼ",
+   "url": "https://www.city.makurazaki.lg.jp/",
+   "verified": false,
+   "population": 19817
+  },
+  {
+   "code": "442089",
+   "pref": "大分県",
+   "name": "竹田市",
+   "kana": "ﾀｹﾀｼ",
+   "url": "https://www.city.taketa.oita.jp/",
+   "verified": false,
+   "population": 19688
+  },
+  {
+   "code": "202134",
+   "pref": "長野県",
+   "name": "飯山市",
+   "kana": "ｲｲﾔﾏｼ",
+   "url": "https://www.city.iiyama.nagano.jp/",
+   "verified": false,
+   "population": 19279
+  },
+  {
+   "code": "212075",
+   "pref": "岐阜県",
+   "name": "美濃市",
+   "kana": "ﾐﾉｼ",
+   "url": "https://www.city.mino.gifu.jp/",
+   "verified": false,
+   "population": 19266
+  },
+  {
+   "code": "392081",
+   "pref": "高知県",
+   "name": "宿毛市",
+   "kana": "ｽｸﾓｼ",
+   "url": "https://www.city.sukumo.kochi.jp/",
+   "verified": false,
+   "population": 19124
+  },
+  {
+   "code": "462063",
+   "pref": "鹿児島県",
+   "name": "阿久根市",
+   "kana": "ｱｸﾈｼ",
+   "url": "https://www.city.akune.lg.jp/",
+   "verified": false,
+   "population": 19009
+  },
+  {
+   "code": "412040",
+   "pref": "佐賀県",
+   "name": "多久市",
+   "kana": "ﾀｸｼ",
+   "url": "https://www.city.taku.lg.jp/",
+   "verified": false,
+   "population": 18215
+  },
+  {
+   "code": "032107",
+   "pref": "岩手県",
+   "name": "陸前高田市",
+   "kana": "ﾘｸｾﾞﾝﾀｶﾀｼ",
+   "url": "https://www.city.rikuzentakata.iwate.jp/",
+   "verified": false,
+   "population": 18182
+  },
+  {
+   "code": "012203",
+   "pref": "北海道",
+   "name": "士別市",
+   "kana": "ｼﾍﾞﾂｼ",
+   "url": "https://www.city.shibetsu.lg.jp/",
+   "verified": false,
+   "population": 18138
+  },
+  {
+   "code": "452092",
+   "pref": "宮崎県",
+   "name": "えびの市",
+   "kana": "ｴﾋﾞﾉｼ",
+   "url": "https://www.city.ebino.lg.jp/",
+   "verified": false,
+   "population": 17508
+  },
+  {
+   "code": "242110",
+   "pref": "三重県",
+   "name": "鳥羽市",
+   "kana": "ﾄﾊﾞｼ",
+   "url": "https://www.city.toba.mie.jp/",
+   "verified": false,
+   "population": 17421
+  },
+  {
+   "code": "452076",
+   "pref": "宮崎県",
+   "name": "串間市",
+   "kana": "ｸｼﾏｼ",
+   "url": "https://www.city.kushima.lg.jp/",
+   "verified": false,
+   "population": 16744
+  },
+  {
+   "code": "122181",
+   "pref": "千葉県",
+   "name": "勝浦市",
+   "kana": "ｶﾂｳﾗｼ",
+   "url": "https://www.city.katsuura.lg.jp/",
+   "verified": false,
+   "population": 16723
+  },
+  {
+   "code": "262056",
+   "pref": "京都府",
+   "name": "宮津市",
+   "kana": "ﾐﾔﾂﾞｼ",
+   "url": "https://www.city.miyazu.kyoto.jp/",
+   "verified": false,
+   "population": 16564
+  },
+  {
+   "code": "012262",
+   "pref": "北海道",
+   "name": "砂川市",
+   "kana": "ｽﾅｶﾞﾜｼ",
+   "url": "https://www.city.sunagawa.hokkaido.jp/",
+   "verified": false,
+   "population": 16513
+  },
+  {
+   "code": "392031",
+   "pref": "高知県",
+   "name": "安芸市",
+   "kana": "ｱｷｼ",
+   "url": "https://www.city.aki.kochi.jp/",
+   "verified": false,
+   "population": 16090
+  },
+  {
+   "code": "242098",
+   "pref": "三重県",
+   "name": "尾鷲市",
+   "kana": "ｵﾜｾｼ",
+   "url": "https://www.city.owase.lg.jp/",
+   "verified": false,
+   "population": 16079
+  },
+  {
+   "code": "242128",
+   "pref": "三重県",
+   "name": "熊野市",
+   "kana": "ｸﾏﾉｼ",
+   "url": "https://www.city.kumano.lg.jp/",
+   "verified": false,
+   "population": 15806
+  },
+  {
+   "code": "442071",
+   "pref": "大分県",
+   "name": "津久見市",
+   "kana": "ﾂｸﾐｼ",
+   "url": "https://www.city.tsukumi.oita.jp/",
+   "verified": false,
+   "population": 15664
+  },
+  {
+   "code": "062120",
+   "pref": "山形県",
+   "name": "尾花沢市",
+   "kana": "ｵﾊﾞﾅｻﾞﾜｼ",
+   "url": "https://www.city.obanazawa.yamagata.jp/",
+   "verified": false,
+   "population": 14760
+  },
+  {
+   "code": "462136",
+   "pref": "鹿児島県",
+   "name": "西之表市",
+   "kana": "ﾆｼﾉｵﾓﾃｼ",
+   "url": "https://www.city.nishinoomote.lg.jp/",
+   "verified": false,
+   "population": 14694
+  },
+  {
+   "code": "462144",
+   "pref": "鹿児島県",
+   "name": "垂水市",
+   "kana": "ﾀﾙﾐｽﾞｼ",
+   "url": "https://www.city.tarumizu.lg.jp/",
+   "verified": false,
+   "population": 13688
+  },
+  {
+   "code": "172057",
+   "pref": "石川県",
+   "name": "珠洲市",
+   "kana": "ｽｽﾞｼ",
+   "url": "https://www.city.suzu.lg.jp/",
+   "verified": false,
+   "population": 12879
+  },
+  {
+   "code": "012165",
+   "pref": "北海道",
+   "name": "芦別市",
+   "kana": "ｱｼﾍﾞﾂｼ",
+   "url": "https://www.city.ashibetsu.hokkaido.jp/",
+   "verified": false,
+   "population": 12775
+  },
+  {
+   "code": "392090",
+   "pref": "高知県",
+   "name": "土佐清水市",
+   "kana": "ﾄｻｼﾐｽﾞｼ",
+   "url": "https://www.city.tosashimizu.kochi.jp/",
+   "verified": false,
+   "population": 11925
+  },
+  {
+   "code": "392022",
+   "pref": "高知県",
+   "name": "室戸市",
+   "kana": "ﾑﾛﾄｼ",
+   "url": "https://www.city.muroto.kochi.jp/",
+   "verified": false,
+   "population": 11543
+  },
+  {
+   "code": "012181",
+   "pref": "北海道",
+   "name": "赤平市",
+   "kana": "ｱｶﾋﾞﾗｼ",
+   "url": "https://www.city.akabira.hokkaido.jp/",
+   "verified": false,
+   "population": 9644
+  },
+  {
+   "code": "012220",
+   "pref": "北海道",
+   "name": "三笠市",
+   "kana": "ﾐｶｻｼ",
+   "url": "https://www.city.mikasa.hokkaido.jp/",
+   "verified": false,
+   "population": 8153
+  },
+  {
+   "code": "012092",
+   "pref": "北海道",
+   "name": "夕張市",
+   "kana": "ﾕｳﾊﾞﾘｼ",
+   "url": "https://www.city.yubari.lg.jp/",
+   "verified": false,
+   "population": 7430
+  },
+  {
+   "code": "012271",
+   "pref": "北海道",
+   "name": "歌志内市",
+   "kana": "ｳﾀｼﾅｲｼ",
+   "url": "https://www.city.utashinai.hokkaido.jp/",
+   "verified": false,
+   "population": 3019
+  }
+ ]
+}

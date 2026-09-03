@@ -24,8 +24,8 @@ SITE = 'https://welfarejob.jp'
 OUT = 'public/seido'
 # 個別ページを作る最低件数。1件でも取れていれば作る
 MIN_PROGRAMS = 1
-# 巡回の対象にしている自治体数（県庁所在地・政令指定都市・東京23区）
-TARGET_COUNT = 74
+# 巡回の対象にしている自治体数。data から数えて入れ替える
+TARGET_COUNT = 0
 
 PREF_ROMAJI = {
     '北海道': 'hokkaido', '青森県': 'aomori', '岩手県': 'iwate', '宮城県': 'miyagi',
@@ -200,7 +200,7 @@ PROGRAM_BODY = """      <header><a href="/">福祉の求人アラート</a></hea
       <p class="count">制度名は各自治体の公式ページでの表記のままです。同じ制度でも自治体によって名前が違います。</p>
 
       <div class="note">
-        <p><strong>この一覧は「制度がある自治体の一覧」ではありません。</strong>県庁所在地・政令指定都市・東京23区の74自治体の公式サイトを機械的にたどって、この制度に当たるページのリンクを集めたものです。サイトの作りによっては、制度があってもリンクを拾えません。</p>
+        <p><strong>この一覧は「制度がある自治体の一覧」ではありません。</strong>全国の市と東京23区、あわせて{target}自治体の公式サイトを機械的にたどって、この制度に当たるページのリンクを集めたものです。サイトの作りによっては、制度があってもリンクを拾えません。</p>
         <p>お住まいの自治体が載っていない場合は、<a href="/seido/">自治体の一覧</a>からその自治体の公式ページを開くか、障害福祉の担当窓口にお尋ねください。</p>
       </div>
 
@@ -223,7 +223,7 @@ SCARCE_NOTE = """
 """
 
 CITY_BODY = """      <header><a href="/">福祉の求人アラート</a></header>
-      <nav class="crumbs"><a href="/">ホーム</a> ＞ <a href="/seido/">自治体の障害福祉制度</a> ＞ {full}</nav>
+      <nav class="crumbs"><a href="/">ホーム</a> ＞ <a href="/seido/">自治体の障害福祉制度</a> ＞ <a href="/seido/{slug_pref}/">{pref}</a> ＞ {name}</nav>
 
       <h1>{full}の障害福祉制度</h1>
 
@@ -289,6 +289,7 @@ def city_page(entry, slug_pref, slug_city, checked_on, group_links):
         },
         crumb([('福祉の求人アラート', SITE + '/'),
                ('自治体の障害福祉制度', SITE + '/seido/'),
+               (pref, '{0}/seido/{1}/'.format(SITE, slug_pref)),
                (full, url)]),
     ]}
 
@@ -311,7 +312,8 @@ def city_page(entry, slug_pref, slug_city, checked_on, group_links):
             for g in group_links)
         bygroup = BY_GROUP.format(full=escape(full), links=links)
     body = CITY_BODY.format(
-        scarce=scarce, bygroup=bygroup,
+        scarce=scarce, bygroup=bygroup, slug_pref=slug_pref,
+        pref=escape(pref), name=escape(name),
         full=escape(full), n=len(progs), items=items, checked=checked_on,
         host=escape(entry['url'].split('/')[2]),
         welfare_attr=escape(welfare, quote=True), welfare_text=escape(welfare),
@@ -325,7 +327,7 @@ def program_page(group, hits, checked_on):
     n = len(hits)
     name = group['name']
     title = '{0}を案内している自治体{1}件｜公式ページへのリンク｜福祉の求人アラート'.format(name, n)
-    desc = ('{0}について、主要{1}自治体のうち公式ページを確認できた{2}自治体の'
+    desc = ('{0}について、全国{1}自治体のうち公式ページを確認できた{2}自治体の'
             'リンクをまとめました。金額や条件は改定されるため転記していません。'
             '{3}時点。'.format(name, TARGET_COUNT, n, checked_on))
 
@@ -375,7 +377,7 @@ def program_page(group, hits, checked_on):
         name=escape(name),
         kind_lead=KIND_LEAD[group['kind']].format(name=escape(name)),
         about=group['about'], n=n, items='\n'.join(items),
-        sources=src, checked=checked_on)
+        sources=src, checked=checked_on, target=TARGET_COUNT)
     return head(title, desc, url, jsonld) + body + FOOT
 
 
@@ -384,11 +386,11 @@ INDEX_BODY = """      <header><a href="/">福祉の求人アラート</a></heade
 
       <h1>自治体の障害福祉制度を、公式ページからたどる</h1>
 
-      <p class="lead">障害福祉の制度は市区町村ごとに違い、全国を横断した公的な一覧がありません。ここでは<strong>県庁所在地・政令指定都市・東京23区の{n}自治体</strong>について、公式サイトに載っている制度{p}件へのリンクを整理しました。{checked}時点です。</p>
+      <p class="lead">障害福祉の制度は市区町村ごとに違い、全国を横断した公的な一覧がありません。ここでは<strong>全国の市と東京23区、あわせて{n}自治体</strong>について、公式サイトに載っている制度{p}件へのリンクを整理しました。{checked}時点です。</p>
 
-      <p>自治体名を選ぶと、その自治体の制度の一覧に移ります。<strong>金額や対象等級は転記していません。</strong>改定されると当サイトの表示が誤りになるためです。</p>
+      <p>都道府県を選ぶと、その中の市区町村の一覧に移ります。<strong>金額や対象等級は転記していません。</strong>改定されると当サイトの表示が誤りになるためです。</p>
 
-      <h2>自治体を選ぶ</h2>
+      <h2>都道府県から探す</h2>
 
 {blocks}
 
@@ -403,8 +405,9 @@ INDEX_BODY = """      <header><a href="/">福祉の求人アラート</a></heade
       <h2>一覧の作り方と、含まれていないもの</h2>
 
       <div class="note">
-        <p>総務省の全国地方公共団体コードから対象の{n}自治体を機械的に選び、各自治体の公式サイトの障害福祉のページをたどって制度のリンクを集めました。自治体名ではなく団体コードで突き合わせています。</p>
+        <p>総務省の全国地方公共団体コードから全国の市と東京23区、{n}自治体を機械的に選び、各自治体の公式サイトの障害福祉のページをたどって制度のリンクを集めました。自治体名ではなく団体コードで突き合わせています。巡回は robots.txt に従っています。</p>
         <p><strong>{nomatch}自治体は制度のリンクを取れていません。</strong>サイトの作りが機械で追えない形になっているためで、制度が無いという意味ではありません。無いように見せたくないので、公式ページへのリンクだけ残しています。</p>
+        <p>また、障害福祉のページとは別のページを拾ってしまった自治体は、拾った内容ごと外しています。1件ずつ見ると制度らしく見えるものでも、その自治体の障害福祉のものでなければ意味がないためです。</p>
         <p>制度ごとのページは、{TARGET}自治体のうち{minmuni}自治体以上で公式ページを確認できた制度だけ作っています。少ない数の自治体から「この制度があるのはここだけ」と読めてしまう形にしないためです。</p>
         <p>個別のページを作っているのは、制度のリンクが1件でも取れた{withpage}自治体です。取れた件数が少ない自治体のページには、それが全部ではないことと、公式サイトの障害福祉のページを先に見ていただきたいことを書いています。短い一覧を、その自治体の制度の全部であるかのように見せないためです。</p>
       </div>
@@ -424,8 +427,8 @@ INDEX_BODY = """      <header><a href="/">福祉の求人アラート</a></heade
 def index_page(rows, checked_on, total_programs, program_rows):
     url = SITE + '/seido/'
     withpage = [r for r in rows if r['slug']]
-    title = '自治体の障害福祉制度 一覧｜主要{0}市区町村の公式ページへの入口｜福祉の求人アラート'.format(len(rows))
-    desc = ('県庁所在地・政令指定都市・東京23区の{0}自治体について、公式サイトに載っている障害福祉の制度{1}件への'
+    title = '自治体の障害福祉制度｜全国{0}市区町村の公式ページへの入口｜福祉の求人アラート'.format(len(rows))
+    desc = ('全国の市と東京23区、{0}自治体について、公式サイトに載っている障害福祉の制度{1}件への'
             'リンクを整理しました。金額や条件は転記せず、公式ページへつないでいます。'.format(len(rows), total_programs))
     jsonld = {'@context': 'https://schema.org', '@graph': [
         {
@@ -433,11 +436,11 @@ def index_page(rows, checked_on, total_programs, program_rows):
             'description': desc, 'url': url, 'inLanguage': 'ja',
             'isPartOf': {'@type': 'WebSite', 'name': '福祉の求人アラート', 'url': SITE + '/'},
             'mainEntity': {
-                '@type': 'ItemList', 'numberOfItems': len(withpage),
+                '@type': 'ItemList', 'numberOfItems': len({r['pref'] for r in rows}),
                 'itemListElement': [
-                    {'@type': 'ListItem', 'position': i + 1,
-                     'name': r['pref'] + r['name'], 'url': SITE + r['slug']}
-                    for i, r in enumerate(withpage)
+                    {'@type': 'ListItem', 'position': i + 1, 'name': pref,
+                     'url': '{0}/seido/{1}/'.format(SITE, PREF_ROMAJI[pref])}
+                    for i, pref in enumerate(dict.fromkeys(r['pref'] for r in rows))
                 ],
             },
         },
@@ -445,27 +448,21 @@ def index_page(rows, checked_on, total_programs, program_rows):
                ('自治体の障害福祉制度', url)]),
     ]}
 
-    blocks = []
-    cur = None
-    lis = []
+    # 800近い自治体を1ページに並べると読めないので、都道府県で1段挟む。
+    # /seido/tokyo/ のような中間のURLが404のままなのも直る。
+    order = []
+    per_pref = {}
     for r in rows:
-        if r['pref'] != cur:
-            if cur is not None:
-                blocks.append((cur, lis))
-            cur, lis = r['pref'], []
-        if r['slug']:
-            lis.append('<li><a href="{0}">{1}</a> <span class="count">{2}件</span></li>'.format(
-                r['slug'], escape(r['name']), r['count']))
-        else:
-            label = '公式ページへ' if r['count'] else '未取得'
-            lis.append('<li class="plain"><a href="{0}" target="_blank" rel="noopener">{1}</a> <span class="count">{2}</span></li>'.format(
-                escape(r['welfare'], quote=True), escape(r['name']), label))
-    if cur is not None:
-        blocks.append((cur, lis))
+        if r['pref'] not in per_pref:
+            per_pref[r['pref']] = []
+            order.append(r['pref'])
+        per_pref[r['pref']].append(r)
 
-    body_blocks = '\n'.join(
-        '      <div class="pref-block"><h3>{0}</h3><ul class="city-list">{1}</ul></div>'.format(
-            escape(pref), ''.join(lis)) for pref, lis in blocks)
+    body_blocks = '      <ul class="city-list">{0}</ul>'.format(''.join(
+        '<li><a href="/seido/{0}/">{1}</a> <span class="count">{2}/{3}自治体</span></li>'.format(
+            PREF_ROMAJI[pref], escape(pref),
+            sum(1 for r in per_pref[pref] if r['slug']), len(per_pref[pref]))
+        for pref in order))
 
     programs = '\n'.join(
         '        <li><a href="/seido/program/{0}/">{1}</a> <span class="count">{2}自治体</span></li>'.format(
@@ -479,12 +476,78 @@ def index_page(rows, checked_on, total_programs, program_rows):
     return head(title, desc, url, jsonld) + body + FOOT
 
 
+PREF_BODY = """      <header><a href="/">福祉の求人アラート</a></header>
+      <nav class="crumbs"><a href="/">ホーム</a> ＞ <a href="/seido/">自治体の障害福祉制度</a> ＞ {pref}</nav>
+
+      <h1>{pref}の障害福祉制度を、市区町村から探す</h1>
+
+      <p class="lead">{pref}の<strong>{n}自治体</strong>について、公式サイトに載っている障害福祉の制度{p}件へのリンクを整理しました。{checked}時点です。制度は市区町村ごとに違うので、住んでいる市区町村を選んでください。</p>
+
+      <h2>市区町村を選ぶ</h2>
+
+      <ul class="city-list">{cities}</ul>
+
+      <p class="count">件数のついた自治体には制度の一覧があります。「未取得」は、公式サイトの作りが機械で追えず、こちらがリンクを拾えなかったものです。制度が無いという意味ではありません。その場合は公式ページへ直接つないでいます。</p>
+
+      <h2>都道府県の制度も別にある</h2>
+
+      <p>市区町村と都道府県は、それぞれ別に制度を持っています。両方を確認してください。{pref}の制度は{pref}の公式サイトに載っています。</p>
+
+      <p>全国共通の制度でも、申請の窓口は住んでいる市区町村です。→ <a href="/discount/">障害者手帳の割引は自分の市区町村で手続きする</a>／<a href="/seido/">制度の名前から探す</a></p>
+"""
+
+
+def pref_page(pref, slug_pref, rows, checked_on):
+    url = '{0}/seido/{1}/'.format(SITE, slug_pref)
+    total = sum(r['count'] for r in rows)
+    title = '{0}の障害福祉制度｜{1}市区町村の公式ページへの入口｜福祉の求人アラート'.format(pref, len(rows))
+    desc = ('{0}の{1}市区町村について、公式サイトに載っている障害福祉の制度{2}件への'
+            'リンクを整理しました。金額や条件は転記せず、公式ページへつないでいます。'
+            '{3}時点。'.format(pref, len(rows), total, checked_on))
+    withpage = [r for r in rows if r['slug']]
+    jsonld = {'@context': 'https://schema.org', '@graph': [
+        {
+            '@type': 'CollectionPage', 'name': '{0}の障害福祉制度'.format(pref),
+            'description': desc, 'url': url, 'inLanguage': 'ja',
+            'isPartOf': {'@type': 'WebSite', 'name': '福祉の求人アラート', 'url': SITE + '/'},
+            'mainEntity': {
+                '@type': 'ItemList', 'numberOfItems': len(withpage),
+                'itemListElement': [
+                    {'@type': 'ListItem', 'position': i + 1, 'name': r['name'],
+                     'url': SITE + r['slug']} for i, r in enumerate(withpage)
+                ],
+            },
+        },
+        crumb([('福祉の求人アラート', SITE + '/'),
+               ('自治体の障害福祉制度', SITE + '/seido/'),
+               (pref, url)]),
+    ]}
+    body = PREF_BODY.format(
+        pref=escape(pref), n=len(rows), p=total, checked=checked_on,
+        cities=''.join(city_chip(r) for r in rows))
+    return head(title, desc, url, jsonld) + body + FOOT
+
+
+def city_chip(r):
+    if r['slug']:
+        return '<li><a href="{0}">{1}</a> <span class="count">{2}件</span></li>'.format(
+            r['slug'], escape(r['name']), r['count'])
+    label = '公式ページへ' if r['count'] else '未取得'
+    return ('<li class="plain"><a href="{0}" target="_blank" rel="noopener">{1}</a>'
+            ' <span class="count">{2}</span></li>').format(
+        escape(r['welfare'], quote=True), escape(r['name']), label)
+
+
 def main():
+    global TARGET_COUNT
     data = json.load(open('data/welfare-programs.clean.json', encoding='utf-8'))
     checked_on = ja_date(data['checkedOn'])
     entries = data['entries']
+    TARGET_COUNT = len(entries)
+    # カナは municipality-sites.json に全1,741件ぶんある。URLのローマ字は
+    # ここからしか作らない（漢字を読ませない）。
     master = {s['code']: s for s in json.load(
-        open('data/priority-municipalities.json', encoding='utf-8'))['sites']}
+        open('data/municipality-sites.json', encoding='utf-8'))['sites']}
 
     # 先に自治体ページのURLを決めてしまう。制度ページから自治体ページへ、
     # 自治体ページから制度ページへ、双方向にリンクするため。
@@ -536,6 +599,15 @@ def main():
               program_page(g, hits, checked_on))
         program_rows.append((g, len(hits)))
 
+    # 都道府県のページ。800近い自治体を1ページに並べない
+    pref_rows = []
+    for pref in dict.fromkeys(r['pref'] for r in rows):
+        mine = [r for r in rows if r['pref'] == pref]
+        sp = PREF_ROMAJI[pref]
+        write(os.path.join(OUT, sp, 'index.html'),
+              pref_page(pref, sp, mine, checked_on))
+        pref_rows.append(sp)
+
     write(os.path.join(OUT, 'index.html'),
           index_page(rows, checked_on, total, program_rows))
 
@@ -547,6 +619,8 @@ def main():
              for r in rows if r['slug']}
     keep |= {os.path.normpath(os.path.join(OUT, 'program', g['slug'], 'index.html'))
              for g, _c in program_rows}
+    keep |= {os.path.normpath(os.path.join(OUT, sp, 'index.html'))
+             for sp in pref_rows}
     removed = []
     for root, _dirs, files in os.walk(OUT):
         for name in files:
@@ -568,13 +642,20 @@ def main():
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:
-        pri = '1.0' if u == '/' else ('0.7' if u.startswith('/seido/') and u != '/seido/' else '0.8')
+        if u == '/':
+            pri = '1.0'
+        elif u.count('/') == 4 and u.startswith('/seido/'):
+            pri = '0.7'          # /seido/<都道府県>/<自治体>/
+        else:
+            pri = '0.8'
         sm.append('  <url><loc>{0}{1}</loc><priority>{2}</priority></url>'.format(SITE, u, pri))
     sm.append('</urlset>')
     write('public/sitemap.xml', '\n'.join(sm) + '\n')
 
-    print('自治体ページ {0}枚 + 制度ページ {1}枚 + 索引1枚、制度リンク {2}件、sitemap {3} URL'.format(
-        sum(1 for r in rows if r['slug']), len(program_rows), total, len(urls)))
+    print('自治体ページ {0}枚 + 都道府県ページ {1}枚 + 制度ページ {2}枚 + 索引1枚、'
+          '制度リンク {3}件、sitemap {4} URL'.format(
+              sum(1 for r in rows if r['slug']), len(pref_rows),
+              len(program_rows), total, len(urls)))
 
 
 if __name__ == '__main__':

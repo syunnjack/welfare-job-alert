@@ -1,0 +1,52 @@
+name: Send alerts
+
+# 登録された届け先へ、確認メッセージと求人のお知らせを送る。
+#
+# 確認が済んでいない登録には確認メッセージだけを送り、
+# 済んだ登録に条件へ合う求人を送る。求人データが無いあいだは
+# 確認メッセージだけが動く。
+#
+# 秘密情報は Secrets に入れる。リポジトリには置かない。
+#   SUPABASE_URL / SUPABASE_SERVICE_ROLE
+#   LINE_CHANNEL_ACCESS_TOKEN
+#   RESEND_API_KEY / MAIL_FROM
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 08:00 JST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '送らずに対象だけ出す'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 送信する
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE: ${{ secrets.SUPABASE_SERVICE_ROLE }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE" ]; then
+            echo "Supabase の設定がありません。登録の受け付けを始めるまで送信はしません。"
+            exit 0
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/send-alerts.py --dry-run
+          else
+            python scripts/send-alerts.py
+          fi

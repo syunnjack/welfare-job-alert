@@ -1,21 +1,6 @@
 # Welfare Job Alert
 
-障害者雇用・福祉系求人通知
-
-## Repository
-
-Recommended repository name: `welfare-job-alert`
-
-## Domain candidates
-
-Confirmed domain: `welfarejob.jp`
-
-Other candidates:
-
-- `welfarejob.jp`
-- `fukushijob.jp`
-- `supportwork.jp`
-- `inclusivejob.jp`
+障害者雇用枠の求人と、福祉の仕事の募集を通知するサイト。本番は https://welfarejob.jp
 
 ## Concept
 

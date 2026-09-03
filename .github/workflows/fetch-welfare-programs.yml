@@ -1,0 +1,43 @@
+name: Fetch welfare programs
+
+# 各自治体の障害福祉ページを巡回して、制度名を集める。
+#
+# 1,741自治体あり、相手は自治体のサーバーなので1回では回さない。
+# 毎日少しずつ進め、集まったぶんをコミットする。
+#
+# **未完成**: いまの抽出は障害福祉ページのリンク文言を拾うだけで、
+# 制度ページではなくカテゴリ見出しを拾ってしまう自治体が多い。
+# 階層をもう1段たどる実装に差し替えるまで、結果はサイトに出さない。
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '1回に処理する自治体数'
+        default: '40'
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python scripts/fetch-welfare-programs.py --limit ${{ inputs.limit || 40 }}
+
+      - name: 集まったぶんをコミットする
+        run: |
+          if git diff --quiet -- data/; then
+            echo "変化はありません。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "自治体の障害福祉制度を収集する"
+          git push

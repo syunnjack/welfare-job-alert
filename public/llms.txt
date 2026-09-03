@@ -22,6 +22,7 @@
 
 - https://welfarejob.jp/ — 求人通知の登録と表示例
 - https://welfarejob.jp/discount/ — 障害者手帳の割引は自治体で手続きする
+- https://welfarejob.jp/discount/transport/ — 公共交通機関の障害者割引（JRの割引率と条件、有料道路。出典と確認日つき）
 
 ## 連絡先
 

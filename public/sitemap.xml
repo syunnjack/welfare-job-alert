@@ -4,6 +4,27 @@
   <url><loc>https://welfarejob.jp/discount/</loc><priority>0.8</priority></url>
   <url><loc>https://welfarejob.jp/discount/transport/</loc><priority>0.8</priority></url>
   <url><loc>https://welfarejob.jp/seido/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/tokubetsu-shogaisha-teate/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/shogaiji-fukushi-teate/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/tokubetsu-jido-fuyo-teate/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/jichitai-fukushi-teate/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/judo-shinshin-iryohi/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/jiritsu-shien-iryo/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/hosogu/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/nichijo-seikatsu-yogu/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/shuwa-tsuyaku/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/tenji-daihitsu/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/shogaisha-techo/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/fukushi-taxi/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/jidosha-nenryohi/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/jidosha-kaizohi/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/unten-menkyo/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/hochoki/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/kami-omutsu/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/hojoken/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/nanbyo/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/yuryo-doro/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/program/kotsu-waribiki/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/hokkaido/sapporo/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/aomori/aomori/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/iwate/morioka/</loc><priority>0.7</priority></url>
@@ -60,7 +81,6 @@
   <url><loc>https://welfarejob.jp/seido/fukuoka/fukuoka/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/nagasaki/nagasaki/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/kumamoto/kumamoto/</loc><priority>0.7</priority></url>
-  <url><loc>https://welfarejob.jp/seido/oita/oita/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/miyazaki/miyazaki/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/kagoshima/kagoshima/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/okinawa/naha/</loc><priority>0.7</priority></url>

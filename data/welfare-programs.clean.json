@@ -24,10 +24,6 @@
    "welfarePage": "https://www.city.maebashi.gunma.jp/lifevent/15871.html",
    "programs": [
     {
-     "name": "障害者の手帳を持っていると、税金の軽減や乗り物の割引を受けられますか",
-     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/1/22305.html"
-    },
-    {
      "name": "減免･免除・割引など",
      "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/3/index.html"
     },
@@ -144,10 +140,6 @@
     {
      "name": "千葉市代筆・代読支援員派遣事業",
      "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/daihitsudaidoku.html"
-    },
-    {
-     "name": "障害者割引が適用される「Suica」と「PASMO」の販売が始まりました！",
-     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/suica_pasmo_shougaiwaribiki.html"
     }
    ],
    "fetchedOn": "2026-09-03"
@@ -1047,12 +1039,7 @@
    "name": "大分市",
    "url": "https://www.city.oita.oita.jp/",
    "welfarePage": "https://www.city.oita.oita.jp/kenko/fukushi/shogaijishien/index.html",
-   "programs": [
-    {
-     "name": "特別児童扶養手当制度をご存じですか",
-     "url": "https://www.city.oita.oita.jp/o089/kenko/fukushi/1322707684046.html"
-    }
-   ],
+   "programs": [],
    "fetchedOn": "2026-09-03"
   },
   "431001": {
@@ -2112,10 +2099,6 @@
     {
      "name": "自動車改造費の助成",
      "url": "https://www.city.setagaya.lg.jp/02084/2761.html"
-    },
-    {
-     "name": "身体障害者補助犬を知っていますか",
-     "url": "https://www.city.setagaya.lg.jp/02083/22251.html"
     },
     {
      "name": "中等度難聴者（18歳から64歳）のための補聴器購入費の助成",

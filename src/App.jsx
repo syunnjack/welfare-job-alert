@@ -180,7 +180,7 @@ function App() {
           <span>welfarejob.jp</span>
           <strong>毎日探し続けなくても、条件に合えば届く。</strong>
           <p>通知の届け先はメールとLINEです。求人カードは表示例で、実際の募集とは連動していません。地域ごとに、対応でき次第お知らせを始めます。</p>
-          <p><a href="/discount/">障害者手帳の割引の調べ方はこちら</a></p>
+          <p><a href="/seido/">お住まいの自治体の障害福祉制度を調べる</a>／<a href="/discount/">障害者手帳の割引の調べ方</a></p>
         </aside>
       </section>
       <section className="controls" aria-label="検索条件">
@@ -253,7 +253,7 @@ function App() {
         <div className="seo-grid">
           <article><b>地域ごとのページ</b><p>市区町村や沿線ごとに、通える範囲の求人をまとめます。</p></article>
           <article><b>働き方ごとのページ</b><p>短時間勤務、在宅勤務、通院への配慮、未経験から始められる仕事など、条件から探せるようにします。</p></article>
-          <article><b>制度の調べ方</b><p><a href="/discount/">障害者手帳の割引</a>のように、手続きの窓口と確かめ方をまとめていきます。</p></article>
+          <article><b>制度の調べ方</b><p><a href="/seido/">自治体ごとの障害福祉制度</a>と<a href="/discount/">障害者手帳の割引</a>について、手続きの窓口と確かめ方をまとめています。</p></article>
         </div>
       </section>
       <section className="faq-section">

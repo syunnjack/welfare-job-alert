@@ -1,0 +1,2724 @@
+{
+ "checkedOn": "2026-09-03",
+ "entries": {
+  "202011": {
+   "pref": "長野県",
+   "name": "長野市",
+   "url": "https://www.city.nagano.nagano.jp/",
+   "welfarePage": "https://www.city.nagano.nagano.jp/n062000/contents/p000465.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "392014": {
+   "pref": "高知県",
+   "name": "高知市",
+   "url": "https://www.city.kochi.kochi.jp/",
+   "welfarePage": "https://www.city.kochi.kochi.jp/life/27/165/",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "102016": {
+   "pref": "群馬県",
+   "name": "前橋市",
+   "url": "https://www.city.maebashi.gunma.jp/",
+   "welfarePage": "https://www.city.maebashi.gunma.jp/lifevent/15871.html",
+   "programs": [
+    {
+     "name": "障害者の手帳を持っていると、税金の軽減や乗り物の割引を受けられますか",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/1/22305.html"
+    },
+    {
+     "name": "減免･免除・割引など",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/3/index.html"
+    },
+    {
+     "name": "交通運賃等の割引",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/3/1/index.html"
+    },
+    {
+     "name": "税金・公共料金等の軽減",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/3/2/index.html"
+    },
+    {
+     "name": "身体障害者手帳交付申請",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/6/11838.html"
+    },
+    {
+     "name": "療育手帳交付申請",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/6/11839.html"
+    },
+    {
+     "name": "高額障害福祉サービス等給付費・（新）高額障害福祉サービス等給付の支給",
+     "url": "http://www.city.maebashi.gunma.jp/kenko_fukushi/4/7/22072.html"
+    },
+    {
+     "name": "見舞金、腎臓機能障害者等交通費助成",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/11/11849.html"
+    },
+    {
+     "name": "手当・年金・共済制度",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/11/11850.html"
+    },
+    {
+     "name": "手当の支給を受けている方の変更手続き",
+     "url": "https://www.city.maebashi.gunma.jp/kenko_fukushi/4/11/22071.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "452017": {
+   "pref": "宮崎県",
+   "name": "宮崎市",
+   "url": "https://www.city.miyazaki.miyazaki.jp/",
+   "welfarePage": "https://www.city.miyazaki.miyazaki.jp/search_scene/disabilities/",
+   "programs": [
+    {
+     "name": "減免・免除・割引など",
+     "url": "https://www.city.miyazaki.miyazaki.jp/search_scene/disabilities/genmen/"
+    },
+    {
+     "name": "手話通訳者などの派遣",
+     "url": "https://www.city.miyazaki.miyazaki.jp/search_scene/disabilities/haken/"
+    },
+    {
+     "name": "補装具費支給",
+     "url": "https://www.city.miyazaki.miyazaki.jp/health/disabilities_welfare/care/7648.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "121002": {
+   "pref": "千葉県",
+   "name": "千葉市",
+   "url": "https://www.city.chiba.jp/",
+   "welfarePage": "https://www.city.chiba.jp/kenko/index.html#tmp_anchor_link_3",
+   "programs": [
+    {
+     "name": "心身障害者(児）医療費助成制度のご案内",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/sinsinsyougaisyairyouhizyoseikaisei271001.html"
+    },
+    {
+     "name": "障害者への助成・支援制度",
+     "url": "https://www.city.chiba.jp/kenko/shogai/jose/index.html"
+    },
+    {
+     "name": "1.心身障害者（児）医療費助成関係",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/download.html"
+    },
+    {
+     "name": "盲ろう者向け通訳・介助員の派遣",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/mourouhaken.html"
+    },
+    {
+     "name": "福祉タクシー・自動車燃料費等助成事業のご案内",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/hukushitakusi.html"
+    },
+    {
+     "name": "障害者福祉バス借上補助金の利用方法",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/shogaifukushi/taiyougou.html"
+    },
+    {
+     "name": "千葉市重度障害者住宅改造費助成制度",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/220319_shogaishajutakukaizo.html"
+    },
+    {
+     "name": "自動車改造費助成・自動車運転免許取得助成",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/jidousha.html"
+    },
+    {
+     "name": "在宅重度心身障害者へのおむつ給付",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/omutsu.html"
+    },
+    {
+     "name": "日常生活用具費の支給",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/nichigu.html"
+    },
+    {
+     "name": "補装具費の支給",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/hosougu.html"
+    },
+    {
+     "name": "軽度・中等度難聴児補聴器購入費助成制度",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/nantyoujihotyouki.html"
+    },
+    {
+     "name": "千葉市代筆・代読支援員派遣事業",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/daihitsudaidoku.html"
+    },
+    {
+     "name": "障害者割引が適用される「Suica」と「PASMO」の販売が始まりました！",
+     "url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/jiritsu/suica_pasmo_shougaiwaribiki.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "231002": {
+   "pref": "愛知県",
+   "name": "名古屋市",
+   "url": "https://www.city.nagoya.jp/",
+   "welfarePage": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/index.html",
+   "programs": [
+    {
+     "name": "障害者手帳の交付",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016549/index.html"
+    },
+    {
+     "name": "医療の給付・共済",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016553/index.html"
+    },
+    {
+     "name": "交通料金等の軽減",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016573/index.html"
+    },
+    {
+     "name": "医療の給付・共済のご案内",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016553/1034838.html"
+    },
+    {
+     "name": "障害者医療費助成制度",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016553/1016554.html"
+    },
+    {
+     "name": "市営交通料金(市バス、地下鉄)の軽減",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016573/1016574.html"
+    },
+    {
+     "name": "タクシー料金の助成",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016573/1016575.html"
+    },
+    {
+     "name": "上下水道料金の軽減",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016573/1016577.html"
+    },
+    {
+     "name": "福祉特別乗車券運賃支給対象区間の利用",
+     "url": "https://www.city.nagoya.jp/kenkofukushi/shougaisha/1016573/1016578.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "341002": {
+   "pref": "広島県",
+   "name": "広島市",
+   "url": "https://www.city.hiroshima.lg.jp/",
+   "welfarePage": "https://www.city.hiroshima.lg.jp/business/shogai/index.html",
+   "programs": [
+    {
+     "name": "障害福祉分野の介護テクノロジー導入支援補助金",
+     "url": "https://www.city.hiroshima.lg.jp/business/shogai/1026871/1048266.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "292010": {
+   "pref": "奈良県",
+   "name": "奈良市",
+   "url": "https://www.city.nara.lg.jp/",
+   "welfarePage": "https://www.city.nara.lg.jp/life/4/27/",
+   "programs": [
+    {
+     "name": "医療費の助成、支援など",
+     "url": "https://www.city.nara.lg.jp/life/4/29/"
+    },
+    {
+     "name": "心身障害者医療費助成",
+     "url": "https://www.city.nara.lg.jp/soshiki/38/9689.html"
+    },
+    {
+     "name": "精神通院精神障害者医療費助成制度",
+     "url": "https://www.city.nara.lg.jp/soshiki/34/9687.html"
+    },
+    {
+     "name": "重度心身障害者老人等医療費助成",
+     "url": "https://www.city.nara.lg.jp/soshiki/38/6910.html"
+    },
+    {
+     "name": "助成・支援・手当",
+     "url": "https://www.city.nara.lg.jp/life/4/27/109/"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.city.nara.lg.jp/soshiki/34/8672.html"
+    },
+    {
+     "name": "特別障害者手当",
+     "url": "https://www.city.nara.lg.jp/soshiki/34/8673.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "052019": {
+   "pref": "秋田県",
+   "name": "秋田市",
+   "url": "https://www.city.akita.lg.jp/",
+   "welfarePage": "https://www.city.akita.lg.jp/kurashi/shogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "障がい者の各種手当",
+     "url": "https://www.city.akita.lg.jp/kurashi/shogaifukushi/1008925.html"
+    },
+    {
+     "name": "医療費の助成制度",
+     "url": "https://www.city.akita.lg.jp/kurashi/shogaifukushi/1005377/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "401307": {
+   "pref": "福岡県",
+   "name": "福岡市",
+   "url": "https://www.city.fukuoka.lg.jp/",
+   "welfarePage": "https://www.city.fukuoka.lg.jp/healthcare/fukushi-shogai/index.html",
+   "programs": [
+    {
+     "name": "補装具の支給",
+     "url": "https://www.city.fukuoka.lg.jp/fukushi/syougaisyashien/health/hosougu.html"
+    },
+    {
+     "name": "日常生活用具の給付",
+     "url": "https://www.city.fukuoka.lg.jp/fukushi/syougaisyashien/health/nitijyoseikatuyougu.html"
+    },
+    {
+     "name": "自立支援医療（障がいを軽減する手術費・治療費、継続的通院への助成など）",
+     "url": "https://www.city.fukuoka.lg.jp/healthcare/fukushi-shogai/shougai/sfs2_1.html"
+    },
+    {
+     "name": "重度障がい者医療費助成制度",
+     "url": "https://www.city.fukuoka.lg.jp/hofuku/hokennenkin/life/02.html"
+    },
+    {
+     "name": "特別障害給付金",
+     "url": "https://www.city.fukuoka.lg.jp/hofuku/kokuho/life/03-06.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "041009": {
+   "pref": "宮城県",
+   "name": "仙台市",
+   "url": "https://www.city.sendai.jp/",
+   "welfarePage": "https://www.city.sendai.jp/kurashi/kenkotofukushi/shogai/index.html",
+   "programs": [
+    {
+     "name": "障害のある方の年金・手当など",
+     "url": "https://www.city.sendai.jp/kurashi/kenkotofukushi/shogai/nenkin/index.html"
+    },
+    {
+     "name": "税金・公共料金の減免など",
+     "url": "https://www.city.sendai.jp/kurashi/kenkotofukushi/shogai/genmen/index.html"
+    },
+    {
+     "name": "特別障害給付金",
+     "url": "https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/nenkin/teate/kyufukin.html"
+    },
+    {
+     "name": "特別障害者手当",
+     "url": "https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/nenkin/teate/shogaishateate.html"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/nenkin/teate/shogaiji.html"
+    },
+    {
+     "name": "外国人重度障害者等福祉手当",
+     "url": "https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/nenkin/teate/judo.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/nenkin/teate/tokubetsujido.html"
+    },
+    {
+     "name": "通院介護費用支給",
+     "url": "https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/nenkin/teate/shikyu.html"
+    },
+    {
+     "name": "在宅酸素療法者酸素濃縮器等利用助成",
+     "url": "https://www.city.sendai.jp/chiikisekatsushien/kurashi/kenkotofukushi/shogai/nenkin/teate/jose.html"
+    },
+    {
+     "name": "生活福祉資金の貸付",
+     "url": "https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/nenkin/teate/kashitsuke.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "022012": {
+   "pref": "青森県",
+   "name": "青森市",
+   "url": "https://www.city.aomori.aomori.jp/",
+   "welfarePage": "https://www.city.aomori.aomori.jp/lifeevent/1002508.html",
+   "programs": [
+    {
+     "name": "手当・助成制度（障がい福祉）",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/index.html"
+    },
+    {
+     "name": "重度心身障がい者医療費の助成",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002896.html"
+    },
+    {
+     "name": "生活福祉・支援・給付",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002937/index.html"
+    },
+    {
+     "name": "「無料低額診療事業」利用者への調剤費助成",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002937/1002943.html"
+    },
+    {
+     "name": "NHK放送受信料の減免",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002860.html"
+    },
+    {
+     "name": "NTT電話番号無料案内",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002861.html"
+    },
+    {
+     "name": "市営バス等福祉乗車証の交付",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002863.html"
+    },
+    {
+     "name": "鉄道、航空運賃の割引",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002867.html"
+    },
+    {
+     "name": "視覚障がい者福祉ガイドブック音声版給付",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002871.html"
+    },
+    {
+     "name": "タクシー・移送サービス利用券または自家用車給油券の交付",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002873.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者派遣",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002875.html"
+    },
+    {
+     "name": "失語症者向け意思疎通支援者派遣",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1008706.html"
+    },
+    {
+     "name": "有料道路通行料金の割引",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002877.html"
+    },
+    {
+     "name": "障害児通所給付・障害児相談支援給付",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002859/1002881.html"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002885.html"
+    },
+    {
+     "name": "特別障害者手当",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002886.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002887.html"
+    },
+    {
+     "name": "自動車改造費の助成",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002888.html"
+    },
+    {
+     "name": "自動車運転免許取得費用の助成",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002889.html"
+    },
+    {
+     "name": "青森市軽度中等度難聴児補聴器購入費等助成事業",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002890.html"
+    },
+    {
+     "name": "障がい者等の社会活動参加支援事業助成金",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002891.html"
+    },
+    {
+     "name": "補装具費の支給",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002892.html"
+    },
+    {
+     "name": "日常生活用具の給付",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002894.html"
+    },
+    {
+     "name": "高額障害福祉サービス等給付費等",
+     "url": "https://www.city.aomori.aomori.jp/hukushi_kenkou/hukushi/1002848/1002884/1002895.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "072010": {
+   "pref": "福島県",
+   "name": "福島市",
+   "url": "https://www.city.fukushima.fukushima.jp/",
+   "welfarePage": "https://www.city.fukushima.fukushima.jp/kenko-fukushi/fukushi-kaigo/4/index.html",
+   "programs": [
+    {
+     "name": "手帳の交付申請",
+     "url": "https://www.city.fukushima.fukushima.jp/kenko-fukushi/fukushi-kaigo/4/2/index.html"
+    },
+    {
+     "name": "補助犬を知っていますか?",
+     "url": "https://www.city.fukushima.fukushima.jp/kenko-fukushi/fukushi-kaigo/4/7/9671.html"
+    },
+    {
+     "name": "意思疎通支援者派遣事業（手話・要約筆記）",
+     "url": "https://www.city.fukushima.fukushima.jp/kenko-fukushi/fukushi-kaigo/4/7/17286.html"
+    },
+    {
+     "name": "点字学習指導員派遣",
+     "url": "https://www.city.fukushima.fukushima.jp/kenko-fukushi/fukushi-kaigo/4/7/17295.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "032018": {
+   "pref": "岩手県",
+   "name": "盛岡市",
+   "url": "https://www.city.morioka.iwate.jp/",
+   "welfarePage": "https://www.city.morioka.iwate.jp/kenkou/shogai/index.html",
+   "programs": [
+    {
+     "name": "家庭用医療機器に活用する非常用発電機の貸付",
+     "url": "https://www.city.morioka.iwate.jp/kenkou/shogai/1034003.html"
+    },
+    {
+     "name": "障がい者の方への手当・医療・在宅支援",
+     "url": "https://www.city.morioka.iwate.jp/kenkou/shogai/teate/index.html"
+    },
+    {
+     "name": "障がい者の運賃割引など",
+     "url": "https://www.city.morioka.iwate.jp/kenkou/shogai/waribiki/index.html"
+    },
+    {
+     "name": "点字ディスプレイの給付",
+     "url": "https://www.city.morioka.iwate.jp/kenkou/shogai/info/1023737.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "092011": {
+   "pref": "栃木県",
+   "name": "宇都宮市",
+   "url": "https://www.city.utsunomiya.lg.jp/",
+   "welfarePage": "https://www.city.utsunomiya.lg.jp/kenko/shogai/index.html",
+   "programs": [
+    {
+     "name": "障がい者資格取得支援補助金",
+     "url": "https://www.city.utsunomiya.lg.jp/kenko/shogai/1043705/1045740.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "082015": {
+   "pref": "茨城県",
+   "name": "水戸市",
+   "url": "https://www.city.mito.lg.jp/",
+   "welfarePage": "https://www.city.mito.lg.jp/life/2/18/93/",
+   "programs": [
+    {
+     "name": "重度心身障害者の家族がいます、医療費を助成してくれる制度はありますか。",
+     "url": "https://www.city.mito.lg.jp/page/19012.html"
+    },
+    {
+     "name": "タクシーの料金を助成します（福祉タクシー券）",
+     "url": "https://www.city.mito.lg.jp/page/5374.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "062014": {
+   "pref": "山形県",
+   "name": "山形市",
+   "url": "https://www.city.yamagata-yamagata.lg.jp/",
+   "welfarePage": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/index.html",
+   "programs": [
+    {
+     "name": "有料道路の障がい者割引制度の変更",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1008380/1011478.html"
+    },
+    {
+     "name": "重度心身障がい（児）者医療給付制度",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1002150.html"
+    },
+    {
+     "name": "軽度・中等度難聴児補聴器購入の助成",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004592.html"
+    },
+    {
+     "name": "補装具の給付",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004590.html"
+    },
+    {
+     "name": "小児慢性特定疾病児童等日常生活用具の給付",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004595.html"
+    },
+    {
+     "name": "日常生活用具の給付等（障がい児者）",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004593.html"
+    },
+    {
+     "name": "障がい児福祉手当",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004647.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004649.html"
+    },
+    {
+     "name": "重度心身障がい（児）者福祉手当",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004644.html"
+    },
+    {
+     "name": "特別障がい者手当",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004650.html"
+    },
+    {
+     "name": "紙おむつの支給（障がい児者）",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004591.html"
+    },
+    {
+     "name": "在宅酸素療法者支援助成金交付",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004651.html"
+    },
+    {
+     "name": "重度身体障がい者介護用車両改造費の助成",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004646.html"
+    },
+    {
+     "name": "福祉タクシー（普通タクシー・リフト付タクシー）利用券・福祉給油券の交付",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004641.html"
+    },
+    {
+     "name": "身体障がい者運転免許取得費の助成",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004648.html"
+    },
+    {
+     "name": "人工透析患者通院交通費の助成",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004643.html"
+    },
+    {
+     "name": "身体障がい者用自動車改造費助成",
+     "url": "https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004642.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "362018": {
+   "pref": "徳島県",
+   "name": "徳島市",
+   "url": "https://www.city.tokushima.tokushima.jp/",
+   "error": "障害福祉のページが見つからなかった",
+   "programs": []
+  },
+  "462012": {
+   "pref": "鹿児島県",
+   "name": "鹿児島市",
+   "url": "https://www.city.kagoshima.lg.jp/",
+   "welfarePage": "https://www.city.kagoshima.lg.jp/kenko/shogai.html",
+   "programs": [
+    {
+     "name": "年金・手当・資金の貸付",
+     "url": "https://www.city.kagoshima.lg.jp/kenkofukushi/fukushi/syofuku/kenko/fukushi/shogai/nenkin/index.html"
+    },
+    {
+     "name": "税金・公共料金の免除",
+     "url": "https://www.city.kagoshima.lg.jp/kenkofukushi/fukushi/syofuku/kenko/fukushi/shogai/zekin.html"
+    },
+    {
+     "name": "有料道路における障害者割引制度の見直し",
+     "url": "https://www.city.kagoshima.lg.jp/kenkofukushi/fukushi/syofuku/yuuryoudouro.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "261009": {
+   "pref": "京都府",
+   "name": "京都市",
+   "url": "https://www.city.kyoto.lg.jp/",
+   "welfarePage": "https://www.city.kyoto.lg.jp/menu1/category/3-6-0-0-0-0-0-0-0-0.html",
+   "programs": [
+    {
+     "name": "重度障害老人健康管理費支給申請方法について（施術師の方へ）",
+     "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000093937.html"
+    },
+    {
+     "name": "年金生活者支援給付金",
+     "url": "https://www.city.kyoto.lg.jp/menu1/category/3-10-0-0-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "重度障害老人健康管理費支給制度",
+     "url": "https://www.city.kyoto.lg.jp/menu1/category/3-6-0-0-0-0-0-0-0-0.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "271004": {
+   "pref": "大阪府",
+   "name": "大阪市",
+   "url": "https://www.city.osaka.lg.jp/",
+   "welfarePage": "https://www.city.osaka.lg.jp/kurashi/category/3020-3-0-0-0-0-0-0-0-0.html",
+   "programs": [
+    {
+     "name": "各種手帳の交付",
+     "url": "https://www.city.osaka.lg.jp/kurashi/category/3020-3-0-0-0-0-0-0-0-0.html#cat07"
+    },
+    {
+     "name": "福祉手当",
+     "url": "https://www.city.osaka.lg.jp/kurashi/category/3020-3-3-1-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "介護・扶養手当",
+     "url": "https://www.city.osaka.lg.jp/kurashi/category/3020-3-3-3-0-0-0-0-0-0.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "011002": {
+   "pref": "北海道",
+   "name": "札幌市",
+   "url": "https://www.city.sapporo.jp/",
+   "welfarePage": "https://www.city.sapporo.jp/shogaifukushi/shogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "各種補助金",
+     "url": "https://www.city.sapporo.jp/shogaifukushi/title2/kakusyuhojyokin.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "422011": {
+   "pref": "長崎県",
+   "name": "長崎市",
+   "url": "https://www.city.nagasaki.lg.jp/",
+   "welfarePage": "https://www.city.nagasaki.lg.jp/life/2/22/",
+   "programs": [
+    {
+     "name": "補助・助成",
+     "url": "https://www.city.nagasaki.lg.jp/life/2/22/90/"
+    },
+    {
+     "name": "福祉タクシー、交通費助成事業",
+     "url": "https://www.city.nagasaki.lg.jp/page/2564.html"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.city.nagasaki.lg.jp/page/2560.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者派遣",
+     "url": "https://www.city.nagasaki.lg.jp/page/2579.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "141003": {
+   "pref": "神奈川県",
+   "name": "横浜市",
+   "url": "https://www.city.yokohama.lg.jp/",
+   "welfarePage": "https://www.city.yokohama.lg.jp/life/shogai.html",
+   "programs": [
+    {
+     "name": "手帳の交付",
+     "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/fukushi/annai/techo/index.html"
+    },
+    {
+     "name": "手当・年金・給付金・貸付",
+     "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/fukushi/annai/teate/index.html"
+    },
+    {
+     "name": "税金・公共料金",
+     "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/fukushi/annai/zeikin/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "212016": {
+   "pref": "岐阜県",
+   "name": "岐阜市",
+   "url": "https://www.city.gifu.lg.jp/",
+   "welfarePage": "https://www.city.gifu.lg.jp/tetsuzuki/syogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "企業支援・産業振興・補助金",
+     "url": "https://www.city.gifu.lg.jp/business/sangyoushinkou/index.html"
+    },
+    {
+     "name": "助成・手当等（障がい福祉）",
+     "url": "https://www.city.gifu.lg.jp/tetsuzuki/syogaifukushi/1011820/index.html"
+    },
+    {
+     "name": "重度心身障害者等医療費助成制度",
+     "url": "https://www.city.gifu.lg.jp/kenko/iryouhijosei/1004517/1004518.html"
+    },
+    {
+     "name": "手帳の交付",
+     "url": "https://www.city.gifu.lg.jp/tetsuzuki/syogaifukushi/1011839/index.html"
+    },
+    {
+     "name": "障がい者福祉助成・割引",
+     "url": "https://www.city.gifu.lg.jp/kenko/syougaisyafukushi/1004706/index.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳の交付申請",
+     "url": "https://www.city.gifu.lg.jp/kenko/kenkousoudan/1004485/1004490.html"
+    },
+    {
+     "name": "高齢運転者等標章の交付",
+     "url": "https://www.city.gifu.lg.jp/shitsumon/kenko/1004651/1004699.html"
+    },
+    {
+     "name": "駐車禁止除外標章の交付",
+     "url": "https://www.city.gifu.lg.jp/shitsumon/kenko/1004651/1004698.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "281000": {
+   "pref": "兵庫県",
+   "name": "神戸市",
+   "url": "https://www.city.kobe.lg.jp/",
+   "welfarePage": "https://www.city.kobe.lg.jp/2/0016.html",
+   "programs": [
+    {
+     "name": "手帳の交付",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/zaitakufukushi/kouhu/index.html"
+    },
+    {
+     "name": "点字図書給付",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/syakaikatdudou/bunkakatsudou/s057.html"
+    },
+    {
+     "name": "税金の減免など",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/seikatsujiritsu/keizaishien/tax.html"
+    },
+    {
+     "name": "補助犬の健康管理費の支給",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/zaitakufukushi/kigu/s042.html"
+    },
+    {
+     "name": "盲ろう者通訳・介助員の派遣",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/zaitakufukushi/zaitakushien/s0261.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者の派遣",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/zaitakufukushi/zaitakushien/s027.html"
+    },
+    {
+     "name": "失語症者向け意思疎通支援者の派遣",
+     "url": "https://www.city.kobe.lg.jp/a97737/shitugosyo.html"
+    },
+    {
+     "name": "自動車燃料費助成",
+     "url": "https://www.city.kobe.lg.jp/a40792/kenko/handicap/zaitakufukushi/koutsukikan/nenryohijose.html"
+    },
+    {
+     "name": "重度心身障害者タクシー利用券助成",
+     "url": "https://www.city.kobe.lg.jp/a40792/kenko/handicap/zaitakufukushi/koutsukikan/s031.html"
+    },
+    {
+     "name": "自動車運転免許取得費の補助",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/zaitakufukushi/koutsukikan/s033/index.html"
+    },
+    {
+     "name": "自動車改造費の助成",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/zaitakufukushi/koutsukikan/s033-149.html"
+    },
+    {
+     "name": "障害者への有料道路の通行料金の割引",
+     "url": "https://www.city.kobe.lg.jp/a97737/kenko/handicap/seikatsujiritsu/keizaishien/yuuryoudouro.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "111007": {
+   "pref": "埼玉県",
+   "name": "さいたま市",
+   "url": "https://www.city.saitama.jp/",
+   "welfarePage": "https://www.city.saitama.jp/001/154/012/009/index.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "221007": {
+   "pref": "静岡県",
+   "name": "静岡市",
+   "url": "https://www.city.shizuoka.lg.jp/",
+   "welfarePage": "https://www.city.shizuoka.lg.jp/p008641.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "131041": {
+   "pref": "東京都",
+   "name": "新宿区",
+   "url": "https://www.city.shinjuku.lg.jp/",
+   "welfarePage": "https://www.city.shinjuku.lg.jp/living_10.html",
+   "programs": [
+    {
+     "name": "割引・減免【障害福祉】",
+     "url": "https://www.city.shinjuku.lg.jp/fukushi/index06_04_n07.html"
+    },
+    {
+     "name": "新宿区医療的ケア児等コーディネーター支援体制整備促進事業補助金",
+     "url": "https://www.city.shinjuku.lg.jp/fukushi/shogai01_002137_00002.html"
+    },
+    {
+     "name": "新宿区特定相談・一般相談連携機能強化支援事業補助金",
+     "url": "https://www.city.shinjuku.lg.jp/fukushi/shogai01_002137_00004.html"
+    },
+    {
+     "name": "障害者福祉活動事業助成",
+     "url": "https://www.city.shinjuku.lg.jp/fukushi/shogai01_002137.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "151009": {
+   "pref": "新潟県",
+   "name": "新潟市",
+   "url": "https://www.city.niigata.lg.jp/",
+   "welfarePage": "https://www.city.niigata.lg.jp/iryo/shofuku/index.html",
+   "programs": [
+    {
+     "name": "障がい者手帳の交付",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/index.html"
+    },
+    {
+     "name": "精神障がい者保健福祉手帳の交付申請（障がい等級変更）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/sisntt5.html"
+    },
+    {
+     "name": "精神障がい者保健福祉手帳の交付申請（市外からの住所変更）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/sisntt4.html"
+    },
+    {
+     "name": "療育手帳交付（転入）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/ryoiku4.html"
+    },
+    {
+     "name": "療育手帳交付申請",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/ryoiku2.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（破損・紛失・写真交換による再交付）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai10.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（手帳所持証明交付申請）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai6.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（手帳証明交付申請）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai7.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（診断書の写しの交付）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai9.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（死亡等による返還）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai5.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（市内転居・氏名変更）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai4.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（交付申請取り下げ）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai3.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（障がい追加・障がい程度変更等の再交付）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai8.html"
+    },
+    {
+     "name": "身体障がい者手帳交付事業（新規申請）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/techo/shintai2.html"
+    },
+    {
+     "name": "障がい者手当と年金",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/teate/index.html"
+    },
+    {
+     "name": "各種手当",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/teate/teate/index.html"
+    },
+    {
+     "name": "障がい者への医療費助成",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/index.html"
+    },
+    {
+     "name": "重度障がい者医療費助成（マル障）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/mrs1.html"
+    },
+    {
+     "name": "重度障がい者医療費助成（マル障）医療費助成申請（償還払い）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/mrs3.html"
+    },
+    {
+     "name": "重度障がい者医療費助成（マル障）現況届",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/mrs4.html"
+    },
+    {
+     "name": "重度障がい者医療費助成（マル障）資格喪失申請",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/mrs5.html"
+    },
+    {
+     "name": "重度障がい者医療費助成（マル障）変更申請",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/mrs7.html"
+    },
+    {
+     "name": "自立支援医療（更生医療）給付内容変更申請",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/kosei2.html"
+    },
+    {
+     "name": "自立支援医療（精神通院）支給認定申請（再認定）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/seisin2.html"
+    },
+    {
+     "name": "自立支援医療（精神通院）支給認定申請（変更）",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/seisin3.html"
+    },
+    {
+     "name": "自立支援医療（精神通院）支給認定に伴う同意",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/seisin6.html"
+    },
+    {
+     "name": "精神障がい者入院医療費助成制度",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/iryou/seishiniryouhi.html"
+    },
+    {
+     "name": "障がい者への税金等の減免",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/zeikin/index.html"
+    },
+    {
+     "name": "補助犬の給付",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/seikatsu/hojyoken.html"
+    },
+    {
+     "name": "交通費の助成",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/seikatsu/koutsuu/index.html"
+    },
+    {
+     "name": "住宅リフォーム助成",
+     "url": "https://www.city.niigata.lg.jp/iryo/shofuku/seikatsu/jutakurifomu.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "472018": {
+   "pref": "沖縄県",
+   "name": "那覇市",
+   "url": "https://www.city.naha.okinawa.jp/",
+   "welfarePage": "https://www.city.naha.okinawa.jp/fukusi/syougaifukushi/index.html",
+   "programs": [
+    {
+     "name": "障がい者に関する手当・助成・年金",
+     "url": "https://www.city.naha.okinawa.jp/fukusi/syougaifukushi/1007400/index.html"
+    },
+    {
+     "name": "手当て・生活支援・共済（障がいがある方）",
+     "url": "https://www.city.naha.okinawa.jp/fukusi/syougaifukushi/1003192/1003194.html"
+    },
+    {
+     "name": "小児慢性特定疾病児童日常生活用具の給付",
+     "url": "https://www.city.naha.okinawa.jp/fukusi/syougaifukushi/1007399/1003236/1003239.html"
+    },
+    {
+     "name": "小児慢性特定疾病児童日常生活用具給付事業の種目が追加されます",
+     "url": "https://www.city.naha.okinawa.jp/fukusi/syougaifukushi/1003197/1003205.html"
+    },
+    {
+     "name": "補装具費・日常生活用具の給付",
+     "url": "https://www.city.naha.okinawa.jp/fukusi/syougaifukushi/1007399/1003236/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "172014": {
+   "pref": "石川県",
+   "name": "金沢市",
+   "url": "https://www4.city.kanazawa.lg.jp/",
+   "welfarePage": "https://www4.city.kanazawa.lg.jp/yokuriyosareru_menu/shogaishashien/index.html",
+   "programs": [
+    {
+     "name": "障害者医療費助成制度の対象者ですが、振込口座を変更したいのですが。",
+     "url": "https://www4.city.kanazawa.lg.jp/kenko_fukushi/shogaishafukushi/shogaishamukenosupport/28389.html"
+    },
+    {
+     "name": "障害がある方、およびその家庭への給付金・助成金など",
+     "url": "https://www4.city.kanazawa.lg.jp/kenko_fukushi/shogaishafukushi/shogaishamukenosupport/15633.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "442011": {
+   "pref": "大分県",
+   "name": "大分市",
+   "url": "https://www.city.oita.oita.jp/",
+   "welfarePage": "https://www.city.oita.oita.jp/kenko/fukushi/shogaijishien/index.html",
+   "programs": [
+    {
+     "name": "特別児童扶養手当制度をご存じですか",
+     "url": "https://www.city.oita.oita.jp/o089/kenko/fukushi/1322707684046.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "431001": {
+   "pref": "熊本県",
+   "name": "熊本市",
+   "url": "https://www.city.kumamoto.jp/",
+   "welfarePage": "https://www.city.kumamoto.jp/list00004.html",
+   "programs": [
+    {
+     "name": "妊娠・出産に対する補助・助成",
+     "url": "https://www.city.kumamoto.jp/list00008.html"
+    },
+    {
+     "name": "住まいの支援・補助",
+     "url": "https://www.city.kumamoto.jp/list00024.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "382019": {
+   "pref": "愛媛県",
+   "name": "松山市",
+   "url": "https://www.city.matsuyama.ehime.jp/",
+   "welfarePage": "https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/index.html",
+   "programs": [
+    {
+     "name": "自立支援医療（更生医療）給付制度",
+     "url": "https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/iryo/kouseiiryou.html"
+    },
+    {
+     "name": "重度心身障害者医療費助成制度",
+     "url": "https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/iryo/juusin.html"
+    },
+    {
+     "name": "身体障害者自動車運転免許取得費助成事業",
+     "url": "https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/shakaisanka/menkyo.html"
+    },
+    {
+     "name": "身体障害者用自動車改造費助成事業",
+     "url": "https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/shakaisanka/kaizou.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "331007": {
+   "pref": "岡山県",
+   "name": "岡山市",
+   "url": "https://www.city.okayama.jp/",
+   "welfarePage": "https://www.city.okayama.jp/kurashi/category/1-10-0-0-0-0-0-0-0-0.html",
+   "programs": [
+    {
+     "name": "障害／はり・きゅう・マッサージ施術費の助成",
+     "url": "https://www.city.okayama.jp/kurashi/0000058354.html"
+    },
+    {
+     "name": "医療費助成／心身障害者医療費助成制度",
+     "url": "https://www.city.okayama.jp/kurashi/0000004276.html"
+    },
+    {
+     "name": "障害者への税金等の減免",
+     "url": "https://www.city.okayama.jp/kurashi/category/1-10-4-7-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "障害者手帳の交付",
+     "url": "https://www.city.okayama.jp/kurashi/category/1-10-4-6-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "障害者手当と年金",
+     "url": "https://www.city.okayama.jp/kurashi/category/1-10-4-5-0-0-0-0-0-0.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "372013": {
+   "pref": "香川県",
+   "name": "高松市",
+   "url": "https://www.city.takamatsu.kagawa.jp/",
+   "error": "障害福祉のページが見つからなかった",
+   "programs": []
+  },
+  "312011": {
+   "pref": "鳥取県",
+   "name": "鳥取市",
+   "url": "https://www.city.tottori.lg.jp/",
+   "welfarePage": "https://www.city.tottori.lg.jp/life/1/2/15/",
+   "programs": [
+    {
+     "name": "障害者特別医療費助成制度について（県制度）",
+     "url": "https://www.city.tottori.lg.jp/page/4694.html"
+    },
+    {
+     "name": "障害者特別医療費助成制度について（市制度）",
+     "url": "https://www.city.tottori.lg.jp/page/4693.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "302015": {
+   "pref": "和歌山県",
+   "name": "和歌山市",
+   "url": "https://www.city.wakayama.wakayama.jp/",
+   "welfarePage": "https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001098/1001659.html",
+   "programs": [
+    {
+     "name": "重度心身障害児者医療費助成制度",
+     "url": "https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001098/1001653.html"
+    },
+    {
+     "name": "有料道路通行料金の割引申請 制度改正のお知らせ",
+     "url": "https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001098/1049661.html"
+    },
+    {
+     "name": "有料道路通行料金の割引申請に来庁される市民の方へのお願い",
+     "url": "https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001098/1047339.html"
+    },
+    {
+     "name": "意思疎通支援者（手話通訳者・要約筆記者）の派遣",
+     "url": "https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001098/1029428.html"
+    },
+    {
+     "name": "難聴児補聴器購入費の一部助成",
+     "url": "https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001098/1001670.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "182010": {
+   "pref": "福井県",
+   "name": "福井市",
+   "url": "https://www.city.fukui.lg.jp/",
+   "welfarePage": "https://www.city.fukui.lg.jp/fukusi/index.html#sfukusi",
+   "programs": [
+    {
+     "name": "税金の申告に利用する認定書などの交付",
+     "url": "https://www.city.fukui.lg.jp/fukusi/kaigo/zeikin/index.html"
+    },
+    {
+     "name": "国民健康保険の各種給付",
+     "url": "https://www.city.fukui.lg.jp/fukusi/hoken/kyufu/index.html"
+    },
+    {
+     "name": "公共交通機関などの障がい者割引、自動車に関する助成等",
+     "url": "https://www.city.fukui.lg.jp/fukusi/sfukusi/seido/koutsu.html"
+    },
+    {
+     "name": "自立支援医療（育成医療）の給付",
+     "url": "https://www.city.fukui.lg.jp/fukusi/sfukusi/seido/ikuseiiryou.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "192015": {
+   "pref": "山梨県",
+   "name": "甲府市",
+   "url": "https://www.city.kofu.yamanashi.jp/",
+   "welfarePage": "https://www.city.kofu.yamanashi.jp/kenko/fukushi/shogai/index.html",
+   "programs": [
+    {
+     "name": "住民税非課税世帯または均等割のみ課税世帯に対する給付金",
+     "url": "https://www.city.kofu.yamanashi.jp/fukushi-somu/kakakukoutou/juutennsienn.html"
+    },
+    {
+     "name": "助成・給付・減免・補償",
+     "url": "https://www.city.kofu.yamanashi.jp/kenko/fukushi/shogai/jose/index.html"
+    },
+    {
+     "name": "思いやり駐車区画利用証の交付（やまなし思いやりパーキング制度）",
+     "url": "https://www.city.kofu.yamanashi.jp/shogaifukushi/kenko/fukushi/shogai/shinse/omoiyari_parking.html"
+    },
+    {
+     "name": "身体障害者手帳の交付",
+     "url": "https://www.city.kofu.yamanashi.jp/shogaifukushi/kenko/fukushi/shogai/shinse/shintai2.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳の交付",
+     "url": "https://www.city.kofu.yamanashi.jp/shogaifukushi/kenko/fukushi/shogai/shinse/hoken.html"
+    },
+    {
+     "name": "療育手帳の交付",
+     "url": "https://www.city.kofu.yamanashi.jp/shogaifukushi/kenko/fukushi/shogai/shinse/ryoiku.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "252018": {
+   "pref": "滋賀県",
+   "name": "大津市",
+   "url": "https://www.city.otsu.lg.jp/",
+   "welfarePage": "https://www.city.otsu.lg.jp/fukushi/s/index.html",
+   "programs": [
+    {
+     "name": "障害福祉関連 手当・助成等",
+     "url": "https://www.city.otsu.lg.jp/fukushi/s/tj/index.html"
+    },
+    {
+     "name": "税金の控除・公共料金の割引",
+     "url": "https://www.city.otsu.lg.jp/fukushi/s/w/index.html"
+    },
+    {
+     "name": "身体障害者用自動車改造費助成事業",
+     "url": "https://www.city.otsu.lg.jp/fukushi/s/tj/1390279956608.html"
+    },
+    {
+     "name": "普通自動車運転免許取得費用の補助",
+     "url": "https://www.city.otsu.lg.jp/fukushi/s/tj/1390283343482.html"
+    },
+    {
+     "name": "視覚障害者点字新聞購読料助成事業",
+     "url": "https://www.city.otsu.lg.jp/fukushi/s/tj/1390277913564.html"
+    },
+    {
+     "name": "スモン障害者採暖費支給事業",
+     "url": "https://www.city.otsu.lg.jp/fukushi/s/tj/1390277409648.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳をお持ちの方へーJR運賃割引制度の開始についてー",
+     "url": "https://www.city.otsu.lg.jp/fukushi/s/h/66194.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "242012": {
+   "pref": "三重県",
+   "name": "津市",
+   "url": "https://www.info.city.tsu.mie.jp/",
+   "welfarePage": "https://www.info.city.tsu.mie.jp/fukushi_kenkou/shougaisha_fukushi/index.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "162019": {
+   "pref": "富山県",
+   "name": "富山市",
+   "url": "https://www.city.toyama.toyama.jp/",
+   "welfarePage": "https://www.city.toyama.toyama.jp/health/shogaisha/index.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "322016": {
+   "pref": "島根県",
+   "name": "松江市",
+   "url": "https://www.city.matsue.lg.jp/",
+   "welfarePage": "https://www.city.matsue.lg.jp/kenko_fukushi/shogaishafukushi/index.html",
+   "programs": [
+    {
+     "name": "各種助成・減免・割引制度",
+     "url": "https://www.city.matsue.lg.jp/kenko_fukushi/shogaishafukushi/kakushujosei_gemmen_waribikiseido/index.html"
+    },
+    {
+     "name": "交通費等助成制度",
+     "url": "https://www.city.matsue.lg.jp/kenko_fukushi/shogaishafukushi/kakushujosei_gemmen_waribikiseido/2/index.html"
+    },
+    {
+     "name": "税の減免等",
+     "url": "https://www.city.matsue.lg.jp/kenko_fukushi/shogaishafukushi/kakushujosei_gemmen_waribikiseido/3/index.html"
+    },
+    {
+     "name": "観光施設・運動施設等の減免",
+     "url": "https://www.city.matsue.lg.jp/kenko_fukushi/shogaishafukushi/kakushujosei_gemmen_waribikiseido/7193.html"
+    },
+    {
+     "name": "【令和7年4月1日開始】精神障がい者保健福祉手帳所持者のJR運賃割引",
+     "url": "https://www.city.matsue.lg.jp/kenko_fukushi/shogaishafukushi/3/22037.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "352039": {
+   "pref": "山口県",
+   "name": "山口市",
+   "url": "https://www.city.yamaguchi.lg.jp/",
+   "welfarePage": "https://www.city.yamaguchi.lg.jp/life/1/5/30/",
+   "programs": [
+    {
+     "name": "特別障害者手当",
+     "url": "https://www.city.yamaguchi.lg.jp/site/shinsei/187731.html"
+    },
+    {
+     "name": "心身に障がいがある方への手当",
+     "url": "https://www.city.yamaguchi.lg.jp/soshiki/57/5072.html"
+    },
+    {
+     "name": "補装具・日常生活用具の支給",
+     "url": "https://www.city.yamaguchi.lg.jp/soshiki/57/81717.html"
+    },
+    {
+     "name": "軽度・中等度難聴児補聴器購入費等の助成",
+     "url": "https://www.city.yamaguchi.lg.jp/soshiki/57/5040.html"
+    },
+    {
+     "name": "NHK放送受信料の免除",
+     "url": "https://www.city.yamaguchi.lg.jp/soshiki/57/92166.html"
+    },
+    {
+     "name": "航空旅客運賃の障がい者割引",
+     "url": "https://www.city.yamaguchi.lg.jp/soshiki/57/5026.html"
+    },
+    {
+     "name": "JR旅客運賃の障がい者割引を受けられます",
+     "url": "https://www.city.yamaguchi.lg.jp/soshiki/57/5029.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/3708.html"
+    },
+    {
+     "name": "特別障害給付金",
+     "url": "https://www.city.yamaguchi.lg.jp/site/shinsei/7138.html"
+    },
+    {
+     "name": "重度心身障害者医療費助成制度",
+     "url": "https://www.city.yamaguchi.lg.jp/soshiki/59/7169.html"
+    },
+    {
+     "name": "障がい児福祉手当",
+     "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/21448.html"
+    },
+    {
+     "name": "山口市心身障がい児福祉手当",
+     "url": "https://www.city.yamaguchi.lg.jp/site/kodomo/21451.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "412015": {
+   "pref": "佐賀県",
+   "name": "佐賀市",
+   "url": "https://www.city.saga.lg.jp/",
+   "error": "障害福祉のページが見つからなかった",
+   "programs": []
+  },
+  "141305": {
+   "pref": "神奈川県",
+   "name": "川崎市",
+   "url": "https://www.city.kawasaki.jp/",
+   "welfarePage": "https://www.city.kawasaki.jp/kurashi/category/260-0-0-0-0-0-0-0-0-0.html",
+   "programs": [
+    {
+     "name": "こどもの相談・手当・助成",
+     "url": "https://www.city.kawasaki.jp/kodomo/category/270-0-0-0-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "療育手帳の交付[2025年1月27日]",
+     "url": "https://www.city.kawasaki.jp/350/page/0000025664.html"
+    },
+    {
+     "name": "年金・税控除・貸付",
+     "url": "https://www.city.kawasaki.jp/kurashi/category/260-4-5-0-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "手当・医療費扶助",
+     "url": "https://www.city.kawasaki.jp/kurashi/category/260-4-7-0-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "重度障害者医療費助成制度",
+     "url": "https://www.city.kawasaki.jp/kurashi/category/260-4-11-0-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.city.kawasaki.jp/kurashi/category/260-4-12-0-0-0-0-0-0-0.html"
+    },
+    {
+     "name": "障害者の交通に関する助成・割引等",
+     "url": "https://www.city.kawasaki.jp/kurashi/category/260-4-13-0-0-0-0-0-0-0.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "141500": {
+   "pref": "神奈川県",
+   "name": "相模原市",
+   "url": "https://www.city.sagamihara.kanagawa.jp/",
+   "welfarePage": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006066.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "221309": {
+   "pref": "静岡県",
+   "name": "浜松市",
+   "url": "https://www.city.hamamatsu.shizuoka.jp/",
+   "welfarePage": "https://www.city.hamamatsu.shizuoka.jp/kenko/fukushi/index.html",
+   "programs": [
+    {
+     "name": "手当・年金・税金・各料金のこと",
+     "url": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/shintai/teate.html"
+    },
+    {
+     "name": "手当・年金・税金・各種料金のこと",
+     "url": "https://www.city.hamamatsu.shizuoka.jp/syoghuku/welfare/obstacle/chiteki/teate.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "271403": {
+   "pref": "大阪府",
+   "name": "堺市",
+   "url": "https://www.city.sakai.lg.jp/",
+   "welfarePage": "https://www.city.sakai.lg.jp/kurashi/sodan/shogai/index.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "401005": {
+   "pref": "福岡県",
+   "name": "北九州市",
+   "url": "https://www.city.kitakyushu.lg.jp/",
+   "welfarePage": "https://www.city.kitakyushu.lg.jp/category/menu00_0076.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "131016": {
+   "pref": "東京都",
+   "name": "千代田区",
+   "url": "https://www.city.chiyoda.lg.jp/",
+   "welfarePage": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/index.html",
+   "programs": [
+    {
+     "name": "手帳・医療・手当・助成",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/index.html"
+    },
+    {
+     "name": "障害者福祉手当",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/teate/shinshin.html"
+    },
+    {
+     "name": "重度心身障害者手当",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/teate/judo.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/ko-shogai/goriyo/tokubetsu.html"
+    },
+    {
+     "name": "児童育成手当（障害手当）",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/hitorioya/teate/jidoikuse.html"
+    },
+    {
+     "name": "心身障害者医療費助成",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/iryohi/joseiseido.html"
+    },
+    {
+     "name": "補装具費の支給",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/zaitaku-nichijo-shien/hosogu.html"
+    },
+    {
+     "name": "日常生活用具の支給",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/zaitaku-nichijo-shien/shikyu.html"
+    },
+    {
+     "name": "公衆浴場入浴券支給",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/zaitaku-nichijo-shien/servicejigyo.html#nyuyoku"
+    },
+    {
+     "name": "紙おむつ等支給",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/zaitaku-nichijo-shien/servicejigyo.html#kamiomutsu"
+    },
+    {
+     "name": "都営交通無料乗車券",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/gemmen/toeikotsu.html"
+    },
+    {
+     "name": "有料道路の割引",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/gemmen/yuryodoro.html"
+    },
+    {
+     "name": "福祉タクシー券の支給",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/josei/fukushitaxi.html"
+    },
+    {
+     "name": "自動車燃料費助成",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/josei/j-nenryo.html"
+    },
+    {
+     "name": "自動車運転免許取得費の補助",
+     "url": "https://www.city.chiyoda.lg.jp/koho/kenko/shogaisha/techo/josei/menkyo.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131024": {
+   "pref": "東京都",
+   "name": "中央区",
+   "url": "https://www.city.chuo.lg.jp/",
+   "welfarePage": "https://www.city.chuo.lg.jp/kenkouiryou/shougaishafukushi/index.html",
+   "programs": [
+    {
+     "name": "心身障害者福祉手当（区の制度）",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/sinsin.html"
+    },
+    {
+     "name": "重度心身障害者手当（都の制度）",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/zyudo.html"
+    },
+    {
+     "name": "特別障害者手当（国の制度）",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/tokubetu.html"
+    },
+    {
+     "name": "障害児福祉手当（国の制度）",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/syogai.html"
+    },
+    {
+     "name": "特別児童扶養手当（国の制度）",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/tokubetuzido.html"
+    },
+    {
+     "name": "児童育成手当[障害手当]（区の制度）",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/zido.html"
+    },
+    {
+     "name": "交通機関の割引",
+     "url": "https://www.city.chuo.lg.jp/kenkouiryou/shougaishafukushi/shienservice/koutsuukikan/index.html"
+    },
+    {
+     "name": "公共料金の減免・免除",
+     "url": "https://www.city.chuo.lg.jp/kenkouiryou/shougaishafukushi/shienservice/koukyouryoukin/index.html"
+    },
+    {
+     "name": "中央区放課後等デイサービス事業補助金",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/jigyousha/houdeihojo.html"
+    },
+    {
+     "name": "心身障害者の医療費助成（マル障）",
+     "url": "https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/iryou/zyosei.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131032": {
+   "pref": "東京都",
+   "name": "港区",
+   "url": "https://www.city.minato.tokyo.jp/",
+   "welfarePage": "https://www.city.minato.tokyo.jp/shougaifukushi/index/index.html",
+   "programs": [
+    {
+     "name": "カード形式の障害者手帳の交付を開始します（令和2年10月1日開始）",
+     "url": "https://www.city.minato.tokyo.jp/kenko/fukushi/shogaisha/2014ichiran/r02-shogaishacard-koufu.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131059": {
+   "pref": "東京都",
+   "name": "文京区",
+   "url": "https://www.city.bunkyo.lg.jp/",
+   "welfarePage": "https://www.city.bunkyo.lg.jp/b018/p007620.html",
+   "programs": [
+    {
+     "name": "手当・年金・貸付等",
+     "url": "https://www.city.bunkyo.lg.jp/kenkou/shougaifukushi/teate/index.html"
+    },
+    {
+     "name": "【子育て支援課】ベビーシッター利用料助成事業（障害児の対象拡大）",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p007605.html"
+    },
+    {
+     "name": "心身障害者・児紙おむつの支給",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003401.html"
+    },
+    {
+     "name": "在宅心身障害者(児)緊急一時介護委託費助成",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003409.html"
+    },
+    {
+     "name": "自動車燃料費助成",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003422.html"
+    },
+    {
+     "name": "都営交通の無料乗車券",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003423.html"
+    },
+    {
+     "name": "心身障害者自動車運転免許取得経費補助",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003424.html"
+    },
+    {
+     "name": "有料道路通行料金の割引",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003426.html"
+    },
+    {
+     "name": "身体障害者自動車改造費助成",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003427.html"
+    },
+    {
+     "name": "心身障害者（児）団体バス借上経費補助",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003429.html"
+    },
+    {
+     "name": "福祉用具等の給付",
+     "url": "https://www.city.bunkyo.lg.jp/kenkou/shougaifukushi/fukushiyougu/index.html"
+    },
+    {
+     "name": "補装具費の支給",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003385.html"
+    },
+    {
+     "name": "日常生活用具の給付",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003386.html"
+    },
+    {
+     "name": "住宅設備改善費の助成",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003388.html"
+    },
+    {
+     "name": "点字図書の給付",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003389.html"
+    },
+    {
+     "name": "文京区中小企業等障害者職業体験受入れ助成事業",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003435.html"
+    },
+    {
+     "name": "文京区障害者日中活動系サービス推進事業補助金",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003668.html"
+    },
+    {
+     "name": "文京区重症心身障害児(者)通所事業運営費補助金",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003669.html"
+    },
+    {
+     "name": "文京区障害者グループホーム等(共同生活援助・短期入所)整備費等補助金",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003672.html"
+    },
+    {
+     "name": "文京区障害者通所施設(生活介護)整備費等補助金",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003673.html"
+    },
+    {
+     "name": "文京区障害児通所施設(児童発達支援・放課後等デイサービス)整備費等補助金",
+     "url": "https://www.city.bunkyo.lg.jp/b018/p003674.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131067": {
+   "pref": "東京都",
+   "name": "台東区",
+   "url": "https://www.city.taito.lg.jp/",
+   "welfarePage": "https://www.city.taito.lg.jp/kenkohukusi/shogai/syougaisyasisetu/matsugaya_fukushi/jiritsushien.html",
+   "programs": [
+    {
+     "name": "障害福祉人材の育成（無料の研修をご案内）",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/osirase/jinzaikakuho.html"
+    },
+    {
+     "name": "障害のある方への手当",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/teate/index.html"
+    },
+    {
+     "name": "介護・派遣",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/service/kaigohaken/index.html"
+    },
+    {
+     "name": "公共料金等の軽減",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/service/koukyouryoukin/index.html"
+    },
+    {
+     "name": "障害者の交通割引",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/service/koutuuwaribiki/index.html"
+    },
+    {
+     "name": "障害者の施設割引",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/service/sisetuwaribiki/index.html"
+    },
+    {
+     "name": "台東区特別永住者等重度心身障害者特別給付金",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/service/tokubetueijyuus.html"
+    },
+    {
+     "name": "台東区障害福祉サービス等従事者国家資格取得費用助成事業",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/jigyousya/20240701.html"
+    },
+    {
+     "name": "台東区障害福祉サービス等従事者養成研修受講費用助成事業",
+     "url": "https://www.city.taito.lg.jp/kenkohukusi/shogai/jigyousya/20240527.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131075": {
+   "pref": "東京都",
+   "name": "墨田区",
+   "url": "https://www.city.sumida.lg.jp/",
+   "welfarePage": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/index.html",
+   "programs": [
+    {
+     "name": "4 補装具費支給制度",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/jiritsushien/hosouguhi.html"
+    },
+    {
+     "name": "手当･年金・医療",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/index.html"
+    },
+    {
+     "name": "心身障害者医療費助成制度（マル障・都の制度）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/sinsin_syougaisya.html"
+    },
+    {
+     "name": "心身障害者福祉手当（区の制度・身体障害または知的障害要件）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/kuteate_seido.html"
+    },
+    {
+     "name": "心身障害者福祉手当（区の制度・難病要件）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/02kuteatenannbyou.html"
+    },
+    {
+     "name": "心身障害者福祉手当（区の制度・精神障害要件）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/kuteate_seishinn2.html"
+    },
+    {
+     "name": "重度心身障害者手当（都の制度）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/to-zyudo_teate.html"
+    },
+    {
+     "name": "特別障害者手当（国の制度）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/kuni-tokubetsu_teate.html"
+    },
+    {
+     "name": "障害児福祉手当（国の制度）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/syougaizi_hukusi.html"
+    },
+    {
+     "name": "児童のための諸手当",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/sonota_zidouteate.html"
+    },
+    {
+     "name": "特別障害給付金",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/shougaikyuuhukinn.html"
+    },
+    {
+     "name": "自立支援医療（更生医療）の助成",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/kousei_iryouhi.html"
+    },
+    {
+     "name": "自立支援医療（育成医療）の助成",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/teate_nenkin_iryou/ikusei_iryou.html"
+    },
+    {
+     "name": "中等度難聴児の補聴器購入費助成",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/otetudai/nanchouji.html"
+    },
+    {
+     "name": "ヘルパー、ガイドの派遣",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/otetudai/helper_guide_haken.html"
+    },
+    {
+     "name": "自動車事故による重度後遺障害者に対する介護料の支給",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/otetudai/zidousya-kaigoryou.html"
+    },
+    {
+     "name": "補装具購入（修理・借受け）費の支給",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/kaiteki/hosougu.html"
+    },
+    {
+     "name": "日常生活用具の給付",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/kaiteki/nitizyouyougu.html"
+    },
+    {
+     "name": "住宅設備改善費助成",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/kaiteki/zyuutakusetubi.html"
+    },
+    {
+     "name": "重度心身障害者（児）紙おむつ等支給事業",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/kaiteki/kamiomutu.html"
+    },
+    {
+     "name": "心身障害者理美容サービス（理美容師派遣）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/kaiteki/ribiyou_service.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者派遣サービス(聴覚障害者等コミュニケーション支援事業）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/communication/syuwa_tsuuyaku_haken.html"
+    },
+    {
+     "name": "補助犬の給付（盲導犬、介助犬、聴導犬）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/communication/hozyoken.html"
+    },
+    {
+     "name": "各種料金割引など",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/index.html"
+    },
+    {
+     "name": "JR・私鉄線の運賃割引",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/jr.html"
+    },
+    {
+     "name": "テレビ受信料の減免",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/tv.html"
+    },
+    {
+     "name": "心身障害者福祉タクシー料金・自動車燃料費助成共通券の交付",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/taxi.html"
+    },
+    {
+     "name": "自動車運転教習費補助",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/keihi_hozyo.html"
+    },
+    {
+     "name": "自動車運転免許の無料講習",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/muryou.html"
+    },
+    {
+     "name": "都営交通の無料パスと割引",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/toei.html"
+    },
+    {
+     "name": "自動車改造費の助成",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/kaizou.html"
+    },
+    {
+     "name": "民営バスの割引",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/bus.html"
+    },
+    {
+     "name": "その他交通機関の割引（飛行機・フェリー・タクシー）",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/sonota.html"
+    },
+    {
+     "name": "有料道路通行料金の割引",
+     "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/waribiki/tuukouryou.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131083": {
+   "pref": "東京都",
+   "name": "江東区",
+   "url": "https://www.city.koto.lg.jp/",
+   "welfarePage": "https://www.city.koto.lg.jp/fukushi/shogaisha/index.html",
+   "programs": [
+    {
+     "name": "手当・助成・割引等",
+     "url": "https://www.city.koto.lg.jp/fukushi/shogaisha/waribiki/index.html"
+    },
+    {
+     "name": "心身障害者医療費助成制度（マル障）",
+     "url": "https://www.city.koto.lg.jp/222015/fukushi/shogaisha/iryo/6757.html"
+    },
+    {
+     "name": "障害者雇用・事業主への助成",
+     "url": "https://www.city.koto.lg.jp/222060/fukushi/shogaisha/koyo/koyoujosei.html"
+    },
+    {
+     "name": "過誤申立の手続きについて（障害福祉サービス等給付費等）",
+     "url": "https://www.city.koto.lg.jp/222010/seikyu/kago.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131091": {
+   "pref": "東京都",
+   "name": "品川区",
+   "url": "https://www.city.shinagawa.tokyo.jp/",
+   "welfarePage": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/index.html",
+   "programs": [
+    {
+     "name": "寄付・助成等",
+     "url": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-kihu/index.html"
+    },
+    {
+     "name": "手当・医療費助成",
+     "url": "https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/index.html"
+    },
+    {
+     "name": "日常生活用具の給付内容の変更のお知らせ（令和8年4月）",
+     "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-oshiraselink/20260423164944.html"
+    },
+    {
+     "name": "80_公共料金などの軽減",
+     "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-koukyou/index.html"
+    },
+    {
+     "name": "50_手当・年金",
+     "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-teate/index.html"
+    },
+    {
+     "name": "70_税の減免",
+     "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-syogai/kenkou-syogai-genmen/index.html"
+    },
+    {
+     "name": "9999_産科医療特別給付事業",
+     "url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/20260225165811.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131105": {
+   "pref": "東京都",
+   "name": "目黒区",
+   "url": "https://www.city.meguro.tokyo.jp/",
+   "welfarePage": "https://www.city.meguro.tokyo.jp/kenkoufukushi/index.html#a7953",
+   "programs": [
+    {
+     "name": "生活に関する助成・援助",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/index.html#a7955"
+    },
+    {
+     "name": "骨髄移植手術等の理由による任意予防接種費用助成",
+     "url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/yobousesshu/kotsuzuiisyokutousaisessyu.html"
+    },
+    {
+     "name": "医療に関する助成・援助",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/iryou/josei/index.html"
+    },
+    {
+     "name": "手当・助成・年金",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/shougaisha/teatejosei/index.html"
+    },
+    {
+     "name": "＜申請受付は終了しました＞定額減税補足給付金（不足額給付）のご案内",
+     "url": "https://www.city.meguro.tokyo.jp/rinjikyuufu/kenkoufukushi/seikatsujosei/fusokugaku.html"
+    },
+    {
+     "name": "令和8年度受験生チャレンジ支援貸付事業のご案内",
+     "url": "https://www.city.meguro.tokyo.jp/fukushisougou/kenkoufukushi/seikatsujosei/seikatsu_oen_shakyo.html"
+    },
+    {
+     "name": "エアコン購入費助成",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/seikatsushien/airconzyosei/index.html"
+    },
+    {
+     "name": "障害者の医療費助成",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/shougaisha/teatejosei/iryouhijosei/index.html"
+    },
+    {
+     "name": "障害者の公共料金等の軽減",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/shougaisha/teatejosei/keigen/index.html"
+    },
+    {
+     "name": "障害者の年金・給付金",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/shougaisha/teatejosei/kyuufukin/index.html"
+    },
+    {
+     "name": "心身障害者（児）理美容補助券の給付",
+     "url": "https://www.city.meguro.tokyo.jp/shougaishien/kenkoufukushi/shougaisha/ribiyouhojyoken-syofuku.html"
+    },
+    {
+     "name": "障害者の手当・見舞金",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/shougaisha/teatejosei/teate/index.html"
+    },
+    {
+     "name": "障害者の交通に関する助成",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/shougaisha/teatejosei/josei/index.html"
+    },
+    {
+     "name": "障害者の税の減免",
+     "url": "https://www.city.meguro.tokyo.jp/kenkoufukushi/shougaisha/teatejosei/genmen/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131113": {
+   "pref": "東京都",
+   "name": "大田区",
+   "url": "https://www.city.ota.tokyo.jp/",
+   "welfarePage": "https://www.city.ota.tokyo.jp/seikatsu/hoken/kenko_soudan/kokoro/seisinsyougainoarukatanotameni.html",
+   "programs": [
+    {
+     "name": "心身障害者（児）医療費の助成（マル障受給者証）",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/iryo/iryou/shinshin.html"
+    },
+    {
+     "name": "難病医療費の助成",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/iryo/iryou/nanbyou.html"
+    },
+    {
+     "name": "2．手当・年金",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/teate_nenkin/index.html"
+    },
+    {
+     "name": "7．税金の控除・各種料金の減免",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/zeikinkojo_genmen/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131121": {
+   "pref": "東京都",
+   "name": "世田谷区",
+   "url": "https://www.city.setagaya.lg.jp/",
+   "welfarePage": "https://www.city.setagaya.lg.jp/fukushikenkou/11526.html#a11552",
+   "programs": [
+    {
+     "name": "障害のある方への手当・見舞金",
+     "url": "https://www.city.setagaya.lg.jp/fukushikenkou/shougaifukushi/category/11773.html"
+    },
+    {
+     "name": "無料低額診療制度",
+     "url": "https://www.city.setagaya.lg.jp/kyoutsu/seikatsu/2959.html"
+    },
+    {
+     "name": "心身障害者福祉手当（区制度）",
+     "url": "https://www.city.setagaya.lg.jp/02083/2692.html"
+    },
+    {
+     "name": "特別障害者手当 障害児福祉手当（国制度）",
+     "url": "https://www.city.setagaya.lg.jp/02083/2693.html"
+    },
+    {
+     "name": "重度心身障害者手当（東京都の制度）",
+     "url": "https://www.city.setagaya.lg.jp/02083/2694.html"
+    },
+    {
+     "name": "心身障害者医療費の助成",
+     "url": "https://www.city.setagaya.lg.jp/02083/2696.html"
+    },
+    {
+     "name": "補装具の交付と修理",
+     "url": "https://www.city.setagaya.lg.jp/02083/2725.html"
+    },
+    {
+     "name": "日常生活用具の給付",
+     "url": "https://www.city.setagaya.lg.jp/02083/2726.html"
+    },
+    {
+     "name": "難病患者の日常生活用具の給付",
+     "url": "https://www.city.setagaya.lg.jp/02083/2738.html"
+    },
+    {
+     "name": "小児慢性特定疾病児童の日常生活用具の給付",
+     "url": "https://www.city.setagaya.lg.jp/02083/2739.html"
+    },
+    {
+     "name": "緊急介護人派遣",
+     "url": "https://www.city.setagaya.lg.jp/02083/2740.html"
+    },
+    {
+     "name": "紙おむつの支給・おむつ代の助成",
+     "url": "https://www.city.setagaya.lg.jp/02083/2746.html"
+    },
+    {
+     "name": "福祉電話使用料の助成",
+     "url": "https://www.city.setagaya.lg.jp/02083/2747.html"
+    },
+    {
+     "name": "白杖の給付",
+     "url": "https://www.city.setagaya.lg.jp/02083/2751.html"
+    },
+    {
+     "name": "盲導犬・介助犬・聴導犬の給付",
+     "url": "https://www.city.setagaya.lg.jp/02083/2752.html"
+    },
+    {
+     "name": "手話通訳者の派遣（日常生活等の場合）",
+     "url": "https://www.city.setagaya.lg.jp/02083/2753.html"
+    },
+    {
+     "name": "手話通訳者の派遣（権利に関わる場合）",
+     "url": "https://www.city.setagaya.lg.jp/02083/2754.html"
+    },
+    {
+     "name": "要約筆記者の派遣",
+     "url": "https://www.city.setagaya.lg.jp/02083/2755.html"
+    },
+    {
+     "name": "ホームヘルパーの派遣（難病患者）",
+     "url": "https://www.city.setagaya.lg.jp/02083/2757.html"
+    },
+    {
+     "name": "福祉タクシー券の交付",
+     "url": "https://www.city.setagaya.lg.jp/02084/2758.html"
+    },
+    {
+     "name": "自動車燃料費の助成",
+     "url": "https://www.city.setagaya.lg.jp/02084/2759.html"
+    },
+    {
+     "name": "自動車運転免許取得費の助成",
+     "url": "https://www.city.setagaya.lg.jp/02084/2760.html"
+    },
+    {
+     "name": "自動車改造費の助成",
+     "url": "https://www.city.setagaya.lg.jp/02084/2761.html"
+    },
+    {
+     "name": "身体障害者補助犬を知っていますか",
+     "url": "https://www.city.setagaya.lg.jp/02083/22251.html"
+    },
+    {
+     "name": "中等度難聴者（18歳から64歳）のための補聴器購入費の助成",
+     "url": "https://www.city.setagaya.lg.jp/02083/10812.html"
+    },
+    {
+     "name": "住宅改修費の助成",
+     "url": "https://www.city.setagaya.lg.jp/02083/2775.html"
+    },
+    {
+     "name": "更生訓練費助成事業",
+     "url": "https://www.city.setagaya.lg.jp/02083/2903.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131130": {
+   "pref": "東京都",
+   "name": "渋谷区",
+   "url": "https://www.city.shibuya.tokyo.jp/",
+   "welfarePage": "https://www.city.shibuya.tokyo.jp/kenko/#shogai-seikatsu",
+   "programs": [
+    {
+     "name": "料金の割引・税の控除",
+     "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/waribiki/"
+    },
+    {
+     "name": "身体障害者手帳の交付",
+     "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/techo/sintai-techo.html"
+    },
+    {
+     "name": "愛の手帳の交付",
+     "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/techo/ai-techo.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳の交付",
+     "url": "https://www.city.shibuya.tokyo.jp/kenko/shogai-seikatsu/techo/seisin-techo.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131148": {
+   "pref": "東京都",
+   "name": "中野区",
+   "url": "https://www.city.tokyo-nakano.lg.jp/",
+   "welfarePage": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/syogai/syougaijishien/index.html",
+   "programs": [
+    {
+     "name": "料金の割引・税の免除など",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/syogai/kotsusyudan/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131156": {
+   "pref": "東京都",
+   "name": "杉並区",
+   "url": "https://www.city.suginami.tokyo.jp/",
+   "welfarePage": "https://www.city.suginami.tokyo.jp/normalife/index.html",
+   "programs": [
+    {
+     "name": "料金の割引・税の控除等",
+     "url": "https://www.city.suginami.tokyo.jp/normalife/waribiki/index.html"
+    },
+    {
+     "name": "30分無料マッサージ体験（杉並視覚障害者会館）",
+     "url": "https://www.city.suginami.tokyo.jp/s037/event/27663.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者の派遣（地域生活支援事業）",
+     "url": "https://www.city.suginami.tokyo.jp/s036/8035.html"
+    },
+    {
+     "name": "視覚障害者向け代読・代筆サービス（派遣型）",
+     "url": "https://www.city.suginami.tokyo.jp/s036/8037.html"
+    },
+    {
+     "name": "電話料の助成",
+     "url": "https://www.city.suginami.tokyo.jp/s036/8033.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131164": {
+   "pref": "東京都",
+   "name": "豊島区",
+   "url": "https://www.city.toshima.lg.jp/",
+   "welfarePage": "https://www.city.toshima.lg.jp/kenko/index.html#a123",
+   "programs": [
+    {
+     "name": "手当・助成・在宅支援",
+     "url": "https://www.city.toshima.lg.jp/219/1803121052.html"
+    },
+    {
+     "name": "相談窓口、手帳・手当などの申請",
+     "url": "https://www.city.toshima.lg.jp/kenko/shogai/shinsei/index.html"
+    },
+    {
+     "name": "障害福祉サービス従事者の研修費を助成します。",
+     "url": "https://www.city.toshima.lg.jp/171/kenko/shogai/2302131507.html"
+    },
+    {
+     "name": "カウンセリング費用の助成について（発達障害者心理相談補助事業）",
+     "url": "https://www.city.toshima.lg.jp/445/kenko/shogai/shienjigyo/shienjigyo/032351.html"
+    },
+    {
+     "name": "心身障害者福祉手当等",
+     "url": "https://www.city.toshima.lg.jp/kenko/shogai/teate/index.html"
+    },
+    {
+     "name": "各種料金の割引",
+     "url": "https://www.city.toshima.lg.jp/kenko/shogai/waribiki/index.html"
+    },
+    {
+     "name": "医療・医療費助成",
+     "url": "https://www.city.toshima.lg.jp/kenko/shogai/iryojose/index.html"
+    },
+    {
+     "name": "豊島区手話通訳者派遣センター申込入力フォーム",
+     "url": "https://www.city.toshima.lg.jp/171/oshirase/1911111133.html"
+    },
+    {
+     "name": "豊島区手話通訳者派遣センター",
+     "url": "https://www.city.toshima.lg.jp/171/kenko/shogai/shisetsu-02/002345/004911.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131172": {
+   "pref": "東京都",
+   "name": "北区",
+   "url": "https://www.city.kita.tokyo.jp/",
+   "welfarePage": "https://www.city.kita.tokyo.jp/socialcare-health/disabilities/index.html",
+   "programs": [],
+   "fetchedOn": "2026-09-03"
+  },
+  "131181": {
+   "pref": "東京都",
+   "name": "荒川区",
+   "url": "https://www.city.arakawa.tokyo.jp/",
+   "welfarePage": "https://www.city.arakawa.tokyo.jp/shougaisha/index.html",
+   "programs": [
+    {
+     "name": "荒川区児童発達支援等事業運営費補助金交付事業",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/jidouhaxtutatushientoujigyouunneihihojyo.html"
+    },
+    {
+     "name": "障がい者医療・医療費助成",
+     "url": "https://www.city.arakawa.tokyo.jp/shougaisha/index.html#a162"
+    },
+    {
+     "name": "精神障害者保健福祉手帳への旅客運賃割引区分の記載",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/2024ryokyaku.html"
+    },
+    {
+     "name": "荒川区障がい者福祉給付金",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/teate/fukushikyufu.html"
+    },
+    {
+     "name": "心身障害者福祉手当（区の制度）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/teate/sinsinsyougaisyateat.html"
+    },
+    {
+     "name": "東京都重度心身障害者手当（都の制度）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/teate/juudoshinshinshougai.html"
+    },
+    {
+     "name": "特別障害者手当（国の制度）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/teate/iryoutekikeazisya.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.city.arakawa.tokyo.jp/a035/shougaisha/teate/fuyoteate.html"
+    },
+    {
+     "name": "障害児福祉手当（国の制度）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/teate/shogaiji.html"
+    },
+    {
+     "name": "原子爆弾被爆者に対する各種手当（国の制度）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/teate/hibakushateate.html"
+    },
+    {
+     "name": "自立支援医療（精神通院医療費の支給）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/iryouhijosei/jirituseisin.html"
+    },
+    {
+     "name": "自立支援医療（更生医療費の支給）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/iryouhijosei/koseiiryo.html"
+    },
+    {
+     "name": "自立支援医療（育成医療費の支給）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/iryouhijosei/ikuseiiryo.html"
+    },
+    {
+     "name": "難病医療費助成制度（特定医療費助成制度）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/nanbyou.html"
+    },
+    {
+     "name": "肝がん・重度肝硬変医療費助成制度",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/iryouhijosei/kanngannkannkouhenn.html"
+    },
+    {
+     "name": "小児精神病医療費助成（入院医療費）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/iryouhijosei/nyuin.html"
+    },
+    {
+     "name": "心身障害者（児）医療費助成（マル障）",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/shougaisha/iryouhijosei/shogaiji.html"
+    },
+    {
+     "name": "税の軽減・預貯金・公共料金等の軽減",
+     "url": "https://www.city.arakawa.tokyo.jp/shougaisha/shien/zeikeigen/index.html"
+    },
+    {
+     "name": "障がい者等に各種手当・助成金が支給された場合の取扱い",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/jyoseikintoriatukai.html"
+    },
+    {
+     "name": "荒川区障害者同行援護従業者養成研修等受講料助成事業",
+     "url": "https://www.city.arakawa.tokyo.jp/a030/jinnzaikakuho/kennshuuhijyosei.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者派遣等",
+     "url": "https://www.city.arakawa.tokyo.jp/shougaisha/shien/shuwatsuuyaku/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131199": {
+   "pref": "東京都",
+   "name": "板橋区",
+   "url": "https://www.city.itabashi.tokyo.jp/",
+   "welfarePage": "https://www.city.itabashi.tokyo.jp/kenko/shogai/index.html",
+   "programs": [
+    {
+     "name": "手帳の交付",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/techo/index.html"
+    },
+    {
+     "name": "手当・年金（障がい）",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/teate/index.html"
+    },
+    {
+     "name": "医療助成（障がい）",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/josei/index.html"
+    },
+    {
+     "name": "愛の手帳の交付",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/techo/1003204.html"
+    },
+    {
+     "name": "身体障害者手帳の交付",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/techo/1003205.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳の交付",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/techo/1003206.html"
+    },
+    {
+     "name": "重度心身障がい者特別給付金",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/teate/1003208.html"
+    },
+    {
+     "name": "心身障害者福祉手当（区制度）",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/teate/1003209.html"
+    },
+    {
+     "name": "重度心身障害者手当（都制度）",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/teate/1003210.html"
+    },
+    {
+     "name": "特別障害者手当（国制度）",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/teate/1003211.html"
+    },
+    {
+     "name": "障害児福祉手当（国制度）",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/teate/1003212.html"
+    },
+    {
+     "name": "障がい者手当等申請時の本人確認",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/teate/1003217.html"
+    },
+    {
+     "name": "心身障害者医療費助成（マル障）",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/josei/1003219.html"
+    },
+    {
+     "name": "心身障害者医療費助成（マル障）の医療費の請求",
+     "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/josei/1003220.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131202": {
+   "pref": "東京都",
+   "name": "練馬区",
+   "url": "https://www.city.nerima.tokyo.jp/",
+   "welfarePage": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/oshirase/0609.html",
+   "programs": [
+    {
+     "name": "意思疎通支援事業（手話通訳者と要約筆記者の派遣）",
+     "url": "https://www.city.nerima.tokyo.jp/dl/shogai/commushien.html"
+    },
+    {
+     "name": "各種減免制度",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/index.html#cmsC186C"
+    },
+    {
+     "name": "児童育成手当",
+     "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/ikuseiteate.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/tokubetujidoufuyou.html"
+    },
+    {
+     "name": "心身障害者福祉手当（区制度）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/shinshin_fukushi.html"
+    },
+    {
+     "name": "特別障害者手当（国制度）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/tokubetsu.html"
+    },
+    {
+     "name": "障害児福祉手当（国制度）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/shogaiji.html"
+    },
+    {
+     "name": "福祉手当（国制度）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/fukushi.html"
+    },
+    {
+     "name": "重度心身障害者手当（都制度）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/teate/judoshinshin.html"
+    },
+    {
+     "name": "自動車税／軽自動車税環境性能割・自動車税／軽自動車税種別割の減免",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/jidoshazei.html"
+    },
+    {
+     "name": "JR線旅客運賃の割引",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/koukyo_jr.html"
+    },
+    {
+     "name": "タクシー運賃の割引",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/taxi.html"
+    },
+    {
+     "name": "航空旅客運賃の割引",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/koukyo_koku.html"
+    },
+    {
+     "name": "フェリー旅客運賃の割引",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/koukyo_ferry.html"
+    },
+    {
+     "name": "携帯電話の割引",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/keitaidenwa.html"
+    },
+    {
+     "name": "水道・下水道料金",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/suido.html"
+    },
+    {
+     "name": "テレビ受信料の減免",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/tv_jushinryo.html"
+    },
+    {
+     "name": "都立公園入場料・都立公園駐車場利用料の減免",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/genmen/toritsukoen.html"
+    },
+    {
+     "name": "小児慢性特定疾病医療費助成制度（東京都制度）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/shonimanseishikkan.html"
+    },
+    {
+     "name": "難病医療費助成制度（東京都制度）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/nanbyo.html"
+    },
+    {
+     "name": "自立支援医療費助成制度（育成医療）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/jiritsushien_ikusei.html"
+    },
+    {
+     "name": "自立支援医療費助成（精神通院）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/jiritsushien_byoin.html"
+    },
+    {
+     "name": "心身障害者医療費助成（マル障）",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/iryo/josei.html"
+    },
+    {
+     "name": "入院資金の貸付",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/iryo/kashitsuke.html"
+    },
+    {
+     "name": "小児精神障害者入院医療費助成",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/iryo/iryojosei/shoniseishinbyo.html"
+    },
+    {
+     "name": "補助犬の給付",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/shikaku/modoken.html"
+    },
+    {
+     "name": "自立支援給付制度の概要",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/jiritsu/index.html"
+    },
+    {
+     "name": "介護・派遣",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/nichijo/kaigo/index.html"
+    },
+    {
+     "name": "失語症者向け意思疎通支援者派遣事業",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/nichijo/kaigo/shitsugoshouhaken.html"
+    },
+    {
+     "name": "障害者等福祉団体運営費補助金",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/dantai/dantai.html"
+    },
+    {
+     "name": "障害福祉サービス等従事者養成研修受講料助成",
+     "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/josei/shogai_shikaku.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131211": {
+   "pref": "東京都",
+   "name": "足立区",
+   "url": "https://www.city.adachi.tokyo.jp/",
+   "welfarePage": "https://www.city.adachi.tokyo.jp/fukushi-kenko/shinshin/index.html",
+   "programs": [
+    {
+     "name": "産科医療特別給付事業",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/sankairyo-kyufukin.html"
+    },
+    {
+     "name": "福祉タクシー・自動車燃料助成券の交付",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/20220301.html"
+    },
+    {
+     "name": "福祉自動車燃料助成券の交付",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/documents/20220314.html"
+    },
+    {
+     "name": "自動車運転教習費用の助成",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/jidousha-kyoushu-josei.html"
+    },
+    {
+     "name": "身体障がい者自動車改造費の助成",
+     "url": "https://www.city.adachi.tokyo.jp/s-engo/fukushi-kenko/shinshin/waribiki-j-kaizohi.html"
+    },
+    {
+     "name": "有料道路通行料金の割引",
+     "url": "https://www.city.adachi.tokyo.jp/s-engo/fukushi-kenko/shinshin/waribiki-j-yuryodoro.html"
+    },
+    {
+     "name": "交通機関の割引",
+     "url": "https://www.city.adachi.tokyo.jp/fukushi-kenko/shinshin/waribiki/kotsu/index.html"
+    },
+    {
+     "name": "タクシー運賃の割引",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/waribiki-j-t-unchin.html"
+    },
+    {
+     "name": "愛の手帳の交付",
+     "url": "https://www.city.adachi.tokyo.jp/s-engo/tetyou301001.html"
+    },
+    {
+     "name": "身体障害者手帳の交付",
+     "url": "https://www.city.adachi.tokyo.jp/s-engo/tetyou260425.html"
+    },
+    {
+     "name": "心身障害者（児）医療費の助成（マル障・東京都の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/201307.html"
+    },
+    {
+     "name": "中等度難聴児発達支援事業（補聴器購入費の助成）",
+     "url": "https://www.city.adachi.tokyo.jp/s-engo/tyutoudonancho.html"
+    },
+    {
+     "name": "児童育成手当（障害）",
+     "url": "https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/teate-jidoikusei.html"
+    },
+    {
+     "name": "難病患者福祉手当（区の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-nanbyo-20150701.html"
+    },
+    {
+     "name": "特別障害者手当（国の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-t-shogaisha.html"
+    },
+    {
+     "name": "障害児福祉手当（国の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-shogaiji.html"
+    },
+    {
+     "name": "福祉手当（国の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-fukushi.html"
+    },
+    {
+     "name": "障がい者福祉手当（区の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-s-shogaisha.html"
+    },
+    {
+     "name": "特別児童扶養手当（国の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/oyako/fukushi-kenko/shinshin/teate-t-tokubetujidofuyo.html"
+    },
+    {
+     "name": "重度心身障害者手当（東京都の制度）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/teate-judoshinshin.html"
+    },
+    {
+     "name": "障がい者福祉サービス（手当・医療費助成等）受給者が亡くなられた時の手続き",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/kurashi/todokede/n-shogaimono.html"
+    },
+    {
+     "name": "障がい者グループホーム消防設備設置補助金",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/shogai-shisetu-syoubou.html"
+    },
+    {
+     "name": "税・公共料金の減免",
+     "url": "https://www.city.adachi.tokyo.jp/fukushi-kenko/shinshin/genmen/index.html"
+    },
+    {
+     "name": "NTT東日本ふれあい案内（無料番号案内）",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/waribiki-kokyo-ntt.html"
+    },
+    {
+     "name": "NHK放送受信料の減免",
+     "url": "https://www.city.adachi.tokyo.jp/s-engo/fukushi-kenko/shinshin/waribiki-kokyo-nhk.html"
+    },
+    {
+     "name": "各種公共料金等の減免",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/waribiki-kokyo-suido.html"
+    },
+    {
+     "name": "郵便に関する減免等",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/waribiki-kokyo-yubin.html"
+    },
+    {
+     "name": "自動車に関する税の減免",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/waribiki-j-genmen.html"
+    },
+    {
+     "name": "都立公園等の入園料の免除",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/waribiki-kokyo-nyuen.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者の派遣",
+     "url": "https://www.city.adachi.tokyo.jp/shogai/fukushi-kenko/shinshin/service-c-shuwa.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131229": {
+   "pref": "東京都",
+   "name": "葛飾区",
+   "url": "https://www.city.katsushika.lg.jp/",
+   "welfarePage": "https://www.city.katsushika.lg.jp/kenkou/1000053/index.html",
+   "programs": [
+    {
+     "name": "サービス・助成・減免",
+     "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002246/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  },
+  "131237": {
+   "pref": "東京都",
+   "name": "江戸川区",
+   "url": "https://www.city.edogawa.tokyo.jp/",
+   "welfarePage": "https://www.city.edogawa.tokyo.jp/e004/kurashi/sodanannai/shogaisha.html",
+   "programs": [
+    {
+     "name": "閲覧補助機能",
+     "url": "https://www.city.edogawa.tokyo.jp/moji.html"
+    }
+   ],
+   "fetchedOn": "2026-09-03"
+  }
+ },
+ "cleanedOn": "2026-09-03"
+}

@@ -2,12 +2,15 @@ name: Fetch welfare programs
 
 # 各自治体の障害福祉ページを巡回して、制度名を集める。
 #
-# 1,741自治体あり、相手は自治体のサーバーなので1回では回さない。
-# 毎日少しずつ進め、集まったぶんをコミットする。
+# 相手は自治体のサーバーなので1回では回さない。手動で回数を分けて進める。
 #
-# **未完成**: いまの抽出は障害福祉ページのリンク文言を拾うだけで、
-# 制度ページではなくカテゴリ見出しを拾ってしまう自治体が多い。
-# 階層をもう1段たどる実装に差し替えるまで、結果はサイトに出さない。
+# 対象は県庁所在地・政令指定都市・東京23区の74自治体
+# （data/priority-municipalities.json）。全1,741自治体を一度に狙ったときは
+# 到達率が19%しか出なかったため、範囲を絞っている。
+#
+# 収集 → 除外（clean_programs.py）→ ページ生成（build-seido-pages.py）まで
+# 続けて実行し、public/seido/ を data と同じコミットに含める。データだけが
+# 進んでページが古いままになるのを防ぐため。
 
 on:
   workflow_dispatch:
@@ -28,16 +31,25 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: python scripts/fetch-welfare-programs.py --limit ${{ inputs.limit || 40 }}
+      - name: 自治体を巡回する
+        env:
+          SITES_FILE: priority-municipalities.json
+        run: python scripts/fetch-welfare-programs.py --limit ${{ inputs.limit || 40 }}
+
+      - name: 制度でないリンクを落とす
+        run: python scripts/clean_programs.py
+
+      - name: 自治体ページと sitemap を作り直す
+        run: python scripts/build-seido-pages.py
 
       - name: 集まったぶんをコミットする
         run: |
-          if git diff --quiet -- data/; then
+          if git diff --quiet -- data/ public/; then
             echo "変化はありません。"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git commit -m "自治体の障害福祉制度を収集する"
+          git add data/ public/
+          git commit -m "自治体の障害福祉制度を収集し、ページを作り直す"
           git push

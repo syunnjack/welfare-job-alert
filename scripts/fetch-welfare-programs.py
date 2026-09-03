@@ -170,25 +170,34 @@ def fetch(url: str, timeout: int = 25) -> str | None:
         time.sleep(delay_for(url))
 
 
-def find_links(base_url: str, html: str, hints: list, limit: int = 3) -> list:
-    """指定した手がかり語を含むリンクを、同じドメイン内から拾う。"""
+def ranked_links(base_url: str, html: str, hints: list, limit: int = 8) -> list:
+    """手がかり語を含むリンクを、具体的な手がかりに当たったものから順に返す。
+
+    以前は「先に出てきた3本」を辿っていた。トップページに障害福祉への
+    直リンクが無い自治体では、その3本が「社会福祉協議会」のような
+    関係のないリンクで埋まってしまい、そこで打ち切られていた。
+    GATEWAY_HINTS は具体的なものから並べてあるので、その順で辿る。
+    """
+    ranked = [normalize(h) for h in hints]
+    host = urllib.parse.urlparse(base_url).netloc
     found = []
     seen = set()
-    host = urllib.parse.urlparse(base_url).netloc
     for match in re.finditer(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.I | re.S):
         label = normalize(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', match.group(2))).strip())
         if not label or len(label) > 30:
             continue
-        if not any(hint in label for hint in map(normalize, hints)):
+        rank = next((i for i, hint in enumerate(ranked) if hint in label), None)
+        if rank is None:
             continue
-        url = urllib.parse.urljoin(base_url, match.group(1))
+        url, _fragment = urllib.parse.urldefrag(urllib.parse.urljoin(base_url, match.group(1)))
         if urllib.parse.urlparse(url).netloc != host or url in seen:
             continue
+        if url.rstrip('/') == base_url.rstrip('/'):
+            continue
         seen.add(url)
-        found.append(url)
-        if len(found) >= limit:
-            break
-    return found
+        found.append((rank, len(label), url))
+    found.sort()
+    return [url for _rank, _length, url in found[:limit]]
 
 
 def find_welfare_page(top_url: str, html: str) -> str | None:
@@ -369,7 +378,7 @@ def main() -> None:
 
         # トップに直リンクが無ければ、「健康・福祉」などを1段挟んで探す。
         if not page:
-            for gateway in find_links(site['url'], top, GATEWAY_HINTS, limit=3):
+            for gateway in ranked_links(site['url'], top, GATEWAY_HINTS, limit=8):
                 middle = fetch(gateway)
                 if not middle:
                     continue

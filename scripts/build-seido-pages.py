@@ -487,23 +487,45 @@ PREF_BODY = """      <header><a href="/">福祉の求人アラート</a></header
 
       <ul class="city-list">{cities}</ul>
 
-      <p class="count">件数のついた自治体には制度の一覧があります。「未取得」は、公式サイトの作りが機械で追えず、こちらがリンクを拾えなかったものです。制度が無いという意味ではありません。その場合は公式ページへ直接つないでいます。</p>
-
-      <h2>都道府県の制度も別にある</h2>
-
-      <p>市区町村と都道府県は、それぞれ別に制度を持っています。両方を確認してください。{pref}の制度は{pref}の公式サイトに載っています。</p>
-
+      <p class="count">件数のついた自治体には制度の一覧があります。「未取得」は、公式サイトの作りが機械で追えず、こちらがリンクを拾えなかったものです。制度が無いという意味ではありません。その場合は公式ページへ直接つないでいます。「公式サイト未確認」は、こちらが持っているURLがその自治体のものだと確かめられなかったもので、リンクを張っていません。</p>
+{prefprograms}
       <p>全国共通の制度でも、申請の窓口は住んでいる市区町村です。→ <a href="/discount/">障害者手帳の割引は自分の市区町村で手続きする</a>／<a href="/seido/">制度の名前から探す</a></p>
 """
 
+# 都道府県そのものの制度。市区町村の制度とは別に持っている
+PREF_PROGRAMS = """
+      <h2>{pref}が持っている制度（{n}件）</h2>
 
-def pref_page(pref, slug_pref, rows, checked_on):
+      <p>市区町村と都道府県は、それぞれ別に制度を持っています。両方を確認してください。以下は{pref}の公式サイトに載っている制度です。</p>
+
+      <ul class="programs">
+{items}
+      </ul>
+
+      <p class="sources">出典: <a href="{welfare_attr}" target="_blank" rel="noopener">{pref}の障害福祉のページ</a>（{checked}時点）。金額や対象等級は、市区町村の分と同じく転記していません。</p>
+"""
+
+PREF_NO_PROGRAMS = """
+      <h2>都道府県の制度も別にある</h2>
+
+      <p>市区町村と都道府県は、それぞれ別に制度を持っています。両方を確認してください。{pref}の制度は{pref}の公式サイトに載っています{link}。</p>
+"""
+
+
+def pref_page(pref, slug_pref, rows, checked_on, own):
     url = '{0}/seido/{1}/'.format(SITE, slug_pref)
     total = sum(r['count'] for r in rows)
+    own_programs = (own or {}).get('programs') or []
     title = '{0}の障害福祉制度｜{1}市区町村の公式ページへの入口｜福祉の求人アラート'.format(pref, len(rows))
-    desc = ('{0}の{1}市区町村について、公式サイトに載っている障害福祉の制度{2}件への'
-            'リンクを整理しました。金額や条件は転記せず、公式ページへつないでいます。'
-            '{3}時点。'.format(pref, len(rows), total, checked_on))
+    if own_programs:
+        desc = ('{0}が持っている制度{1}件と、{0}の{2}市区町村の制度{3}件への'
+                'リンクを整理しました。金額や条件は転記せず、公式ページへ'
+                'つないでいます。{4}時点。'.format(
+                    pref, len(own_programs), len(rows), total, checked_on))
+    else:
+        desc = ('{0}の{1}市区町村について、公式サイトに載っている障害福祉の制度{2}件への'
+                'リンクを整理しました。金額や条件は転記せず、公式ページへつないでいます。'
+                '{3}時点。'.format(pref, len(rows), total, checked_on))
     withpage = [r for r in rows if r['slug']]
     jsonld = {'@context': 'https://schema.org', '@graph': [
         {
@@ -522,8 +544,22 @@ def pref_page(pref, slug_pref, rows, checked_on):
                ('自治体の障害福祉制度', SITE + '/seido/'),
                (pref, url)]),
     ]}
+    if own_programs:
+        items = '\n'.join(
+            '        <li><a href="{0}" target="_blank" rel="noopener">{1}</a></li>'.format(
+                escape(p['url'], quote=True), escape(p['name'])) for p in own_programs)
+        block = PREF_PROGRAMS.format(
+            pref=escape(pref), n=len(own_programs), items=items, checked=checked_on,
+            welfare_attr=escape((own.get('welfarePage') or own['url']), quote=True))
+    else:
+        link = ''
+        if own and own.get('url'):
+            link = ('（<a href="{0}" target="_blank" rel="noopener">{1}の公式サイト</a>）'
+                    .format(escape(own['url'], quote=True), escape(pref)))
+        block = PREF_NO_PROGRAMS.format(pref=escape(pref), link=link)
     body = PREF_BODY.format(
         pref=escape(pref), n=len(rows), p=total, checked=checked_on,
+        prefprograms=block,
         cities=''.join(city_chip(r) for r in rows))
     return head(title, desc, url, jsonld) + body + FOOT
 
@@ -532,6 +568,10 @@ def city_chip(r):
     if r['slug']:
         return '<li><a href="{0}">{1}</a> <span class="count">{2}件</span></li>'.format(
             r['slug'], escape(r['name']), r['count'])
+    if r.get('unverified'):
+        # 公式サイトだと確かめられなかったので、リンクを張らない
+        return ('<li class="plain">{0} <span class="count">公式サイト未確認</span></li>'
+                .format(escape(r['name'])))
     label = '公式ページへ' if r['count'] else '未取得'
     return ('<li class="plain"><a href="{0}" target="_blank" rel="noopener">{1}</a>'
             ' <span class="count">{2}</span></li>').format(
@@ -621,7 +661,8 @@ def main():
             write(os.path.join(OUT, sp, sc, 'index.html'),
                   city_page(e, sp, sc, checked_on, linked))
         rows.append({'pref': e['pref'], 'name': e['name'], 'count': len(progs),
-                     'slug': slug, 'welfare': e.get('welfarePage') or e['url']})
+                     'slug': slug, 'welfare': e.get('welfarePage') or e['url'],
+                     'unverified': e.get('siteUnverified')})
 
     program_rows = []
     for g in GROUPS:
@@ -633,12 +674,19 @@ def main():
         program_rows.append((g, len(hits)))
 
     # 都道府県のページ。800近い自治体を1ページに並べない
+    # 都道府県そのものの制度。無くてもページは作る
+    own = {}
+    own_path = 'data/pref-programs.clean.json'
+    if os.path.exists(own_path):
+        for v in json.load(open(own_path, encoding='utf-8'))['entries'].values():
+            own[v['name']] = v
+
     pref_rows = []
     for pref in dict.fromkeys(r['pref'] for r in rows):
         mine = [r for r in rows if r['pref'] == pref]
         sp = PREF_ROMAJI[pref]
         write(os.path.join(OUT, sp, 'index.html'),
-              pref_page(pref, sp, mine, checked_on))
+              pref_page(pref, sp, mine, checked_on, own.get(pref)))
         pref_rows.append(sp)
 
     write(os.path.join(OUT, 'index.html'),

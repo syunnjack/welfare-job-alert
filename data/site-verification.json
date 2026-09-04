@@ -1,0 +1,17 @@
+{
+ "results": {
+  "073687": {
+   "url": "http://www.minamiaizu.org/",
+   "name": "南会津町",
+   "ok": false,
+   "reason": "取得できなかった: タイムアウト"
+  },
+  "245615": {
+   "url": "https://tiktocoins.info/",
+   "name": "御浜町",
+   "ok": false,
+   "reason": "ドメインが失効し第三者のページになっている（賭博アプリへの誘導）"
+  }
+ },
+ "checkedOn": "2026-09-04"
+}

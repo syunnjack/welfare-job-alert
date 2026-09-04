@@ -253,7 +253,6 @@
   <url><loc>https://welfarejob.jp/seido/fukushima/fukushima/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/fukushima/aizuwakamatsu/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/fukushima/koriyama/</loc><priority>0.7</priority></url>
-  <url><loc>https://welfarejob.jp/seido/fukushima/iwaki/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/fukushima/sukagawa/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/fukushima/kitakata/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/fukushima/soma/</loc><priority>0.7</priority></url>
@@ -308,6 +307,7 @@
   <url><loc>https://welfarejob.jp/seido/tochigi/nikko/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/tochigi/oyama/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/tochigi/moka/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/tochigi/yaita/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/tochigi/nasukarasuyama/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/tochigi/kaminokawa/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/tochigi/mashiko/</loc><priority>0.7</priority></url>
@@ -755,7 +755,6 @@
   <url><loc>https://welfarejob.jp/seido/osaka/takaishi/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/osaka/higashiosaka/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/osaka/shijiyonawate/</loc><priority>0.7</priority></url>
-  <url><loc>https://welfarejob.jp/seido/osaka/katano/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/osaka/shimamoto/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/osaka/toyono/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/osaka/tadaoka/</loc><priority>0.7</priority></url>

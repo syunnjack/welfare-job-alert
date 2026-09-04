@@ -71,6 +71,12 @@ BENEFIT_WORDS = [
     'タクシー', '住宅改修', '駐車', '乗車', '運賃',
 ]
 
+# 入口として選んではいけないURL。報道発表・催し・募集の告知や、
+# 日付が入った個別記事。
+NEWS_PATH = re.compile(
+    r'/(press|news|topics|bosyu|boshu|happyou|happyo|kisha|event|festa|festival'
+    r'|matsuri|oshirase|shinchaku)[/_-]|20\d{6}|/\d{4}/\d{2}/', re.I)
+
 # 上の語を含んでいても、制度そのものではないもの。
 EXCLUDE_WORDS = [
     '一覧', '目次', 'ページ', 'よくある', '問い合わせ', 'お問合せ', 'アンケート',
@@ -223,9 +229,16 @@ def find_welfare_page(top_url: str, html: str) -> str | None:
         # 同じドメイン内に限る。外部サイトへ飛ぶリンクは採らない。
         if urllib.parse.urlparse(url).netloc != host:
             continue
+        # 報道発表・催し・募集の告知は、制度の入口ではない。都道府県の
+        # サイトで顕著で、千葉県は事業者向けの災害復旧、石川県はふれあい
+        # フェスティバルのページを入口にしていた。
+        if NEWS_PATH.search(url):
+            continue
+        # 一覧のページ（/ か /index.html で終わる）を、個別の記事より優先する。
+        is_hub = 0 if re.search(r'(/|/index\.html?|/index\.php)$', url) else 1
         # URLに障害を表す綴りがあれば、より確からしいとみなす。
         in_path = 0 if re.search(r'shogai|shougai|syougai|shohai', url, re.I) else 1
-        score = (rank, in_path, len(label))
+        score = (rank, is_hub, in_path, len(label))
         if best is None or score < best[0]:
             best = (score, url)
     return best[1] if best else None

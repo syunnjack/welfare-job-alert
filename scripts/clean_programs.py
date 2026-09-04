@@ -6,6 +6,7 @@
 「制度の一覧」ではなくなるため、公開前にここで落とす。
 """
 import json
+import os
 import re
 import sys
 
@@ -14,9 +15,9 @@ FILE_MARK = re.compile(r'(PDF|Excel|Word|ＰＤＦ|エクセル|ワード|ピー
 # 申請様式そのもの
 FORM = re.compile(r'(申請書|届出書|請求書|意見書|報告書|届出|申立書|同意書|委任状|記入例|様式|変更届|再交付申請)')
 # 事業者・自治体内部向け
-INTERNAL = re.compile(r'(事業者|事業所|指定申請|指定更新|運営規程|報酬改定|算定に係る|加算の取扱|集団指導|実地指導|自己点検|人材募集|会計年度任用|入札|公募|パブリックコメント|要綱|要領|規則|条例|向けのお知らせ|向け情報|向けお知らせ|保険医療機関|意向調査|施設整備|交付金における|区役所|市民課|保険年金課|窓口混雑|来庁予約|マイナ手続き|審査会|協議会|委員会|運営会議|閲覧補助|文字拡大|読み上げ|音声読み上げ|ふりがな)')
+INTERNAL = re.compile(r'(事業者|事業所|指定申請|指定更新|運営規程|報酬改定|算定に係る|加算の取扱|集団指導|実地指導|自己点検|人材募集|会計年度任用|入札|公募|パブリックコメント|要綱|要領|規則|条例|向けのお知らせ|向け情報|向けお知らせ|保険医療機関|意向調査|施設整備|交付金における|区役所|市民課|保険年金課|窓口混雑|来庁予約|マイナ手続き|審査会|協議会|委員会|運営会議|閲覧補助|文字拡大|読み上げ|音声読み上げ|ふりがな|特定個人情報|保護評価|評価書|資料等を掲載|モデル事業)')
 # FAQ の文、お知らせの文
-SENTENCE = re.compile(r'(ですか。|でしょうか。|ください。|しています$|します$|お知らせします|について$|たい$|ませんか$|ですか$|ますか$|でしょうか$|ください$|行ってください|変わります$|わりました$|ました$|ました！$|始まりました)')
+SENTENCE = re.compile(r'(ですか。|でしょうか。|ください。|しています$|します$|お知らせします|について$|たい$|ませんか$|ですか$|ますか$|でしょうか$|ください$|行ってください|変わります$|わりました$|ました$|ました！$|始まりました|ます。$|ました。$|します。$|しました。$)')
 # 障害福祉と関係ないもの
 OFFTOPIC = re.compile(r'(高齢者|介護保険|介護サービス|保育所|幼稚園|子育て|子ども|子供|児童手当|生活保護|保護費|住居確保|ひとり親|母子家庭|父子家庭|遺児|高等職業訓練|教育訓練給付|児童扶養手当|国民年金|結核|健康診断|予防接種|事業振興|新型コロナ|ワクチン|マイナンバー|住民票|戸籍|ごみ|防災|選挙|耐震|騒音|不妊|妊娠|出産|住宅取得|移住|定住|創業|起業|農業|漁業|観光|スポーツ|駆除|ペット|空き家|土壌汚染|給食費|コンビニ交付)')
 # 障害福祉であることを示す語（OFFTOPIC より優先する）
@@ -173,12 +174,40 @@ def clean(entry):
     return out
 
 
+def load_verification():
+    """公式サイトURLの確認結果。確かめられなかった自治体はリンクしない。
+
+    マスタのURLは型から作ったもので検証されていない。三重県御浜町は
+    ドメインが失効して第三者の賭博アプリ誘導ページになっていた。
+    確かめられないものを「公式サイト」として出さない。
+    """
+    path = 'data/site-verification.json'
+    if not os.path.exists(path):
+        return {}
+    rows = json.load(open(path, encoding='utf-8')).get('results', {})
+    return {code: row.get('reason') or '確かめられなかった'
+            for code, row in rows.items() if not row.get('ok')}
+
+
+def arg(flag, default):
+    return sys.argv[sys.argv.index(flag) + 1] if flag in sys.argv else default
+
+
 def main():
-    src = json.load(open('data/welfare-programs.json', encoding='utf-8'))
+    in_path = arg('--in', 'data/welfare-programs.json')
+    out_path = arg('--out', 'data/welfare-programs.clean.json')
+    src = json.load(open(in_path, encoding='utf-8'))
     entries = src['entries']
     total_before = total_after = 0
     verify = '--verify-pages' in sys.argv
+    unverified = load_verification()
     for code, v in entries.items():
+        if code in unverified:
+            # 公式サイトだと確かめられなかった。制度も出さず、リンクもしない
+            v['programs'] = []
+            v.pop('welfarePage', None)
+            v['siteUnverified'] = unverified[code]
+            continue
         before = len(v.get('programs', []))
         kept = clean(v)
         if not looks_reliable(kept):
@@ -192,9 +221,11 @@ def main():
         total_before += before
         total_after += len(v['programs'])
     src['cleanedOn'] = src['checkedOn']
-    json.dump(src, open('data/welfare-programs.clean.json', 'w', encoding='utf-8'),
+    json.dump(src, open(out_path, 'w', encoding='utf-8'),
               ensure_ascii=False, indent=1)
     print('制度リンク %d件 → %d件（%d件を除外）' % (total_before, total_after, total_before - total_after))
+    if unverified:
+        print('公式サイトを確かめられず、リンクしない自治体: %d件' % len(unverified))
     counts = sorted((len(v['programs']) for v in entries.values()), reverse=True)
     print('自治体あたりの件数:', counts)
     for t in (1, 3, 5, 8, 10):

@@ -1403,9 +1403,9 @@
    "pref": "富山県",
    "name": "富山市",
    "url": "https://www.city.toyama.toyama.jp/",
+   "welfarePage": "https://www.city.toyama.toyama.jp/health/shogaisha/index.html",
    "programs": [],
-   "fetchedOn": "2026-09-03",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-03"
   },
   "322016": {
    "pref": "島根県",
@@ -2486,9 +2486,9 @@
    "pref": "東京都",
    "name": "北区",
    "url": "https://www.city.kita.tokyo.jp/",
+   "welfarePage": "https://www.city.kita.tokyo.jp/socialcare-health/disabilities/index.html",
    "programs": [],
-   "fetchedOn": "2026-09-03",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-03"
   },
   "131181": {
    "pref": "東京都",
@@ -4264,10 +4264,6 @@
      "url": "https://www.city.tokorozawa.saitama.jp/kurashi/kokuminnenkin/nenkinseido/nenkinkyufukin.html"
     },
     {
-     "name": "重度心身障害児等医療費助成制度の対象者を拡大します。",
-     "url": "https://www.city.tokorozawa.saitama.jp/kenko/syogaifukushi/syogai3/judoiryokakudainitsuite.html"
-    },
-    {
      "name": "タクシー使用料金補助",
      "url": "https://www.city.tokorozawa.saitama.jp/kenko/syogaifukushi/syogai6/taxi.html"
     },
@@ -4291,17 +4287,9 @@
    "name": "いわき市",
    "url": "https://www.city.iwaki.lg.jp/",
    "welfarePage": "https://www.city.iwaki.lg.jp/www/genre/1000100000207/index.html",
-   "programs": [
-    {
-     "name": "日常生活用具給付事業におけるストーマ装具の基準額が改正されます。",
-     "url": "https://www.city.iwaki.lg.jp/www/contents/1782802958818/index.html"
-    },
-    {
-     "name": "各種補助金",
-     "url": "https://www.city.iwaki.lg.jp/www/genre/1686291204934/index.html"
-    }
-   ],
-   "fetchedOn": "2026-09-04"
+   "programs": [],
+   "fetchedOn": "2026-09-04",
+   "unreliable": "拾ったリンクが障害福祉のものではなかった"
   },
   "012041": {
    "pref": "北海道",
@@ -10501,10 +10489,6 @@
    "welfarePage": "https://www.city.fujinomiya.lg.jp/kenko/shogaifukushi/index.html",
    "programs": [
     {
-     "name": "指定難病患者の皆様は公共施設の使用料金が割引になります。",
-     "url": "https://www.city.fujinomiya.lg.jp/1035250000/p002596.html"
-    },
-    {
      "name": "手話で話そう",
      "url": "https://www.city.fujinomiya.lg.jp/1035250000/p001536.html"
     }
@@ -11385,10 +11369,6 @@
      "url": "https://www.city.ikoma.lg.jp/0000001341.html"
     },
     {
-     "name": "精神障害者医療費助成制度を2級まで拡充します。",
-     "url": "https://www.city.ikoma.lg.jp/0000005310.html"
-    },
-    {
      "name": "小児慢性特定疾病医療費助成制度",
      "url": "https://www.city.ikoma.lg.jp/0000001350.html"
     },
@@ -11415,14 +11395,6 @@
     {
      "name": "難聴児補聴器購入費助成事業",
      "url": "https://www.city.ikoma.lg.jp/0000001129.html"
-    },
-    {
-     "name": "日常生活用具の基準額の見直しを行いました。",
-     "url": "https://www.city.ikoma.lg.jp/0000037519.html"
-    },
-    {
-     "name": "日常生活用具の給付項目に非常用電源を追加しました。",
-     "url": "https://www.city.ikoma.lg.jp/0000037485.html"
     },
     {
      "name": "小児慢性特定疾病児童等日常生活用具給付事業",
@@ -12603,10 +12575,6 @@
     {
      "name": "障害者手帳",
      "url": "https://www.city.ikeda.osaka.jp/kenko_iryou/shogaisha/techo/index.html"
-    },
-    {
-     "name": "精神障害者保健福祉手帳をお持ちの方に、鉄道運賃割引が実施されます。",
-     "url": "https://www.city.ikeda.osaka.jp/kenko_iryou/shogaisha/josei/18677.html"
     },
     {
      "name": "重度障がい者医療費助成制度",
@@ -14487,10 +14455,6 @@
    "welfarePage": "https://www.city.imizu.toyama.jp/guide/svGuideList.aspx?cd=0203",
    "programs": [
     {
-     "name": "手話通訳者・要約筆記者等を派遣します。",
-     "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=1227"
-    },
-    {
      "name": "重度心身障がい者等医療費助成",
      "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=34797"
     },
@@ -14912,10 +14876,6 @@
      "url": "https://www.city.seki.lg.jp/0000016994.html"
     },
     {
-     "name": "日常生活用具の種目に人工鼻が追加されます。",
-     "url": "https://www.city.seki.lg.jp/0000015066.html"
-    },
-    {
      "name": "療育手帳の交付",
      "url": "https://www.city.seki.lg.jp/0000000823.html"
     },
@@ -14962,10 +14922,6 @@
     {
      "name": "福祉医療費受給者証をお持ちの皆さまへ",
      "url": "https://www.city.seki.lg.jp/0000013152.html"
-    },
-    {
-     "name": "精神科病院に入院している方への福祉医療費助成が廃止となります。",
-     "url": "https://www.city.seki.lg.jp/0000010659.html"
     }
    ],
    "fetchedOn": "2026-09-04"
@@ -15439,10 +15395,6 @@
     {
      "name": "手話通訳者を設置しています！",
      "url": "https://www.city.kimitsu.lg.jp/soshiki/21/63564.html"
-    },
-    {
-     "name": "精神障害者医療費の通院分の給付は、令和9年3月診療分をもって終了します。",
-     "url": "https://www.city.kimitsu.lg.jp/soshiki/21/88380.html"
     },
     {
      "name": "精神障害者医療費の給付",
@@ -16052,10 +16004,6 @@
      "url": "https://www.city.kashiba.lg.jp/soshiki/18/43426.html"
     },
     {
-     "name": "社会福祉課の窓口に手話通訳者を配置しております。",
-     "url": "https://www.city.kashiba.lg.jp/soshiki/18/5050.html"
-    },
-    {
      "name": "身体障害者等の手帳をお持ちの方に「かしば・屯鶴峯温泉」の無料使用証",
      "url": "https://www.city.kashiba.lg.jp/soshiki/18/4321.html"
     }
@@ -16347,12 +16295,7 @@
    "name": "交野市",
    "url": "https://www.city.katano.osaka.jp/",
    "welfarePage": "https://www.city.katano.osaka.jp/categories/bunya/fukushi/shogai/",
-   "programs": [
-    {
-     "name": "令和８年度 交野市手話通訳者登録試験を実施します。",
-     "url": "https://www.city.katano.osaka.jp/docs/2026073000028/"
-    }
-   ],
+   "programs": [],
    "fetchedOn": "2026-09-04"
   },
   "242080": {
@@ -16730,10 +16673,6 @@
     {
      "name": "医療サービス（重度心身医療費助成・更生医療・育成医療・精神通院医療）",
      "url": "https://www.city.tosu.lg.jp/soshiki/38/90108.html"
-    },
-    {
-     "name": "令和7年4月1日から、JR各社等で精神障害者割引制度が導入されます。",
-     "url": "https://www.city.tosu.lg.jp/soshiki/38/89761.html"
     },
     {
      "name": "障害福祉用具について（補装具・日常生活用具）",
@@ -19046,10 +18985,6 @@
     {
      "name": "小児慢性特定疾患児日常生活用具の給付",
      "url": "https://www.city.shiroi.chiba.jp/kenko/shogai/s02/16657.html"
-    },
-    {
-     "name": "マイナ保険証のみで医療費助成が受給できるようになります。",
-     "url": "https://www.city.shiroi.chiba.jp/kenko/shogai/s02/17252.html"
     }
    ],
    "fetchedOn": "2026-09-04"
@@ -19330,10 +19265,6 @@
     {
      "name": "地域生活支援事業（日常生活用具など）",
      "url": "https://www.city.towada.lg.jp/fukushi/shougaisha/seikatsu-shien.html"
-    },
-    {
-     "name": "医療的ケア児等コーディネーターを派遣します。",
-     "url": "https://www.city.towada.lg.jp/fukushi/shougaisha/2023-0501-ikea.html"
     },
     {
      "name": "重度心身障害者医療費",
@@ -21569,10 +21500,6 @@
      "url": "https://www.city.shiraoka.lg.jp/kenko_hoken_fukushi/shogaishafukushi/3036.html"
     },
     {
-     "name": "「埼玉県思いやり駐車場制度」が始まります。",
-     "url": "https://www.city.shiraoka.lg.jp/kenko_hoken_fukushi/shogaishafukushi/8772.html"
-    },
-    {
      "name": "障がいのある方のために（手帳の取得・障害者総合支援法制度・医療費の助成）",
      "url": "https://www.city.shiraoka.lg.jp/kenko_hoken_fukushi/shogaishafukushi/1/3038.html"
     },
@@ -22957,10 +22884,6 @@
      "url": "https://www.city.iwakura.aichi.jp/0000002120.html"
     },
     {
-     "name": "軽度・中等度難聴児支援事業[2021年6月25日]補聴器の購入費等を助成します。",
-     "url": "https://www.city.iwakura.aichi.jp/0000002874.html"
-    },
-    {
      "name": "手話通訳者・要約筆記者派遣[2016年9月30日]手話通訳者・要約筆記者派遣",
      "url": "https://www.city.iwakura.aichi.jp/0000001927.html"
     },
@@ -24282,14 +24205,6 @@
      "url": "https://www.city.maniwa.lg.jp/soshiki/15/1919.html"
     },
     {
-     "name": "第2期真庭市手話言語施策ロードマップを策定しました。",
-     "url": "https://www.city.maniwa.lg.jp/soshiki/15/84490.html"
-    },
-    {
-     "name": "「真庭市手話言語施策ロードマップ」 を策定しました。",
-     "url": "https://www.city.maniwa.lg.jp/soshiki/15/41501.html"
-    },
-    {
      "name": "補装具の支給について補装具費の支給",
      "url": "https://www.city.maniwa.lg.jp/soshiki/15/1915.html"
     },
@@ -24308,10 +24223,6 @@
     {
      "name": "真庭市盲導犬飼育費助成事業",
      "url": "https://www.city.maniwa.lg.jp/soshiki/15/1944.html"
-    },
-    {
-     "name": "障害者自立支援給付の支給に関する事務に係る特定個人情報保護評価",
-     "url": "https://www.city.maniwa.lg.jp/soshiki/15/1938.html"
     },
     {
      "name": "税金・公共料金などの障害者控除・減免",
@@ -25292,9 +25203,9 @@
    "pref": "徳島県",
    "name": "吉野川市",
    "url": "https://www.city.yoshinogawa.lg.jp/",
+   "welfarePage": "https://www.city.yoshinogawa.lg.jp/category/bunya/fukushi/shogai/",
    "programs": [],
-   "fetchedOn": "2026-09-04",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-04"
   },
   "082317": {
    "pref": "茨城県",
@@ -26459,26 +26370,6 @@
     {
      "name": "障がい者福祉に関わる助成・手当など",
      "url": "https://www.city.shinjo.yamagata.jp/g/040/040/020/index.html"
-    },
-    {
-     "name": "介護給付介護給付のサービス種類・内容についてご案内します。",
-     "url": "https://www.city.shinjo.yamagata.jp/s006/060/030/010/20150225131314.html"
-    },
-    {
-     "name": "訓練等給付訓練等給付の種類・内容についてご案内します。",
-     "url": "https://www.city.shinjo.yamagata.jp/s006/060/030/020/20150225142932.html"
-    },
-    {
-     "name": "療育手帳の申請方法療育手帳の申請方法や、申請時に必要なものについてご案内します。",
-     "url": "https://www.city.shinjo.yamagata.jp/s006/060/040/20150225163644.html"
-    },
-    {
-     "name": "補装具費の給付補装具費の給付の仕組みや、手続きについてご案内します。",
-     "url": "https://www.city.shinjo.yamagata.jp/s006/060/030/070/20150225151255.html"
-    },
-    {
-     "name": "各種優遇制度各種手帳をお持ちの方が受けられる優遇制度についてご案内します。",
-     "url": "https://www.city.shinjo.yamagata.jp/s006/060/060/20150225171846.html"
     }
    ],
    "fetchedOn": "2026-09-04"
@@ -27688,9 +27579,17 @@
    "name": "矢板市",
    "url": "https://www.city.yaita.tochigi.jp/",
    "welfarePage": "https://www.city.yaita.tochigi.jp/life/7/39/50/",
-   "programs": [],
-   "fetchedOn": "2026-09-04",
-   "unreliable": "拾ったリンクが障害福祉のものではなかった"
+   "programs": [
+    {
+     "name": "おもいやり駐車スペースつぎつぎ事業",
+     "url": "https://www.city.yaita.tochigi.jp/soshiki/shakaifukushi/omoiyarityuusya.html"
+    },
+    {
+     "name": "重度心身障害者医療費助成制度",
+     "url": "https://www.city.yaita.tochigi.jp/soshiki/shakaifukushi/judoshin.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
   },
   "262137": {
    "pref": "京都府",
@@ -28365,9 +28264,9 @@
    "pref": "佐賀県",
    "name": "鹿島市",
    "url": "https://www.city.saga-kashima.lg.jp/",
+   "welfarePage": "https://www.city.saga-kashima.lg.jp/217.html",
    "programs": [],
-   "fetchedOn": "2026-09-04",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-04"
   },
   "442101": {
    "pref": "大分県",
@@ -30312,10 +30211,6 @@
    "welfarePage": "https://www.city.makurazaki.lg.jp/life/1/12/53/",
    "programs": [
     {
-     "name": "交通弱者に対するタクシー運賃の助成の申請受付を開始しています。",
-     "url": "https://www.city.makurazaki.lg.jp/soshiki/fukushi/12305.html"
-    },
-    {
      "name": "特別障害者手当",
      "url": "https://www.city.makurazaki.lg.jp/soshiki/fukushi/312.html"
     },
@@ -31912,10 +31807,6 @@
      "url": "https://www.town.nishihara.okinawa.jp/site/kosodate-sabu/1810.html"
     },
     {
-     "name": "日常生活に手話通訳・要約筆記を派遣しています。",
-     "url": "https://www.town.nishihara.okinawa.jp/soshiki/7/1388.html"
-    },
-    {
      "name": "西原町重度心身障害者(児)医療費助成",
      "url": "https://www.town.nishihara.okinawa.jp/soshiki/7/1381.html"
     },
@@ -32761,10 +32652,6 @@
     {
      "name": "手話通訳者設置事業",
      "url": "https://www.town.hyogo-inami.lg.jp/0000002471.html"
-    },
-    {
-     "name": "ヘルプマーク・ヘルプカードを交付しています。",
-     "url": "https://www.town.hyogo-inami.lg.jp/0000004385.html"
     },
     {
      "name": "交通費の割引",
@@ -33683,26 +33570,6 @@
     {
      "name": "ＮＨＫ放送受信料の減免",
      "url": "http://www.town.fujikawaguchiko.lg.jp/ka/info.php?if_id=731&amp;ka_id=19 "
-    },
-    {
-     "name": "町福祉手当 障がいをお持ちの方に手当が支給されます。",
-     "url": "https://www.town.fujikawaguchiko.lg.jp/life/info.php?if_id=662&no=8"
-    },
-    {
-     "name": "福祉タクシー券の交付 県内タクシーの利用料の一部を助成します。",
-     "url": "https://www.town.fujikawaguchiko.lg.jp/life/info.php?if_id=667&no=8"
-    },
-    {
-     "name": "介助用自動車購入等の助成 介助用自動車の購入費または改造費を助成します。",
-     "url": "https://www.town.fujikawaguchiko.lg.jp/life/info.php?if_id=693&no=8"
-    },
-    {
-     "name": "乗物運賃等の割引 乗物運賃等各種割引制度があります。",
-     "url": "https://www.town.fujikawaguchiko.lg.jp/life/info.php?if_id=729&no=8"
-    },
-    {
-     "name": "NHK放送受信料の減免 NHK放送受信料の免除を受けることができます。",
-     "url": "https://www.town.fujikawaguchiko.lg.jp/life/info.php?if_id=731&no=8"
     },
     {
      "name": "意思疎通支援事業(手話通訳者・要約筆記者)",
@@ -34864,10 +34731,6 @@
     {
      "name": "こどもの医療費の自己負担が無料になります",
      "url": "https://www.town.karuizawa.lg.jp/page/22504.html"
-    },
-    {
-     "name": "障がい者の日常生活用具給付事業に「人工鼻」が追加されました。",
-     "url": "https://www.town.karuizawa.lg.jp/page/20761.html"
     },
     {
      "name": "特別児童扶養手当",
@@ -36634,10 +36497,6 @@
     {
      "name": "身体障害者手帳、精神障害者保健福祉手帳の返還事務手続がオンライン化されます",
      "url": "https://www.town.ashikita.lg.jp/fukushi_kenko/shogaisyafukushi/shien_shogai/2096896"
-    },
-    {
-     "name": "令和８年４月から有料道路の障がい者割引制度が 改正されます。",
-     "url": "https://www.town.ashikita.lg.jp/fukushi_kenko/shogaisyafukushi/sodan_shogai/2098401"
     }
    ],
    "fetchedOn": "2026-09-04"
@@ -36990,9 +36849,9 @@
    "pref": "福岡県",
    "name": "川崎町",
    "url": "https://www.town-kawasaki.com/",
+   "welfarePage": "https://www.town-kawasaki.com/?s=障がい者年金",
    "programs": [],
-   "fetchedOn": "2026-09-04",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-04"
   },
   "014001": {
    "pref": "北海道",
@@ -37728,7 +37587,8 @@
    "name": "南会津町",
    "url": "http://www.minamiaizu.org/",
    "error": "トップページを取得できなかった",
-   "programs": []
+   "programs": [],
+   "siteUnverified": "取得できなかった: タイムアウト"
   },
   "063827": {
    "pref": "山形県",
@@ -38563,10 +38423,6 @@
     {
      "name": "公共交通機関の運賃や各種料金等の助成および割引制度の紹介",
      "url": "https://www.town.tohnosho.chiba.jp/iryo_kenko_fukushi/shogaishafukushi/shogaishamukenosupport/2019.html"
-    },
-    {
-     "name": "在宅で介護をしている方に、紙おむつを支給しています。",
-     "url": "https://www.town.tohnosho.chiba.jp/iryo_kenko_fukushi/shogaishafukushi/shogaishamukenosupport/6167.html"
     },
     {
      "name": "障害者手帳交付",
@@ -40339,10 +40195,6 @@
     {
      "name": "在宅重度心身障害者手当の対象者がかわります",
      "url": "https://www.town.tokigawa.lg.jp/Info/725"
-    },
-    {
-     "name": "難聴児補聴器購入費を助成します。",
-     "url": "https://www.town.tokigawa.lg.jp/Info/1182"
     }
    ],
    "fetchedOn": "2026-09-04"
@@ -40487,20 +40339,8 @@
      "url": "https://www.town.nanbu.tottori.jp/admin/fukushi/shougaiji/2/"
     },
     {
-     "name": "障がい者の手当等 障がい者に支給される手当等には以下のものがあります。",
-     "url": "https://www.town.nanbu.tottori.jp/admin/fukushi/shougaiji/3/"
-    },
-    {
      "name": "自立支援医療 障がいにかかる医療費の公費負担制度です。",
      "url": "https://www.town.nanbu.tottori.jp/admin/fukushi/shougaiji/4/"
-    },
-    {
-     "name": "特別障害者手当 20歳以上で著しく重度の障がいのある方(在宅)が対象となります。",
-     "url": "https://www.town.nanbu.tottori.jp/admin/fukushi/shougaiji/3/1/"
-    },
-    {
-     "name": "障害児福祉手当 20歳未満で重度の障がいのある方が対象となります。",
-     "url": "https://www.town.nanbu.tottori.jp/admin/fukushi/shougaiji/3/2/"
     }
    ],
    "fetchedOn": "2026-09-04"
@@ -40949,9 +40789,9 @@
    "pref": "岐阜県",
    "name": "川辺町",
    "url": "https://www.kawabe-gifu.jp/",
+   "welfarePage": "https://www.kawabe-gifu.jp/?page_id=248&scine=12&disp=福祉・障がい",
    "programs": [],
-   "fetchedOn": "2026-09-04",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-04"
   },
   "153851": {
    "pref": "新潟県",
@@ -41213,10 +41053,6 @@
     {
      "name": "日常生活用具の給付",
      "url": "https://www.town.yamakita.kanagawa.jp/0000007065.html"
-    },
-    {
-     "name": "＜足柄上1市5町＞緊急搬送時に意思疎通支援者を派遣します。",
-     "url": "https://www.town.yamakita.kanagawa.jp/0000006207.html"
     }
    ],
    "fetchedOn": "2026-09-04"
@@ -42173,7 +42009,8 @@
    "name": "御浜町",
    "url": "https://tiktocoins.info/",
    "error": "robots.txt で巡回を禁じられている",
-   "programs": []
+   "programs": [],
+   "siteUnverified": "ドメインが失効し第三者のページになっている（賭博アプリへの誘導）"
   },
   "113611": {
    "pref": "埼玉県",
@@ -42618,10 +42455,6 @@
    "url": "https://www.town.oe.yamagata.jp/",
    "welfarePage": "https://www.town.oe.yamagata.jp/life/welfare/syougaisya/",
    "programs": [
-    {
-     "name": "精神障がい者に対するＪＲグループの旅客運賃の割引が開始されました。",
-     "url": "https://www.town.oe.yamagata.jp/life/welfare/syougaisya/1549"
-    },
     {
      "name": "特別児童扶養手当",
      "url": "https://www.town.oe.yamagata.jp/life/welfare/syougaisya/76"
@@ -45979,10 +45812,6 @@
      "url": "https://www.town.erimo.lg.jp/section/kensetsu/u9c3nn0000000971.html"
     },
     {
-     "name": "物価高騰の影響に対する支援策として水道料金を減免します。",
-     "url": "https://www.town.erimo.lg.jp/section/kensetsu/sg6h940000007h9b.html"
-    },
-    {
      "name": "保健師・看護師等奨学金貸付",
      "url": "https://www.town.erimo.lg.jp/section/hoken/sg6h940000001mg8.html"
     },
@@ -46075,8 +45904,7 @@
    "url": "https://www.town.atsuma.lg.jp/",
    "welfarePage": "https://www.town.atsuma.lg.jp/life/3/19/68/",
    "programs": [],
-   "fetchedOn": "2026-09-04",
-   "unreliable": "拾ったリンクが障害福祉のものではなかった"
+   "fetchedOn": "2026-09-04"
   },
   "235610": {
    "pref": "愛知県",
@@ -48408,9 +48236,9 @@
    "pref": "山口県",
    "name": "上関町",
    "url": "https://www.town.kaminoseki.lg.jp/",
+   "welfarePage": "https://www.town.kaminoseki.lg.jp/category/障がい福祉",
    "programs": [],
-   "fetchedOn": "2026-09-04",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-04"
   },
   "183822": {
    "pref": "福井県",
@@ -49570,9 +49398,9 @@
    "pref": "沖縄県",
    "name": "座間味村",
    "url": "https://www.vill.zamami.okinawa.jp/",
+   "welfarePage": "https://www.vill.zamami.okinawa.jp/pages/label:障がいのある方/",
    "programs": [],
-   "fetchedOn": "2026-09-04",
-   "welfarePageNote": "指していたページが開けなかったため外した"
+   "fetchedOn": "2026-09-04"
   },
   "435112": {
    "pref": "熊本県",

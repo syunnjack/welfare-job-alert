@@ -1,0 +1,331 @@
+{
+ "note": "都道府県の公式サイト。候補URLを実際に開き、ページに都道府県名が入っていることを確かめたものだけ。拒否された都道府県は含めない。",
+ "declined": {
+  "愛知県": "トップページが 403 を返す（Cookieを持たせても同じ）"
+ },
+ "checkedOn": "2026-09-04",
+ "sites": [
+  {
+   "code": "010006",
+   "pref": "",
+   "name": "北海道",
+   "kana": "ﾎｯｶｲﾄﾞｳ",
+   "url": "https://www.pref.hokkaido.lg.jp/"
+  },
+  {
+   "code": "020001",
+   "pref": "",
+   "name": "青森県",
+   "kana": "ｱｵﾓﾘｹﾝ",
+   "url": "https://www.pref.aomori.lg.jp/"
+  },
+  {
+   "code": "030007",
+   "pref": "",
+   "name": "岩手県",
+   "kana": "ｲﾜﾃｹﾝ",
+   "url": "https://www.pref.iwate.jp/"
+  },
+  {
+   "code": "040002",
+   "pref": "",
+   "name": "宮城県",
+   "kana": "ﾐﾔｷﾞｹﾝ",
+   "url": "https://www.pref.miyagi.jp/"
+  },
+  {
+   "code": "050008",
+   "pref": "",
+   "name": "秋田県",
+   "kana": "ｱｷﾀｹﾝ",
+   "url": "https://www.pref.akita.lg.jp/"
+  },
+  {
+   "code": "060003",
+   "pref": "",
+   "name": "山形県",
+   "kana": "ﾔﾏｶﾞﾀｹﾝ",
+   "url": "https://www.pref.yamagata.jp/"
+  },
+  {
+   "code": "070009",
+   "pref": "",
+   "name": "福島県",
+   "kana": "ﾌｸｼﾏｹﾝ",
+   "url": "https://www.pref.fukushima.lg.jp/"
+  },
+  {
+   "code": "080004",
+   "pref": "",
+   "name": "茨城県",
+   "kana": "ｲﾊﾞﾗｷｹﾝ",
+   "url": "https://www.pref.ibaraki.jp/"
+  },
+  {
+   "code": "090000",
+   "pref": "",
+   "name": "栃木県",
+   "kana": "ﾄﾁｷﾞｹﾝ",
+   "url": "https://www.pref.tochigi.lg.jp/"
+  },
+  {
+   "code": "100005",
+   "pref": "",
+   "name": "群馬県",
+   "kana": "ｸﾞﾝﾏｹﾝ",
+   "url": "https://www.pref.gunma.jp/"
+  },
+  {
+   "code": "110001",
+   "pref": "",
+   "name": "埼玉県",
+   "kana": "ｻｲﾀﾏｹﾝ",
+   "url": "https://www.pref.saitama.lg.jp/"
+  },
+  {
+   "code": "120006",
+   "pref": "",
+   "name": "千葉県",
+   "kana": "ﾁﾊﾞｹﾝ",
+   "url": "https://www.pref.chiba.lg.jp/"
+  },
+  {
+   "code": "130001",
+   "pref": "",
+   "name": "東京都",
+   "kana": "ﾄｳｷｮｳﾄ",
+   "url": "https://www.metro.tokyo.lg.jp/"
+  },
+  {
+   "code": "140007",
+   "pref": "",
+   "name": "神奈川県",
+   "kana": "ｶﾅｶﾞﾜｹﾝ",
+   "url": "http://www.pref.kanagawa.jp/index-lg.html"
+  },
+  {
+   "code": "150002",
+   "pref": "",
+   "name": "新潟県",
+   "kana": "ﾆｲｶﾞﾀｹﾝ",
+   "url": "https://www.pref.niigata.lg.jp/"
+  },
+  {
+   "code": "160008",
+   "pref": "",
+   "name": "富山県",
+   "kana": "ﾄﾔﾏｹﾝ",
+   "url": "https://www.pref.toyama.jp/"
+  },
+  {
+   "code": "170003",
+   "pref": "",
+   "name": "石川県",
+   "kana": "ｲｼｶﾜｹﾝ",
+   "url": "https://www.pref.ishikawa.lg.jp/"
+  },
+  {
+   "code": "180009",
+   "pref": "",
+   "name": "福井県",
+   "kana": "ﾌｸｲｹﾝ",
+   "url": "https://www.pref.fukui.lg.jp/"
+  },
+  {
+   "code": "190004",
+   "pref": "",
+   "name": "山梨県",
+   "kana": "ﾔﾏﾅｼｹﾝ",
+   "url": "https://www.pref.yamanashi.jp/"
+  },
+  {
+   "code": "200000",
+   "pref": "",
+   "name": "長野県",
+   "kana": "ﾅｶﾞﾉｹﾝ",
+   "url": "https://www.pref.nagano.lg.jp/"
+  },
+  {
+   "code": "210005",
+   "pref": "",
+   "name": "岐阜県",
+   "kana": "ｷﾞﾌｹﾝ",
+   "url": "https://www.pref.gifu.lg.jp/"
+  },
+  {
+   "code": "220001",
+   "pref": "",
+   "name": "静岡県",
+   "kana": "ｼｽﾞｵｶｹﾝ",
+   "url": "https://www.pref.shizuoka.jp/"
+  },
+  {
+   "code": "240001",
+   "pref": "",
+   "name": "三重県",
+   "kana": "ﾐｴｹﾝ",
+   "url": "https://www.pref.mie.lg.jp/"
+  },
+  {
+   "code": "250007",
+   "pref": "",
+   "name": "滋賀県",
+   "kana": "ｼｶﾞｹﾝ",
+   "url": "https://www.pref.shiga.lg.jp/"
+  },
+  {
+   "code": "260002",
+   "pref": "",
+   "name": "京都府",
+   "kana": "ｷｮｳﾄﾌ",
+   "url": "https://www.pref.kyoto.jp/"
+  },
+  {
+   "code": "270008",
+   "pref": "",
+   "name": "大阪府",
+   "kana": "ｵｵｻｶﾌ",
+   "url": "https://www.pref.osaka.lg.jp/index.html"
+  },
+  {
+   "code": "280003",
+   "pref": "",
+   "name": "兵庫県",
+   "kana": "ﾋｮｳｺﾞｹﾝ",
+   "url": "https://web.pref.hyogo.lg.jp/"
+  },
+  {
+   "code": "290009",
+   "pref": "",
+   "name": "奈良県",
+   "kana": "ﾅﾗｹﾝ",
+   "url": "https://www.pref.nara.lg.jp/"
+  },
+  {
+   "code": "300004",
+   "pref": "",
+   "name": "和歌山県",
+   "kana": "ﾜｶﾔﾏｹﾝ",
+   "url": "https://www.pref.wakayama.lg.jp/"
+  },
+  {
+   "code": "310000",
+   "pref": "",
+   "name": "鳥取県",
+   "kana": "ﾄｯﾄﾘｹﾝ",
+   "url": "https://www.pref.tottori.lg.jp/"
+  },
+  {
+   "code": "320005",
+   "pref": "",
+   "name": "島根県",
+   "kana": "ｼﾏﾈｹﾝ",
+   "url": "https://www.pref.shimane.lg.jp/"
+  },
+  {
+   "code": "330001",
+   "pref": "",
+   "name": "岡山県",
+   "kana": "ｵｶﾔﾏｹﾝ",
+   "url": "https://www.pref.okayama.jp/"
+  },
+  {
+   "code": "340006",
+   "pref": "",
+   "name": "広島県",
+   "kana": "ﾋﾛｼﾏｹﾝ",
+   "url": "https://www.pref.hiroshima.lg.jp/"
+  },
+  {
+   "code": "350001",
+   "pref": "",
+   "name": "山口県",
+   "kana": "ﾔﾏｸﾞﾁｹﾝ",
+   "url": "https://www.pref.yamaguchi.lg.jp/"
+  },
+  {
+   "code": "360007",
+   "pref": "",
+   "name": "徳島県",
+   "kana": "ﾄｸｼﾏｹﾝ",
+   "url": "https://www.pref.tokushima.lg.jp/"
+  },
+  {
+   "code": "370002",
+   "pref": "",
+   "name": "香川県",
+   "kana": "ｶｶﾞﾜｹﾝ",
+   "url": "https://www.pref.kagawa.lg.jp/"
+  },
+  {
+   "code": "380008",
+   "pref": "",
+   "name": "愛媛県",
+   "kana": "ｴﾋﾒｹﾝ",
+   "url": "https://www.pref.ehime.jp/"
+  },
+  {
+   "code": "390003",
+   "pref": "",
+   "name": "高知県",
+   "kana": "ｺｳﾁｹﾝ",
+   "url": "https://www.pref.kochi.lg.jp/"
+  },
+  {
+   "code": "400009",
+   "pref": "",
+   "name": "福岡県",
+   "kana": "ﾌｸｵｶｹﾝ",
+   "url": "https://www.pref.fukuoka.lg.jp/"
+  },
+  {
+   "code": "410004",
+   "pref": "",
+   "name": "佐賀県",
+   "kana": "ｻｶﾞｹﾝ",
+   "url": "https://www.pref.saga.lg.jp/"
+  },
+  {
+   "code": "420000",
+   "pref": "",
+   "name": "長崎県",
+   "kana": "ﾅｶﾞｻｷｹﾝ",
+   "url": "https://www.pref.nagasaki.lg.jp/"
+  },
+  {
+   "code": "430005",
+   "pref": "",
+   "name": "熊本県",
+   "kana": "ｸﾏﾓﾄｹﾝ",
+   "url": "https://www.pref.kumamoto.jp/"
+  },
+  {
+   "code": "440001",
+   "pref": "",
+   "name": "大分県",
+   "kana": "ｵｵｲﾀｹﾝ",
+   "url": "https://www.pref.oita.jp/"
+  },
+  {
+   "code": "450006",
+   "pref": "",
+   "name": "宮崎県",
+   "kana": "ﾐﾔｻﾞｷｹﾝ",
+   "url": "https://www.pref.miyazaki.lg.jp/"
+  },
+  {
+   "code": "460001",
+   "pref": "",
+   "name": "鹿児島県",
+   "kana": "ｶｺﾞｼﾏｹﾝ",
+   "url": "https://www.pref.kagoshima.jp/"
+  },
+  {
+   "code": "470007",
+   "pref": "",
+   "name": "沖縄県",
+   "kana": "ｵｷﾅﾜｹﾝ",
+   "url": "https://www.pref.okinawa.lg.jp/"
+  }
+ ]
+}

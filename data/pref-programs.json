@@ -1,0 +1,2053 @@
+{
+ "checkedOn": "2026-09-04",
+ "entries": {
+  "010006": {
+   "pref": "",
+   "name": "北海道",
+   "url": "https://www.pref.hokkaido.lg.jp/",
+   "error": "robots.txt で巡回を禁じられている"
+  },
+  "020001": {
+   "pref": "",
+   "name": "青森県",
+   "url": "https://www.pref.aomori.lg.jp/",
+   "error": "robots.txt で巡回を禁じられている"
+  },
+  "030007": {
+   "pref": "",
+   "name": "岩手県",
+   "url": "https://www.pref.iwate.jp/",
+   "welfarePage": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/index.html",
+   "programs": [
+    {
+     "name": "障がい福祉人材確保・職場環境改善等事業補助金",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/1081651.html"
+    },
+    {
+     "name": "手帳・手当・給付・助成",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/techou/index.html"
+    },
+    {
+     "name": "災害派遣精神医療チーム（DPAT）",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/1004155/index.html"
+    },
+    {
+     "name": "補助・融資",
+     "url": "https://www.pref.iwate.jp/kensei/tetsuzuki/hojo/index.html"
+    },
+    {
+     "name": "変更交付申請様式 （Excel 782.0KB）",
+     "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/081/651/ittaiyosiki.xlsx"
+    },
+    {
+     "name": "様式第1号（交付申請書） （Word 17.9KB）",
+     "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/081/651/yosiki1.docx"
+    },
+    {
+     "name": "みんなの受診サポート手帳",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/1003909/1019619.html"
+    },
+    {
+     "name": "4 社会福祉施設等施設整備補助金",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/jigyousha/1004039/index.html"
+    },
+    {
+     "name": "5 サービス事業者等指定基準／指定申請等・介護給付費届出様式",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/jigyousha/1004043/index.html"
+    },
+    {
+     "name": "9 障害児施設等整備費補助金",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/jigyousha/1075626.html"
+    },
+    {
+     "name": "岩手県農福連携応援マーク交付事業の実施",
+     "url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/shakaisanka/1024100.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "040002": {
+   "pref": "",
+   "name": "宮城県",
+   "url": "https://www.pref.miyagi.jp/",
+   "error": "障害福祉のページが見つからなかった"
+  },
+  "050008": {
+   "pref": "",
+   "name": "秋田県",
+   "url": "https://www.pref.akita.lg.jp/",
+   "welfarePage": "https://www.pref.akita.lg.jp/pages/genre/11669",
+   "programs": [
+    {
+     "name": "閲覧補助",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/42777"
+    },
+    {
+     "name": "手当・サービス",
+     "url": "https://www.pref.akita.lg.jp/pages/genre/17556"
+    },
+    {
+     "name": "９月２３日「手話言語の国際デー」ライトアップ",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/84015"
+    },
+    {
+     "name": "秋田県同行援護従業者養成研修受講補助金について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/97667"
+    },
+    {
+     "name": "介護給付費等の算定に係る体制等に関する届出書",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/25286"
+    },
+    {
+     "name": "令和８年度 意思疎通支援者（手話通訳者等）等の養成について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/94508"
+    },
+    {
+     "name": "産科医療特別給付事業について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/88185"
+    },
+    {
+     "name": "「介護給付費等に係る支給決定事務等について」等について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/43561"
+    },
+    {
+     "name": "障害者手帳をお持ちの方へのお知らせ",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/32413"
+    },
+    {
+     "name": "平成27年４月１日から秋田県が交付する障害者の手帳とカバーが新しくなります。",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/9239"
+    },
+    {
+     "name": "各種障害者手帳で受けられる県内の主なサービスについて",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/8442"
+    },
+    {
+     "name": "障害児福祉手当認定請求関係様式",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/2443"
+    },
+    {
+     "name": "特別障害者手当認定請求関係様式",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/2444"
+    },
+    {
+     "name": "障害者に対する航空旅客運賃の割引について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/38019"
+    },
+    {
+     "name": "身体障害者等の利用に供する自動車の自動車税の減免について（構造減免）",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/68796"
+    },
+    {
+     "name": "自動車税の減免制度等について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/5852"
+    },
+    {
+     "name": "令和７年度 秋田県主催「手話教室」のご案内",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/36113"
+    },
+    {
+     "name": "身体障害者手帳情報と個人番号（マイナンバー）の紐付け誤りについて",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/82459"
+    },
+    {
+     "name": "令和6年度手話通訳者養成研修会の開催について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/78771"
+    },
+    {
+     "name": "身体障害者補助犬給付事業について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/886"
+    },
+    {
+     "name": "補装具費の支給に関すること",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/883"
+    },
+    {
+     "name": "身体障害者手帳に関すること",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/878"
+    },
+    {
+     "name": "身体障害者手帳の認定基準・認定方法について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/7948"
+    },
+    {
+     "name": "旅客運賃の身体障害者割引を受けるには",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/268"
+    },
+    {
+     "name": "療育手帳に関する資料",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/887"
+    },
+    {
+     "name": "療育手帳に関すること（知的障害のある方へ）",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/888"
+    },
+    {
+     "name": "１８歳以上の方の判定結果の交付について（１８歳未満の方は除く）",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/76121"
+    },
+    {
+     "name": "マイナンバーカードを医療費助成の受給者証として利用する事業",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/92584"
+    },
+    {
+     "name": "精神障害者保健福祉手帳について",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/271"
+    },
+    {
+     "name": "精神障害者保健福祉手帳・自立支援医療（精神通院医療）関係様式",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/509"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "060003": {
+   "pref": "",
+   "name": "山形県",
+   "url": "https://www.pref.yamagata.jp/",
+   "welfarePage": "https://www.pref.yamagata.jp/kenfuku/shogai/gyoji/index.html",
+   "programs": [
+    {
+     "name": "助成・支援制度",
+     "url": "https://www.pref.yamagata.jp/joseishien/index.html"
+    },
+    {
+     "name": "障がい者手帳",
+     "url": "https://www.pref.yamagata.jp/kenfuku/shogai/techou/index.html"
+    },
+    {
+     "name": "身体障害者手帳について",
+     "url": "https://www.pref.yamagata.jp/090004/kenfuku/shogai/techou/sinsyousindansyotebiki.html"
+    },
+    {
+     "name": "障がい者手帳アプリ「ミライロID」による県有施設での使用料等の減免について",
+     "url": "https://www.pref.yamagata.jp/090004/kenfuku/shogai/techou/mirairoid.html"
+    },
+    {
+     "name": "遠隔手話通訳サービス事業について",
+     "url": "https://www.pref.yamagata.jp/090004/kenfuku/shogai/ennkakusyuwa/ennkakusyuwa.html"
+    },
+    {
+     "name": "手話通訳の利用について",
+     "url": "https://www.pref.yamagata.jp/090004/kenfuku/shogai/ennkakusyuwa/syuwa.html"
+    },
+    {
+     "name": "山形県災害派遣精神医療チーム（山形DPAT）について",
+     "url": "https://www.pref.yamagata.jp/090004/kenfuku/shogai/iryo/yamagatadpat.html"
+    },
+    {
+     "name": "手話通訳者・要約筆記者養成等、各種講座情報について",
+     "url": "https://www.pref.yamagata.jp/090004/kenfuku/shogai/gyoji/kenshuu/kouzaannnai.html"
+    },
+    {
+     "name": "出前手話研修会について",
+     "url": "https://www.pref.yamagata.jp/090004/kenfuku/shogai/ennkakusyuwa/syuwakennsyuu.html"
+    },
+    {
+     "name": "交付要綱（PDF：214KB）",
+     "url": "https://www.pref.yamagata.jp/documents/37148/r6koronayoukou.pdf"
+    },
+    {
+     "name": "交付要綱別添（ZIP：210KB）",
+     "url": "https://www.pref.yamagata.jp/documents/37148/r6tenpu.zip"
+    },
+    {
+     "name": "交付要綱様式（ZIP：196KB）",
+     "url": "https://www.pref.yamagata.jp/documents/37148/r6shinseiyou.zip"
+    },
+    {
+     "name": "基準額（交付要綱別添1）（PDF：120KB）",
+     "url": "https://www.pref.yamagata.jp/documents/37148/r6korona1.pdf"
+    },
+    {
+     "name": "交付要綱（PDF：438KB）",
+     "url": "https://www.pref.yamagata.jp/documents/53727/bukkakoutouyoukou.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "070009": {
+   "pref": "",
+   "name": "福島県",
+   "url": "https://www.pref.fukushima.lg.jp/",
+   "welfarePage": "https://www.pref.fukushima.lg.jp/sec/01125c/syogaisyabosyuu08.html",
+   "programs": [],
+   "fetchedOn": "2026-09-04"
+  },
+  "080004": {
+   "pref": "",
+   "name": "茨城県",
+   "url": "https://www.pref.ibaraki.jp/",
+   "welfarePage": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/jiritsu/2026shogai_servicekeizokushien.html",
+   "programs": [
+    {
+     "name": "【様式第1号】交付申請書（エクセル：92KB）",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/jiritsu/documents/youshiki1_shogai_servicekeizoku.xlsx"
+    },
+    {
+     "name": "交付申請書記載にあたっての注意事項（PDF：660KB）",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/jiritsu/documents/youshiki1kisairei_shogai_servicekeizoku.pdf"
+    },
+    {
+     "name": "茨城県障害福祉事業所等サービス継続支援事業補助金交付要項（PDF：226KB）",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/jiritsu/documents/kouhuyoukou_shogai_servicekeizoku.pdf"
+    },
+    {
+     "name": "障害者の雇用に係る主な支援窓口・助成制度等",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/kikaku/shogaishakoyou.html"
+    },
+    {
+     "name": "茨城県災害派遣精神医療チーム（茨城DPAT）について",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/seishin/dpat/dpat.html"
+    },
+    {
+     "name": "療育手帳",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/seishin/shofuku/c/c-1-2.html"
+    },
+    {
+     "name": "身体障害者手帳",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/seishin/shofuku/c/c-1-1.html"
+    },
+    {
+     "name": "身体障害者補助犬",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/jiritsu/shofuku/c/c-4-6.html"
+    },
+    {
+     "name": "補装具費の給付を受けるには",
+     "url": "https://www.pref.ibaraki.jp/bugai/koho/kenmin/life/hoken/shofuku/shofuku-011.html"
+    },
+    {
+     "name": "障害福祉事業所等サービス継続支援事業補助金について",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/jiritsu/2026shogai_servicekeizokushien.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/seishin/teate/tokujitokusyou.html"
+    },
+    {
+     "name": "特別障害者手当",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/seishin/teate/tokusyou.html"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/seishin/teate/syougaijihukusiteate.html"
+    },
+    {
+     "name": "「いばらき県版こころの生活支援手帳-地域連携パス-」を一部改訂しました。",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/seishin/kokoroshientechou.html"
+    },
+    {
+     "name": "令和８年度茨城県パラアスリートアシスト事業補助金について",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/kikaku/paraasuri-tohojyokin.html"
+    },
+    {
+     "name": "茨城県医療的ケア児施設開設準備支援事業費補助金について",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/kikaku/iryoutekikeaji/ikeashisetsuhojokin.html"
+    },
+    {
+     "name": "令和８年度茨城県就労継続支援Ｂ型事業所作業用品等整備事業費補助金について",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/kikaku/sagyouyouhinhojyo.html"
+    },
+    {
+     "name": "就労継続支援Ｂ型事業所アドバイザー派遣",
+     "url": "https://www.pref.ibaraki.jp/hokenfukushi/shofuku/kikaku/koutin_adobaiza-haken.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "090000": {
+   "pref": "",
+   "name": "栃木県",
+   "url": "https://www.pref.tochigi.lg.jp/",
+   "welfarePage": "https://www.pref.tochigi.lg.jp/fukushi/shougaisha/shisaku/index.html",
+   "programs": [
+    {
+     "name": "障害者手帳",
+     "url": "https://www.pref.tochigi.lg.jp/fukushi/shougaisha/techou/index.html"
+    },
+    {
+     "name": "自立支援医療・手当等",
+     "url": "https://www.pref.tochigi.lg.jp/fukushi/shougaisha/jiritsushien/index.html"
+    },
+    {
+     "name": "発達障害者支援アドバイザー派遣事業の御案内",
+     "url": "https://www.pref.tochigi.lg.jp/e05/hattatusyougaiiryoukikan.html#adobaiza"
+    },
+    {
+     "name": "おもいやり駐車スペースつぎつぎ事業（パーキングパーミット制度）",
+     "url": "https://www.pref.tochigi.lg.jp/e12/welfare/shisetsu/baria/1220246130756.html"
+    },
+    {
+     "name": "身体障害者手帳の申請に係る医師又は歯科医師の申請手続き",
+     "url": "https://www.pref.tochigi.lg.jp/e65/shiteii2.html"
+    },
+    {
+     "name": "精神障害者の自立や負担軽減を図りたい（精神障害者保健福祉手帳、精神通院医療）",
+     "url": "https://www.pref.tochigi.lg.jp/e67/qa1.html"
+    },
+    {
+     "name": "障害者の各種割引について知りたい",
+     "url": "https://www.pref.tochigi.lg.jp/e05/question/fukushi/shougaisha/qa0405104.html"
+    },
+    {
+     "name": "手帳の交付について（身体障害者手帳・療育手帳）",
+     "url": "https://www.pref.tochigi.lg.jp/e05/welfare/shougaisha/fukushi/shogai_tetyou1.html"
+    },
+    {
+     "name": "手帳の交付について（精神障害者保健福祉手帳）",
+     "url": "https://www.pref.tochigi.lg.jp/e05/welfare/shougaisha/fukushi/shogai_tetyou2.html"
+    },
+    {
+     "name": "障害児・者のための手当について",
+     "url": "https://www.pref.tochigi.lg.jp/e05/welfare/shougaisha/fukushi/shougai_enjo.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "100005": {
+   "pref": "",
+   "name": "群馬県",
+   "url": "https://www.pref.gunma.jp/",
+   "welfarePage": "https://www.pref.gunma.jp/soshiki/80/",
+   "programs": [],
+   "fetchedOn": "2026-09-04"
+  },
+  "110001": {
+   "pref": "",
+   "name": "埼玉県",
+   "url": "https://www.pref.saitama.lg.jp/",
+   "welfarePage": "https://www.pref.saitama.lg.jp/a0816/library-info/2026mensetukai.html",
+   "programs": [
+    {
+     "name": "難病患者等の障害者手帳を持たない方の雇用支援",
+     "url": "https://www.pref.saitama.lg.jp/a0816/syougai-map/nanbyou.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "120006": {
+   "pref": "",
+   "name": "千葉県",
+   "url": "https://www.pref.chiba.lg.jp/",
+   "welfarePage": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/saigaifukkyu.html",
+   "programs": [
+    {
+     "name": "(交付要綱)社会福祉施設等災害復旧費国庫補助金（PDF：1,010.3KB）",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/documents/saigai-sisetsu.pdf"
+    },
+    {
+     "name": "(実施要綱)社会福祉施設等〈設備〉災害復旧費国庫補助金（PDF：151.4KB）",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/documents/saigai-setsubi2.pdf"
+    },
+    {
+     "name": "災害復旧費補助金協議書類（エクセル：26KB）",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/documents/building-disaster.xlsx"
+    },
+    {
+     "name": "災害復旧費補助金協議書類（PDF：66.7KB）",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/documents/building-disaster.pdf"
+    },
+    {
+     "name": "設備災害復旧費補助金協議書類（エクセル：41.1KB）",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/documents/equipment-disaster.xlsx"
+    },
+    {
+     "name": "設備災害復旧費補助金協議書類（PDF：63.5KB）",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/documents/equipment-disaster.pdf"
+    },
+    {
+     "name": "事業関係（補助事業等）",
+     "url": "https://www.pref.chiba.lg.jp/shoufuku/jigyoushamuke/info/index.html#hojo"
+    },
+    {
+     "name": "介護給付費算定にかかる体制届出書（障害福祉サービス事業者等）",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/shienhou/kaigokyufuhi/index.html"
+    },
+    {
+     "name": "社会福祉施設等施設整備費補助金について",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/sisetuseibi.html"
+    },
+    {
+     "name": "次世代育成支援対策施設整備交付金に係る県の事前協議について",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/seibi/jisedaiikusei-koufukin.html"
+    },
+    {
+     "name": "千葉県行動障害者支援サポーター派遣事業",
+     "url": "https://www.pref.chiba.lg.jp/shoji/jigyoushamuke/kenritsu.html"
+    },
+    {
+     "name": "相談・助成・生活支援等のご案内",
+     "url": "https://www.pref.chiba.lg.jp/shoufuku/service/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "130001": {
+   "pref": "",
+   "name": "東京都",
+   "url": "https://www.metro.tokyo.lg.jp/",
+   "welfarePage": "https://www.metro.tokyo.lg.jp/kurashi/fukushi/shogaisha",
+   "programs": [
+    {
+     "name": "助成・補助金",
+     "url": "https://www.metro.tokyo.lg.jp/purpose/grant?utm_source=search&amp;utm_medium=internal&amp;utm_id=sidebar"
+    },
+    {
+     "name": "助成・給付金・融資",
+     "url": "https://www.metro.tokyo.lg.jp/search?keyword=&amp;category=163887"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "140007": {
+   "pref": "",
+   "name": "神奈川県",
+   "url": "http://www.pref.kanagawa.jp/index-lg.html",
+   "error": "障害福祉のページが見つからなかった"
+  },
+  "150002": {
+   "pref": "",
+   "name": "新潟県",
+   "url": "https://www.pref.niigata.lg.jp/",
+   "welfarePage": "https://www.pref.niigata.lg.jp/life/1/3/",
+   "programs": [
+    {
+     "name": "補助・助成・融資",
+     "url": "https://www.pref.niigata.lg.jp/life/sub/5/"
+    },
+    {
+     "name": "令和8年度新潟県介護テクノロジー定着支援事業補助金について",
+     "url": "https://www.pref.niigata.lg.jp/sec/kourei/kaigo-technology-26.html"
+    },
+    {
+     "name": "新潟県療養病床転換助成事業補助金",
+     "url": "https://www.pref.niigata.lg.jp/sec/kourei/1245355313349.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "160008": {
+   "pref": "",
+   "name": "富山県",
+   "url": "https://www.pref.toyama.jp/",
+   "welfarePage": "https://www.pref.toyama.jp/kurashi/kenkou/shougaisha/index.html",
+   "programs": [
+    {
+     "name": "障害者手帳",
+     "url": "https://www.pref.toyama.jp/kurashi/kenkou/shougaisha/shogaishatecho/index.html"
+    },
+    {
+     "name": "助成・融資",
+     "url": "https://www.pref.toyama.jp/mokutekibetsu/joseiyushi/index.html"
+    },
+    {
+     "name": "手話に関する施策の推進に関する法律の施行について",
+     "url": "https://www.pref.toyama.jp/1209/kurashi/kenkou/shougaisha/syuwa/syuwashisakusuishinhou.html"
+    },
+    {
+     "name": "9月23日は「手話言語の国際デー」です",
+     "url": "https://www.pref.toyama.jp/1209/kurashi/kenkou/shougaisha/kj00000923.html"
+    },
+    {
+     "name": "障害者専用駐車場についてご協力ください",
+     "url": "https://www.pref.toyama.jp/1209/kurashi/kenkou/shougaisha/kj00007058.html"
+    },
+    {
+     "name": "身体障害者補助犬について",
+     "url": "https://www.pref.toyama.jp/1209/kurashi/kenkou/shougaisha/kj00012626.html"
+    },
+    {
+     "name": "手話の普及等について",
+     "url": "https://www.pref.toyama.jp/1209/kurashi/kenkou/shougaisha/jigyousha/kj00018915.html"
+    },
+    {
+     "name": "富山県ゆずりあいパーキング（障害者等用駐車場）利用証制度",
+     "url": "https://www.pref.toyama.jp/1200/kurashi/kenkou/koureisha/kj00021188.html"
+    },
+    {
+     "name": "盲ろう者向け通訳・介助員派遣事業のご案内",
+     "url": "https://www.pref.toyama.jp/1209/kurashi/kenkou/shougaisha/kj00023053.html"
+    },
+    {
+     "name": "【厚生労働省通知】障害者に対する航空旅客運賃の割引について",
+     "url": "https://www.pref.toyama.jp/1209/kurashi/kenkou/shougaisha/kj00019637/index.html"
+    },
+    {
+     "name": "療育手帳について",
+     "url": "https://www.pref.toyama.jp/1237/kurashi/kenkou/shougaisha/kj00015861.html"
+    },
+    {
+     "name": "身体障害者手帳について",
+     "url": "https://www.pref.toyama.jp/1237/kurashi/kenkou/shougaisha/kj00017623.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "170003": {
+   "pref": "",
+   "name": "石川県",
+   "url": "https://www.pref.ishikawa.lg.jp/",
+   "welfarePage": "https://www.pref.ishikawa.lg.jp/iryo_fukushi/shogaisha/jigyosho/index.html",
+   "programs": [
+    {
+     "name": "いしかわ支え合い駐車場制度について",
+     "url": "https://www.pref.ishikawa.lg.jp/fukusi/sasaeai/seidogaiyou.html"
+    },
+    {
+     "name": "発達障害児支援のための連携手帳「ライフブック」",
+     "url": "https://www.pref.ishikawa.lg.jp/fukusi/lifebook/renkeitecho.html"
+    },
+    {
+     "name": "心身障害者医療費助成制度について",
+     "url": "https://www.pref.ishikawa.lg.jp/fukusi/marusho.html"
+    },
+    {
+     "name": "私の地域連携手帳",
+     "url": "https://www.pref.ishikawa.lg.jp/fukusi/tiikirennkei/tiikirennkei.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "180009": {
+   "pref": "",
+   "name": "福井県",
+   "url": "https://www.pref.fukui.lg.jp/",
+   "welfarePage": "https://www.pref.fukui.lg.jp/attribute-info/disabled-person/index.html",
+   "programs": [
+    {
+     "name": "手当・助成",
+     "url": "https://www.pref.fukui.lg.jp/doc/shougai/sintaishougai/sinsyotop.html"
+    },
+    {
+     "name": "身体障害者手帳について",
+     "url": "https://www.pref.fukui.lg.jp/doc/shougai/sintaishougai/tecyou2.html"
+    },
+    {
+     "name": "○医療費の助成を受けるには",
+     "url": "https://www.pref.fukui.lg.jp/doc/shougai/titekishougai/sintaiiryou.html"
+    },
+    {
+     "name": "○身体障がい者（児）に給付される各種手当について",
+     "url": "https://www.pref.fukui.lg.jp/doc/shougai/sintaishougai/teate2.html"
+    },
+    {
+     "name": "福井県身体障がい者等用駐車場利用証交付申請書",
+     "url": "https://www.pref.fukui.lg.jp/doc/shougai/heartpk/heartfulst_d/fil/shinseisyoR70401.pdf"
+    },
+    {
+     "name": "様式第1号利用証交付申請書(R7.4～)（ＰＤＦ形式 151キロバイト）",
+     "url": "https://www.pref.fukui.lg.jp/doc/shougai/heartpk/heartfulst_d/fil/shinseisyoR70401.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "190004": {
+   "pref": "",
+   "name": "山梨県",
+   "url": "https://www.pref.yamanashi.jp/",
+   "welfarePage": "https://www.pref.yamanashi.jp/iryo/shogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "山梨県医療的ケア児喀痰吸引等研修費補助金について",
+     "url": "https://www.pref.yamanashi.jp/shogai-fks/kakutannkyuintouhojokin.html"
+    },
+    {
+     "name": "重度心身障害者医療費助成制度",
+     "url": "https://www.pref.yamanashi.jp/shogai-fks/judo/jidoukanpu-ikou.html"
+    },
+    {
+     "name": "社会福祉施設等施設整備費国庫補助金、山梨県障害児（者）施設整備補助金",
+     "url": "https://www.pref.yamanashi.jp/shogai-fks/sisetuseibi2.html"
+    },
+    {
+     "name": "税の控除・公共料金",
+     "url": "https://www.pref.yamanashi.jp/shogai-fks/41_016.html"
+    },
+    {
+     "name": "身体障害者手帳",
+     "url": "https://www.pref.yamanashi.jp/shogai-sdn/49_003.html"
+    },
+    {
+     "name": "山梨県盲ろう者通訳・介助者派遣事業の実施について",
+     "url": "https://www.pref.yamanashi.jp/shogai-fks/mourousya.html"
+    },
+    {
+     "name": "手当・年金制度等",
+     "url": "https://www.pref.yamanashi.jp/shogai-fks/41_014.html"
+    },
+    {
+     "name": "療育手帳",
+     "url": "https://www.pref.yamanashi.jp/shogai-sdn/49_006.html"
+    },
+    {
+     "name": "給付・助成制度",
+     "url": "https://www.pref.yamanashi.jp/iryo/kyufu/index.html"
+    },
+    {
+     "name": "○山梨県医療的ケア児喀痰吸引等研修費補助金のご案内（PDF：167KB）",
+     "url": "https://www.pref.yamanashi.jp/documents/95696/goannai.pdf"
+    },
+    {
+     "name": "○補助金交付要綱（本文）（PDF：82KB）",
+     "url": "https://www.pref.yamanashi.jp/documents/95696/youkou.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "200000": {
+   "pref": "",
+   "name": "長野県",
+   "url": "https://www.pref.nagano.lg.jp/",
+   "welfarePage": "https://www.pref.nagano.lg.jp/kenko/shogai/shogai/index.html",
+   "programs": [
+    {
+     "name": "手話定期便",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/shuwa/doga.html"
+    },
+    {
+     "name": "「補助犬」について",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/hojyoken.html"
+    },
+    {
+     "name": "身体障害者手帳とは",
+     "url": "https://www.pref.nagano.lg.jp/rehabili/kose/techo/tokyu.html"
+    },
+    {
+     "name": "身体障害者手帳Q&amp;A",
+     "url": "https://www.pref.nagano.lg.jp/rehabili/kose/faq/index.html"
+    },
+    {
+     "name": "身体障害者手帳関係様式",
+     "url": "http://www.pref.nagano.lg.jp/shogai-shien/kenko/shinsei/shintaishogai.html"
+    },
+    {
+     "name": "身体障害者手帳等をお持ちの方へ（ワード：33KB）",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/shogai/goannai/documents/tetyou-syojisya2.doc"
+    },
+    {
+     "name": "身体障害者手帳関連書式",
+     "url": "https://www.pref.nagano.lg.jp/rehabili/kose/shoshiki.html"
+    },
+    {
+     "name": "療育手帳関係様式",
+     "url": "http://www.pref.nagano.lg.jp/shogai-shien/kenko/shinsei/ryoiku.html"
+    },
+    {
+     "name": "療育手帳をお持ちの方への注意事項（PDF：141KB）",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/shogai/goannai/documents/tyuuijikou.pdf"
+    },
+    {
+     "name": "療育手帳の様式が平成25年6月より変更されます。（PDF：179KB）",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/shogai/goannai/documents/yousikihennkouannnai.pdf"
+    },
+    {
+     "name": "障がい児・者に係る手当について",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/teate/20170401teate.html"
+    },
+    {
+     "name": "補装具",
+     "url": "https://www.pref.nagano.lg.jp/rehabili/kose/hosogu.html"
+    },
+    {
+     "name": "福祉医療費給付事業について",
+     "url": "https://www.pref.nagano.lg.jp/kenko-fukushi/kenko/fukushi/fukushi/hojokin.html"
+    },
+    {
+     "name": "（別紙3）研修科目免除の取り扱いについて（PDF：107KB）",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/shogai/joho/jigyosha/documents/14bessi3.pdf"
+    },
+    {
+     "name": "あいサポート運動について（手話動画）",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/shuwa/doga.html"
+    },
+    {
+     "name": "あいサポートバッジ等交付申込書（PDF：54KB）",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/aisupport/documents/yoshiki1kofu.pdf"
+    },
+    {
+     "name": "手話講座資料（PDF：542KB）",
+     "url": "https://www.pref.nagano.lg.jp/shogai-shien/kenko/shogai/aisupport/documents/syuwa-hitsudan-kaisetsu2.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "210005": {
+   "pref": "",
+   "name": "岐阜県",
+   "url": "https://www.pref.gifu.lg.jp/",
+   "welfarePage": "https://www.pref.gifu.lg.jp/life/2/17/",
+   "programs": [
+    {
+     "name": "岐阜県障害福祉サービス事業所等に対するサービス継続支援補助金について",
+     "url": "https://www.pref.gifu.lg.jp/page/511761.html"
+    },
+    {
+     "name": "障がい者福祉の手引き（各種手当・制度の概要",
+     "url": "https://www.pref.gifu.lg.jp/page/1415.html"
+    },
+    {
+     "name": "特別児童扶養手当・特別障害者手当等につい",
+     "url": "https://www.pref.gifu.lg.jp/page/17591.html"
+    },
+    {
+     "name": "手話リンクを導入しました",
+     "url": "https://www.pref.gifu.lg.jp/page/486610.html"
+    },
+    {
+     "name": "岐阜県障害者（児）福祉関係施設整備費補助金",
+     "url": "https://www.pref.gifu.lg.jp/page/15445.html"
+    },
+    {
+     "name": "特別児童扶養手当・障害児福祉手当・特別障害者手当",
+     "url": "https://www.pref.gifu.lg.jp/page/17591.html"
+    },
+    {
+     "name": "岐阜県難聴児補聴器購入費等助成事業について",
+     "url": "https://www.pref.gifu.lg.jp/page/500196.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "220001": {
+   "pref": "",
+   "name": "静岡県",
+   "url": "https://www.pref.shizuoka.jp/",
+   "welfarePage": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "閲覧補助",
+     "url": "https://www.pref.shizuoka.jp/about/site/hojyo.html"
+    },
+    {
+     "name": "療育手帳について",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/chitekishogai/1023697.html"
+    },
+    {
+     "name": "軽度・中等度難聴児補聴器購入費等助成事業",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/shintaishogai/1072463.html"
+    },
+    {
+     "name": "補装具について",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/shintaishogai/1079229.html"
+    },
+    {
+     "name": "身体障害者手帳",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/shintaishogai/1040616/index.html"
+    },
+    {
+     "name": "特別児童扶養手当・障害児福祉手当・特別障害者手当",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/shintaishogai/1040615/index.html"
+    },
+    {
+     "name": "「手話サポーター」養成講座",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/shintaishogai/1066759/index.html"
+    },
+    {
+     "name": "障害者活躍推進雇用サポーター派遣制度",
+     "url": "https://www.pref.shizuoka.jp/sangyoshigoto/shuroshien/shuroshien/1040127/1026317.html"
+    },
+    {
+     "name": "ジョブコーチ派遣制度",
+     "url": "https://www.pref.shizuoka.jp/sangyoshigoto/shuroshien/shuroshien/1040127/1026318.html"
+    },
+    {
+     "name": "精神障害者職場環境アドバイザー派遣制度",
+     "url": "https://www.pref.shizuoka.jp/sangyoshigoto/shuroshien/shuroshien/1040127/1026324.html"
+    },
+    {
+     "name": "重度障害者対応グループホーム整備費補助金",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/1002998/1061425.html"
+    },
+    {
+     "name": "社会福祉施設等施設整備費補助金",
+     "url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/1002998/shisetsuseibi/index.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "240001": {
+   "pref": "",
+   "name": "三重県",
+   "url": "https://www.pref.mie.lg.jp/",
+   "welfarePage": "https://www.pref.mie.lg.jp/SHOGAIC/HP/index.htm",
+   "programs": [
+    {
+     "name": "精神障害者保健福祉手帳",
+     "url": "http://www.pref.mie.lg.jp/KOKOROC/HP/36689031995.htm"
+    },
+    {
+     "name": "医学的意見書（補装具）",
+     "url": "https://www.pref.mie.lg.jp/SHOGAIC/HP/43408033306.htm"
+    },
+    {
+     "name": "手帳発行",
+     "url": "https://www.pref.mie.lg.jp/SHOGAIC/HP/index.htm#anc1"
+    },
+    {
+     "name": "障がいに関する各種相談（手帳等）",
+     "url": "https://www.pref.mie.lg.jp/common/03/ci400014592.htm"
+    },
+    {
+     "name": "精神障害者保健福祉手帳パンフレット（令和８年１月版）",
+     "url": "http://www.pref.mie.lg.jp/common/content/000956145.pdf"
+    },
+    {
+     "name": "障害者保健福祉手帳による市町の優遇措置（令和８年度版）",
+     "url": "http://www.pref.mie.lg.jp/common/content/001192670.pdf"
+    },
+    {
+     "name": "診断書（精神障害者保健福祉手帳用）の記載方法（PDF）",
+     "url": "http://www.pref.mie.lg.jp/common/content/000968084.pdf"
+    },
+    {
+     "name": "手帳の判定基準について（PDF）",
+     "url": "http://www.pref.mie.lg.jp/common/content/000086490.pdf"
+    },
+    {
+     "name": "審査・自立支援・手帳",
+     "url": "http://www.pref.mie.lg.jp/common/03/ci500004898.htm"
+    },
+    {
+     "name": "療育手帳の交付",
+     "url": "https://www.pref.mie.lg.jp/SHOGAIC/HP/40717033302.htm"
+    },
+    {
+     "name": "身体障害者手帳の交付",
+     "url": "https://www.pref.mie.lg.jp/SHOGAIC/HP/40462033299.htm"
+    },
+    {
+     "name": "補装具の判定",
+     "url": "https://www.pref.mie.lg.jp/SHOGAIC/HP/40455033293.htm"
+    },
+    {
+     "name": "療育手帳の交付希望に関わる相談・判定",
+     "url": "https://www.pref.mie.lg.jp/SHOGAIC/HP/404500332880001.htm"
+    },
+    {
+     "name": "療育手帳の発行",
+     "url": "https://www.pref.mie.lg.jp/SHOGAIC/HP/40717033302.htm"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "250007": {
+   "pref": "",
+   "name": "滋賀県",
+   "url": "https://www.pref.shiga.lg.jp/",
+   "error": "robots.txt で巡回を禁じられている"
+  },
+  "260002": {
+   "pref": "",
+   "name": "京都府",
+   "url": "https://www.pref.kyoto.jp/",
+   "error": "robots.txt で巡回を禁じられている"
+  },
+  "270008": {
+   "pref": "",
+   "name": "大阪府",
+   "url": "https://www.pref.osaka.lg.jp/index.html",
+   "error": "障害福祉のページが見つからなかった"
+  },
+  "280003": {
+   "pref": "",
+   "name": "兵庫県",
+   "url": "https://web.pref.hyogo.lg.jp/",
+   "welfarePage": "https://web.pref.hyogo.lg.jp/kf10/syogaisisetsu/kyuufuhiseikyuu.html",
+   "programs": [
+    {
+     "name": "介護給付費等算定に係る体制等に関する届出書（様式第5号）（ワード：29KB）",
+     "url": "https://web.pref.hyogo.lg.jp/kf10/syogaisisetsu/documents/kyuuhuhisannteitodokedesho_5gou.docx"
+    },
+    {
+     "name": "障害福祉従事者処遇改善緊急支援事業費補助金",
+     "url": "https://web.pref.hyogo.lg.jp/kf08/kinkyushienhojo.html"
+    },
+    {
+     "name": "【障害福祉サービス等】介護給付費等のインターネット請求について",
+     "url": "https://web.pref.hyogo.lg.jp/kf08/hw19_000000045.html"
+    },
+    {
+     "name": "介護給付費等算定届（加算届）について",
+     "url": "https://web.pref.hyogo.lg.jp/kf08/hw19_000000009.html#h02"
+    },
+    {
+     "name": "介護給付費等算定に係る体制等に関する届出書（ワード：82KB）",
+     "url": "https://web.pref.hyogo.lg.jp/kf08/documents/12_kasantodoke.doc"
+    },
+    {
+     "name": "「（請求事務関係）介護給付費等のインターネット請求について」",
+     "url": "https://web.pref.hyogo.lg.jp/kf08/hw19_000000045.html"
+    },
+    {
+     "name": "障害児通所支援事業指定に係る意見書交付申請書（ワード：16KB）",
+     "url": "https://web.pref.hyogo.lg.jp/kf10/documents/r3_ikenyoushiki.docx"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "290009": {
+   "pref": "",
+   "name": "奈良県",
+   "url": "https://www.pref.nara.lg.jp/",
+   "welfarePage": "https://www.pref.nara.lg.jp/kenkou/shougaifukushi/jigyousho/index.html",
+   "programs": [
+    {
+     "name": "障害者手帳・手当・助成",
+     "url": "https://www.pref.nara.lg.jp/kenkou/shougaifukushi/josei/index.html"
+    },
+    {
+     "name": "手話リンクのご案内",
+     "url": "https://www.pref.nara.lg.jp/guide/shuwa.html"
+    },
+    {
+     "name": "奈良県障害理解促進DVD（シルコトカラ・手話言語）",
+     "url": "https://www.pref.nara.lg.jp/n064/53632.html"
+    },
+    {
+     "name": "手話ハンドブックについて",
+     "url": "https://www.pref.nara.lg.jp/n064/50238.html"
+    },
+    {
+     "name": "9月23日は「手話の日」＆「手話言語国際デー」",
+     "url": "https://www.pref.nara.lg.jp/n064/p013144.html"
+    },
+    {
+     "name": "失語症者向け意思疎通支援者派遣事業",
+     "url": "https://www.pref.nara.lg.jp/n064/46131.html"
+    },
+    {
+     "name": "障害者に対する県有施設の使用料減免について",
+     "url": "https://www.pref.nara.lg.jp/n064/41882.html"
+    },
+    {
+     "name": "障害福祉分野の介護テクノロジー導入支援事業補助金等",
+     "url": "https://www.pref.nara.lg.jp/n064/69251.html"
+    },
+    {
+     "name": "軽度・中等度難聴児への補聴器購入助成について",
+     "url": "https://www.pref.nara.lg.jp/n064/32049.html"
+    },
+    {
+     "name": "身体障害者手帳にかかる事務移管について",
+     "url": "https://www.pref.nara.lg.jp/n064/18416.html"
+    },
+    {
+     "name": "身体障害者手帳について",
+     "url": "https://www.pref.nara.lg.jp/n078/69838.html"
+    },
+    {
+     "name": "社会福祉施設等施設整備費補助金",
+     "url": "https://www.pref.nara.lg.jp/n064/p013088.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "300004": {
+   "pref": "",
+   "name": "和歌山県",
+   "url": "https://www.pref.wakayama.lg.jp/",
+   "welfarePage": "https://www.pref.wakayama.lg.jp/category/fukushi.html#010",
+   "programs": [
+    {
+     "name": "がん患者等妊孕性（にんようせい）温存治療費等助成事業",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/041200/h_sippei/gannet/01/08.html"
+    },
+    {
+     "name": "小児慢性特定疾病医療費助成制度について",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/041200/h_boshi/shoman/shomantop.html"
+    },
+    {
+     "name": "難病法に基づく医療費助成制度について",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/041200/h_sippei/nanbyou.html"
+    },
+    {
+     "name": "石綿健康被害救済給付",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/032100/asbest_kyusai/index.html"
+    },
+    {
+     "name": "肝炎治療に対する医療費助成について",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/041200/h_sippei/kanentiryonitaisuruiryohijosei.html"
+    },
+    {
+     "name": "妊婦健康診査費の助成",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/041200/h_boshi/ninpukenshin/index.html"
+    },
+    {
+     "name": "和歌山県大学生等進学支援金・和歌山県大学生等進学給付金",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/500600/d00153480.html"
+    },
+    {
+     "name": "先天性血液凝固因子障害等医療受給者証交付申請書（PDF形式 99キロバイト）",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/041200/h_sippei/nanbyouhan/ketuekigyouko_d/fil/shinsei.pdf"
+    },
+    {
+     "name": "障害児者福祉のしおり（04【各種制度】、10【手帳、相談所、ヘルプマーク等】）",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/040400/shiori/top.html"
+    },
+    {
+     "name": "失語症者向け意思疎通支援者派遣事業",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/040400/shitsugo_haken.html"
+    },
+    {
+     "name": "請求事務関係（支給決定関係）",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/040400/shitei_jigyosyo/sheikyu.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "310000": {
+   "pref": "",
+   "name": "鳥取県",
+   "url": "https://www.pref.tottori.lg.jp/",
+   "error": "障害福祉のページが見つからなかった"
+  },
+  "320005": {
+   "pref": "",
+   "name": "島根県",
+   "url": "https://www.pref.shimane.lg.jp/",
+   "welfarePage": "https://www.pref.shimane.lg.jp/medical/fukushi/syougai/",
+   "programs": [
+    {
+     "name": "【障がい福祉課】盲ろう者・通訳介助員派遣センター事務所の開設について掲載しました",
+     "url": "https://www.pref.shimane.lg.jp/medical/fukushi/syougai/ippan/isisotuusien/mourou_hakencenter.html"
+    },
+    {
+     "name": "身体障害者補助犬",
+     "url": "https://www.pref.shimane.lg.jp/medical/fukushi/syougai/ippan/hojyoken/"
+    },
+    {
+     "name": "（３）思いやり駐車場・ヘルプマーク・あいサポート企業",
+     "url": "https://www.pref.shimane.lg.jp/medical/fukushi/syougai/jigyousya/syougai_service/05shuudannshidou.data/B07.pdf"
+    },
+    {
+     "name": "身体障害者手帳についてへ（こちら）",
+     "url": "https://www.pref.shimane.lg.jp/medical/fukushi/syougai/sintai_syougaisya/sinsyo-tetyo.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "330001": {
+   "pref": "",
+   "name": "岡山県",
+   "url": "https://www.pref.okayama.jp/",
+   "welfarePage": "https://www.pref.okayama.jp/soshiki/20/",
+   "programs": [],
+   "fetchedOn": "2026-09-04"
+  },
+  "340006": {
+   "pref": "",
+   "name": "広島県",
+   "url": "https://www.pref.hiroshima.lg.jp/",
+   "welfarePage": "https://www.pref.hiroshima.lg.jp/soshiki/62/",
+   "programs": [
+    {
+     "name": "障害者手帳・手当",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/#754"
+    },
+    {
+     "name": "補装具費",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/#719"
+    },
+    {
+     "name": "「特別障害者手当」「障害児福祉手当」「経過的福祉手当」について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/tokusyou.html"
+    },
+    {
+     "name": "特別児童扶養手当について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/tokujiteate031223.html"
+    },
+    {
+     "name": "広島県障害福祉従事者処遇改善緊急支援事業費補助金について",
+     "url": "https://www.pref.hiroshima.lg.jp/site/shidoukensa/syogukaizen-tokureikoufu.html"
+    },
+    {
+     "name": "身体障害者補助犬について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/hojokenn20241127.html"
+    },
+    {
+     "name": "精神障害者医療費助成制度について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/seishiniryouhijosei.html"
+    },
+    {
+     "name": "身体障害者手帳の交付を受けるには",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/1177325078303.html"
+    },
+    {
+     "name": "療育手帳の交付を受けるには",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/175/ryouikutetyou.html"
+    },
+    {
+     "name": "広島県自立支援医療費（精神通院）の制度と手続きについて",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/1216804537397.html"
+    },
+    {
+     "name": "農福連携の取組支援に係る障害者就労施設等への農業専門家の派遣について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/hiroshima-noufuku08.html"
+    },
+    {
+     "name": "障害児入所給付費等国庫負担金及び障害児入所医療費等国庫負担金の交付要綱について",
+     "url": "https://www.pref.hiroshima.lg.jp/site/shidoukensa/11111.html"
+    },
+    {
+     "name": "指定障害児入所施設等における障害児入所給付費等の取扱いについて",
+     "url": "https://www.pref.hiroshima.lg.jp/site/shidoukensa/12.html"
+    },
+    {
+     "name": "高額障害児施設給付費及び高額障害福祉サービス費の償還の流れについて",
+     "url": "https://www.pref.hiroshima.lg.jp/site/shidoukensa/1289461239631.html"
+    },
+    {
+     "name": "広島県軽度・中等度難聴児補聴器購入費助成事業について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/hotyouki.html"
+    },
+    {
+     "name": "補装具の給付等について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/1187768229205.html"
+    },
+    {
+     "name": "令和９年度社会福祉施設等（障害児者関係施設）整備費補助金について",
+     "url": "https://www.pref.hiroshima.lg.jp/site/shidoukensa/shakaifukushishisetu.html"
+    },
+    {
+     "name": "令和8年度補装具製作事業者管理者研修会の開催について",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/62/hosougu8.html"
+    },
+    {
+     "name": "障害児福祉手当認定請求書 (Wordファイル)(17KB)",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/609132.docx"
+    },
+    {
+     "name": "特別障害者手当認定請求書 (Wordファイル)(19KB)",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/609131.docx"
+    },
+    {
+     "name": "４ 障害者手帳 (PDFファイル)(139KB)",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/life/1144324_9794028_misc.pdf"
+    },
+    {
+     "name": "６ 年金・手当･貸付 (PDFファイル)(181KB)",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/life/1144324_9794030_misc.pdf"
+    },
+    {
+     "name": "７ 補装具・日常生活用具 (PDFファイル)(1.03MB)",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/life/1144324_9794031_misc.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "350001": {
+   "pref": "",
+   "name": "山口県",
+   "url": "https://www.pref.yamaguchi.lg.jp/",
+   "welfarePage": "https://www.pref.yamaguchi.lg.jp/life/2/index.html#life2_b1",
+   "programs": [
+    {
+     "name": "手話通訳技能認定試験（手話通訳士試験）実技試験対策講座を開講します！",
+     "url": "https://www.pref.yamaguchi.lg.jp/press/349953.html"
+    },
+    {
+     "name": "手話リンクについて",
+     "url": "https://www.pref.yamaguchi.lg.jp/soshiki/50/346962.html"
+    },
+    {
+     "name": "手話通訳技能認定試験（手話通訳士試験）学科試験対策講座を開講します！",
+     "url": "https://www.pref.yamaguchi.lg.jp/press/343546.html"
+    },
+    {
+     "name": "若年層を対象にした手話通訳者養成講座を開講します！",
+     "url": "https://www.pref.yamaguchi.lg.jp/press/342706.html"
+    },
+    {
+     "name": "若年層を対象にした手話コミュニケーション講座を開講します！",
+     "url": "https://www.pref.yamaguchi.lg.jp/press/342695.html"
+    },
+    {
+     "name": "「手話言語の国際デー」における県政資料館のブルーライトアップについて",
+     "url": "https://www.pref.yamaguchi.lg.jp/press/316270.html"
+    },
+    {
+     "name": "ほじょ犬（身体障害者補助犬）について",
+     "url": "https://www.pref.yamaguchi.lg.jp/soshiki/50/18629.html"
+    },
+    {
+     "name": "障害者施策・補装具様式",
+     "url": "https://www.pref.yamaguchi.lg.jp/soshiki/50/18806.html"
+    },
+    {
+     "name": "「医療的ケア手帳」及び「山口県医療的ケア児支援サポートブック」の作成について",
+     "url": "https://www.pref.yamaguchi.lg.jp/soshiki/50/18644.html"
+    },
+    {
+     "name": "UDダンス（手話ダンス）ワークショップを開催します！",
+     "url": "https://www.pref.yamaguchi.lg.jp/press/333594.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "360007": {
+   "pref": "",
+   "name": "徳島県",
+   "url": "https://www.pref.tokushima.lg.jp/",
+   "welfarePage": "https://www.pref.tokushima.lg.jp/shougaisha_koyou_navi/",
+   "programs": [
+    {
+     "name": "企業に対する助成制度",
+     "url": "https://www.pref.tokushima.lg.jp/shougaisha_koyou_navi/5010488/5019397/"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "370002": {
+   "pref": "",
+   "name": "香川県",
+   "url": "https://www.pref.kagawa.lg.jp/",
+   "welfarePage": "https://www.pref.kagawa.lg.jp/shogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "令和８年熊本地震に係るＤPＡＴの派遣について（2026年8月12日）",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/r8_dpat_kumamoto.html"
+    },
+    {
+     "name": "障害者手帳",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/sodan_shien/syogaisha_techo/kfvn.html"
+    },
+    {
+     "name": "社会福祉施設等施設整備費補助金交付要綱等",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/jigyosha/hojokin.html"
+    },
+    {
+     "name": "令和８年熊本地震に係る保健師等の追加派遣について",
+     "url": "https://www.pref.kagawa.lg.jp/kenkouseisaku/hokenshi/r8kumamotozisinhaken2.html"
+    },
+    {
+     "name": "令和８年熊本地震に係るＤPＡＴの派遣について",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/r8_dpat_kumamoto.html"
+    },
+    {
+     "name": "令和8年熊本地震に係る保健師等派遣について",
+     "url": "https://www.pref.kagawa.lg.jp/kenkouseisaku/hokenshi/r8kumamotozisinhaken.html"
+    },
+    {
+     "name": "香川県薬局における賃上げ・物価上昇に対する支援給付金について",
+     "url": "https://www.pref.kagawa.lg.jp/yakumu/yakkyokushienkin.html"
+    },
+    {
+     "name": "令和7年度防犯カメラ設置補助事業",
+     "url": "https://www.pref.kagawa.lg.jp/kurashi/anzen/anzenanshin/r7-boukamehojyo.html"
+    },
+    {
+     "name": "地域総合整備資金貸付（ふるさと融資）について",
+     "url": "https://www.pref.kagawa.lg.jp/chiiki/tiiki-dukuri/furusatoyushi.html"
+    },
+    {
+     "name": "障害者雇用優良事業所認定証交付式",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/yuryojigyosho.html"
+    },
+    {
+     "name": "障害者雇用優良事業所認定証交付式を行います",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/shuroshien/yuryojigyousho_nintei6.html"
+    },
+    {
+     "name": "包括支援交付金（慰労金・支援金）",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/sogo/corona/kofukin.html"
+    },
+    {
+     "name": "香川県農畜水産業者未来チャレンジ支援補助金(農業)",
+     "url": "https://www.pref.kagawa.lg.jp/noukei16300/shuno/miraicharennzi.html"
+    },
+    {
+     "name": "香川県農業士・青年農業士に認定証を交付します！",
+     "url": "https://www.pref.kagawa.lg.jp/noukei16300/ninaite/nougyoushi/r4-ninteisiki.html"
+    },
+    {
+     "name": "香川県LPガス料金高騰対策事業(第6次)を実施します",
+     "url": "https://www.pref.kagawa.lg.jp/kikikanri/gas/20260123.html"
+    },
+    {
+     "name": "（別添2）小学校休業等対応助成金（企業向け）（PDF：305KB）",
+     "url": "https://www.pref.kagawa.lg.jp/documents/6629/sjaov7200424145358_f59_1.pdf"
+    },
+    {
+     "name": "新型コロナウイルス感染症緊急包括支援交付金（障害分）",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/sogo/corona/kofukin.html"
+    },
+    {
+     "name": "障害者手帳について",
+     "url": "https://www.pref.kagawa.lg.jp/shogaifukushi/sodan_shien/syogaisha_techo/kfvn.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "380008": {
+   "pref": "",
+   "name": "愛媛県",
+   "url": "https://www.pref.ehime.jp/",
+   "welfarePage": "https://www.pref.ehime.jp/life/2/#life3_heading6",
+   "programs": [
+    {
+     "name": "事業者向け助成・優遇制度",
+     "url": "https://www.pref.ehime.jp/adv/ba.php?id=14"
+    },
+    {
+     "name": "不育症検査費用の助成について",
+     "url": "https://www.pref.ehime.jp/page/17663.html"
+    },
+    {
+     "name": "令和８年度トライアングルエヒメ横展開（障がい福祉）事業費補助金",
+     "url": "https://www.pref.ehime.jp/page/149729.html"
+    },
+    {
+     "name": "障害者手帳における誤記載について",
+     "url": "https://www.pref.ehime.jp/page/112398.html"
+    },
+    {
+     "name": "令和8年度愛媛県障がい福祉施設等空調照明設備整備支援事業費補助金について",
+     "url": "https://www.pref.ehime.jp/page/149140.html"
+    },
+    {
+     "name": "身体障害者補助犬について",
+     "url": "https://www.pref.ehime.jp/page/5998.html"
+    },
+    {
+     "name": "令和8年度手話通訳者・要約筆記者養成研修",
+     "url": "https://www.pref.ehime.jp/page/6122.html"
+    },
+    {
+     "name": "社会福祉施設等施設整備費の国庫補助協議について",
+     "url": "https://www.pref.ehime.jp/page/6020.html"
+    },
+    {
+     "name": "療育手帳制度",
+     "url": "https://www.pref.ehime.jp/page/6097.html"
+    },
+    {
+     "name": "特別児童扶養手当について",
+     "url": "https://www.pref.ehime.jp/page/6082.html"
+    },
+    {
+     "name": "愛媛県パーキングパーミット制度（身体障がい者等用駐車場利用証制度）について",
+     "url": "https://www.pref.ehime.jp/page/6003.html"
+    },
+    {
+     "name": "年金生活者支援給付金の支給に関する対応について",
+     "url": "https://www.pref.ehime.jp/page/6191.html"
+    },
+    {
+     "name": "障がい者に対する運賃の割引について",
+     "url": "https://www.pref.ehime.jp/page/6198.html"
+    },
+    {
+     "name": "身体障害者手帳制度",
+     "url": "https://www.pref.ehime.jp/page/6098.html"
+    },
+    {
+     "name": "障害者手帳（療育手帳・身体障害者手帳）における誤記載について",
+     "url": "https://www.pref.ehime.jp/page/109631.html"
+    },
+    {
+     "name": "身体障害者手帳Q＆A",
+     "url": "https://www.pref.ehime.jp/page/6134.html"
+    },
+    {
+     "name": "軽度・中等度難聴児に対する補聴器購入費の助成について",
+     "url": "https://www.pref.ehime.jp/page/6107.html"
+    },
+    {
+     "name": "補装具費支給制度",
+     "url": "https://www.pref.ehime.jp/page/6084.html"
+    },
+    {
+     "name": "障害福祉従事者処遇改善緊急支援事業費補助金について",
+     "url": "https://www.pref.ehime.jp/page/133096.html"
+    },
+    {
+     "name": "障害福祉人材確保・職場環境改善等事業費補助金について（令和7年度）",
+     "url": "https://www.pref.ehime.jp/page/105517.html"
+    },
+    {
+     "name": "障害児通所・入所給付費算定に係る体制等に関する届出書",
+     "url": "https://www.pref.ehime.jp/page/6172.html"
+    },
+    {
+     "name": "介護給付費等算定に係る体制等に関する届出書",
+     "url": "https://www.pref.ehime.jp/page/6170.html"
+    },
+    {
+     "name": "県有施設で障害者手帳アプリ「ミライロID」をご利用いただけます。",
+     "url": "https://www.pref.ehime.jp/page/6132.html"
+    },
+    {
+     "name": "身体障害者手帳の認定基準の改正について",
+     "url": "https://www.pref.ehime.jp/page/6143.html"
+    },
+    {
+     "name": "交付要綱 [PDFファイル／250KB]",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/183194.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "390003": {
+   "pref": "",
+   "name": "高知県",
+   "url": "https://www.pref.kochi.lg.jp/",
+   "welfarePage": "https://www.pref.kochi.lg.jp/category/bunya/kurashi/kenko_fukushi/shogaifukushiservice/",
+   "programs": [
+    {
+     "name": "補助・支援",
+     "url": "https://www.pref.kochi.lg.jp/category/bunya/shigoto_sangyo/hojo_shien/"
+    },
+    {
+     "name": "申請（電子申請を含む）・届出・補助金等",
+     "url": "https://www.pref.kochi.lg.jp/category/mokuteki/shinsei_todokede_hojokin/"
+    },
+    {
+     "name": "5障害者手帳について(p39-40)[PDF：97.1KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_202510282153335_1.pdf"
+    },
+    {
+     "name": "５障害者手帳について（p39-40）[TXT：8.61KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_2026518110645_6.txt"
+    },
+    {
+     "name": "6年金・手当などについて(p41-47)[PDF：249KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_202510282153234_1.pdf"
+    },
+    {
+     "name": "６年金・手当などについて（p41-47）[TXT：27.3KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_2026518110645_7.txt"
+    },
+    {
+     "name": "9補装具・日常生活用具について(p82-86)[PDF：175KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_20251028215299_1.pdf"
+    },
+    {
+     "name": "９補装具・日常生活用具について（p82-86）[TXT：17.2KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_2026518110645_10.txt"
+    },
+    {
+     "name": "11税の減免や各種割引制度について(p89-96)[PDF：349KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_202510282152650_1.pdf"
+    },
+    {
+     "name": "11税の減免や各種割引制度について（p89-96）[TXT：31.8KB]",
+     "url": "https://www.pref.kochi.lg.jp/doc/2018091400195/file_contents/file_2026518110645_12.txt"
+    },
+    {
+     "name": "特別障害者手当",
+     "url": "https://www.pref.kochi.lg.jp/doc/tokubetusyougaisyateate/"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.pref.kochi.lg.jp/doc/syougaijihukusiteate/"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.pref.kochi.lg.jp/doc/tokubetujidouhuyouteate/"
+    },
+    {
+     "name": "高知県重度心身障害児療育手当",
+     "url": "https://www.pref.kochi.lg.jp/doc/ryouikuteate/"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "400009": {
+   "pref": "",
+   "name": "福岡県",
+   "url": "https://www.pref.fukuoka.lg.jp/",
+   "welfarePage": "https://www.pref.fukuoka.lg.jp/life/3/27/",
+   "programs": [
+    {
+     "name": "各種届出・申請（事業者指定・加算・補助金等）【事業者の皆さま向け】",
+     "url": "https://www.pref.fukuoka.lg.jp/life/3/25/102/"
+    },
+    {
+     "name": "補助事業・制度資金",
+     "url": "https://www.pref.fukuoka.lg.jp/life/4/36/157/"
+    },
+    {
+     "name": "県有財産（土地）の売却・貸付",
+     "url": "https://www.pref.fukuoka.lg.jp/life/8/63/295/"
+    },
+    {
+     "name": "【障がい福祉】福岡県障がい福祉従業者処遇改善緊急支援事業費補助金について",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/syogu-kinnkyu.html"
+    },
+    {
+     "name": "手話リンクについて",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/syuwalink.html"
+    },
+    {
+     "name": "若年層手話講座を開講します",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/jyakunensoshuwa.html"
+    },
+    {
+     "name": "補装具申請様式（PDF、wordファイル、Excelファイル）",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/hoso-gu.html"
+    },
+    {
+     "name": "自立支援医療（精神通院医療）及び精神障害者保健福祉手帳のお知らせ",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/seishinhokenfukushitecyou.html"
+    },
+    {
+     "name": "福岡県腎臓疾患患者福祉給付金に関する手続きについて",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/jinzou.html"
+    },
+    {
+     "name": "福岡県軽度・中等度難聴児補聴器購入費助成事業について",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/keityuudo.html"
+    },
+    {
+     "name": "福岡県障がい福祉サービス事業所勤務環境改善促進費補助金",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/syougai-kinmukankyou-kaizen.html"
+    },
+    {
+     "name": "【喀痰吸引等研修（３号研修）】福岡県医療的ケア児支援人材育成研修費補助金のご案内",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/3-kakutan.html"
+    },
+    {
+     "name": "重度障がい者医療費支給制度のご案内",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/shougai.html"
+    },
+    {
+     "name": "タクシー運賃割引制度のご案内",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/023.html"
+    },
+    {
+     "name": "身体障害者手帳に係る認定基準等について（令和４年５月２５日一部改正）",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/choukakuhennkou.html"
+    },
+    {
+     "name": "身体障害者手帳申請様式（PDF）",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/sinnsyouyousiki.html"
+    },
+    {
+     "name": "知的障害の程度の証明書交付手続きのご案内",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/shomeisho.html"
+    },
+    {
+     "name": "「ふくおか・まごころ駐車場」制度",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/fukuokamagokorochusyazyou.html"
+    },
+    {
+     "name": "療育手帳の交付を受けるには",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/ryouikutetyou.html"
+    },
+    {
+     "name": "令和８年熊本地震により被災した障がいのある人等に対する支給決定等について",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/shogai-hisai.html"
+    },
+    {
+     "name": "交付要綱 [PDFファイル／152KB]",
+     "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/278062.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "410004": {
+   "pref": "",
+   "name": "佐賀県",
+   "url": "https://www.pref.saga.lg.jp/",
+   "welfarePage": "https://www.pref.saga.lg.jp/list00578.html",
+   "programs": [
+    {
+     "name": "県営住宅・支援・補助",
+     "url": "https://www.pref.saga.lg.jp/list00531.html"
+    },
+    {
+     "name": "医療費補助",
+     "url": "https://www.pref.saga.lg.jp/list00562.html"
+    },
+    {
+     "name": "支援・補助",
+     "url": "https://www.pref.saga.lg.jp/list00575.html"
+    },
+    {
+     "name": "金融制度・補助金制度・セミナー",
+     "url": "https://www.pref.saga.lg.jp/list00633.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳・自立支援医療（精神通院）",
+     "url": "https://www.pref.saga.lg.jp/list06343.html"
+    },
+    {
+     "name": "身体障害者手帳・療育手帳・精神障害者保健福祉手帳",
+     "url": "https://www.pref.saga.lg.jp/list06345.html"
+    },
+    {
+     "name": "身体障害者手帳",
+     "url": "https://www.pref.saga.lg.jp/list06352.html"
+    },
+    {
+     "name": "施設整備補助金",
+     "url": "https://www.pref.saga.lg.jp/list03860.html"
+    },
+    {
+     "name": "医療的ケア児支援補助金",
+     "url": "https://www.pref.saga.lg.jp/list06355.html"
+    },
+    {
+     "name": "障害者手帳の交付を受けるには",
+     "url": "https://www.pref.saga.lg.jp/kiji0032548/index.html"
+    },
+    {
+     "name": "軽度・中度難聴児補聴器購入費助成について",
+     "url": "https://www.pref.saga.lg.jp/kiji0032661/index.html"
+    },
+    {
+     "name": "&nbsp;02_障害者手帳の交付について&nbsp;",
+     "url": "https://www.pref.saga.lg.jp/kiji00389163/3_89163_341514_up_h73rqd5u.pdf"
+    },
+    {
+     "name": "&nbsp;03_手当・給付、助成、優遇制&nbsp;",
+     "url": "https://www.pref.saga.lg.jp/kiji00389163/3_89163_341515_up_4ca3aqiu.pdf"
+    },
+    {
+     "name": "&nbsp;99_巻末資料3（手帳等級）&nbsp;",
+     "url": "https://www.pref.saga.lg.jp/kiji00389163/3_89163_341524_up_2kcewr23.pdf"
+    },
+    {
+     "name": "&nbsp;05_【第4章】障害者手帳.&nbsp;",
+     "url": "https://www.pref.saga.lg.jp/kiji00384657/3_84657_344099_up_1akuqrzr.pdf"
+    },
+    {
+     "name": "&nbsp;06_【第5章】医療費に関する支援&nbsp;",
+     "url": "https://www.pref.saga.lg.jp/kiji00384657/3_84657_344100_up_750cyqml.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "420000": {
+   "pref": "",
+   "name": "長崎県",
+   "url": "https://www.pref.nagasaki.lg.jp/",
+   "welfarePage": "https://www.pref.nagasaki.lg.jp/organization/fukushihokenbu/shogai/",
+   "programs": [
+    {
+     "name": "長崎県障害福祉従事者処遇改善緊急支援事業費補助金について",
+     "url": "https://www.pref.nagasaki.lg.jp/doc/page-771932.html"
+    },
+    {
+     "name": "医療費の公的助成(負担)制度",
+     "url": "https://www.pref.nagasaki.lg.jp/bunrui/hukushi-hoken/fukushi/syyogaifukushi/jyosei/"
+    },
+    {
+     "name": "精神障害者保健福祉手帳",
+     "url": "https://www.pref.nagasaki.lg.jp/bunrui/hukushi-hoken/hoken-iryo/seishinhoken/seishinshougaishahokenhukushitetyou/"
+    },
+    {
+     "name": "透析患者通院交通費助成事業",
+     "url": "https://www.pref.nagasaki.lg.jp/bunrui/hukushi-hoken/fukushi/syyogaifukushi/toseki-jyosei/"
+    },
+    {
+     "name": "【長崎会場】補装具・更生医療判定予定日(令和8年9月分)",
+     "url": "https://www.pref.nagasaki.lg.jp/doc/51678.html"
+    },
+    {
+     "name": "（１）の補助金支給要件［PDFファイル／55KB］",
+     "url": "https://www.pref.nagasaki.lg.jp/uploads/2026/02/1770624462.pdf"
+    },
+    {
+     "name": "（２）の補助金支給要件［PDFファイル／90KB］",
+     "url": "https://www.pref.nagasaki.lg.jp/uploads/2026/02/1770624463.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "430005": {
+   "pref": "",
+   "name": "熊本県",
+   "url": "https://www.pref.kumamoto.jp/",
+   "welfarePage": "https://www.pref.kumamoto.jp/life/2/10/",
+   "programs": [
+    {
+     "name": "令和8年度熊本県サービス付き高齢者向け住宅整備事業補助金",
+     "url": "https://www.pref.kumamoto.jp/soshiki/117/271513.html"
+    },
+    {
+     "name": "自立支援医療及び精神障害者保健福祉手帳",
+     "url": "https://www.pref.kumamoto.jp/soshiki/40/50543.html"
+    },
+    {
+     "name": "特別児童扶養手当請求書等様式",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/1952.html"
+    },
+    {
+     "name": "障害児福祉手当",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/1955.html"
+    },
+    {
+     "name": "特別障害者手当",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/1961.html"
+    },
+    {
+     "name": "身体障害者手帳交付申請について",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/179678.html"
+    },
+    {
+     "name": "経過的福祉手当",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/1954.html"
+    },
+    {
+     "name": "特別児童扶養手当",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/1960.html"
+    },
+    {
+     "name": "療育手帳に関する事務に係る特定個人情報保護評価書",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/128717.html"
+    },
+    {
+     "name": "県有施設で障害者手帳アプリ「ミライロID」が使えます。",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/116176.html"
+    },
+    {
+     "name": "療育手帳",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/1977.html"
+    },
+    {
+     "name": "ファミリープラン作成モデル事業補助金",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/262533.html"
+    },
+    {
+     "name": "障害福祉従事者処遇改善緊急支援事業補助金について",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/123510.html"
+    },
+    {
+     "name": "介護給付費等に係る支給決定事務等に関する資料等を掲載します。",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/1981.html"
+    },
+    {
+     "name": "特別児童扶養手当及び特別障害者手当等に関する事務に係る特定個人情報保護評価書",
+     "url": "https://www.pref.kumamoto.jp/soshiki/39/164649.html"
+    },
+    {
+     "name": "自立支援医療費支給認定申請書 （Wordファイル：63KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/301188.doc"
+    },
+    {
+     "name": "自立支援医療費受給者証再交付申請書 （Wordファイル：36KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/301191.doc"
+    },
+    {
+     "name": "自立支援医療費受給者証返還届 （Wordファイル：34KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/301192.doc"
+    },
+    {
+     "name": "障害者手帳申請書 （Wordファイル：30KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/301193.docx"
+    },
+    {
+     "name": "障害者手帳記載事項変更届・再交付申請書 （Wordファイル：23KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/301194.docx"
+    },
+    {
+     "name": "障害者手帳返還届 （Wordファイル：16KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/301195.docx"
+    },
+    {
+     "name": "精神障害者保健福祉手帳 診断書様式 （Wordファイル：24KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/172670.docx"
+    },
+    {
+     "name": "精神障害者保健福祉手帳診断書記入方法等について （PDFファイル：557KB）",
+     "url": "https://www.pref.kumamoto.jp/uploaded/attachment/240461.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "440001": {
+   "pref": "",
+   "name": "大分県",
+   "url": "https://www.pref.oita.jp/",
+   "welfarePage": "https://www.pref.oita.jp/soshiki/12500/",
+   "programs": [
+    {
+     "name": "助成金・補助金",
+     "url": "https://www.pref.oita.jp/life/sub/6/"
+    },
+    {
+     "name": "手話に関する施策の推進に関する法律（手話施策推進法）について",
+     "url": "https://www.pref.oita.jp/soshiki/12500/shuwasesaku.html"
+    },
+    {
+     "name": "特別障害者手当・障害児福祉手当について",
+     "url": "https://www.pref.oita.jp/soshiki/12500/tokubetusyougaisyateate-syougaijihukushiteate2.html"
+    },
+    {
+     "name": "重度心身障がい者医療費給付事業の制度移行（自動償還払）について",
+     "url": "https://www.pref.oita.jp/soshiki/12500/juudo-iryou-kaisei.html"
+    },
+    {
+     "name": "カード型障害者手帳の交付を開始します",
+     "url": "https://www.pref.oita.jp/soshiki/12500/cardtetyou.html"
+    },
+    {
+     "name": "重度心身障がい者（児）医療費助成制度のご案内",
+     "url": "https://www.pref.oita.jp/soshiki/12500/juudo-iryou-jyosei.html"
+    },
+    {
+     "name": "障がい者手帳",
+     "url": "https://www.pref.oita.jp/soshiki/12500/tetyou.html"
+    },
+    {
+     "name": "障害福祉従事者処遇改善緊急支援事業について（補助金）",
+     "url": "https://www.pref.oita.jp/soshiki/12500/syoguukaizenkinnkyuu.html"
+    },
+    {
+     "name": "大分県外国人福祉・介護人材受入支援事業費補助金について",
+     "url": "https://www.pref.oita.jp/soshiki/12500/gaikokujinzai.html"
+    },
+    {
+     "name": "令和９年度社会福祉施設等の整備に係る補助事業の公募について",
+     "url": "https://www.pref.oita.jp/soshiki/12500/-sisetsu-r8.html"
+    },
+    {
+     "name": "障害者総合支援法および児童福祉法に係るサービス給付費の加算届について",
+     "url": "https://www.pref.oita.jp/soshiki/12500/shitei-21.html"
+    },
+    {
+     "name": "身体障害者手帳の申請等に係る医師の指定について",
+     "url": "https://www.pref.oita.jp/soshiki/12500/shiteiishi.html"
+    },
+    {
+     "name": "（８）障害者総合支援法および児童福祉法に係るサービス給付費",
+     "url": "https://www.pref.oita.jp/soshiki/12500/shitei-21.html"
+    },
+    {
+     "name": "R８ 福祉タクシー [PDFファイル／531KB]",
+     "url": "https://www.pref.oita.jp/uploaded/attachment/2266433.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "450006": {
+   "pref": "",
+   "name": "宮崎県",
+   "url": "https://www.pref.miyazaki.lg.jp/",
+   "error": "robots.txt で巡回を禁じられている"
+  },
+  "460001": {
+   "pref": "",
+   "name": "鹿児島県",
+   "url": "https://www.pref.kagoshima.jp/",
+   "welfarePage": "https://www.pref.kagoshima.jp/kenko-fukushi/syogai-syakai/syogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "重度心身障害者医療費助成制度の制度変更（自動償還払い）について",
+     "url": "https://www.pref.kagoshima.jp/ae07/jushin-seidokaisei/jushinhenkou.html"
+    },
+    {
+     "name": "手話通訳者を配置しています",
+     "url": "https://www.pref.kagoshima.jp/ae32/kenntyousyuwatuuyaku.html"
+    },
+    {
+     "name": "重度心身障害者医療費助成制度変更に係る関係者会議",
+     "url": "https://www.pref.kagoshima.jp/ae07/juushin.html"
+    },
+    {
+     "name": "第2回重度心身障害者医療費助成制度変更に係る関係者会議の開催結果について",
+     "url": "https://www.pref.kagoshima.jp/ae07/2juushin.html"
+    },
+    {
+     "name": "第1回重度心身障害者医療費助成制度変更に係る関係者会議の開催結果について",
+     "url": "https://www.pref.kagoshima.jp/ae07/1juushin.html"
+    },
+    {
+     "name": "障害福祉サービス事業所等の災害復旧に係る補助金等について",
+     "url": "https://www.pref.kagoshima.jp/ae07/seibi/syougaiji-saigai.html"
+    },
+    {
+     "name": "障害者のための各種割引について",
+     "url": "https://www.pref.kagoshima.jp/ae07/kenko-fukushi/syogai-syakai/shintai/shien/04007012.html"
+    },
+    {
+     "name": "特別障害者手当・障害児福祉手当・福祉手当（経過措置分）について",
+     "url": "https://www.pref.kagoshima.jp/ae07/kenko-fukushi/syogai-syakai/shintai/shien/04007027.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳に基づく福祉サービス",
+     "url": "https://www.pref.kagoshima.jp/ae07/seishin/seishintechoufukushiservice/techouservice/seishintechouservice.html"
+    },
+    {
+     "name": "新利用料金（令和8年4月1日から）（PDF：65KB）",
+     "url": "https://www.pref.kagoshima.jp/ae32/documents/126562_20260219144602-1.pdf"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  },
+  "470007": {
+   "pref": "",
+   "name": "沖縄県",
+   "url": "https://www.pref.okinawa.lg.jp/",
+   "welfarePage": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/index.html",
+   "programs": [
+    {
+     "name": "助成金・補助金",
+     "url": "https://www.pref.okinawa.lg.jp/search_tetsuzuki.html?keyword=&w20=20"
+    },
+    {
+     "name": "公募・補助金等（障害者福祉）",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1007837/index.html"
+    },
+    {
+     "name": "自立支援医療費（精神通院）に関すること",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1007643/index.html"
+    },
+    {
+     "name": "自立支援医療費（精神通院）の経過的特例に係る支給認定の取扱い",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1007645.html"
+    },
+    {
+     "name": "自立支援給付支給事務等に関する市町村指導事前提出資料",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1007700.html"
+    },
+    {
+     "name": "自立支援給付費",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1007701.html"
+    },
+    {
+     "name": "04自立支援医療費（精神通院）に関すること",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1024872/index.html"
+    },
+    {
+     "name": "精神障害者保健福祉手帳・自立支援医療（精神通院）様式集",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1007657.html"
+    },
+    {
+     "name": "障害者手帳・割引制度等",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007842/1018787/index.html"
+    },
+    {
+     "name": "身体障害者補助犬",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007850/1034935/index.html"
+    },
+    {
+     "name": "身体障害者手帳・更生医療同時申請事務取扱",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007850/1023959.html"
+    },
+    {
+     "name": "耳鼻科 ・ 整形外科の補装具交付適否判定予定日",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007850/1007684.html"
+    },
+    {
+     "name": "身体障害者手帳について",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007850/1007857.html"
+    },
+    {
+     "name": "補装具",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1007850/1007861.html"
+    },
+    {
+     "name": "療育手帳",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1025155/1007715.html"
+    },
+    {
+     "name": "療育手帳制度（八重山福祉事務所）",
+     "url": "https://www.pref.okinawa.lg.jp/kyoiku/shogaifukushi/1025155/1007716.html"
+    }
+   ],
+   "fetchedOn": "2026-09-04"
+  }
+ }
+}

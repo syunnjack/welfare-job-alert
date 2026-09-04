@@ -17,7 +17,7 @@ import sys
 from html import escape
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from romaji import kana_to_romaji
+from romaji import SUFFIX_RANK, kana_to_romaji, suffix_romaji
 from program_groups import GROUPS, MIN_MUNICIPALITIES
 
 SITE = 'https://welfarejob.jp'
@@ -427,8 +427,8 @@ INDEX_BODY = """      <header><a href="/">福祉の求人アラート</a></heade
 def index_page(rows, checked_on, total_programs, program_rows):
     url = SITE + '/seido/'
     withpage = [r for r in rows if r['slug']]
-    title = '自治体の障害福祉制度｜全国{0}市区町村の公式ページへの入口｜福祉の求人アラート'.format(len(rows))
-    desc = ('全国の市と東京23区、{0}自治体について、公式サイトに載っている障害福祉の制度{1}件への'
+    title = '自治体の障害福祉制度｜全国{0:,}市区町村の公式ページへの入口｜福祉の求人アラート'.format(len(rows))
+    desc = ('全国{0:,}市区町村について、公式サイトに載っている障害福祉の制度{1}件への'
             'リンクを整理しました。金額や条件は転記せず、公式ページへつないでいます。'.format(len(rows), total_programs))
     jsonld = {'@context': 'https://schema.org', '@graph': [
         {
@@ -538,6 +538,43 @@ def city_chip(r):
         escape(r['welfare'], quote=True), escape(r['name']), label)
 
 
+def city_paths(entries, master):
+    """自治体ごとのURLを決める。同じ都道府県での衝突をここで解く。
+
+    カナから末尾（市/区/町/村）を落としてローマ字にすると、同じ都道府県に
+    同じ綴りが並ぶことがある。埼玉県の三郷市と美里町がどちらも misato に
+    なり、**あとに書いたほうが前のページを上書きしていた**（美里町6件が
+    三郷市18件を消していた）。
+
+    衝突したときは、市→区→町→村の順で先に来るものが素のURLを取り、
+    残りは末尾を付けて分ける（misato-machi）。読みはカナのとおりに使う
+    （府中町は fuchu-cho、美里町は misato-machi）。それでも並ぶときは
+    団体コードを付ける。名前の順ではなくコードの順で決めるので、
+    データが増えてもURLは動かない。
+    """
+    groups = {}
+    for code, e in entries.items():
+        m = master.get(code)
+        if not m:
+            continue
+        base = kana_to_romaji(m['kana'])
+        groups.setdefault((e['pref'], base), []).append((code, m['kana']))
+
+    out = {}
+    for (pref, base), members in groups.items():
+        members.sort(key=lambda x: (SUFFIX_RANK.get(suffix_romaji(x[1]), 9), x[0]))
+        used = set()
+        for i, (code, kana) in enumerate(members):
+            slug = base
+            if i > 0:
+                slug = '{0}-{1}'.format(base, suffix_romaji(kana) or code)
+                if slug in used:
+                    slug = '{0}-{1}'.format(base, code)
+            used.add(slug)
+            out[code] = '/seido/{0}/{1}/'.format(PREF_ROMAJI[pref], slug)
+    return out
+
+
 def main():
     global TARGET_COUNT
     data = json.load(open('data/welfare-programs.clean.json', encoding='utf-8'))
@@ -551,13 +588,9 @@ def main():
 
     # 先に自治体ページのURLを決めてしまう。制度ページから自治体ページへ、
     # 自治体ページから制度ページへ、双方向にリンクするため。
-    slugs = {}
-    for code in sorted(entries):
-        e = entries[code]
-        m = master.get(code)
-        if len(e['programs']) >= MIN_PROGRAMS and m:
-            slugs[code] = '/seido/{0}/{1}/'.format(
-                PREF_ROMAJI[e['pref']], kana_to_romaji(m['kana']))
+    paths = city_paths(entries, master)
+    slugs = {code: path for code, path in paths.items()
+             if len(entries[code]['programs']) >= MIN_PROGRAMS}
 
     # 制度名でまとめる
     matches = {}   # 制度のslug -> [(自治体名, 自治体ページのURL, [制度リンク])]
@@ -637,6 +670,7 @@ def main():
         print('対象から外れたページを削除: {0}'.format(', '.join(removed)))
 
     urls = ['/', '/discount/', '/discount/transport/', '/seido/'] + \
+           ['/seido/{0}/'.format(sp) for sp in pref_rows] + \
            ['/seido/program/{0}/'.format(g['slug']) for g, _c in program_rows] + \
            [r['slug'] for r in rows if r['slug']]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',

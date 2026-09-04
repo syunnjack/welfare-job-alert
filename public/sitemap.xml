@@ -4,6 +4,53 @@
   <url><loc>https://welfarejob.jp/discount/</loc><priority>0.8</priority></url>
   <url><loc>https://welfarejob.jp/discount/transport/</loc><priority>0.8</priority></url>
   <url><loc>https://welfarejob.jp/seido/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/hokkaido/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/aomori/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/iwate/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/miyagi/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/akita/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/yamagata/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/fukushima/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/ibaraki/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/tochigi/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/gunma/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/saitama/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/chiba/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/tokyo/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/kanagawa/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/niigata/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/toyama/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/ishikawa/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/fukui/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/yamanashi/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/nagano/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/gifu/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/shizuoka/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/aichi/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/mie/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/shiga/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/kyoto/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/osaka/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/hyogo/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/nara/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/wakayama/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/tottori/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/shimane/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/okayama/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/hiroshima/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/yamaguchi/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/tokushima/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/kagawa/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/ehime/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/kochi/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/fukuoka/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/saga/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/nagasaki/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/kumamoto/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/oita/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/miyazaki/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/kagoshima/</loc><priority>0.8</priority></url>
+  <url><loc>https://welfarejob.jp/seido/okinawa/</loc><priority>0.8</priority></url>
   <url><loc>https://welfarejob.jp/seido/program/tokubetsu-shogaisha-teate/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/program/shogaiji-fukushi-teate/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/program/tokubetsu-jido-fuyo-teate/</loc><priority>0.7</priority></url>
@@ -111,7 +158,7 @@
   <url><loc>https://welfarejob.jp/seido/hokkaido/urahoro/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/hokkaido/hamanaka/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/hokkaido/shiranuka/</loc><priority>0.7</priority></url>
-  <url><loc>https://welfarejob.jp/seido/hokkaido/shibetsu/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/hokkaido/shibetsu-cho/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/hokkaido/rausu/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/aomori/aomori/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/aomori/hirosaki/</loc><priority>0.7</priority></url>
@@ -332,7 +379,7 @@
   <url><loc>https://welfarejob.jp/seido/saitama/yokoze/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/saitama/ogano/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/saitama/higashichichibu/</loc><priority>0.7</priority></url>
-  <url><loc>https://welfarejob.jp/seido/saitama/misato/</loc><priority>0.7</priority></url>
+  <url><loc>https://welfarejob.jp/seido/saitama/misato-machi/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/saitama/kamikawa/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/saitama/kamisato/</loc><priority>0.7</priority></url>
   <url><loc>https://welfarejob.jp/seido/saitama/yorii/</loc><priority>0.7</priority></url>

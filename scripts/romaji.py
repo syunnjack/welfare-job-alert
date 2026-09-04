@@ -33,16 +33,35 @@ ONE = {
     'パ': 'pa', 'ピ': 'pi', 'プ': 'pu', 'ペ': 'pe', 'ポ': 'po',
     'ァ': 'a', 'ィ': 'i', 'ゥ': 'u', 'ェ': 'e', 'ォ': 'o', 'ャ': 'ya', 'ュ': 'yu', 'ョ': 'yo',
 }
-# 市区町村を表す末尾。URLには自治体名だけを入れる
-SUFFIX = ('シ', 'ク', 'チョウ', 'マチ', 'ムラ', 'ソン', 'グン')
+# 市区町村を表す末尾。URLには自治体名だけを入れる。
+# 読みは自治体ごとに違う（府中町は「ふちゅうちょう」、美里町は「みさとまち」）。
+# カナに書いてあるとおりに扱い、漢字から推測しない。
+SUFFIX = {
+    'シ': 'shi', 'ク': 'ku', 'チョウ': 'cho', 'マチ': 'machi',
+    'ムラ': 'mura', 'ソン': 'son', 'グン': 'gun',
+}
+# 同じ都道府県でローマ字が衝突したとき、どれが素のURLを取るか
+SUFFIX_RANK = {'shi': 0, 'ku': 1, 'cho': 2, 'machi': 2, 'mura': 3, 'son': 3, 'gun': 4, '': 5}
 
 
-def kana_to_romaji(kana):
+def split_suffix(kana):
+    """カナを「自治体名」と「市区町村の別」に分ける。
+
+    返すのは (名前のカナ, 末尾のローマ字)。末尾が無ければ ('', ) 側は空。
+    """
     s = unicodedata.normalize('NFKC', kana)
     for suf in sorted(SUFFIX, key=len, reverse=True):
         if s.endswith(suf) and len(s) > len(suf):
-            s = s[: -len(suf)]
-            break
+            return s[: -len(suf)], SUFFIX[suf]
+    return s, ''
+
+
+def suffix_romaji(kana):
+    return split_suffix(kana)[1]
+
+
+def kana_to_romaji(kana):
+    s = split_suffix(kana)[0]
     out = []
     i = 0
     while i < len(s):
